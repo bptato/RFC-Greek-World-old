@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED00</Tag>
+		<English>NorthWest Greeks</English>
+		<French>
+			<Text>Peuplades NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>NEDav&#246;lker:NEDav&#246;lker:NEDav&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli NEDa</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Pueblos NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED01</Tag>
+		<English>Macedonian Peoples</English>
+		<French>
+			<Text>Cit&#233;s-Etats NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Stadtstaaten:NEDa-Stadtstaaten:NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED02</Tag>
+		<English>Macedonia</English>
+		<French>
+			<Text>Cit&#233;s-Etats NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Stadtstaaten:NEDa-Stadtstaaten:NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED03</Tag>
+		<English>Macedonian Empire</English>
+		<French>
+			<Text>Cit&#233;s-Etats NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Stadtstaaten:NEDa-Stadtstaaten:NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED04</Tag>
+		<English>Macedonian Empire</English>
+		<French>
+			<Text>Cit&#233;s-Etats NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Stadtstaaten:NEDa-Stadtstaaten:NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED05</Tag>
+		<English>Macedonian Empire</English>
+		<French>
+			<Text>R&#233;publique F&#233;d&#233;rale NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Bundesrepublik der NEDa:Bundesrepublik der NEDa:Bundesrepublik der NEDa</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Federale NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Rep&#250;blica Federal NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED06</Tag>
+		<English>Cassander's Kingdom</English>
+		<French>
+			<Text>Etat Libre NEDa</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Freistaat:NEDa-Freistaat:NEDa-Freistaat</Text>
+			<Gender>Male:Male:Male</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Stato Libero NEDa</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Estado Libre NEDa</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED07</Tag>
+		<English>Macedon</English>
+		<French>
+			<Text>Junte NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>NEDa-Junta:NEDa-Junta:NEDa-Junta</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Giunta NEDa</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Junta NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED08</Tag>
+		<English>Satrapy of Pella</English>
+		<French>
+			<Text>Cit&#233;s-Etats Islamiques NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Islamische NEDa-Stadtstaaten:Islamischen NEDa-Stadtstaaten:Islamischen NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato Islamiche NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados Isl&#225;micas NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED09</Tag>
+		<English>Roman Province of Macedonia</English>
+		<French>
+			<Text>Cit&#233;s-Etats Islamiques NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Islamische NEDa-Stadtstaaten:Islamischen NEDa-Stadtstaaten:Islamischen NEDa-Stadtstaaten</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Citt&#224;-Stato Islamiche NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Ciudades-Estados Isl&#225;micas NEDas</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</NEDnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_NED10</Tag>
+		<English>Macedonian Client Kingdom</English>
+		<French>
+			<Text>Satrape des NEDas</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie NEDa:Satrapie NEDa:NULL</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<NEDnish>
+			<Text>Satrap&#237;a de NEDa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</NEDnish>
+	</TEXT>
+</Civ4GameText>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON00</Tag>
+		<English>Gothic Tribes</English>
+		<French>
+			<Text>Peuplades MON&#232;res</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<MONman>
+			<Text>MONer-V&#246;lker:MONer-V&#246;lker:MONer-V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</MONman>
+		<Italian>
+			<Text>Popoli MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pueblos J&#233;mer</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON01</Tag>
+		<English>Gothic Tribes</English>
+		<French>
+			<Text>Empire MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>MONer-Reich:MONer-Reich:MONer-Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Impero MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio J&#233;mer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON02</Tag>
+		<English>Gothic Settlements</English>
+		<French>
+			<Text>Empire MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>MONer-Reich:MONer-Reich:MONer-Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Impero MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio J&#233;mer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON03</Tag>
+		<English>Gothic Settlements</English>
+		<French>
+			<Text>Empire MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>MONer-Reich:MONer-Reich:MONer-Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Impero MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio J&#233;mer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON04</Tag>
+		<English>Gothic Confederation</English>
+		<French>
+			<Text>Empire MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>MONer-Reich:MONer-Reich:MONer-Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Impero MONer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio J&#233;mer</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON05</Tag>
+		<English>Gothic Confederation</English>
+		<French>
+			<Text>R&#233;publique Populaire du Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Republik Kampuchea:Republik Kampuchea:Republik Kampuchea</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Repubblica di Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rep&#250;blica de Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON06</Tag>
+		<English>Kingdom of the Visigoths</English>
+		<French>
+			<Text>Kampuchea D&#233;mocratique</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Demokratisches Kampuchea:Demokratische Kampuchea:Demokratischen Kampuchea</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Kampuchea Democratica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kampuchea Democr&#225;tica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON07</Tag>
+		<English>Kingdom of the Visigoths</English>
+		<French>
+			<Text>Kampuchea Nationaliste</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Nationalistisches Kampuchea:Nationalistische Kampuchea:Nationalistischen Kampuchea</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Kampuchea Nazionalista</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kampuchea Nacionalista</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON08</Tag>
+		<English>Satrapy of Germania</English>
+		<French>
+			<Text>Kampuchea Islamique</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Islamisches Kampuchea:Islamische Kampuchea:Islamischen Kampuchea</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Kampuchea Islamica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kampuchea Isl&#225;mica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON09</Tag>
+		<English>Roman Province of Germania</English>
+		<French>
+			<Text>Kampuchea Islamique</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Islamisches Kampuchea:Islamische Kampuchea:Islamischen Kampuchea</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Kampuchea Islamica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Kampuchea Isl&#225;mica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_MON10</Tag>
+		<English>Gothic Client Kingdom</English>
+		<French>
+			<Text>Satrape du Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<MONman>
+			<Text>Satrapie Kampuchea:Satrapie Kampuchea:Satrapie Kampuchea</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</MONman>
+		<Italian>
+			<Text>Satrapia di Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Satrap&#237;a de Kampuchea</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+</Civ4GameText>

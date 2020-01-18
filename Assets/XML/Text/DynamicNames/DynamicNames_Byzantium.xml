@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR00</Tag>
+		<English>Byzantine Peoples</English>
+		<French>
+			<Text>Peuplades Ib&#232;res</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Iberische V&#246;lker:Iberischen V&#246;lker:Iberischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli Iberici</Text>
+			<Gender>TURe</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Pueblos Ib&#233;ricos</Text>
+			<Gender>TURe</Gender>
+			<Plural>1</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR01</Tag>
+		<English>Western Roman Empire</English>
+		<French>
+			<Text>Royaume d'ERUSgne</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich RUSnien:K&#246;nigreich RUSnien:K&#246;nigreich RUSnien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di RUSgna</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Reino de ERUS&#241;a</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR02</Tag>
+		<English>Western Roman Empire</English>
+		<French>
+			<Text>Empire ERUSgnol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>RUSnisches Reich:RUSnische Reich:RUSnischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero RUSgnolo</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Imperio ERUS&#241;ol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR03</Tag>
+		<English>Western Roman Empire</English>
+		<French>
+			<Text>Royaume d'ERUSgne</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich RUSnien:K&#246;nigreich RUSnien:K&#246;nigreich RUSnien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di RUSgna</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Reino de ERUS&#241;a</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR04</Tag>
+		<English>Western Roman Empire</English>
+		<French>
+			<Text>Empire ERUSgnol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>RUSnisches Reich:RUSnische Reich:RUSnischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero RUSgnolo</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Imperio ERUS&#241;ol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR05</Tag>
+		<English>Western Roman Empire</English>
+		<French>
+			<Text>R&#233;publique ERUSgnole</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>RUSnische Republik:RUSnische Republik:RUSnischen Republik</Text>
+			<Gender>FeTURe:FeTURe:FeTURe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica RUSgnola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Rep&#250;blica ERUS&#421;ola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR06</Tag>
+		<English>Byzantine Empire</English>
+		<French>
+			<Text>R&#233;publique ERUSgnole</Text>
+			<Gender>feTURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>RUSnische Republik:RUSnische Republik:RUSnischen Republik</Text>
+			<Gender>FeTURe:FeTURe:FeTURe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica RUSgnola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Rep&#250;blica ERUS&#421;ola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR07</Tag>
+		<English>Byzantine Empire</English>
+		<French>
+			<Text>Etat ERUSgnol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>RUSnischer Staat:RUSnische Staat:RUSnischen Staat</Text>
+			<Gender>TURe:TURe:TURe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Stato RUSgnolo</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Estado ERUS&#241;ol</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR08</Tag>
+		<English>Satrapy of Thrake</English>
+		<French>
+			<Text>Califat d'ERUSgne</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kalifat RUSnien:Kalifat RUSnien:Kalifat RUSnien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Califfato di RUSgna</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Califato de ERUS&#241;a</Text>
+			<Gender>TURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR09</Tag>
+		<English>Roman Province of Thracia</English>
+		<French>
+			<Text>R&#233;publique Islamique d'ERUSgne</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Islamische Republik RUSnien:Islamische Republik RUSnien:Islamischen Republik RUSnien</Text>
+			<Gender>FeTURe:FeTURe:FeTURe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Islamica RUSgnola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Rep&#250;blica Isl&#225;mica ERUS&#241;ola</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_TUR10</Tag>
+		<English>Byzantine Client Kingdom</English>
+		<French>
+			<Text>Satrape d'ERUSgne</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie RUSnien:Satrapie RUSnien:Satrapie RUSnien</Text>
+			<Gender>FeTURe:FeTURe:FeTURe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di RUSgna</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<RUSnish>
+			<Text>Satrap&#237;a de ERUS&#241;a</Text>
+			<Gender>FeTURe</Gender>
+			<Plural>0</Plural>
+		</RUSnish>
+	</TEXT>
+</Civ4GameText>

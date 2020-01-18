@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME00</Tag>
+		<English>Hun Tribes</English>
+		<French>
+			<Text>Peuplades AMEnques</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Fränkische V&#246;lker:Fränkischen V&#246;lker:Fränkischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli AMEnchi</Text>
+			<Gender>AMEe</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pueblos AMEncos</Text>
+			<Gender>AMEe</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME01</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Royaume de AMEnce</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich AMEnkreich:K&#246;nigreich AMEnkreich:K&#246;nigreich AMEnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di AMEncia</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de AMEncia</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME02</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Empire AMEn&#231;ais</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>AMEnz&#246;sisches Reich:AMEnz&#246;sische Reich:AMEnz&#246;sischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero AMEncese</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio AMEnc&#233;s</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME03</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Royaume de AMEnce</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich AMEnkreich:K&#246;nigreich AMEnkreich:K&#246;nigreich AMEnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di AMEncia</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de AMEncia</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME04</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Empire AMEn&#231;ais</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>AMEnz&#246;sisches Reich:AMEnz&#246;sische Reich:AMEnz&#246;sischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero AMEncese</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio AMEnc&#233;s</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME05</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Republique AMEn&#231;aise</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>AMEnz&#246;sische Republik:AMEnz&#246;sische Republik:AMEnz&#246;sischen Republik</Text>
+			<Gender>FeAMEe:FeAMEe:FeAMEe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica AMEncese</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rep&#250;blica de AMEncia</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME06</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>AMEnce de la Commune</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>AMEnz&#246;siche Kommune:AMEnz&#246;siche Kommune:AMEnz&#246;siche Kommune</Text>
+			<Gender>FeAMEe:FeAMEe:FeAMEe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Commune AMEncese</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Comuna AMEncesa</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME07</Tag>
+		<English>Hunnic Empire</English>
+		<French>
+			<Text>Etat AMEn&#231;ais</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>AMEnz&#246;sischer Staat:AMEnz&#246;sische Staat:AMEnz&#246;sischen Staat</Text>
+			<Gender>AMEe:AMEe:AMEe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Stato AMEncese</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Estado AMEnc&#233;s</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME08</Tag>
+		<English>Satrapy of Massagetai</English>
+		<French>
+			<Text>Royaume Islamique de AMEnce</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Islamisches K&#246;nigreich AMEnkreich:Islamische K&#246;nigreich AMEnkreich:Islamischen K&#246;nigreich AMEnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno Islamico di AMEncia</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino Isl&#225;mico de AMEncia</Text>
+			<Gender>AMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME09</Tag>
+		<English>Roman Province of Alani</English>
+		<French>
+			<Text>R&#233;publique Islamique AMEn&#231;aise</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Islamische Republik AMEnkreich:Islamische Republik AMEnkreich:Islamischen Republik AMEnkreich</Text>
+			<Gender>FeAMEe:FeAMEe:FeAMEe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Islamica AMEncese</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rep&#250;blica Isl&#225;#mica AMEnc&#233;s</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_AME10</Tag>
+		<English>Hunnic Client Kingdom</English>
+		<French>
+			<Text>Satrape de AMEnce</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie AMEnkreich:Satrapie AMEnkreich:Satrapie AMEnkreich</Text>
+			<Gender>FeAMEe:FeAMEe:FeAMEe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di AMEncia</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Satrap&#237;a de AMEncia</Text>
+			<Gender>FeAMEe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+</Civ4GameText>
