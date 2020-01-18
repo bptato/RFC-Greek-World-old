@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LocalDebuggerCommand>C:\Program Files (x86)\2K Games\Civilization 4 Complete\Beyond The Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-mod="Mods\Rhye's and Fall of the Greek World 0.0 - Copy"</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>C:\Program Files (x86)\2K Games\Civilization 4 Complete\Beyond The Sword</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LocalDebuggerCommand>C:\Program Files %28x86%29\2K Games\Civilization 4 Complete\Beyond The Sword\Civ4BeyondSword.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommandArguments>-mod="Mods\Rhye's and Fall of the Greek World 0.0 - Copy"</LocalDebuggerCommandArguments>
+    <LocalDebuggerWorkingDirectory>..\..\..</LocalDebuggerWorkingDirectory>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>

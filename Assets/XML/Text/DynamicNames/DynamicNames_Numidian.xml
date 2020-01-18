@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BERBER_DESC</Tag>
+		<English>Numidian Civilization</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BERBER_SHORT_DESC</Tag>
+		<English>Numidian</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BERBER_ADJECTIVE</Tag>
+		<English>
+			<Text>Numidian:Numidians</Text>
+			<Gender>Male</Gender>
+			<Plural>0:1</Plural>
+		</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIV_BERBER_PEDIA</Tag>
+		<English>The Numidians live in scattered communities across Morocco, Algeria, Tunisia, Libya, and Egypt and tend to be concentrated in the mountain and desert regions of those countries. Smaller numbers of Numidians live in the northern portions of Mauritania, Mali, and Niger. They speak various languages belonging to the Afro-Asiatic language family.[PARAGRAPH:2]The ancient Numidians, who were at first allies of Carthage and then clients of the Roman Empire, were Numidians; the term Numidian is derived from the Roman term for barbarians, barbara, as is the name Barbary, which formerly denoted the North African coast. The Numidians strenuously resisted the Arab invasion of the 7th century AD, but they were eventually converted to Islam. Many Numidians also adopted Arabic as their language and were thus assimilated into the Arab community. The Numidians played an important role in the Muslim conquest of Spain in the 8th century, and two distinct groups, the Almoravids and Almohads, built Islamic empires in northwestern Africa and Spain in the 11th13th century. In the 12th century a wave of invading Bedouin Arabs wrecked the Numidians' peasant economy in coastal North Africa and converted many of the settled peoples into nomads. In subsequent centuries, the Numidians of the mountain and desert regions often remained beyond the control of the coastal states. They were pacified by the French in the 1880s, however.[PARAGRAPH:2]At the turn of the 21st century there were about 9,500,000 Numidians in Morocco, about 4,300,000 in Algeria, and smaller numbers in neighbouring countries. The Numidians are divided into a number of groups that speak distinct languages. The largest of these are the Rif, Kabyle, Shawia, Tuareg, Haratin, Shluh, and Beraber.[PARAGRAPH:2]Though most Numidians are sedentary farmers, some groups cultivate the lowlands in winter and graze their flocks in mountain meadows during the summer. Others are year-round pastoral nomads. The principal Numidian crops are wheat, barley, fruits, vegetables, nuts, and olives. Cattle, sheep, and goats are maintained in herds, together with oxen, mules, camels, and horses for draft and transportation. Sedentary farmers occupy single-story stone houses, and seasonally nomadic groups erect strongholds of pounded earth for defense and storage and live in goat-hair tents when at pasture. Most home industries, such as pottery making and weaving, are in the women's domain. Many modern-day Numidians are migrant labourers working in Spain or France, and others have migrated to large cities in their native countries to seek employment.[PARAGRAPH:2]Almost all Numidians are Muslims, but various pre-Islamic religious elements survive among them, chiefly the worship of local saints and the veneration of their tombs. Women have a greater degree of personal freedom among the Numidians than they do among Arabs, and Numidian local governments tend to be more communal and less authoritarian than their Arab counterparts. Numidian society is quite fragmented. A handful of families make up a clan, several clans form a community, and many communities make an ethnic group. The simplest Numidian political structure, found in villages in Algeria and the High (Haut) Atlas mountains, is the jama'ah, a meeting of all reputable adult men in the village square. Fully nomadic groups elect a permanent chieftain and council, while seasonal nomads annually elect a summer chief to direct the migration. The largest Numidian social units are only loosely organized.</English>
+	</TEXT>
+    <TEXT>
+		<Tag>TXT_KEY_DN_INC00</Tag>
+		<English>Numidian Peoples</English>
+		<French>
+			<Text>Peuplades Puniques</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Punische V&#246;lker:Punischen V&#246;lker:Punischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli Punic</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Pueblos P&#250;nicos</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC01</Tag>
+		<English>Numidia</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC02</Tag>
+		<English>Numidia</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC03</Tag>
+		<English>Numidian Empire</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC04</Tag>
+		<English>Numidian Empire</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC05</Tag>
+		<English>Numidian Empire</English>
+		<French>
+			<Text>R&#233;publique Carthaginoise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagische Republik:Karthagische Republik:Karthagischen Republik</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Cartaginese</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text> Rep&#250;blica Cartagin&#233;s</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC06</Tag>
+		<English>Numidian Empire</English>
+		<French>
+			<Text>Peuple de Carthage</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Volk:Karthagische Volk:Karthagischen Volk</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Popolo Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Pueblo Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC07</Tag>
+		<English>Numidian Empire</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC08</Tag>
+		<English>Satrapy of Numidia</English>
+		<French>
+			<Text>Califat de Carthage</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kalifat von Karthago:Kalifat von Karthago:Kalifat von Karthago</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Califfato di Cartagine</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Califato de Cartago</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC09</Tag>
+		<English>Roman Province of Numidia</English>
+		<French>
+			<Text>R&#233;publique Islamique de Carthage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagische Republik:Karthagische Republik:Karthagischen Republik</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Islamica Cartaginese</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Rep&#250;blica Isl&#225;mica Cartaginesa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_INC10</Tag>
+		<English>Numidian Client Kingdom</English>
+		<French>
+			<Text>Satrape de Carthage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie Karthago:Satrapie Karthago:Satrapie Karthago</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di Cartagine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<INCnish>
+			<Text>Satrap&#237;a de Cartago</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</INCnish>
+	</TEXT>
+</Civ4GameText>

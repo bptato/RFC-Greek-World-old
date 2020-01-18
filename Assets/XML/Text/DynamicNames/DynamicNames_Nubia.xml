@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG00</Tag>
+		<ENGlish>Nubian Peoples</ENGlish>
+		<French>
+			<Text>Peuplades Bretonnes</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<ENGman>
+			<Text>Britannische V&#246;lker:Britannischen V&#246;lker:Britannischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Popoli Britoni</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pueblos Brit&#225;nes</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG01</Tag>
+		<ENGlish>Nubia</ENGlish>
+		<French>
+			<Text>Royaume d'Angleterre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>K&#246;nigreich ENGland:K&#246;nigreich ENGland:K&#246;nigreich ENGland</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Regno d'Inghilterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de Inglaterra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG02</Tag>
+		<ENGlish>Kingdom of Nubia</ENGlish>
+		<French>
+			<Text>Royaume de Grande Bretagne</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>K&#246;nigreich Gro&#223;britannien:K&#246;nigreich Gro&#223;britannien:K&#246;nigreich Gro&#223;britannien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Regno di Gran Bretagna</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de Gran Breta&#241;a</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG03</Tag>
+		<ENGlish>Kingdom of Kush</ENGlish>
+		<French>
+			<Text>Royaume-Uni de Grande Bretagne</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Vereinigtes K&#246;nigreich von Gro&#223;britannien:Vereinigte K&#246;nigreich von Gro&#223;britannien:Vereinigten K&#246;nigreich von Gro&#223;britannien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Regno Unito di Gran Bretagna</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino Unido de Gran Breta&#241;a</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG04</Tag>
+		<ENGlish>Kingdom of Kush</ENGlish>
+		<French>
+			<Text>Empire Britannique</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Britisches Imperium:Britische Imperium:Britischen Imperium</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Impero Britannico</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio Brit&#225;nico</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG05</Tag>
+		<ENGlish>Twenty-fifth Dynasty of Egypt</ENGlish>
+		<French>
+			<Text>Commonwealth d'Angleterre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Commonwealth ENGland:Commonwealth ENGland:Commonwealth ENGland</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Commonwealth d'Inghilterra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Commonwealth de Inglaterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG06</Tag>
+		<ENGlish>Nubian Empire</ENGlish>
+		<French>
+			<Text>Commonwealth d'Angleterre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Commonwealth ENGland:Commonwealth ENGland:Commonwealth ENGland</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Commonwealth d'Inghilterra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Commonwealth de Inglaterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG07</Tag>
+		<ENGlish>Nubian Empire</ENGlish>
+		<French>
+			<Text>Union Britannique</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Britische Union:Britische Union:Britischen Union</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Unione Britannica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Uni&#243;n Brit&#225;nica</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG08</Tag>
+		<ENGlish>Satrapy of Aithiopia</ENGlish>
+		<French>
+			<Text>Empire Islamique Britannique</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Islamisches Reich Britannien:Islamische Reich Britannien:Islamischen Reich Britannien</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Impero Islamico Britannico</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio Isl&#225;mico Brit&#225;nico</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG09</Tag>
+		<ENGlish>Roman Province of Dode</ENGlish>
+		<French>
+			<Text>Commonwealth Islamique d'Angleterre</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Islamisches Commonwealth ENGland:Islamische Commonwealth ENGland:Islamischen Commonwealth ENGland</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Commonwealth Islamico d'Inghilterra</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Commonwealth Isl&#225;mica de Inglaterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ENG10</Tag>
+		<ENGlish>Nubian Client Kingdom</ENGlish>
+		<French>
+			<Text>Satrape d'Angleterre</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<ENGman>
+			<Text>Satrapie ENGland:Satrapie ENGland:Satrapie ENGland</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</ENGman>
+		<Italian>
+			<Text>Satrapia d'Inghilterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Satrap&#237;a de Inglaterra</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+</Civ4GameText>

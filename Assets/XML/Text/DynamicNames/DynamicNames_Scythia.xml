@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA00</Tag>
+		<English>Scythian Tribes</English>
+		<French>
+			<Text>Peuplades ARAnques</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Fränkische V&#246;lker:Fränkischen V&#246;lker:Fränkischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli ARAnchi</Text>
+			<Gender>ARAe</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Pueblos ARAncos</Text>
+			<Gender>ARAe</Gender>
+			<Plural>1</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA01</Tag>
+		<English>Scythians</English>
+		<French>
+			<Text>Royaume de ARAnce</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich ARAnkreich:K&#246;nigreich ARAnkreich:K&#246;nigreich ARAnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di ARAncia</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de ARAncia</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA02</Tag>
+		<English>Scythians</English>
+		<French>
+			<Text>Empire ARAn&#231;ais</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>ARAnz&#246;sisches Reich:ARAnz&#246;sische Reich:ARAnz&#246;sischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero ARAncese</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio ARAnc&#233;s</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA03</Tag>
+		<English>Scythian Empire</English>
+		<French>
+			<Text>Royaume de ARAnce</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>K&#246;nigreich ARAnkreich:K&#246;nigreich ARAnkreich:K&#246;nigreich ARAnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno di ARAncia</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino de ARAncia</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA04</Tag>
+		<English>Scythian Empire</English>
+		<French>
+			<Text>Empire ARAn&#231;ais</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>ARAnz&#246;sisches Reich:ARAnz&#246;sische Reich:ARAnz&#246;sischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero ARAncese</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Imperio ARAnc&#233;s</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA05</Tag>
+		<English>Bosporan Kingdom</English>
+		<French>
+			<Text>Republique ARAn&#231;aise</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>ARAnz&#246;sische Republik:ARAnz&#246;sische Republik:ARAnz&#246;sischen Republik</Text>
+			<Gender>FeARAe:FeARAe:FeARAe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica ARAncese</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rep&#250;blica de ARAncia</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA06</Tag>
+		<English>Bosporan Kingdom</English>
+		<French>
+			<Text>ARAnce de la Commune</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>ARAnz&#246;siche Kommune:ARAnz&#246;siche Kommune:ARAnz&#246;siche Kommune</Text>
+			<Gender>FeARAe:FeARAe:FeARAe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Commune ARAncese</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Comuna ARAncesa</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA07</Tag>
+		<English>Bosporan Kingdom</English>
+		<French>
+			<Text>Etat ARAn&#231;ais</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>ARAnz&#246;sischer Staat:ARAnz&#246;sische Staat:ARAnz&#246;sischen Staat</Text>
+			<Gender>ARAe:ARAe:ARAe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Stato ARAncese</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Estado ARAnc&#233;s</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA08</Tag>
+		<English>Satrapy of Daoi</English>
+		<French>
+			<Text>Royaume Islamique de ARAnce</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Islamisches K&#246;nigreich ARAnkreich:Islamische K&#246;nigreich ARAnkreich:Islamischen K&#246;nigreich ARAnkreich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Regno Islamico di ARAncia</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Reino Isl&#225;mico de ARAncia</Text>
+			<Gender>ARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA09</Tag>
+		<English>Satrapy of Sarmatia</English>
+		<French>
+			<Text>R&#233;publique Islamique ARAn&#231;aise</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Islamische Republik ARAnkreich:Islamische Republik ARAnkreich:Islamischen Republik ARAnkreich</Text>
+			<Gender>FeARAe:FeARAe:FeARAe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Islamica ARAncese</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Rep&#250;blica Isl&#225;#mica ARAnc&#233;s</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_ARA10</Tag>
+		<English>Scythian Client Kingdom</English>
+		<French>
+			<Text>Satrape de ARAnce</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie ARAnkreich:Satrapie ARAnkreich:Satrapie ARAnkreich</Text>
+			<Gender>FeARAe:FeARAe:FeARAe</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di ARAncia</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<Spanish>
+			<Text>Satrap&#237;a de ARAncia</Text>
+			<Gender>FeARAe</Gender>
+			<Plural>0</Plural>
+		</Spanish>
+	</TEXT>
+</Civ4GameText>

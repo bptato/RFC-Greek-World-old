@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
+<!-- Sid Meier's Civilization 4 -->
+<!-- -->
+<!-- Game Text - Unit Upgrades for Civilopedia -->
+<Civ4GameText xmlns="http://www.firaxis.com">
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM00</Tag>
+		<English>Punic Peoples</English>
+		<French>
+			<Text>Peuplades Puniques</Text>
+			<Gender>Female</Gender>
+			<Plural>1</Plural>
+		</French>
+		<German>
+			<Text>Punische V&#246;lker:Punischen V&#246;lker:Punischen V&#246;lkern</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>1:1:1</Plural>
+		</German>
+		<Italian>
+			<Text>Popoli Punic</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Pueblos P&#250;nicos</Text>
+			<Gender>Male</Gender>
+			<Plural>1</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM01</Tag>
+		<English>Carthage</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM02</Tag>
+		<English>Carthage</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM03</Tag>
+		<English>Carthaginian Empire</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM04</Tag>
+		<English>Carthaginian Empire</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM05</Tag>
+		<English>Carthaginian Empire</English>
+		<French>
+			<Text>R&#233;publique Carthaginoise</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagische Republik:Karthagische Republik:Karthagischen Republik</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Cartaginese</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text> Rep&#250;blica Cartagin&#233;s</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM06</Tag>
+		<English>Carthaginian Empire</English>
+		<French>
+			<Text>Peuple de Carthage</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Volk:Karthagische Volk:Karthagischen Volk</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Popolo Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Pueblo Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM07</Tag>
+		<English>Kingdom of Vandals</English>
+		<French>
+			<Text>Empire Carthaginois</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagisches Reich:Karthagische Reich:Karthagischen Reich</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Impero Cartaginese</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Imperio Cartagin&#233;s</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM08</Tag>
+		<English>Satrapy of Libye</English>
+		<French>
+			<Text>Califat de Carthage</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Kalifat von Karthago:Kalifat von Karthago:Kalifat von Karthago</Text>
+			<Gender>Neuter:Neuter:Neuter</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Califfato di Cartagine</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Califato de Cartago</Text>
+			<Gender>Male</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM09</Tag>
+		<English>Roman Province of Mauretania</English>
+		<French>
+			<Text>R&#233;publique Islamique de Carthage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Karthagische Republik:Karthagische Republik:Karthagischen Republik</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Repubblica Islamica Cartaginese</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Rep&#250;blica Isl&#225;mica Cartaginesa</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_DN_KHM10</Tag>
+		<English>Carthaginian Client Kingdom</English>
+		<French>
+			<Text>Satrape de Carthage</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</French>
+		<German>
+			<Text>Satrapie Karthago:Satrapie Karthago:Satrapie Karthago</Text>
+			<Gender>Female:Female:Female</Gender>
+			<Plural>0:0:0</Plural>
+		</German>
+		<Italian>
+			<Text>Satrapia di Cartagine</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</Italian>
+		<KHMnish>
+			<Text>Satrap&#237;a de Cartago</Text>
+			<Gender>Female</Gender>
+			<Plural>0</Plural>
+		</KHMnish>
+	</TEXT>
+</Civ4GameText>
