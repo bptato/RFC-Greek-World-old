@@ -321,11 +321,11 @@ class Barbs:
 
 				#Sea Peoples
 		if (iGameTurn >= con.i1200BC and iGameTurn <= con.i900BC):
-			self.spawnUnits(iBarbarian, (27, 22), (34, 26), con.un('seapeople'), 2, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Greece
-			self.spawnUnits(iBarbarian, (31, 20), (39, 23), con.un('seapeople'), 3, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Islands
-			self.spawnUnits(iBarbarian, (36, 24), (38, 22), con.un('seapeople'), 3, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Turkey
-			self.spawnUnits(iBarbarian, (40, 19), (42, 26), con.un('seapeople'), 3, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Levant
-			self.spawnUnits(iBarbarian, (44, 31), (49, 33), con.un('seapeople'), 2, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Syria
+			self.spawnUnits(iBarbarian, (27, 22), (34, 26), con.un('seapeople'), 4, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Greece
+			self.spawnUnits(iBarbarian, (31, 20), (39, 23), con.un('seapeople'), 6, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Islands
+			self.spawnUnits(iBarbarian, (36, 24), (38, 22), con.un('seapeople'), 6, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Turkey
+			self.spawnUnits(iBarbarian, (40, 19), (42, 26), con.un('seapeople'), 4, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Levant
+			self.spawnUnits(iBarbarian, (44, 31), (49, 33), con.un('seapeople'), 3, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Syria
 			self.spawnUnits(iBarbarian, (28, 16), (37, 17), con.un('seapeople'), 2, iGameTurn, 7, 2, utils.inTerritoryInvasion, 1) #Egypt
 
 
@@ -619,7 +619,6 @@ class Barbs:
 			if (len(plotList)):
 				rndNum = gc.getGame().getSorenRandNum(len(plotList), 'Spawn units')
 				result = plotList[rndNum]
-				print "Spawn units at " + str(result) + "!"
 				if (result):
 					self.makeUnit(iUnitType, iCiv, result, iNumUnits, iForceAttack)
 

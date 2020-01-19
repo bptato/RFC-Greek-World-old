@@ -22023,14 +22023,6 @@
 					<bUnitClassUpgrade>1</bUnitClassUpgrade>
 				</UnitClassUpgrade>
 			</UnitClassUpgrades>
-
-
-
-
-
-
-
-
 			<UnitClassTargets/>
 			<UnitCombatTargets/>
 			<UnitClassDefenders/>
@@ -22095,30 +22087,12 @@
 			<iTradeMultiplier>0</iTradeMultiplier>
 			<iGreatWorkCulture>0</iGreatWorkCulture>
 			<iEspionagePoints>0</iEspionagePoints>
-			<!-- Rhye RFGW-->
-
-
-
-
-
-
-
-
 			<TerrainImpassables>
 				<TerrainImpassable>
 					<TerrainType>TERRAIN_TUNDRA</TerrainType>
 					<bTerrainImpassable>1</bTerrainImpassable>
 				</TerrainImpassable>
 			</TerrainImpassables>
-			<!-- Rhye -->
-
-
-
-
-
-
-
-
 			<FeatureImpassables>
 				<FeatureImpassable>
 					<FeatureType>FEATURE_MUD</FeatureType>
@@ -22167,7 +22141,7 @@
 			<iCultureGarrison>4</iCultureGarrison>
 			<iExtraCost>0</iExtraCost>
 			<iAsset>2</iAsset>
-			<iPower>4</iPower>
+			<iPower>5</iPower>
 			<UnitMeshGroups>
 				<iGroupSize>3</iGroupSize>
 				<fMaxSpeed>1.75</fMaxSpeed>
