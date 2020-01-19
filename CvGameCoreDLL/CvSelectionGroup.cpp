@@ -2510,12 +2510,8 @@ bool CvSelectionGroup::canMoveThrough(CvPlot* pPlot)
 	if (getNumUnits() > 0)
 	{
 		pUnitNode = headUnitNode();
-		int iCounter = 0; //Rhye (loop fix)
 		while (pUnitNode != NULL)
 		{
-			iCounter++; //Rhye (fix)
-			if (iCounter > 10) return false; //Rhye (fix)
-
 			pLoopUnit = ::getUnit(pUnitNode->m_data);
 			pUnitNode = nextUnitNode(pUnitNode);
 
