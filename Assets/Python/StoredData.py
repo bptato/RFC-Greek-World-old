@@ -76,7 +76,6 @@ class StoredData:
 				    'lCombatResultTempModifier': [0] * con.iNumTotalPlayersB,
 				    'lGNPold': [0] * con.iNumTotalPlayersB,
 				    'lGNPnew': [0] * con.iNumTotalPlayersB,
-				    'lGreatDepressionCountdown': [0] * con.iNumTotalPlayersB,
 				    'lStatePropertyCountdown': [0] * con.iNumTotalPlayersB,
 				    'lDemocracyCountdown': [0] * con.iNumTotalPlayersB,
 				    'lStabilityParameters': [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0], #2+3+2+3+3 #bluepotato: TODO wat dis

@@ -1467,7 +1467,7 @@
 			<iStateReligionHappiness>0</iStateReligionHappiness>
 			<iNonStateReligionHappiness>0</iNonStateReligionHappiness>
 			<iStateReligionUnitProductionModifier>0</iStateReligionUnitProductionModifier>
-			<iStateReligionBuildingProductionModifier>10</iStateReligionBuildingProductionModifier>
+			<iStateReligionBuildingProductionModifier>25</iStateReligionBuildingProductionModifier>
 			<iStateReligionFreeExperience>0</iStateReligionFreeExperience>
 			<!-- Rhye - start -->
 			<bStabilityVassalBonus>0</bStabilityVassalBonus>
@@ -1508,7 +1508,7 @@
 			<Button>,Art/Interface/Buttons/Civics/Egalitarianism.dds</Button>
 			<TechPrereq>TECH_MUSIC</TechPrereq>
 			<iAnarchyLength>0</iAnarchyLength>
-			<Upkeep>UPKEEP_HIGH</Upkeep>
+			<Upkeep>UPKEEP_LOW</Upkeep>
 			<iAIWeight>0</iAIWeight>
 			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
 			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>

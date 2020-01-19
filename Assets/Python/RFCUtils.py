@@ -90,15 +90,6 @@ class RFCUtils:
 		scriptDict['lStabilityParameters'][iParameter] = iNewValue
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getGreatDepressionCountdown(self, iCiv):
-		scriptDict = pickle.loads(gc.getGame().getScriptData())
-		return scriptDict['lGreatDepressionCountdown'][iCiv]
-
-	def setGreatDepressionCountdown(self, iCiv, iNewValue):
-		scriptDict = pickle.loads(gc.getGame().getScriptData())
-		scriptDict['lGreatDepressionCountdown'][iCiv] = iNewValue
-		gc.getGame().setScriptData(pickle.dumps(scriptDict))
-
 	def getLastRecordedStabilityStuff(self, iParameter):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lLastRecordedStabilityStuff'][iParameter]

@@ -507,7 +507,6 @@ lNeighbours = [
 [],
 [],
 []
-
 ]
 
 #for stability hit on spawn

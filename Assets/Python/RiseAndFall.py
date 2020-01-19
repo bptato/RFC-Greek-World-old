@@ -682,7 +682,6 @@ class RiseAndFall:
 				iThreshold *= 2
 			if (gc.getPlayer(iPlayer).getAnarchyTurns() != 0 or \
 			    utils.getPlagueCountdown(iPlayer) > 0 or \
-			    utils.getGreatDepressionCountdown(iPlayer) > 0 or \
 			    utils.getStability(iPlayer) <= -10 or \
 			    gc.getGame().getSorenRandNum(100, 'die roll') < iThreshold):
 				gc.getPlayer(iPlayer).setLeader(tLateLeaders[iPlayer][iLeaderIndex])
@@ -1312,7 +1311,6 @@ class RiseAndFall:
 			
 				
 	def initBirth(self, iCurrentTurn, iBirthYear, iCiv):
-		print "initBirth"
 		iHuman = utils.getHumanID()
 		print ("inside initbirth1",iCurrentTurn,iBirthYear-1 + self.getSpawnDelay(iCiv) + self.getFlipsDelay(iCiv),iBirthYear-1,self.getSpawnDelay(iCiv),self.getFlipsDelay(iCiv))
 		if (iCurrentTurn == iBirthYear-1 + self.getSpawnDelay(iCiv) + self.getFlipsDelay(iCiv)):
@@ -1324,7 +1322,6 @@ class RiseAndFall:
 			tBroaderTopLeft = tBroaderAreasTL[iCiv]
 			tBroaderBottomRight = tBroaderAreasBR[iCiv]		
 			if (self.getFlipsDelay(iCiv) == 0): #city hasn't already been founded)
-			
 				#this may fix the -1 bug
 				if (iCiv == iHuman):
 					killPlot = gc.getMap().plot(tCapital[0], tCapital[1])
@@ -1374,7 +1371,6 @@ class RiseAndFall:
 							pCurrent.setOwner(-1)
 					self.birthInFreeRegion(iCiv, tCapital, tTopLeft, tBottomRight)
 				else:
-					print 'test'
 					self.birthInFreeRegion(iCiv, tCapital, tTopLeft, tBottomRight)
 					#self.birthInForeignBorders(iCiv, tTopLeft, tBottomRight, tBroaderTopLeft, tBroaderBottomRight)
 			else:

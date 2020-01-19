@@ -49,130 +49,121 @@ class Stability:
 			
 
 
-	def getBaseStabilityLastTurn( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getBaseStabilityLastTurn(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lBaseStabilityLastTurn'][iCiv]
 
-	def setBaseStabilityLastTurn( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setBaseStabilityLastTurn(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lBaseStabilityLastTurn'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 	
-	def getStability( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getStability(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lStability'][iCiv]
 
-	def setStability( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setStability(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lStability'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getStatePropertyCountdown( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getStatePropertyCountdown(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lStatePropertyCountdown'][iCiv]
 
-	def setStatePropertyCountdown( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setStatePropertyCountdown(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lStatePropertyCountdown'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getDemocracyCountdown( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getDemocracyCountdown(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lDemocracyCountdown'][iCiv]
 
-	def setDemocracyCountdown( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setDemocracyCountdown(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lDemocracyCountdown'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getGreatDepressionCountdown( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
-		return scriptDict['lGreatDepressionCountdown'][iCiv]
-
-	def setGreatDepressionCountdown( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
-		scriptDict['lGreatDepressionCountdown'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
-
-	def getCombatResultTempModifier( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getCombatResultTempModifier(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lCombatResultTempModifier'][iCiv]
 
-	def setCombatResultTempModifier( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setCombatResultTempModifier(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lCombatResultTempModifier'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getGNPold( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getGNPold(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lGNPold'][iCiv]
 
-	def setGNPold( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setGNPold(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lGNPold'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getGNPnew( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getGNPnew(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lGNPnew'][iCiv]
 
-	def setGNPnew( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setGNPnew(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lGNPnew'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getRebelCiv( self ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getRebelCiv(self):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['iRebelCiv']
 
-	def getLatestRebellionTurn( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getLatestRebellionTurn(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lLatestRebellionTurn'][iCiv]
 
-	def getPartialBaseStability( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getPartialBaseStability(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lPartialBaseStability'][iCiv]
 
-	def setPartialBaseStability( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setPartialBaseStability(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lPartialBaseStability'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getOwnedPlotsLastTurn( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getOwnedPlotsLastTurn(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lOwnedPlotsLastTurn'][iCiv]
 
-	def setOwnedPlotsLastTurn( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setOwnedPlotsLastTurn(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lOwnedPlotsLastTurn'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getOwnedCitiesLastTurn( self, iCiv ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getOwnedCitiesLastTurn(self, iCiv):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lOwnedCitiesLastTurn'][iCiv]
 
-	def setOwnedCitiesLastTurn( self, iCiv, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setOwnedCitiesLastTurn(self, iCiv, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lOwnedCitiesLastTurn'][iCiv] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getStabilityParameters( self, iParameter ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getStabilityParameters(self, iParameter):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lStabilityParameters'][iParameter]
 
-	def setStabilityParameters( self, iParameter, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setStabilityParameters(self, iParameter, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lStabilityParameters'][iParameter] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getLastRecordedStabilityStuff( self, iParameter ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def getLastRecordedStabilityStuff(self, iParameter):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lLastRecordedStabilityStuff'][iParameter]
 
-	def setLastRecordedStabilityStuff( self, iParameter, iNewValue ):
-		scriptDict = pickle.loads( gc.getGame().getScriptData() )
+	def setLastRecordedStabilityStuff(self, iParameter, iNewValue):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lLastRecordedStabilityStuff'][iParameter] = iNewValue
-		gc.getGame().setScriptData( pickle.dumps(scriptDict) )
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
 #######################################
 ### Main methods (Event-Triggered) ###
@@ -208,16 +199,16 @@ class Stability:
 				lOwnedCities.append(0)
 			for x in range(0, CyMap().getGridWidth()):
 				for y in range(0, CyMap().getGridHeight()):
-					pCurrent = gc.getMap().plot( x, y )
+					pCurrent = gc.getMap().plot(x, y)
 					iOwner = pCurrent.getOwner()
 					if (iOwner >= 0 and iOwner < iNumPlayers and (pCurrent.isHills() or pCurrent.isFlatlands())):
-						if (gc.getPlayer(iOwner).getSettlersMaps( CyMap().getGridHeight()-1-y, x ) < 90):
+						if (gc.getPlayer(iOwner).getSettlersMaps(CyMap().getGridHeight()-1-y, x) < 90):
 							lOwnedPlots[iOwner] += 1
 						if (pCurrent.isCity()):
 							cityOwner = pCurrent.getPlotCity().getOwner()
 							for iLoop in range(con.iNumPlayers):
 								if (iLoop != cityOwner and gc.getPlayer(iLoop).isAlive() and iGameTurn >= con.tBirth[iLoop]+30 and iGameTurn >= self.getLatestRebellionTurn(iLoop) + 15):
-									if (gc.getPlayer(iLoop).getSettlersMaps( CyMap().getGridHeight()-1-y, x ) >= 400):
+									if (gc.getPlayer(iLoop).getSettlersMaps(CyMap().getGridHeight()-1-y, x) >= 400):
 										if (x >= con.tNormalAreasTL[iLoop][0] and x <= con.tNormalAreasBR[iLoop][0] and \
 										    y >= con.tNormalAreasTL[iLoop][1] and y <= con.tNormalAreasBR[iLoop][1]):
 											    if ((x,y) not in con.tNormalAreasSubtract[iLoop]):
@@ -242,26 +233,26 @@ class Stability:
 			if (gc.getPlayer(iPlayer).isAlive()):
 				if (iGameTurn > con.i100AD and iGameTurn % 12 == 7): #RFGW
 					if (self.getStability(iPlayer) < 40):
-						self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 				elif (iGameTurn > con.i2000BC and iGameTurn % 22 == 7):
 					if (self.getStability(iPlayer) < 20 and self.getStability(iPlayer) >= -50):
-						self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 				if (iGameTurn % 10 == 8):
 					if (self.getStability(iPlayer) < -50):
-						self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 				if (iGameTurn % 10 == 9):
 					if (self.getStability(iPlayer) > 50):
-						self.setStability(iPlayer, self.getStability(iPlayer) - 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) - 1)
 				if (iGameTurn > con.i2000BC and iGameTurn % 12 == 5):
 					iPermanentModifier = self.getStability(iPlayer) - self.getBaseStabilityLastTurn(iPlayer)
 					if (iPermanentModifier > 15):
-						self.setStability(iPlayer, self.getStability(iPlayer) - 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) - 1)
 					elif (iPermanentModifier < -40):
-						self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+						self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 				if (iGameTurn % 20 == 1):
 					if (gc.getPlayer(iPlayer).isHuman()):
 						iHandicap = (gc.getGame().getHandicapType() - 1)
-						self.setStability(iPlayer, self.getStability(iPlayer) + iHandicap )
+						self.setStability(iPlayer, self.getStability(iPlayer) + iHandicap)
 
 
 
@@ -315,22 +306,22 @@ class Stability:
 			print ("Normalized sigma1")
 			for iPlayer in range(iNumPlayers):
 				if (gc.getPlayer(iPlayer).isAlive()):
-					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iMaxSigma/iSigma + iMean )
+					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iMaxSigma/iSigma + iMean)
 		elif (iSigma > iMaxSigma):
 			print ("Normalized sigma2")
 			for iPlayer in range(iNumPlayers):
 				if (gc.getPlayer(iPlayer).isAlive()):
-					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iStandardSigma/iSigma + iMean )
+					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iStandardSigma/iSigma + iMean)
 		elif (iSigma < iMinSigma-3):
 			print ("Normalized sigma3")
 			for iPlayer in range(iNumPlayers):
 				if (gc.getPlayer(iPlayer).isAlive()):
-					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iMinSigma/iSigma + iMean )
+					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iMinSigma/iSigma + iMean)
 		elif (iSigma < iMinSigma):
 			print ("Normalized sigma4")
 			for iPlayer in range(iNumPlayers):
 				if (gc.getPlayer(iPlayer).isAlive()):
-					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iStandardSigma/iSigma + iMean )
+					self.setStability(iPlayer, (self.getStability(iPlayer) - iMean)*iStandardSigma/iSigma + iMean)
 		#calculate mean again cos it might have changed for values close to 0
 		for iPlayer in range(iNumPlayers):
 			if (gc.getPlayer(iPlayer).isAlive()):
@@ -412,14 +403,14 @@ class Stability:
 								#print("iNewBaseStability neighbours", iNewBaseStability, iPlayer)
 								break
 
-			for iLoopCiv in range( iNumPlayers ):
+			for iLoopCiv in range(iNumPlayers):
 				if (teamPlayer.isVassal(iLoopCiv)):
 					iNewBaseStability += 10
 					#print("iNewBaseStability vassal",iNewBaseStability, iPlayer)
 					iNewBaseStability += min(5,max(-6,self.getStability(iLoopCiv)/4))
 					break
 
-			for iLoopCiv2 in range( iNumPlayers ):
+			for iLoopCiv2 in range(iNumPlayers):
 				if (gc.getTeam(gc.getPlayer(iLoopCiv2).getTeam()).isVassal(iPlayer)):
 					iNewBaseStability += min(3,max(-3,self.getStability(iLoopCiv2)/4))			
 					#print("iNewBaseStability master",iNewBaseStability, iPlayer)
@@ -428,7 +419,7 @@ class Stability:
 						#print("iNewBaseStability civic 6th column viceroyalty",iNewBaseStability, iPlayer)
 
 			iNumContacts = 0
-			for iLoopCiv3 in range( iNumPlayers ):
+			for iLoopCiv3 in range(iNumPlayers):
 				if (pPlayer.canContact(iLoopCiv3) and iLoopCiv3 != iPlayer):
 					iNumContacts += 1
 			iNewBaseStability -= (iNumContacts/3 - 4)
@@ -574,7 +565,7 @@ class Stability:
 					if (iGameTurn > con.tBirth[iLoop] and iLoop != iPlayer):
 						if (iX >= con.tNormalAreasTL[iLoop][0] and iX <= con.tNormalAreasBR[iLoop][0] and \
 						    iY >= con.tNormalAreasTL[iLoop][1] and iY <= con.tNormalAreasBR[iLoop][1]):
-							if (gc.getPlayer(iPlayer).getSettlersMaps( CyMap().getGridHeight()-1-iY, iX ) < 150):
+							if (gc.getPlayer(iPlayer).getSettlersMaps(CyMap().getGridHeight()-1-iY, iX) < 150):
 								iNewBaseStability -= 3
 								self.setParameter(iPlayer, iParExpansion3, True, -3)
 								#print("city owned in unstable area: -3", pLoopCity.GetCy().getName(), iPlayer)
@@ -740,60 +731,11 @@ class Stability:
 
 				self.setParameter(iPlayer, iParEconomyE, True, self.getStability(iPlayer) - iTempEconomyThreshold)
 
-
-				if (self.getGreatDepressionCountdown(iPlayer) == 0):   #great depression checked when GNP can be compared
-					if (iCivic3 == 17): #free market
-						if (not pPlayer.isGoldenAge()):
-							if ((iDifference > 11 and self.getGNPnew(iPlayer) > self.getGNPold(iPlayer)) or \
-							    (iDifference > 6 and self.getGNPnew(iPlayer) > self.getGNPold(iPlayer) + 4)): #low wages and big growth
-								self.setGreatDepressionCountdown(iPlayer, 8) #8 turns
-
-		if (self.getGreatDepressionCountdown(iPlayer) < 0):
-			self.setGreatDepressionCountdown(iPlayer, self.getGreatDepressionCountdown(iPlayer)+1)
-
 		iTempEconomyThreshold = iNewBaseStability
-		if (self.getGreatDepressionCountdown(iPlayer) > 0):
-			iNewBaseStability -= (15 + min(15, iDifference))
-			if (iPlayer == utils.getHumanID()):
-				CyInterface().addMessage(iPlayer, False, con.iDuration, CyTranslator().getText("TXT_KEY_STABILITY_PERIOD", ()) + " " + CyTranslator().getText("TXT_KEY_STABILITY_GREAT_DEPRESSION", ()), "", 0, "", ColorTypes(con.iOrange), -1, -1, True, True)
-			#print("iNewBaseStability civic single 5: great depression",iNewBaseStability, iPlayer)
-			self.setGreatDepressionCountdown(iPlayer, self.getGreatDepressionCountdown(iPlayer)-1)
-			bQuit = False
-			if (self.getGreatDepressionCountdown(iPlayer) == 0): #just quit
-				bQuit = True
-			if (self.getGreatDepressionCountdown(iPlayer) > 0 and self.getGreatDepressionCountdown(iPlayer) <= 7): #should last at least 3 turns
-				if ((iDifference < 5 and self.getGNPnew(iPlayer) <= self.getGNPold(iPlayer)) or iCivic3 != 17): #better wages and natural deflation, or no free market anymore
-					bQuit = True
-
-			if (bQuit == True):
-				self.setGreatDepressionCountdown(iPlayer, -30) ##quit from the spiral immediately and set turns of immunity
-				bOtherDepressionAround = False
-				for iLoopCiv in range(iNumPlayers):
-					if (self.getGreatDepressionCountdown(iLoopCiv) > 0):
-						bOtherDepressionAround = True
-				if (bOtherDepressionAround == False):
-					for iLoopCiv in range(iNumPlayers):
-						if (iLoopCiv != iPlayer):
-							self.setGreatDepressionCountdown(iPlayer, -20) ##set turns of immunity for the other civs
 
 		if (iGameTurn % 3 == 2):
 			self.setGNPold(iPlayer, self.getGNPnew(iPlayer))
 			self.setGNPnew(iPlayer, 0)
-
-		if (self.getGreatDepressionCountdown(iPlayer) == 0 and iCivic3 != 18 and not pPlayer.isGoldenAge()):   #acquire only if there's no depression already and if it's not immune, no state property and no golden age
-			for iLoopCiv in range(iNumPlayers):
-				if (teamPlayer.isOpenBorders(iLoopCiv)):
-					if (self.getGreatDepressionCountdown(iLoopCiv) > 0):
-						if (iCivic3 == 16): #mercantilism
-							iNewBaseStability -= 7
-						else:
-							iNewBaseStability -= 10
-						#print("iNewBaseStability: acquired great depression",iNewBaseStability, iPlayer)
-						if (iPlayer == utils.getHumanID()):
-							CyInterface().addMessage(iPlayer, False, con.iDuration, \
-										 CyTranslator().getText("TXT_KEY_STABILITY_GREAT_DEPRESSION_INFLUENCE", (gc.getPlayer(iLoopCiv).getCivilizationDescription(0),)), \
-										 "", 0, "", ColorTypes(con.iOrange), -1, -1, True, True)
-						break #just once is enough
 
 		iTempCivicThreshold = iNewBaseStability
 
@@ -861,18 +803,18 @@ class Stability:
 		iTempExpansionThreshold = self.getStability(iPlayer)
 		iGameTurn = gc.getGame().getGameTurn()
 		if (iGameTurn <= con.tBirth[iPlayer] + 20):
-			self.setStability(iPlayer, self.getStability(iPlayer) + 3 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 3)
 		else:
-			self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 		#print("Stability - city built", iPlayer)
 		if (gc.getPlayer(iPlayer).getNumCities() == 1):
-			self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			#print("Stability - capital built", iPlayer)
 		if (gc.getPlayer(iPlayer).getCivics(5) == 27):
 			capital = gc.getPlayer(iPlayer).getCapitalCity()
 			iDistance = utils.calculateDistance(x, y, capital.getX(), capital.getY())
 			if (iDistance >= 15):
-				self.setStability(iPlayer, self.getStability(iPlayer) + 2 )
+				self.setStability(iPlayer, self.getStability(iPlayer) + 2)
 				#print("Stability - civic 6th column resettlement", iPlayer)
 		self.setParameter(iPlayer, iParExpansionE, True, self.getStability(iPlayer) - iTempExpansionThreshold)
 			
@@ -895,15 +837,15 @@ class Stability:
 					self.setParameter(owner, iParDiplomacyE, True, -1)
 					if (gc.getPlayer(owner).isHuman()): #anti-exploit
 						if (city.isOccupation()):
-							self.setStability(owner, self.getStability(owner) - 3 )
+							self.setStability(owner, self.getStability(owner) - 3)
 							self.setParameter(owner, iParDiplomacyE, True, -3)
-							self.setStability(playerType, self.getStability(owner) + 3 )
+							self.setStability(playerType, self.getStability(owner) + 3)
 				if (city.getX() == tCapitals[owner][0] and city.getY() == tCapitals[owner][1]):
 					iTotalCityLostModifier += 20
 				if (playerType == con.iBarbarian):
 					iTotalCityLostModifier += 1
 			self.setParameter(owner, iParExpansionE, True, -iTotalCityLostModifier)
-			self.setStability(owner, self.getStability(owner) - iTotalCityLostModifier )
+			self.setStability(owner, self.getStability(owner) - iTotalCityLostModifier)
 			#print("Stability - city lost", iTotalCityLostModifier, owner)
 
 		if (playerType < con.iNumPlayers):
@@ -911,9 +853,9 @@ class Stability:
 			if (iGameTurn == con.tBirth[playerType] or iGameTurn == con.tBirth[playerType]+1 or iGameTurn == con.tBirth[playerType]+2):
 				self.setStability(playerType, self.getStability(playerType) + 3)
 			elif (owner >= con.iNumPlayers):
-				self.setStability(playerType, self.getStability(playerType) + max(0,min(5,(12 - gc.getPlayer(playerType).getNumCities())/2)) )
+				self.setStability(playerType, self.getStability(playerType) + max(0,min(5,(12 - gc.getPlayer(playerType).getNumCities())/2)))
 			else:
-				self.setStability(playerType, self.getStability(playerType) + max(0,min(5,(12 - gc.getPlayer(playerType).getNumCities())/2)) )
+				self.setStability(playerType, self.getStability(playerType) + max(0,min(5,(12 - gc.getPlayer(playerType).getNumCities())/2)))
 			#print("Stability - city acquired", playerType)
 			#Persian UP
 			if (playerType == con.iPersia and gc.getPlayer(playerType).getCivics(5) != 28):
@@ -922,7 +864,7 @@ class Stability:
 
 			if (gc.getPlayer(playerType).getCivics(5) == 28):
 				if (bConquest):
-					self.setStability(playerType, self.getStability(playerType) + 2 )
+					self.setStability(playerType, self.getStability(playerType) + 2)
 					#print("iNewBaseStability civic 6th column occupation",playerType)
 			if (owner < con.iNumPlayers):
 				if (city.getX() == tCapitals[owner][0] and city.getY() == tCapitals[owner][1]):
@@ -938,14 +880,14 @@ class Stability:
 	def onCityRazed(self, iOwner, playerType, city):
 	
 		if (iOwner < con.iNumPlayers):
-			self.setStability(iOwner, self.getStability(iOwner) - 3 )
+			self.setStability(iOwner, self.getStability(iOwner) - 3)
 			#print("Stability - city razed", -3, iOwner)
 			self.setParameter(iOwner, iParExpansionE, True, - 3)
 
 		if (playerType < con.iNumPlayers):
 			iTempExpansionThreshold = self.getStability(playerType)		
 			if (gc.getPlayer(playerType).getCivics(5) == 28):
-				self.setStability(playerType, self.getStability(playerType) - 2 ) #balance the +2 and makes 0 for city razed
+				self.setStability(playerType, self.getStability(playerType) - 2) #balance the +2 and makes 0 for city razed
 			self.setParameter(playerType, iParExpansionE, True, self.getStability(playerType) - iTempExpansionThreshold)
 
 
@@ -954,7 +896,7 @@ class Stability:
 
 		if (owner < con.iNumPlayers and owner >= 0):
 			pass
-			#self.setStability(owner, self.getStability(owner) - 1 )
+			#self.setStability(owner, self.getStability(owner) - 1)
 			##print("Stability - improvement destroyed", owner)
 
 
@@ -962,14 +904,14 @@ class Stability:
 
 		if (iTech == con.tn('monotheism') or \
 		    iTech == con.tn('philosophy')):
-			self.setStability(iPlayer, self.getStability(iPlayer) - 2 )
+			self.setStability(iPlayer, self.getStability(iPlayer) - 2)
 			#print("Stability - tech acquired --", iTech, iPlayer)
 		elif (iTech == con.tn('theology') or \
 		    iTech == con.tn('archery') or \
 		    iTech == con.tn('horseback_riding') or \
 		    iTech == con.tn('bronze_working') or \
 		    iTech == con.tn('iron_working')):
-			self.setStability(iPlayer, self.getStability(iPlayer) - 1 )
+			self.setStability(iPlayer, self.getStability(iPlayer) - 1)
 			#print("Stability - tech acquired -", iTech, iPlayer)
 		elif (iTech == con.tn('mysticism')  or \
 		    iTech == con.tn('priesthood') or \
@@ -991,10 +933,10 @@ class Stability:
 		    iTech == con.tn('construction') or \
 		    iTech == con.tn('machinery') or \
 		    iTech == con.tn('engineering')):
-			self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			#print("Stability - tech acquired +", iTech, iPlayer)
 		else:
-			#self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+			#self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			#print("Stability - tech acquired =", iTech, iPlayer)
 			pass
 
@@ -1002,28 +944,25 @@ class Stability:
 
 		iTempCitiesThreshold = self.getStability(iPlayer)
 		if (iBuilding == con.bn('palace')): #palace
-			self.setStability(iPlayer, self.getStability(iPlayer) - 10 )
+			self.setStability(iPlayer, self.getStability(iPlayer) - 10)
 			#print("Stability - palace built", iPlayer)
 		elif (iBuilding > con.bn('palace') and iBuilding <= con.bn('great_palace')): #palaces
-			self.setStability(iPlayer, self.getStability(iPlayer) + 5 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 5)
 			#print("Stability - palace built", iPlayer)
 		elif (iBuilding >= con.bn('flavian_amphitheatre') and iBuilding <= con.bn('olympic_park')): #wonder
-			self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			#print("Stability - wonder built", iPlayer)
-			if (self.getGreatDepressionCountdown(iPlayer) >= 2):
-				self.setGreatDepressionCountdown(iPlayer, self.getGreatDepressionCountdown(iPlayer)-2)
-				#print("Stability - Great Depression reduced", iPlayer)
 		elif (iBuilding == con.bn('jail') or iBuilding == con.bn('indian_mausoleum')): #jail
 			if (self.getStability(iPlayer) < 20):
 				if (gc.getPlayer(iPlayer).getCivics(0) == 3): #police state
-					self.setStability(iPlayer, self.getStability(iPlayer) + 2 )
+					self.setStability(iPlayer, self.getStability(iPlayer) + 2)
 				else:
-					self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+					self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			#print("Stability - jail built", iPlayer)
 		elif (iBuilding == con.bn('courthouse') or iBuilding == con.bn('sumerian_ziggurat')): #courthouse
 			if (not city.hasBuilding(con.bn('palace')) and not city.hasBuilding(con.bn('great_palace'))):
 				if (self.getStability(iPlayer) < 0):
-					self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+					self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 					#print("Stability - courthouse built", iPlayer)
 
 		self.setParameter(iPlayer, iParCitiesE, True, self.getStability(iPlayer) - iTempCitiesThreshold)
@@ -1034,8 +973,8 @@ class Stability:
 			
 	def onProjectBuilt(self, iPlayer, iProject):
 	
-		if (iProject <= con.iApolloProgram ): #no SS parts
-			self.setStability(iPlayer, self.getStability(iPlayer) + 1 )
+		if (iProject <= con.iApolloProgram): #no SS parts
+			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
 			self.setParameter(iPlayer, iParCitiesE, True, 2)
 			#print("Stability - project built", iPlayer)
 		#pass
@@ -1050,23 +989,23 @@ class Stability:
 		iLosingPlayer = pLosingUnit.getOwner()
 
 		if (iWinningPlayer < con.iNumPlayers):
-			self.setCombatResultTempModifier(iWinningPlayer, self.getCombatResultTempModifier(iWinningPlayer) + 1 )
+			self.setCombatResultTempModifier(iWinningPlayer, self.getCombatResultTempModifier(iWinningPlayer) + 1)
 			#print("Stability - iWinningPlayer", self.getCombatResultTempModifier(iWinningPlayer), iWinningPlayer)
 		if (iLosingPlayer < con.iNumPlayers):
-			self.setCombatResultTempModifier(iLosingPlayer, self.getCombatResultTempModifier(iLosingPlayer) - 2 )
+			self.setCombatResultTempModifier(iLosingPlayer, self.getCombatResultTempModifier(iLosingPlayer) - 2)
 			#print("Stability - iLosingPlayer", self.getCombatResultTempModifier(iLosingPlayer), iLosingPlayer)
 
 
 	def onReligionFounded(self, iPlayer):
 
-		self.setStability(iPlayer, self.getStability(iPlayer) - 2 )
+		self.setStability(iPlayer, self.getStability(iPlayer) - 2)
 		self.setParameter(iPlayer, iParCitiesE, True, -2)
 		#print("Stability - onReligionFounded", iPlayer)
 
 
 	def onCorporationFounded(self, iPlayer):
 
-		self.setStability(iPlayer, self.getStability(iPlayer) - 2 )
+		self.setStability(iPlayer, self.getStability(iPlayer) - 2)
 		self.setParameter(iPlayer, iParCitiesE, True, -2)
 		#print("Stability - onCorporationFounded", iPlayer)
 
@@ -1079,7 +1018,7 @@ class Stability:
 				for iLoopCiv in range(iNumPlayers):
 					if (gc.getTeam(pPlayer.getTeam()).isAtWar(iLoopCiv)):
 						if (gc.getPlayer(iLoopCiv).getStateReligion() == iReligion):
-							self.setStability(iPlayer, self.getStability(iPlayer) - 1 )
+							self.setStability(iPlayer, self.getStability(iPlayer) - 1)
 							self.setParameter(iPlayer, iParCitiesE, True, -1)
 							#print("Stability - onReligionSpread", iPlayer)
 							break
