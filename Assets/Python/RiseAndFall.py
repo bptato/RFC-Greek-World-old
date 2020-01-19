@@ -1562,8 +1562,8 @@ class RiseAndFall:
 				iNumAICitiesConverted, iNumHumanCitiesToConvert = self.convertSurroundingCities(iCiv, tTopLeft, tBottomRight)
 				self.convertSurroundingPlotCulture(iCiv, tTopLeft, tBottomRight)
 				utils.flipUnitsInArea(tTopLeft, tBottomRight, iCiv, iBarbarian, False, True) #remaining barbs in the region now belong to the new civ
-				utils.flipUnitsInArea(tTopLeft, tBottomRight, iCiv, iIndependent, False, False) #remaining independents in the region now belong to the new civ
-				utils.flipUnitsInArea(tTopLeft, tBottomRight, iCiv, iIndependent2, False, False) #remaining independents in the region now belong to the new civ
+				utils.flipUnitsInArea(tTopLeft, tBottomRight, iCiv, iIndependent, False, True) #remaining independents in the region now belong to the new civ
+				utils.flipUnitsInArea(tTopLeft, tBottomRight, iCiv, iIndependent2, False, True) #remaining independents in the region now belong to the new civ
 				print ("utils.flipUnitsInArea()")
 
 

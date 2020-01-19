@@ -9844,24 +9844,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPARTIATES_HOPLITE, UnitOwner=11
+		UnitType=UNIT_SPARTIATES_HOPLITE, UnitOwner=12
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SPARTIATES_HOPLITE, UnitOwner=11
+		UnitType=UNIT_SPARTIATES_HOPLITE, UnitOwner=12
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=11,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=12,
 	EndUnit
 	BeginCity
-		CityOwner=11
+		CityOwner=12
 		CityName=Sparta
 		CityPopulation=1
 		BuildingType=BUILDING_PALACE
@@ -9894,24 +9894,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	 BeginUnit
-		UnitType=UNIT_HOPLITE, UnitOwner=29
+		UnitType=UNIT_HOPLITE, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HOPLITE, UnitOwner=29
+		UnitType=UNIT_HOPLITE, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
-		CityOwner=29
+		CityOwner=30
 		CityName=Corinth
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -10326,24 +10326,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_GREEK_PHALANX, UnitOwner=29
+		UnitType=UNIT_GREEK_PHALANX, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_GREEK_PHALANX, UnitOwner=29
+		UnitType=UNIT_GREEK_PHALANX, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
-		CityOwner=29
+		CityOwner=30
 		CityName=Thebes
 		CityPopulation=2
 		BuildingType=BUILDING_GRANARY
@@ -11400,24 +11400,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=27
+		UnitType=UNIT_SPEARMAN, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=27
+		UnitType=UNIT_ARCHER, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=27,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
 	EndUnit
 	BeginCity
-		CityOwner=27
+		CityOwner=28
 		CityName=Gortyn
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -11467,31 +11467,31 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_GREEK_PHALANX, UnitOwner=10
+		UnitType=UNIT_GREEK_PHALANX, UnitOwner=11
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_GREEK_PHALANX, UnitOwner=10
+		UnitType=UNIT_GREEK_PHALANX, UnitOwner=11
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_GALLEY, UnitOwner=10
+		UnitType=UNIT_GALLEY, UnitOwner=11
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_SETTLER_SEA
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=10,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=11,
 	EndUnit
 	BeginCity
-		CityOwner=10
+		CityOwner=11
 		CityName=Athens
 		CityPopulation=1
 		BuildingType=BUILDING_PALACE
@@ -12205,24 +12205,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=28
+		UnitType=UNIT_SPEARMAN, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=28
+		UnitType=UNIT_ARCHER, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
 	EndUnit
 	BeginCity
-		CityOwner=28
+		CityOwner=29
 		CityName=Phocaea
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -12545,24 +12545,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=27
+		UnitType=UNIT_SPEARMAN, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=27
+		UnitType=UNIT_ARCHER, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=27,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
 	EndUnit
 	BeginCity
-		CityOwner=27
+		CityOwner=28
 		CityName=Ephesus
 		CityPopulation=2
 		BuildingType=BUILDING_GRANARY
@@ -13195,24 +13195,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=28
+		UnitType=UNIT_SPEARMAN, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=28
+		UnitType=UNIT_ARCHER, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
+		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
 	EndUnit
 	BeginCity
-		CityOwner=28
+		CityOwner=29
 		CityName=Halicarnassus
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -13830,24 +13830,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_MACCABEE, UnitOwner=9
+		UnitType=UNIT_MACCABEE, UnitOwner=10
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=9
+		UnitType=UNIT_ARCHER, UnitOwner=10
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_JEWISH_MISSIONARY, UnitOwner=9,
+		UnitType=UNIT_JEWISH_MISSIONARY, UnitOwner=10,
 	EndUnit
 	BeginCity
-		CityOwner=9
+		CityOwner=10
 		CityName=Samaria
 		CityPopulation=1
 		BuildingType=BUILDING_PALACE
@@ -13921,21 +13921,21 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=27
+		UnitType=UNIT_SPEARMAN, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=27
+		UnitType=UNIT_ARCHER, UnitOwner=28
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=27
+		CityOwner=28
 		CityName=Gordium
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -14221,34 +14221,34 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=4
+		UnitType=UNIT_SPEARMAN, UnitOwner=5
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=4
+		UnitType=UNIT_ARCHER, UnitOwner=5
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_PHOENICIANS_BIREME, UnitOwner=4
+		UnitType=UNIT_PHOENICIANS_BIREME, UnitOwner=5
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_SETTLER_SEA
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SETTLER, UnitOwner=4,
+		UnitType=UNIT_SETTLER, UnitOwner=5,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=4,
+		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=5,
 	EndUnit
 	BeginCity
-		CityOwner=4
+		CityOwner=5
 		CityName=Byblos
 		CityPopulation=3
 		BuildingType=BUILDING_PALACE
@@ -14609,24 +14609,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=4
+		UnitType=UNIT_SPEARMAN, UnitOwner=5
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=4
+		UnitType=UNIT_ARCHER, UnitOwner=5
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=4,
+		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=5,
 	EndUnit
 	BeginCity
-		CityOwner=4
+		CityOwner=5
 		CityName=Aradus
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -15340,24 +15340,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=29
+		UnitType=UNIT_SPEARMAN, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=29
+		UnitType=UNIT_ARCHER, UnitOwner=30
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=29,
+		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
-		CityOwner=29
+		CityOwner=30
 		CityName=Carchemish
 		CityPopulation=1
 		BuildingType=BUILDING_GRANARY
@@ -16026,24 +16026,24 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=5
+		UnitType=UNIT_SPEARMAN, UnitOwner=6
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_BABYLON_BOWMAN, UnitOwner=5
+		UnitType=UNIT_BABYLON_BOWMAN, UnitOwner=6
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=5,
+		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=6,
 	EndUnit
 	BeginCity
-		CityOwner=5
+		CityOwner=6
 		CityName=Babylon
 		CityPopulation=5
 		BuildingType=BUILDING_PALACE
@@ -16426,57 +16426,57 @@ BeginPlot
 	TerrainType=TERRAIN_DESERT
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=8
+		UnitType=UNIT_SPEARMAN, UnitOwner=9
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=8
+		UnitType=UNIT_ARCHER, UnitOwner=9
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SWORDSMAN, UnitOwner=8,
+		UnitType=UNIT_SWORDSMAN, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SWORDSMAN, UnitOwner=8,
+		UnitType=UNIT_SWORDSMAN, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SWORDSMAN, UnitOwner=8,
+		UnitType=UNIT_SWORDSMAN, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=8,
+		UnitType=UNIT_ARCHER, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=8,
+		UnitType=UNIT_ARCHER, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ASSYRIA_RAM, UnitOwner=8,
+		UnitType=UNIT_ASSYRIA_RAM, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ASSYRIA_RAM, UnitOwner=8,
+		UnitType=UNIT_ASSYRIA_RAM, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CHARIOT, UnitOwner=8,
+		UnitType=UNIT_CHARIOT, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CHARIOT, UnitOwner=8,
+		UnitType=UNIT_CHARIOT, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_LIGHT_CAVALRY, UnitOwner=8,
+		UnitType=UNIT_LIGHT_CAVALRY, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_JAVELINEER, UnitOwner=8,
+		UnitType=UNIT_JAVELINEER, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=8,
+		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=9,
 	EndUnit
 	BeginCity
-		CityOwner=8
+		CityOwner=9
 		CityName=Ashur
 		CityPopulation=3
 		BuildingType=BUILDING_PALACE
@@ -16515,24 +16515,24 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=8
+		UnitType=UNIT_SPEARMAN, UnitOwner=9
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=8
+		UnitType=UNIT_ARCHER, UnitOwner=9
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=8,
+		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=9,
 	EndUnit
 	BeginCity
-		CityOwner=8
+		CityOwner=9
 		CityName=Nineveh
 		CityPopulation=3
 		BuildingType=BUILDING_GRANARY
@@ -17509,21 +17509,21 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 	BeginUnit
-		UnitType=UNIT_SPEARMAN, UnitOwner=28
+		UnitType=UNIT_SPEARMAN, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=28
+		UnitType=UNIT_ARCHER, UnitOwner=29
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginCity
-		CityOwner=28
+		CityOwner=29
 		CityName=Susa
 		CityPopulation=3
 		BuildingType=BUILDING_GRANARY
@@ -18299,36 +18299,36 @@ BeginPlot
 	TerrainType=TERRAIN_PLAINS
 	PlotType=2
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=12
+		UnitType=UNIT_ARCHER, UnitOwner=13
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ARCHER, UnitOwner=12
+		UnitType=UNIT_ARCHER, UnitOwner=13
 		Damage=0
 		Level=1, Experience=0
 		FacingDirection=4
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=12,
+		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=13,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=12,
+		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=13,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=12,
+		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=13,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=12,
+		UnitType=UNIT_SCYTHIA_SCYTHIAN_RIDER, UnitOwner=13,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_SETTLER, UnitOwner=12,
+		UnitType=UNIT_SETTLER, UnitOwner=13,
 	EndUnit
 	BeginCity
-		CityOwner=12
+		CityOwner=13
 		CityName=Scythia
 		CityPopulation=1
 		BuildingType=BUILDING_PALACE
