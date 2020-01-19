@@ -1935,9 +1935,10 @@ class RiseAndFall:
 				utils.makeUnit(con.un('warrior'), iCiv, tSeaPlot, 1)
 		if (iCiv == iBabylonia):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
-			utils.makeUnit(con.un('babylon_bowman'), iCiv, tPlot, 5)
-			utils.makeUnit(con.un('spearman'), iCiv, tPlot, 5)
-			utils.makeUnit(con.un('javelineer'), iCiv, tPlot, 3)
+			utils.makeUnit(con.un('babylon_bowman'), iCiv, tPlot, 2)
+			utils.makeInvaderUnit(con.un('babylon_bowman'), iCiv, tPlot, 5)
+			utils.makeInvaderUnit(con.un('spearman'), iCiv, tPlot, 5)
+			utils.makeInvaderUnit(con.un('javelineer'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('hindu_missionary'), iCiv, tPlot, 1)
 		if (iCiv == iHittites):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
@@ -2112,7 +2113,7 @@ class RiseAndFall:
 						if (unitType == con.un('settler') or unitType == con.un('harappan_city_builder')) and not bSettler:
 							bSettler = True
 						elif unit.getUnitAIType() is not UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
-							unit.setImmobileTimer(1)
+							unit.setImmobileTimer(2)
 
 	def addMissionary(self, iCiv, tTopLeft, tBottomRight, tPlot, iNumber):
 		lReligions = [0, 0, 0, 0, 0, 0, 0]
