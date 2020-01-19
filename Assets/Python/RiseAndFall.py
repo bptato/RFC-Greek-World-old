@@ -2098,8 +2098,21 @@ class RiseAndFall:
 			utils.makeUnit(con.un('heavy_axeman'), iCiv, tPlot, 7)
 			utils.makeInvaderUnit(con.un('hun'), iCiv, tPlot, 14)
 
-
-
+		#bluepotato: adopted from RFCCW
+		#immobilize all units exceept 1 settler to prevent wandering before the flip
+		if iCiv is not utils.getHumanID():
+			bSettler = False
+			plot = gc.getMap().plot(tPlot[0], tPlot[1])
+			iNumUnitsInAPlot = plot.getNumUnits()
+			if (iNumUnitsInAPlot):
+				for i in range(iNumUnitsInAPlot):
+					unit = plot.getUnit(i)
+					if (unit.getOwner() == iCiv):
+						unitType = unit.getUnitType()
+						if (unitType == con.un('settler') or unitType == con.un('harappan_city_builder')) and not bSettler:
+							bSettler = True
+						elif unit.getUnitAIType() is not UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
+							unit.setImmobileTimer(2)
 
 	def addMissionary(self, iCiv, tTopLeft, tBottomRight, tPlot, iNumber):
 		lReligions = [0, 0, 0, 0, 0, 0, 0]
@@ -2141,53 +2154,53 @@ class RiseAndFall:
 
 
 	def createStartingWorkers(self, iCiv, tPlot):
-		#utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
-		#return #for now
+		amount = 0
 		if (iCiv == iIndusValley):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iMinoa):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iPhoenicia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iBabylonia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iHittites):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iMycenae):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iAssyria):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iIsrael):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iAthens):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
+			amount = 2
 		if (iCiv == iSparta):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
+			amount = 2
 		if (iCiv == iCarthage):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iEtruria):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
+			amount = 2
 		if (iCiv == iNubia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
+			amount = 2
 		if (iCiv == iPersia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iRome):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iMacedonia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iIndia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iCeltia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iBactria):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 		if (iCiv == iNumidia):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 1)
+			amount = 1
 		if (iCiv == iSassanid):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 2)
+			amount = 2
 		if (iCiv == iByzantium):
-			utils.makeUnit(con.un('worker'), iCiv, tPlot, 3)
+			amount = 3
 
+		utils.makeUnit(con.un('worker'), iCiv, tPlot, amount)
 
 	def create900BCstartingUnits(self):
 		for iLoopCiv in range(iNumMajorPlayers):
