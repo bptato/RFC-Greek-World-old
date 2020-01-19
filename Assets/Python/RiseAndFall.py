@@ -2112,7 +2112,7 @@ class RiseAndFall:
 						if (unitType == con.un('settler') or unitType == con.un('harappan_city_builder')) and not bSettler:
 							bSettler = True
 						elif unit.getUnitAIType() is not UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
-							unit.setImmobileTimer(2)
+							unit.setImmobileTimer(1)
 
 	def addMissionary(self, iCiv, tTopLeft, tBottomRight, tPlot, iNumber):
 		lReligions = [0, 0, 0, 0, 0, 0, 0]

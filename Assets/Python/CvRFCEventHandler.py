@@ -560,7 +560,8 @@ class CvRFCEventHandler:
 		if (gc.getGame().getGameTurn() > con.tBirth[iPlayer]):		    
 			if (iPlayer == con.iPhoenicia or \
 			    iPlayer == con.iMinoa or \
-			    iPlayer == con.iSumeria):			    
+			    iPlayer == con.iSumeria or \
+			    iPlayer is con.iBabylonia):			    
 				self.vic.onTechAcquired(argsList[0], argsList[2])
 			self.cnm.onTechAcquired(argsList[2])
 ##		

@@ -61,7 +61,8 @@ class StoredData:
 				    'lGreekTechs': [-1, -1, -1],
 				    'lNewWorld': [-1, -1], #first founded; circumnavigated (still unused)
 				    'iNumSinks': 0,
-				    'lBabylonianTechs': [-1, -1, -1],				
+				    'lSumerianTechs': [-1, -1, -1],
+				    'babyloniaKilledCivs': 0,				
 				    #'iMediterraneanColonies': 0,
 				    'iPortugueseColonies': 0,
 				    'iFrenchColonies': 0,

@@ -229,6 +229,15 @@ class Victory:
 		scriptDict['lGreekTechs'][i] = iNewValue
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
+	def getBabyloniaKilledCivs(self):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		return scriptDict['babyloniaKilledCivs']
+
+	def setBabyloniaKilledCivs(self, i):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		scriptDict['babyloniaKilledCivs'] = i
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
+
 	def getWondersBuilt(self, iCiv):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		return scriptDict['lWondersBuilt'][iCiv]
@@ -256,13 +265,13 @@ class Victory:
 		scriptDict['iNumSinks'] = iNewValue
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
-	def getBabylonianTechs(self, i):
+	def getSumerianTechs(self, i):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
-		return scriptDict['lBabylonianTechs'][i]
+		return scriptDict['lSumerianTechs'][i]
 
-	def setBabylonianTechs(self, i, iNewValue):
+	def setSumerianTechs(self, i, iNewValue):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
-		scriptDict['lBabylonianTechs'][i] = iNewValue
+		scriptDict['lSumerianTechs'][i] = iNewValue
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
 	def getMediterraneanColonies(self):
@@ -582,7 +591,25 @@ class Victory:
 						self.setGoal(iElam, 2, 1)
 					else:
 						self.setGoal(iElam, 2, 0)
-					
+		elif iPlayer is iBabylonia and pBabylonia.isAlive() and iGameTurn <= i600BC:
+			if iGameTurn < i1000BC:
+				babylonPlot = gc.getMap().plot(46, 22)
+				if babylonPlot.isCity():
+					if babylonPlot.getPlotCity().getNumWorldWonders() >= 6:
+						self.setGoal(iBabylonia, 0, 1)
+			elif iGameTurn is i1000BC:
+				if not babylonPlot.isCity() or babylonPlot.getPlotCity().getNumWorldWonders() < 6:
+					self.setGoal(iBabylon, 0, 0)
+				else:
+					self.setGoal(iBabylon, 0, 1)
+			elif iGameTurn < i600BC:
+				if self.getBabyloniaKilledCivs() >= 3:
+					self.setGoal(iBabylonia, 2, 1)
+			elif iGameTurn is i600BC:
+				if self.getBabyloniaKilledCivs() < 3:
+					self.setGoal(iBabylonia, 2, 0)
+				else:
+					self.setGoal(iBabylonia, 2, 1)
 
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
@@ -602,30 +629,32 @@ class Victory:
 		iPlayer = iFounder
 
 
-	def onCityAcquired(self, owner, playerType, city, bConquest):
+	def onCityAcquired(self, owner, attacker, city, bConquest):
 
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
 			return
 
-		iPlayer = owner
 		iGameTurn = gc.getGame().getGameTurn()
 		print 'city acquired'
 		
 		if self.getGoal(iElam, 0) is -1 and city.getX() is 46 and city.getY() is 19: #Ur captured by Elam
-			if playerType is iElam:
+			if attacker is iElam:
 				self.setGoal(iElam, 0, 1)
 			else:
 				self.setGoal(iElam, 0, 0)
-				
 
-		if (iPlayer == iIndusValley):
+		if (owner == iIndusValley):
 			if (pIndusValley.isAlive()):
 				if (bConquest):
 					if (self.getGoal(iIndusValley, 2) == -1):
 						if (iGameTurn <= i1000BC):
-							if (playerType == iBarbarian):
+							if (attacker == iBarbarian):
 								self.setGoal(iIndusValley, 2, 0)
-
+		if attacker is iBabylonia:
+			if gc.getPlayer(owner).getNumCities() is 0:
+				self.setBabyloniaKilledCivs(self.getBabyloniaKilledCivs()+1)
+			else:
+				print "cities: " + str(gc.getPlayer(owner).getNumCities())
 
 	def onCityRazed(self, city, conqueror, owner):
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
@@ -649,37 +678,43 @@ class Victory:
 			if (pSumeria.isAlive()):
 				if (self.getGoal(iSumeria, 0) == -1): #eof error???
 					if (iTech == con.tn('the_wheel')):
-						self.setBabylonianTechs(0, 1)
+						self.setSumerianTechs(0, 1)
 						for iCiv in range(iNumPlayers):
 							if (iCiv != iSumeria):
 								if (gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech) == True):
-									self.setBabylonianTechs(0, 0)
+									self.setSumerianTechs(0, 0)
 					elif (iTech == con.tn('masonry')):
-						self.setBabylonianTechs(1, 1)
+						self.setSumerianTechs(1, 1)
 						for iCiv in range(iNumPlayers):
 							if (iCiv != iSumeria):
 								if (gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech) == True):
-									self.setBabylonianTechs(1, 0)
+									self.setSumerianTechs(1, 0)
 					elif (iTech == con.tn('cunniform')):
-						self.setBabylonianTechs(2, 1)
+						self.setSumerianTechs(2, 1)
 						for iCiv in range(iNumPlayers):
 							if (iCiv != iSumeria):
 								if (gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech) == True):
-									self.setBabylonianTechs(2, 0)
-					print ("self.getBabylonianTechs", self.getBabylonianTechs(0), self.getBabylonianTechs(1), self.getBabylonianTechs(2))
-					if (self.getBabylonianTechs(0) == 1 and self.getBabylonianTechs(1) == 1 and self.getBabylonianTechs(2) == 1):
+									self.setSumerianTechs(2, 0)
+					if (self.getSumerianTechs(0) == 1 and self.getSumerianTechs(1) == 1 and self.getSumerianTechs(2) == 1):
 						self.setGoal(iSumeria, 0, 1)
-					elif (self.getBabylonianTechs(0) == 0 or self.getBabylonianTechs(1) == 0 or self.getBabylonianTechs(2) == 0):
+					elif (self.getSumerianTechs(0) == 0 or self.getSumerianTechs(1) == 0 or self.getSumerianTechs(2) == 0):
 						self.setGoal(iSumeria, 0, 0)
+		elif iPlayer is iBabylonia:
+			if pBabylonia.isAlive():
+				if self.getGoal(iBabylonia, 1) is -1:
+					if iTech is con.tn('code_of_laws'):
+						self.setGoal(iBabylonia, 1, 1)
+						for iCiv in range(iNumPlayers):
+							if iCiv is not iBabylonia:
+								if gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech):
+									self.setGoal(iBabylonia, 1, 0)
+									break
 
 	def onBuildingBuilt(self, iPlayer, iBuilding):
-
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
 			return
 
 		iGameTurn = gc.getGame().getGameTurn()
-
-
 
 	def onProjectBuilt(self, iPlayer, iProject):
 
@@ -687,8 +722,6 @@ class Victory:
 			return
 
 		iGameTurn = gc.getGame().getGameTurn()
-
-
 
 	def onCombatResult(self, argsList):
 
@@ -700,8 +733,6 @@ class Victory:
 		pLosingPlayer = gc.getPlayer(pLosingUnit.getOwner())
 		cLosingUnit = PyHelpers.PyInfo.UnitInfo(pLosingUnit.getUnitType())
 		iPlayer = pWinningPlayer.getID()
-
-
 
 	def calculateTopCityCulture(self, x, y):
 		iBestCityValue = 0
@@ -721,7 +752,6 @@ class Victory:
 			return bestCity
 		return -1
 
-
 	def calculateTopCityPopulation(self, x, y):
 		iBestCityValue = 0
 		pCurrent = gc.getMap().plot(x, y)
@@ -737,7 +767,3 @@ class Victory:
 						iBestCityValue = iTotalCityValue
 			return bestCity
 		return -1
-
-
-
-

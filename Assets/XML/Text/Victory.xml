@@ -114,373 +114,78 @@
 		<Spanish>[COLOR_WARNING_TEXT]Se construye autom&#225;ticamente tras la consecuci&#243;n de 2 de los 3 objetivos hist&#243;ricos[COLOR_REVERT]</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_AME1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AME1</Tag>
-		<English>Egyptian Old Kingdom - Have 1000 culture by 2181 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AME2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AME2</Tag>
-		<English>Egyptian Middle Kingdom - Have the highest score by 1690 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AME3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AME3</Tag>
-		<English>Egyptian New Kingdom - Control or vassalize Egypt, Nubia (South of the Nile), and the Levant (Jericho and west to coast) with a minimum of 2 cities in each by 1069 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA1</Tag>
-		<English>The First Great Civilization - Be the first to discover The Wheel, Masonry, and Cunniform</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA2</Tag>
-		<English>The influence of Ur - Make Ur the #1 cultural city in 2000 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_ARA3</Tag>
-		<English>The Legend of Sargon - Control or vassalize Mesopotamia and the Levant (Jericho and west to coast) with a minimum of 2 cities in each by 2180 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT1</Tag>
-		<English>The Granary of Mohenjo-daro - Be 1st in population in 1500 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT2</Tag>
-		<English>The Riches of the Indus Valley - Offer the bigest resource diversity in 1250 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT3_TITLE</Tag>
-		<English></English>
-		<German>Der Turm von Babel</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_AZT3</Tag>
-		<English>The Aryan Invasion - Never lose a single city to barbarians before 1000 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB1_TITLE</Tag>
-		<English></English>
-		<German>Der Kodex von Hammurabi</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB1</Tag>
-		<English>The Legend of Atlantis - Discover Calendar by 1400 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB2_TITLE</Tag>
-		<English></English>
-		<German>Der fruchtbare Halbmond</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB2</Tag>
-		<English>The Might of King Minos - Be first in score in 1200 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB3_TITLE</Tag>
-		<English></English>
-		<German>Der Turm von Babel</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BAB3</Tag>
-		<English>The Palace of Knossos - Make Knossos the #1 cultural city in 1000 BC</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_BYZ1_TITLE</Tag>
-		<English></English>
-		<German></German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BYZ1</Tag>
-		<English>Phoenician Colonies - Have at least one city in the Levant (Jericho and west to coast), Cyprus, North Africa (excluding Egypt) and Iberia in 900 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BYZ2_TITLE</Tag>
-		<English></English>
-		<German>Der fruchtbare Halbmond</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BYZ2</Tag>
-		<English>Hanno the Navigator - Be the Civ with the most revealed territory on your map in 600 BC</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BYZ3_TITLE</Tag>
-		<English></English>
-		<German>Der Turm von BYZel</German>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_BYZ3</Tag>
-		<English>Domination of the southern Mediterranean trade - Own more resources than any other civilization in 500 BC</English>
-	</TEXT>
-      <TEXT>
-		<Tag>TXT_KEY_UHV_MAY1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_MON1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MON1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MON2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MON2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MON3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MON3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_HOL1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_HOL1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_HOL2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_HOL2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_HOL3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_HOL3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_TUR1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_TUR1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_TUR2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_TUR2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_TUR3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_TUR3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_CAR1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CAR1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CAR2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CAR2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CAR3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_CAR3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_CEL1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CEL1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CEL2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CEL2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CEL3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CEL3</Tag>
-		<English>TBA</English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_MAL1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAL1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAL2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAL2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_MAL3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_UHV_MAL3</Tag>
-		<English>TBA</English>
-	</TEXT>
-        <TEXT>
-		<Tag>TXT_KEY_UHV_CHI1_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CHI1</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CHI2_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CHI2</Tag>
-		<English>TBA</English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CHI3_TITLE</Tag>
-		<English></English>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_UHV_CHI3</Tag>
-		<English>TBA</English>
-	</TEXT>
-        <TEXT>
 		<Tag>TXT_KEY_UHV_EGY1_TITLE</Tag>
-		<English></English>
+		<English>Egyptian Old Kingdom</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY1</Tag>
-		<English>TBO</English>
+		<English>Have 1000 culture by 2181 BC</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY2_TITLE</Tag>
-		<English></English>
+		<English>Egyptian Middle Kingdom</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY2</Tag>
-		<English>TBO</English>
+		<English>Have the highest score by 1690 BC</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY3_TITLE</Tag>
-		<English></English>
+		<English>Egyptian New Kingdom</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_EGY3</Tag>
-		<English>TBO</English>
-	</TEXT>
-        <TEXT>
-		<Tag>TXT_KEY_UHV_ENG1_TITLE</Tag>
-		<English></English>
+		<English>Control or vassalize Egypt, Nubia (South of the Nile), and the Levant (Jericho and west to coast) with a minimum of 2 cities in each by 1069 BC</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_ENG1</Tag>
-		<English>TBA</English>
+		<Tag>TXT_KEY_UHV_SUM1_TITLE</Tag>
+		<English>The First Great Civilization</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_ENG2_TITLE</Tag>
-		<English></English>
+		<Tag>TXT_KEY_UHV_SUM1</Tag>
+		<English>Be the first to discover The Wheel, Masonry, and Cunniform</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_ENG2</Tag>
-		<English>TBA</English>
+		<Tag>TXT_KEY_UHV_SUM2_TITLE</Tag>
+		<English>The influence of Ur</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_ENG3_TITLE</Tag>
-		<English></English>
+		<Tag>TXT_KEY_UHV_SUM2</Tag>
+		<English>Make Ur the #1 cultural city in 2000 BC</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_ENG3</Tag>
-		<English>TBA</English>
+		<Tag>TXT_KEY_UHV_SUM3_TITLE</Tag>
+		<English>The Legend of Sargon</English>
 	</TEXT>
-        <TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_SUM3</Tag>
+		<English>Control or vassalize Mesopotamia and the Levant (Jericho and west to coast) with a minimum of 2 cities in each by 2180 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC1_TITLE</Tag>
+		<English>The Granary of Mohenjo-daro</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC1</Tag>
+		<English>Be 1st in population in 1500 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC2_TITLE</Tag>
+		<English>The Riches of the Indus Valley</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC2</Tag>
+		<English>Offer the bigest resource diversity in 1250 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC3_TITLE</Tag>
+		<English>The Aryan Invasion</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_IVC3</Tag>
+		<English>Never lose a single city to barbarians before 1000 BC</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UHV_ELA1_TITLE</Tag>
 		<English>The Shimaski Dynasty</English>
 	</TEXT>
@@ -504,7 +209,295 @@
 		<Tag>TXT_KEY_UHV_ELA3</Tag>
 		<English>Control 5 cities in Persia by 1500BC</English>
 	</TEXT>
-        <TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN1_TITLE</Tag>
+		<English>The Legend of Atlantis</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN1</Tag>
+		<English>Discover Calendar by 1400 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN2_TITLE</Tag>
+		<English>The Might of King Minos</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN2</Tag>
+		<English>Be first in score in 1200 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN3_TITLE</Tag>
+		<English>The Palace of Knossos</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MIN3</Tag>
+		<English>Make Knossos the #1 cultural city in 1000 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO1_TITLE</Tag>
+		<English>Phoenician Colonies</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO1</Tag>
+		<English>Have at least one city in the Levant (Jericho and west to coast), Cyprus, North Africa (excluding Egypt) and Iberia in 900 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO2_TITLE</Tag>
+		<English>Hanno the Navigator</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO2</Tag>
+		<English>Be the Civ with the most revealed territory on your map in 600 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO3_TITLE</Tag>
+		<English>Domination of the southern Mediterranean trade</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_PHO3</Tag>
+		<English>Own more resources than any other civilization in 500 BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB1_TITLE</Tag>
+		<English>The Hanging Gardens</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB1</Tag>
+		<English>Build six wonders in the city of Babylon by 1000BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2_TITLE</Tag>
+		<English>Hammurabi's Code of Laws</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB2</Tag>
+		<English>Be the first civilization to discover Code of Laws</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3_TITLE</Tag>
+		<English>The Neo-Babylonian Empire</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_BAB3</Tag>
+		<English>Eliminate 3 or more civilizations by 600BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY1</Tag>
+		<English>TBA may</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAY3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON1</Tag>
+		<English>TBA mon</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MON3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL1</Tag>
+		<English>TBA hol</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_HOL3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR1</Tag>
+		<English>TBA tur</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_TUR3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL1</Tag>
+		<English>TBA cel</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CEL3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL1</Tag>
+		<English>TBA mal</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MAL3</Tag>
+		<English>TBA</English>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UHV_CHI1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI1</Tag>
+		<English>TBA chi</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_CHI3</Tag>
+		<English>TBA</English>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UHV_EGY1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASY1</Tag>
+		<English>TBO asy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASY2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASY2</Tag>
+		<English>TBO</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASY3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ASY3</Tag>
+		<English>TBO</English>
+	</TEXT>
+		<TEXT>
+		<Tag>TXT_KEY_UHV_ENG1_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG1</Tag>
+		<English>TBA eng</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG2_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG2</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG3_TITLE</Tag>
+		<English></English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_ENG3</Tag>
+		<English>TBA</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UHV_ETH1_TITLE</Tag>
 		<English></English>
 	</TEXT>
@@ -528,13 +521,13 @@
 		<Tag>TXT_KEY_UHV_ETH3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_FRA1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_FRA1</Tag>
-		<English>TBA</English>
+		<English>TBA fra</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_FRA2_TITLE</Tag>
@@ -552,13 +545,13 @@
 		<Tag>TXT_KEY_UHV_FRA3</Tag>
 		<English>TBA</English>
 	</TEXT>
-     <TEXT>
+	 <TEXT>
 		<Tag>TXT_KEY_UHV_GER1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_GER1</Tag>
-		<English>TBA</English>
+		<English>TBA ger</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_GER2_TITLE</Tag>
@@ -576,7 +569,7 @@
 		<Tag>TXT_KEY_UHV_GER3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_GRE1_TITLE</Tag>
 		<English></English>
 	</TEXT>
@@ -600,13 +593,13 @@
 		<Tag>TXT_KEY_UHV_GRE3</Tag>
 		<English>TBA</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UHV_NAM1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NAM1</Tag>
-		<English>TBA</English>
+		<English>TBA nam</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_NAM2_TITLE</Tag>
@@ -624,13 +617,13 @@
 		<Tag>TXT_KEY_UHV_NAM3</Tag>
 		<English>TBA</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UHV_HRE1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HRE1</Tag>
-		<English>TBA</English>
+		<English>TBA hre</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_HRE2_TITLE</Tag>
@@ -648,13 +641,13 @@
 		<Tag>TXT_KEY_UHV_HRE3</Tag>
 		<English>TBA</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_UHV_INC1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INC1</Tag>
-		<English>TBA</English>
+		<English>TBA inc</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_INC2_TITLE</Tag>
@@ -672,13 +665,13 @@
 		<Tag>TXT_KEY_UHV_INC3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_IND1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_IND1</Tag>
-		<English>TBA</English>
+		<English>TBA ind</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_IND2_TITLE</Tag>
@@ -696,13 +689,13 @@
 		<Tag>TXT_KEY_UHV_IND3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_JAP1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_JAP1</Tag>
-		<English>TBA</English>
+		<English>TBA jap</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_JAP2_TITLE</Tag>
@@ -720,13 +713,13 @@
 		<Tag>TXT_KEY_UHV_JAP3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_KHM1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHM1</Tag>
-		<English>TBA</English>
+		<English>TBA khm</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KHM2_TITLE</Tag>
@@ -744,13 +737,13 @@
 		<Tag>TXT_KEY_UHV_KHM3</Tag>
 		<English>TBA</English>
 	</TEXT>
-        <TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_UHV_KOR1_TITLE</Tag>
 		<English></English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KOR1</Tag>
-		<English>TBA</English>
+		<English>TBA kor</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_KOR2_TITLE</Tag>
