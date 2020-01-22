@@ -28,6 +28,7 @@ i1800BC = con.i1800BC
 i1690BC = con.i1690BC
 i1500BC = con.i1500BC
 i1400BC = con.i1400BC
+i1300BC = con.i1300BC
 i1200BC = con.i1200BC
 i1250BC = con.i1250BC
 i1070BC = con.i1070BC
@@ -236,6 +237,15 @@ class Victory:
 	def setBabyloniaKilledCivs(self, i):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['babyloniaKilledCivs'] = i
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
+
+	def getHittiteKilledUnits(self):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		return scriptDict['hittiteKilledUnits']
+
+	def setHittiteKilledUnits(self, i):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		scriptDict['hittiteKilledUnits'] = i
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
 	def getWondersBuilt(self, iCiv):
@@ -497,8 +507,21 @@ class Victory:
 				if (iGameTurn == i1000BC):
 					if (self.getGoal(iIndusValley, 2) == -1): #see onCityAcquired()
 						self.setGoal(iIndusValley, 2, 1)
-
-
+		elif iPlayer is iElam and iGameTurn <= i1000BC:
+			if pElam.isAlive():
+				if iGameTurn < i1900BC:
+					if pElam.canContact(iIndusValley) and pElam.canTradeNetworkWith(iIndusValley):
+						self.setGoal(iElam, 1, 1)
+				elif iGameTurn is i1900BC and self.getGoal(iElam, 1) is -1:
+					self.setGoal(iElam, 1, 0)
+				elif iGameTurn < i1500BC and self.getGoal(iElam, 2) is -1:
+					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
+						self.setGoal(iElam, 2, 1)
+				elif iGameTurn is i1500BC and self.getGoal(iElam, 2) is -1:
+					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
+						self.setGoal(iElam, 2, 1)
+					else:
+						self.setGoal(iElam, 2, 0)
 		elif (iPlayer == iMinoa):
 			if (pMinoa.isAlive()):
 				if (iGameTurn == i1400BC):
@@ -576,21 +599,6 @@ class Victory:
 						self.setGoal(iPhoenicia, 2, 1)
 					else:
 						self.setGoal(iPhoenicia, 2, 0)
-		elif iPlayer is iElam and iGameTurn <= i1000BC:
-			if pElam.isAlive():
-				if iGameTurn < i1900BC:
-					if pElam.canContact(iIndusValley) and pElam.canTradeNetworkWith(iIndusValley):
-						self.setGoal(iElam, 1, 1)
-				elif iGameTurn is i1900BC and self.getGoal(iElam, 1) is -1:
-					self.setGoal(iElam, 1, 0)
-				elif iGameTurn < i1500BC and self.getGoal(iElam, 2) is -1:
-					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
-						self.setGoal(iElam, 2, 1)
-				elif iGameTurn is i1500BC and self.getGoal(iElam, 2) is -1:
-					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
-						self.setGoal(iElam, 2, 1)
-					else:
-						self.setGoal(iElam, 2, 0)
 		elif iPlayer is iBabylonia and pBabylonia.isAlive() and iGameTurn <= i600BC:
 			if iGameTurn < i1000BC:
 				babylonPlot = gc.getMap().plot(46, 22)
@@ -610,10 +618,23 @@ class Victory:
 					self.setGoal(iBabylonia, 2, 0)
 				else:
 					self.setGoal(iBabylonia, 2, 1)
-
+		elif iPlayer is iHittites:
+			if self.getGoal(iHittites, 0) is -1 and iGameTurn > i1400BC:
+				self.setGoal(iHittites, 0, 0)
+			if iGameTurn is i1300BC:
+				result = True
+				for i in range(con.iNumPlayers):
+					if i is not iHittites:
+						if self.checkOwnedArea(iPhoenicia, tLevantTL, tLevantBR, 1):
+							result = False
+				self.setGoal(iHittites, 1, result)
+			elif iGameTurn < i1200BC:
+				result = self.getHittiteKilledUnits() > 15
+				self.setGoal(iHittites, 2, result)
+			if self.getGoal(iHittites, 0) is -1 and iGameTurn > i1200BC:
+				self.setGoal(iHittites, 3, 0)
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
-
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
 			return
 
@@ -635,13 +656,18 @@ class Victory:
 			return
 
 		iGameTurn = gc.getGame().getGameTurn()
-		print 'city acquired'
+		cityX = city.getX()
+		cityY = city.getY()
 		
-		if self.getGoal(iElam, 0) is -1 and city.getX() is 46 and city.getY() is 19: #Ur captured by Elam
+		if self.getGoal(iElam, 0) is -1 and cityX is 46 and cityY is 19: #Ur captured by Elam
 			if attacker is iElam:
 				self.setGoal(iElam, 0, 1)
 			else:
 				self.setGoal(iElam, 0, 0)
+		
+		if self.getGoal(iHittites, 0) is -1 and cityX is 46 and cityY is 22: #Babylon captured by Hittites
+			if attacker is iHittites:
+				self.setGoal(iHittites, 0, 1)
 
 		if (owner == iIndusValley):
 			if (pIndusValley.isAlive()):
@@ -666,9 +692,7 @@ class Victory:
 			else:
 				self.setGoal(iElam, 0, 0)
 
-
 	def onTechAcquired(self, iTech, iPlayer):
-
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
 			return
 
@@ -733,6 +757,9 @@ class Victory:
 		pLosingPlayer = gc.getPlayer(pLosingUnit.getOwner())
 		cLosingUnit = PyHelpers.PyInfo.UnitInfo(pLosingUnit.getUnitType())
 		iPlayer = pWinningPlayer.getID()
+		if iPlayer is iHittites:
+			if pWinningUnit.getUnitType() is con.un('hittite_huluganni'):
+				self.setHittiteKilledUnits(self.getHittiteKilledUnits() + 1)
 
 	def calculateTopCityCulture(self, x, y):
 		iBestCityValue = 0

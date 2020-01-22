@@ -62,7 +62,8 @@ class StoredData:
 				    'lNewWorld': [-1, -1], #first founded; circumnavigated (still unused)
 				    'iNumSinks': 0,
 				    'lSumerianTechs': [-1, -1, -1],
-				    'babyloniaKilledCivs': 0,				
+				    'babyloniaKilledCivs': 0,
+				    'hittiteKilledUnits': 0,			
 				    #'iMediterraneanColonies': 0,
 				    'iPortugueseColonies': 0,
 				    'iFrenchColonies': 0,

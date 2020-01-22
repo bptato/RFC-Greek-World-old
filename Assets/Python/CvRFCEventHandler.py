@@ -633,27 +633,29 @@ class CvRFCEventHandler:
 
 
 
-	# This method will remove a mercenary unit from the game if it is killed
+	# This method will remove a mercenary unit from the game if it is killed TODO: mercenaries
 	def onUnitKilled(self, argsList):
 		'Unit Killed'
-
+		
+		unit, iAttacker = argsList
+		
+		return
+		
 		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
-		    
-			unit, iAttacker = argsList
 			
 			mercenary = objMercenaryUtils.getMercenary(unit.getNameNoDesc())
-
 			if(mercenary != None and g_bDisplayMercenaryMessages and mercenary.getBuilder() != -1 and unit.isDead()):
 				strMessage = mercenary.getName() + " has died under " + gc.getPlayer(mercenary.getOwner()).getName() + "'s service."
 				# Inform the player that the mercenary has died.
 				CyInterface().addMessage(mercenary.getBuilder(), True, 20, strMessage, "", 0, "", ColorTypes(0), -1, -1, True, True) 
-
 			objMercenaryUtils.removePlayerMercenary(unit)
 
 
-	# This method will remove a mercenary unit from the game if it is lost
+	# This method will remove a mercenary unit from the game if it is lost TODO: mercenaries
 	def onUnitLost(self, argsList):
 		'Unit Lost'
+
+		return
 
 		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
 	

@@ -18,6 +18,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_EGY</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_MEMPHIS</City>
 				<City>TXT_KEY_CITY_NAME_THEBES</City>
@@ -133,7 +134,7 @@
 			<CivilizationSelectionSound>AS3D_EGYPT_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_EGYPT_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_SUMERIA</Type>
 			<Description>TXT_KEY_CIV_SUMERIA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_SUMERIA_SHORT_DESC</ShortDescription>
@@ -145,6 +146,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_SUM</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_URUK</City>
 				<City>TXT_KEY_CITY_NAME_ERIDU</City>
@@ -249,6 +251,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_IVC</UHVString>
 			<Cities>
 				<City>Harappa</City>
 				<City>Rakhigarhi</City>
@@ -418,6 +421,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ELA</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_SUSA</City>
 				<City>Anshan</City>
@@ -550,6 +554,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_MIN</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_KNOSSOS</City>
 				<City>TXT_KEY_CITY_NAME_PHAISTOS</City>
@@ -665,7 +670,7 @@
 			<CivilizationSelectionSound>AS3D_BYZANTIUM_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_BYZANTIUM_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_PHOENICIA</Type>
 			<Description>TXT_KEY_CIV_PHOENICIA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_PHOENICIA_SHORT_DESC</ShortDescription>
@@ -677,6 +682,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_PHO</UHVString>
 			<Cities>
 				<City>Tyre</City>
 				<City>Sidon</City>
@@ -772,6 +778,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_BAB</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_BABYLON</City>
 				<City>TXT_KEY_CITY_NAME_AKKAD</City>
@@ -879,6 +886,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_HIT</UHVString>
 			<Cities>
 				<City>Hattusas</City>
 				<City>Kanesh</City>
@@ -1021,6 +1029,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_MYC</UHVString>
 			<Cities>
 				<City>Mycenae</City>
 				<City>Pylos</City>
@@ -1102,7 +1111,7 @@
 			<CivilizationSelectionSound>AS3D_CHINA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_CHINA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_ASSYRIA</Type>
 			<Description>The Assyrians</Description>
 			<ShortDescription>TXT_KEY_CIV_ASSYRIA_SHORT_DESC</ShortDescription>
@@ -1114,6 +1123,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ASY</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_NINEVEH</City>
 				<City>TXT_KEY_CITY_NAME_ASHUR</City>
@@ -1248,7 +1258,7 @@
 			<CivilizationSelectionSound>AS3D_ARABIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_ARABIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_ISRAEL</Type>
 			<Description>TXT_KEY_CIV_ISRAEL_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_ISRAEL_SHORT_DESC</ShortDescription>
@@ -1260,6 +1270,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ISR</UHVString>
 			<Cities>
 				<City>Jerusalem</City>
 				<City>Niani</City>
@@ -1364,6 +1375,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ATH</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_ATHENS</City>
 				<City>TXT_KEY_CITY_NAME_SPARTA</City>
@@ -1480,6 +1492,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_SPA</UHVString>
 			<Cities>
 			  <City>Sparta</City>
 				<City>Mycenae</City>
@@ -1604,6 +1617,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_ASIAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_SCY</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_KUL_OBA</City>
 				<City>TXT_KEY_CITY_NAME_SARMATIA</City>
@@ -1722,6 +1736,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_CAR</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_CARTHAGE</City>
 				<City>TXT_KEY_CITY_NAME_UTICA</City>
@@ -1818,7 +1833,7 @@
 			<CivilizationSelectionSound>AS3D_CARTHAGE_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_CARTHAGE_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_CELT</Type>
 			<Description>The Celts</Description>
 			<ShortDescription>TXT_KEY_CIV_CELT_SHORT_DESC</ShortDescription>
@@ -1830,9 +1845,10 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_EUROPEAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_CEL</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_LUTETIA</City>
-		<City>TXT_KEY_CITY_NAME_BIBRACTE</City>
+				<City>TXT_KEY_CITY_NAME_BIBRACTE</City>
 				<City>TXT_KEY_CITY_NAME_VIENNE</City>
 				<City>TXT_KEY_CITY_NAME_TOLOSA</City>
 				<City>TXT_KEY_CITY_NAME_GERGOVIA</City>
@@ -1934,7 +1950,7 @@
 			<CivilizationSelectionSound>AS3D_CELTS_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_CELTS_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_ETRURIA</Type>
 			<Description>TXT_KEY_CIV_ETRURIA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_ETRURIA_SHORT_DESC</ShortDescription>
@@ -1946,6 +1962,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ETR</UHVString>
 			<Cities>
 				<City>Arretium</City>
 				<City>Chaire</City>
@@ -2048,7 +2065,7 @@
 			<CivilizationSelectionSound>AS3D_ROME_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_ROME_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_NUBIA</Type>
 			<Description>The Nubians</Description>
 			<ShortDescription>Nubia</ShortDescription>
@@ -2057,9 +2074,10 @@
 			<DefaultPlayerColor>PLAYERCOLOR_PEACH</DefaultPlayerColor>
 			<ArtDefineTag>ART_DEF_CIVILIZATION_NUBIA</ArtDefineTag>
 			<ArtStyleType>ARTSTYLE_MIDDLE_EAST</ArtStyleType>
-	    <UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
+			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_NUB</UHVString>
 			<Cities>
 				<City>Meroe</City>
 				<City>Kerma</City>
@@ -2157,6 +2175,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_PER</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_PERSEPOLIS</City>
 				<City>TXT_KEY_CITY_NAME_PASARGADAE</City>
@@ -2294,6 +2313,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_ROM</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_ANTIUM</City>
 				<City>TXT_KEY_CITY_NAME_CUMAE</City>
@@ -2407,7 +2427,7 @@
 			<CivilizationSelectionSound>AS3D_ROME_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_ROME_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_MACEDONIA</Type>
 			<Description>TXT_KEY_CIV_MACEDONIA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_MACEDONIA_SHORT_DESC</ShortDescription>
@@ -2419,6 +2439,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_MAC</UHVString>
 			<Cities>
 				<City>Argos Orestikon</City>
 				<City>Aegae</City>
@@ -2516,7 +2537,7 @@
 			<CivilizationSelectionSound>AS3D_GREECE_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_GREECE_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_INDIA</Type>
 			<Description>TXT_KEY_CIV_INDIA_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_INDIA_SHORT_DESC</ShortDescription>
@@ -2528,6 +2549,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_IND</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_DELHI</City>
 				<City>TXT_KEY_CITY_NAME_BOMBAY</City>
@@ -2680,7 +2702,7 @@
 			<CivilizationSelectionSound>AS3D_INDIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_INDIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_BACTRIA</Type>
 			<Description>The Bactrians</Description>
 			<ShortDescription>Bactria</ShortDescription>
@@ -2693,6 +2715,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_BAC</UHVString>
 			<Cities>
 				<City>Bactra</City>
 				<City>Demetrias</City>
@@ -2813,7 +2836,7 @@
 			<CivilizationSelectionSound>AS3D_PERSIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_PERSIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_NUMIDIA</Type>
 			<Description>The Numidians</Description>
 			<ShortDescription>TXT_KEY_CIV_BERBER_SHORT_DESC</ShortDescription>
@@ -2825,6 +2848,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_NUM</UHVString>
 			<Cities>
 				<City>Cirta</City>
 				<City>Bulla</City>
@@ -2926,7 +2950,7 @@
 			<CivilizationSelectionSound>AS3D_ARABIA_SELECT</CivilizationSelectionSound>
 			<CivilizationActionSound>AS3D_ARABIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
-	<CivilizationInfo>
+		<CivilizationInfo>
 			<Type>CIVILIZATION_GERMANIA</Type>
 			<Description>TXT_KEY_CIV_GERMANY_DESC</Description>
 			<ShortDescription>TXT_KEY_CIV_GERMANY_SHORT_DESC</ShortDescription>
@@ -2938,6 +2962,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_EUROPEAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_GER</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_CHERUSCI</City>
 				<City>TXT_KEY_CITY_NAME_TEUTONARI</City>
@@ -3103,6 +3128,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_MIDDLE_EAST</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_SAS</UHVString>
 			<Cities>
 				<City>Ctesiphon</City>
 				<City>Ardashir-Khwarrah</City>
@@ -3217,6 +3243,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_GRECO_ROMAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_BYZ</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_CONSTANTINOPLE</City>
 				<City>TXT_KEY_CITY_NAME_THESSALONICA</City>
@@ -3328,6 +3355,7 @@
 			<UnitArtStyleType>UNIT_ARTSTYLE_ASIAN</UnitArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString>TXT_KEY_UHV_HUN</UHVString>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_BEIJING</City>
 				<City>TXT_KEY_CITY_NAME_SHANGHAI</City>
@@ -3446,6 +3474,7 @@
 			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString/>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_SAXON</City>
 				<City>TXT_KEY_CITY_NAME_VANDAL</City>
@@ -3521,6 +3550,7 @@
 			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
 			<bPlayable>1</bPlayable>
 			<bAIPlayable>1</bAIPlayable>
+			<UHVString/>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_CIMMERIAN</City>
 				<City>TXT_KEY_CITY_NAME_LIGURIAN</City>
@@ -3611,6 +3641,7 @@
 			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
 			<bPlayable>0</bPlayable>
 			<bAIPlayable>0</bAIPlayable>
+			<UHVString/>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_CHEROKEE</City>
 				<City>TXT_KEY_CITY_NAME_ANASAZI</City>
@@ -3748,6 +3779,7 @@
 			<ArtStyleType>ARTSTYLE_BARBARIAN</ArtStyleType>
 			<bPlayable>0</bPlayable>
 			<bAIPlayable>0</bAIPlayable>
+			<UHVString/>
 			<Cities>
 				<City>TXT_KEY_CITY_NAME_VANDAL</City>
 				<City>TXT_KEY_CITY_NAME_GOTH</City>
@@ -4124,35 +4156,6 @@
 					<UnitClassType>UNITCLASS_SCOUT</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
-				<!--RFGW-->
-				<!--<Unit>
-					<UnitClassType>UNITCLASS_EXPLORER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_PIKEMAN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MUSKETMAN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_INFANTRY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SAM_INFANTRY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MARINE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MECHANIZED_INFANTRY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>-->
 				<Unit>
 					<UnitClassType>UNITCLASS_AXEMAN</UnitClassType>
 					<UnitType>NONE</UnitType>
@@ -4165,65 +4168,14 @@
 					<UnitClassType>UNITCLASS_KNIGHT</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
-				<!--RFGW-->
-				<!--<Unit>
-					<UnitClassType>UNITCLASS_CUIRASSIER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CAVALRY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>-->
 				<Unit>
 					<UnitClassType>UNITCLASS_WAR_ELEPHANT</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
-				<!--RFGW-->
-				<!--<Unit>
-					<UnitClassType>UNITCLASS_TANK</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MODERN_ARMOR</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_GUNSHIP</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>-->
 				<Unit>
 					<UnitClassType>UNITCLASS_CATAPULT</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
-				<!--RFGW-->
-				<!--<Unit>
-					<UnitClassType>UNITCLASS_TREBUCHET</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CANNON</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MACHINE_GUN</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ARTILLERY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MOBILE_ARTILLERY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MOBILE_SAM</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_AT_INFANTRY</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>-->
 				<Unit>
 					<UnitClassType>UNITCLASS_WORKBOAT</UnitClassType>
 					<UnitType>NONE</UnitType>
@@ -4232,87 +4184,6 @@
 					<UnitClassType>UNITCLASS_TRIREME</UnitClassType>
 					<UnitType>NONE</UnitType>
 				</Unit>
-				<!--RFGW-->
-				<!--<Unit>
-					<UnitClassType>UNITCLASS_CARAVEL</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_GALLEON</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_IRONCLAD</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SHIP_OF_THE_LINE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_TRANSPORT</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_DESTROYER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_STEALTH_DESTROYER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_MISSILE_CRUISER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BATTLESHIP</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_SUBMARINE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ATTACK_SUBMARINE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_CARRIER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_AIRSHIP</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_FIGHTER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_JET_FIGHTER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_BOMBER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_STEALTH_BOMBER</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_GUIDED_MISSILE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_TACTICAL_NUKE</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>
-				<Unit>
-					<UnitClassType>UNITCLASS_ICBM</UnitClassType>
-					<UnitType>NONE</UnitType>
-				</Unit>-->
 				<Unit>
 					<UnitClassType>UNITCLASS_PROPHET</UnitClassType>
 					<UnitType>NONE</UnitType>

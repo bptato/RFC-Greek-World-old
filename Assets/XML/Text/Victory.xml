@@ -282,28 +282,28 @@
 		<English>Eliminate three or more civilizations by 600BC</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY1_TITLE</Tag>
-		<English></English>
+		<Tag>TXT_KEY_UHV_HIT1_TITLE</Tag>
+		<English>King Mursili</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY1</Tag>
-		<English>TBA may</English>
+		<Tag>TXT_KEY_UHV_HIT1</Tag>
+		<English>Conquer Babylon by 1400BC</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY2_TITLE</Tag>
-		<English></English>
+		<Tag>TXT_KEY_UHV_HIT2_TITLE</Tag>
+		<English>Hittite Expansion</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY2</Tag>
-		<English>TBA</English>
+		<Tag>TXT_KEY_UHV_HIT2</Tag>
+		<English>Control the Levant in 1300BC</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY3_TITLE</Tag>
-		<English></English>
+		<Tag>TXT_KEY_UHV_HIT3_TITLE</Tag>
+		<English>Battle of Kadesh</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_UHV_MAY3</Tag>
-		<English>TBA</English>
+		<Tag>TXT_KEY_UHV_HIT3</Tag>
+		<English>Destroy 15 units using chariots by 1200BC</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_UHV_MON1_TITLE</Tag>
