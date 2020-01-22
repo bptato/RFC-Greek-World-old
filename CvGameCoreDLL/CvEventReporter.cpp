@@ -176,9 +176,9 @@ void CvEventReporter::cityAcquired(PlayerTypes eOldOwner, PlayerTypes iPlayer, C
 	m_kPythonEventMgr.reportCityAcquired(eOldOwner, iPlayer, pCity, bConquest, bTrade);
 }
 
-void CvEventReporter::cityAcquiredAndKept(PlayerTypes iPlayer, CvCity* pCity)
+void CvEventReporter::cityAcquiredAndKept(PlayerTypes oldOwner, PlayerTypes iPlayer, CvCity* pCity, bool conquest, bool trade)
 {
-	m_kPythonEventMgr.reportCityAcquiredAndKept(iPlayer, pCity);
+	m_kPythonEventMgr.reportCityAcquiredAndKept(oldOwner, iPlayer, pCity, conquest, trade);
 }
 
 void CvEventReporter::cityLost( CvCity *pCity)

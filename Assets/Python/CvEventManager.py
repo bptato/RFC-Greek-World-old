@@ -871,7 +871,7 @@ class CvEventManager:
 
 	def onCityAcquiredAndKept(self, argsList):
 		'City Acquired and Kept'
-		iOwner,pCity = argsList
+		iPreviousOwner,iNewOwner,pCity,bConquest,bTrade = argsList
 		CvUtil.pyPrint('City Acquired and Kept Event: %s' %(pCity.getName()))
 
 	def onCityLost(self, argsList):

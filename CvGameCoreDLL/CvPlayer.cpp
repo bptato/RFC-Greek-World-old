@@ -471,6 +471,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iStateReligionBuildingProductionModifier = 0;
 	m_iStateReligionFreeExperience = 0;
 	m_iCapitalCityID = FFreeList::INVALID_INDEX;
+	m_prevCapitalCityID = FFreeList::INVALID_INDEX;
 	m_iCitiesLost = 0;
 	m_iWinsVsBarbs = 0;
 	m_iAssets = 0;
@@ -1786,50 +1787,50 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 				pNewCity->doTask(TASK_RAZE);
 			}
 			else {
-			//Rhye - end
+				//Rhye - end
 
 
 
-			//auto raze based on game rules
-			if (pNewCity->isAutoRaze())
-			{
-				if (iCaptureGold > 0)
+				//auto raze based on game rules
+				if (pNewCity->isAutoRaze())
 				{
-					szBuffer = gDLL->getText("TXT_KEY_MISC_PILLAGED_CITY", iCaptureGold, pNewCity->getNameKey());
-					gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_CITYRAZE", MESSAGE_TYPE_MAJOR_EVENT, ARTFILEMGR.getInterfaceArtInfo("WORLDBUILDER_CITY_EDIT")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pNewCity->getX_INLINE(), pNewCity->getY_INLINE(), true, true);
+					if (iCaptureGold > 0)
+					{
+						szBuffer = gDLL->getText("TXT_KEY_MISC_PILLAGED_CITY", iCaptureGold, pNewCity->getNameKey());
+						gDLL->getInterfaceIFace()->addMessage(getID(), true, GC.getEVENT_MESSAGE_TIME(), szBuffer, "AS2D_CITYRAZE", MESSAGE_TYPE_MAJOR_EVENT, ARTFILEMGR.getInterfaceArtInfo("WORLDBUILDER_CITY_EDIT")->getPath(), (ColorTypes)GC.getInfoTypeForString("COLOR_GREEN"), pNewCity->getX_INLINE(), pNewCity->getY_INLINE(), true, true);
+					}
+
+					pNewCity->doTask(TASK_RAZE);
 				}
-
-				pNewCity->doTask(TASK_RAZE);
-			}
-			else if (!isHuman())
-			{
-				AI_conquerCity(pNewCity); // could delete the pointer...
-			}
-			else
-			{
-				//popup raze option
-				eHighestCulturePlayer = pNewCity->getLiberationPlayer(true);
-				bRaze = canRaze(pNewCity);
-				bGift = ((eHighestCulturePlayer != NO_PLAYER)
-						&& (eHighestCulturePlayer != getID())
-						&& ((getTeam() == GET_PLAYER(eHighestCulturePlayer).getTeam())
-							|| GET_TEAM(getTeam()).isOpenBorders(GET_PLAYER(eHighestCulturePlayer).getTeam())
-							|| GET_TEAM(GET_PLAYER(eHighestCulturePlayer).getTeam()).isVassal(getTeam())));
-
-				if (bRaze || bGift)
+				else if (!isHuman())
 				{
-					CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_RAZECITY);
-					pInfo->setData1(pNewCity->getID());
-					pInfo->setData2(eHighestCulturePlayer);
-					pInfo->setData3(iCaptureGold);
-					gDLL->getInterfaceIFace()->addPopup(pInfo, getID());
+					AI_conquerCity(pNewCity); // could delete the pointer...
 				}
 				else
 				{
-					pNewCity->chooseProduction();
-					CvEventReporter::getInstance().cityAcquiredAndKept(getID(), pNewCity);
+					//popup raze option
+					eHighestCulturePlayer = pNewCity->getLiberationPlayer(true);
+					bRaze = canRaze(pNewCity);
+					bGift = ((eHighestCulturePlayer != NO_PLAYER)
+							&& (eHighestCulturePlayer != getID())
+							&& ((getTeam() == GET_PLAYER(eHighestCulturePlayer).getTeam())
+								|| GET_TEAM(getTeam()).isOpenBorders(GET_PLAYER(eHighestCulturePlayer).getTeam())
+								|| GET_TEAM(GET_PLAYER(eHighestCulturePlayer).getTeam()).isVassal(getTeam())));
+
+					if (bRaze || bGift)
+					{
+						CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_RAZECITY);
+						pInfo->setData1(pNewCity->getID());
+						pInfo->setData2(eHighestCulturePlayer);
+						pInfo->setData3(iCaptureGold);
+						gDLL->getInterfaceIFace()->addPopup(pInfo, getID());
+					}
+					else
+					{
+						pNewCity->chooseProduction();
+						CvEventReporter::getInstance().cityAcquiredAndKept(pNewCity->getPreviousOwner(), getID(), pNewCity, false, true);
+					}
 				}
-			}
 			}//Rhye RFGW
 		}
 	}
@@ -1843,7 +1844,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 		}
 		else
 		{
-			CvEventReporter::getInstance().cityAcquiredAndKept(getID(), pNewCity);
+			CvEventReporter::getInstance().cityAcquiredAndKept(pNewCity->getPreviousOwner(), getID(), pNewCity, false, false);
 		}
 	}
 
@@ -8364,7 +8365,7 @@ int CvPlayer::getMaxAnarchyTurns() const
 void CvPlayer::updateMaxAnarchyTurns()
 {
 	int iBestValue;
-	int iI;
+//	int iI;
 
 	iBestValue = GC.getDefineINT("MAX_ANARCHY_TURNS");
 
@@ -9622,6 +9623,12 @@ CvCity* CvPlayer::getCapitalCity() const
 	return getCity(m_iCapitalCityID);
 }
 
+//bluepotato start
+CvCity* CvPlayer::getPreviousCapitalCity() const
+{
+	return getCity(m_prevCapitalCityID);
+}
+//bluepotato end
 
 void CvPlayer::setCapitalCity(CvCity* pNewCapitalCity)
 {
@@ -9632,6 +9639,9 @@ void CvPlayer::setCapitalCity(CvCity* pNewCapitalCity)
 
 	if (pOldCapitalCity != pNewCapitalCity)
 	{
+		//bluepotato start
+		m_prevCapitalCityID = m_iCapitalCityID;
+		//bluepotato end
 		bUpdatePlotGroups = ((pOldCapitalCity == NULL) || (pNewCapitalCity == NULL) || (pOldCapitalCity->plot()->getOwnerPlotGroup() != pNewCapitalCity->plot()->getOwnerPlotGroup()));
 
 		if (bUpdatePlotGroups)
@@ -16551,6 +16561,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iStateReligionBuildingProductionModifier);
 	pStream->Read(&m_iStateReligionFreeExperience);
 	pStream->Read(&m_iCapitalCityID);
+	pStream->Read(&m_prevCapitalCityID);
 	pStream->Read(&m_iCitiesLost);
 	pStream->Read(&m_iWinsVsBarbs);
 	pStream->Read(&m_iAssets);
@@ -17022,6 +17033,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 	pStream->Write(m_iStateReligionBuildingProductionModifier);
 	pStream->Write(m_iStateReligionFreeExperience);
 	pStream->Write(m_iCapitalCityID);
+	pStream->Write(m_prevCapitalCityID);
 	pStream->Write(m_iCitiesLost);
 	pStream->Write(m_iWinsVsBarbs);
 	pStream->Write(m_iAssets);

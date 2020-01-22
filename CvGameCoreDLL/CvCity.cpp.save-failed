@@ -1150,10 +1150,7 @@ void CvCity::createGreatPeople(UnitTypes eGreatPersonUnit, bool bIncrementThresh
 void CvCity::doTask(TaskTypes eTask, int iData1, int iData2, bool bOption, bool bAlt, bool bShift, bool bCtrl)
 {
 	int loopI;
-	int sackGold;
-	PlayerTypes ownerType = getOwnerINLINE();
-	CvPlayerAI& owner = GET_PLAYER(getOwnerINLINE());
-
+	CvPlayer* owner = GET_PLAYER(getOwnerINLINE());
 	switch (eTask)
 	{
 	case TASK_RAZE:
@@ -1161,23 +1158,18 @@ void CvCity::doTask(TaskTypes eTask, int iData1, int iData2, bool bOption, bool 
 		break;
 	//bluepotato start
 	case TASK_SACK:
-		sackGold = 0;
 		for(int i = 0; i<GC.getNumBuildingInfos(); i++) {
 			if(hasBuilding((BuildingTypes)i) && GC.getGameINLINE().getSorenRandNum(100, "Loot chance") <= 90) {
-                sackGold += GC.getGameINLINE().getSorenRandNum(getBuildingProduction((BuildingTypes) i)/10, "Sack gold 1") + GC.getGameINLINE().getSorenRandNum(getBuildingProduction((BuildingTypes) i)/10, "Sack gold 2");
-
+				GET_PLAYER(getOwnerINLINE()).changeGold(GC.getGameINLINE().getSorenRandNum(getBuildingProduction((BuildingTypes) i)/10, "Sack gold 1") + GC.getGameINLINE().getSorenRandNum(getBuildingProduction((BuildingTypes) i)/10, "Sack gold 2"));
 				setHasRealBuilding((BuildingTypes) i, false);
 			}
 		}
-		owner.changeGold(sackGold);
 		if (getPreviousOwner() != NO_PLAYER && GET_PLAYER(getPreviousOwner()).isAlive())
 		{
 			GET_PLAYER(getPreviousOwner()).acquireCity(this, false, false, false);
 			for (CvUnit* loopUnit = owner.firstUnit(&loopI); loopUnit != NULL; loopUnit = owner.nextUnit(&loopI)) {
 				if(loopUnit->getX()==getX() && loopUnit->getY()==getY()) {
-					//loopUnit->kill();
-					loopUnit->changeDamage(loopUnit->currHitPoints()/10, ownerType);
-					loopUnit->jumpToNearestValidPlot();
+					//loopUnit->jumpToNearestValidPlot();
 				}
 			}
 			//GET_PLAYER((PlayerTypes)iData1).acquireCity(this, false, false, false);
@@ -3280,13 +3272,6 @@ bool CvCity::canHurry(HurryTypes eHurry, bool bTestVisible) const
 
 	return true;
 }
-
-//bluepotato start
-bool CvCity::canBeSacked() {
-	//TODO return (getNumBuildings() >= 5 || GET_PLAYER(getPreviousOwner()).getPreviousCapitalCity() == this || GET_PLAYER(getPreviousOwner()).getCapitalCity() == this;
-	return getNumBuildings() > 0;
-}
-//bluepotato end
 
 bool CvCity::canHurryUnit(HurryTypes eHurry, UnitTypes eUnit, bool bIgnoreNew) const
 {

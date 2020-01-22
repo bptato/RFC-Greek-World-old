@@ -310,4 +310,20 @@
 		<Italian>Un patto di protezione reciproca: ogni civilt&#224; accetta di dichiarare automaticamente guerra se la civilt&#224; alleata viene attaccata.</Italian>
 		<Spanish>Un acuerdo de protecci&#243;n mutua: cada parte accede a declarar autom&#225;ticamente la guerra si alguien ataca a la otra.</Spanish>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_TRADE_DEFENSIVE_PACT</Tag>
+		<English>A Mutual Protection Pact - Each Party Agrees to Automatically Declare War if the Other Party is Attacked.</English>
+		<French>Pacte d'assistance mutuelle : chaque partie accepte de d&#233;clarer automatiquement la guerre si l'autre est attaqu&#233;e.</French>
+		<German>Ein Verteidigungsb&#252;ndnis - Beide Parteien stimmen zu, den Angreifern der anderen Partei automatisch den Krieg zu erkl&#228;ren.</German>
+		<Italian>Un patto di protezione reciproca: ogni civilt&#224; accetta di dichiarare automaticamente guerra se la civilt&#224; alleata viene attaccata.</Italian>
+		<Spanish>Un acuerdo de protecci&#243;n mutua: cada parte accede a declarar autom&#225;ticamente la guerra si alguien ataca a la otra.</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_POPUP_SACK_CAPTURED_CITY</Tag>
+		<English>Sack the city! Take as much as you can, then leave!</English>
+		<French>Saccagez la ville ! Prenez tout ce que vous pouvez !</French>
+		<German>Pl&#252;ndert die Stadt! Nehmt euch soviel ihr k&#246;nnt, und verlasst sie!</German>
+		<Italian>Sack the city! Take as much as you can!</Italian>
+		<Spanish>Sack the city! Take as much as you can!</Spanish>
+	</TEXT>
 </Civ4GameText>

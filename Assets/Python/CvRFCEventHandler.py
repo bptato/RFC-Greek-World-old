@@ -141,6 +141,7 @@ class CvRFCEventHandler:
 		eventManager.addEventHandler("GameStart", self.onGameStart) #Stability
 		eventManager.addEventHandler("BeginGameTurn", self.onBeginGameTurn) #Stability
 		eventManager.addEventHandler("cityAcquired", self.onCityAcquired) #Stability
+		eventManager.addEventHandler("cityAcquiredAndKept", self.onCityAcquiredAndKept) #Stability
 		eventManager.addEventHandler("cityRazed", self.onCityRazed) #Stability
 		eventManager.addEventHandler("cityBuilt", self.onCityBuilt) #Stability
 		eventManager.addEventHandler("combatResult", self.onCombatResult) #Stability
@@ -231,6 +232,40 @@ class CvRFCEventHandler:
 
 
 	def onCityAcquired(self, argsList):
+		return 0 #bluepotato TODO
+		#'City Acquired'
+		owner,playerType,city,bConquest,bTrade = argsList
+		#CvUtil.pyPrint('City Acquired Event: %s' %(city.getName()))
+		self.cnm.renameCities(city, playerType)
+
+		#RFGW
+		iPlayer = playerType
+		feedUnits = con.getFeedUnits(iPlayer)
+		if (feedUnits > 0):
+			self.rnf.spawnUnits(iPlayer, (city.getX()-5,city.getY()-5), (city.getX()+5,city.getY()+5), feedUnits, 1, utils.outerInvasion, 1)
+
+		
+	       
+		if (playerType == con.iByzantium):
+			self.up.arabianUP(city)
+		elif (playerType == con.iBactria):
+			self.up.SiamUP(playerType, city, bConquest)
+		elif (playerType == con.iMacedonia):
+			self.up.turkishUP(city)
+##
+##		if (playerType < iNumMajorPlayers):
+##			 utils.spreadMajorCulture(playerType, city.getX(), city.getY())
+##
+		self.sta.onCityAcquired(owner,playerType,city,bConquest,bTrade)
+
+		self.pla.onCityAcquired(owner,playerType,city) #Plague
+##
+##		self.com.onCityAcquired(city) #Communications
+##
+		self.vic.onCityAcquired(owner, playerType, city, bConquest) #Victory
+		
+
+	def onCityAcquiredAndKept(self, argsList):
 		#'City Acquired'
 		owner,playerType,city,bConquest,bTrade = argsList
 		#CvUtil.pyPrint('City Acquired Event: %s' %(city.getName()))
@@ -466,14 +501,14 @@ class CvRFCEventHandler:
 ##			
 ##
 		print ("onBeginPlayerTurn", iPlayer)
-		if (gc.getPlayer(iPlayer).isAlive() and not gc.getPlayer(iPlayer).isMinorCiv() and gc.getPlayer(iPlayer).getNumCities() > 0):
-			print ("plague check ", iPlayer)
+		pPlayer = gc.getPlayer(iPlayer)
+		if (pPlayer.isAlive() and not pPlayer.isMinorCiv() and pPlayer.getNumCities() > 0):
 			self.pla.checkPlayerTurn(iGameTurn, iPlayer)
-			print ("victory check ", iPlayer)
-			self.vic.checkPlayerTurn(iGameTurn, iPlayer)
-			print ("stability check ", iPlayer)
 			self.sta.updateBaseStability(iGameTurn, iPlayer)
-		print ("done ", iPlayer)
+			"only check victory for player"
+			if pPlayer.isHuman():
+				self.vic.checkPlayerTurn(iGameTurn, iPlayer)
+			
 		return # TODO: mercenaries
 ##
 ##		if (gc.getPlayer(iPlayer).isAlive() and iPlayer < con.iNumPlayers and not gc.getPlayer(iPlayer).isHuman()):

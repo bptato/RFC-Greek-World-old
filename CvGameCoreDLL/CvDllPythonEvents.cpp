@@ -414,16 +414,20 @@ void CvDllPythonEvents::reportCityAcquired(PlayerTypes eOldOwner, PlayerTypes eP
 	}
 }
 
-void CvDllPythonEvents::reportCityAcquiredAndKept(PlayerTypes ePlayer, CvCity* pOldCity)
+void CvDllPythonEvents::reportCityAcquiredAndKept(PlayerTypes oldOwner, PlayerTypes ePlayer, CvCity* pOldCity, bool conquest, bool trade)
 {
 	if (preEvent())
 	{
 		CyArgsList eventData;
 		eventData.add("cityAcquiredAndKept");					// add key to lookup python handler fxn
+		eventData.add((int)oldOwner);
 		eventData.add((int)ePlayer);
 
 		CyCity* pCyCity = new CyCity(pOldCity);
 		eventData.add(gDLL->getPythonIFace()->makePythonObject(pCyCity));
+
+		eventData.add(conquest);
+		eventData.add(trade);
 
 		postEvent(eventData);
 		delete pCyCity;
