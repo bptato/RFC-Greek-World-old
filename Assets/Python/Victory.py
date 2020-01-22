@@ -625,11 +625,11 @@ class Victory:
 				result = True
 				for i in range(con.iNumPlayers):
 					if i is not iHittites:
-						if self.checkOwnedArea(iPhoenicia, tLevantTL, tLevantBR, 1):
+						if self.checkOwnedArea(i, tLevantTL, tLevantBR, 1):
 							result = False
 				self.setGoal(iHittites, 1, result)
 			elif iGameTurn < i1200BC:
-				result = self.getHittiteKilledUnits() > 15
+				result = self.getHittiteKilledUnits() >= 15
 				self.setGoal(iHittites, 2, result)
 			if self.getGoal(iHittites, 0) is -1 and iGameTurn > i1200BC:
 				self.setGoal(iHittites, 3, 0)
