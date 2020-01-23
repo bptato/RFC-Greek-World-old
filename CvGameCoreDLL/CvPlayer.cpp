@@ -7017,9 +7017,7 @@ bool CvPlayer::canResearch(TechTypes eTech, bool bTrade) const
 
 			if (GET_TEAM(getTeam()).isHasTech(ePrereq))
 			{
-				//Rhye
-				//if (!bTrade || GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) || !GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
-				if (!bTrade || (GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) && !GET_TEAM(getTeam()).isHasTech((TechTypes)MASS_MEDIA)) || !GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
+				if (!bTrade || GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) || !GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
 				{
 					bFoundValid = true;
 					break;
@@ -7043,9 +7041,7 @@ bool CvPlayer::canResearch(TechTypes eTech, bool bTrade) const
 				return false;
 			}
 
-			//Rhye
-			//if (bTrade && !GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) && GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
-			if (bTrade && (!GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) || GET_TEAM(getTeam()).isHasTech((TechTypes)MASS_MEDIA)) && GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
+			if (bTrade && !GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) && GET_TEAM(getTeam()).isNoTradeTech(ePrereq))
 			{
 				return false;
 			}
@@ -20311,9 +20307,7 @@ bool CvPlayer::splitEmpire(int iAreaId)
 			if (GET_TEAM(getTeam()).isHasTech((TechTypes)i))
 			{
 				kNewTeam.setHasTech((TechTypes)i, true, eNewPlayer, false, false);
-				//Rhye
-				//if (GET_TEAM(getTeam()).isNoTradeTech((TechTypes)i) || GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING))
-				if (GET_TEAM(getTeam()).isNoTradeTech((TechTypes)i) || (GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING) && !GET_TEAM(getTeam()).isHasTech((TechTypes)MASS_MEDIA)))
+				if (GET_TEAM(getTeam()).isNoTradeTech((TechTypes)i) || GC.getGameINLINE().isOption(GAMEOPTION_NO_TECH_BROKERING))
 				{
 					kNewTeam.setNoTradeTech((TechTypes)i, true);
 				}

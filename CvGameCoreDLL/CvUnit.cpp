@@ -6762,9 +6762,9 @@ int CvUnit::upgradePrice(UnitTypes eUnit) const
 	}
 
 	//Rhye - start UP
-	if (getOwnerINLINE() == SPARTA)
-		if (GET_TEAM(GET_PLAYER((PlayerTypes)SPARTA).getTeam()).isHasTech((TechTypes)MATHEMATICS))
-			return 0;
+	if (getOwnerINLINE() == SPARTA) {
+		return 0;
+	}
 	//Rhye - end UP
 
 	iPrice = GC.getDefineINT("BASE_UNIT_UPGRADE_COST");

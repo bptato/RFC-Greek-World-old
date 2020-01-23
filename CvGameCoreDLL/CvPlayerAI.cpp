@@ -7847,10 +7847,12 @@ DenialTypes CvPlayerAI::AI_cityTrade(CvCity* pCity, PlayerTypes ePlayer) const
 		return DENIAL_NO_GAIN;
 	}
 
-	if (isHuman() && (pCity->getNumActiveBuilding((BuildingTypes)(NUM_BUILDINGS_PLAGUE-1)) > 0))
-	{
-		return DENIAL_NO_GAIN;
-	}
+	//removed by bluepotato
+	//TODO: add an XML tag for this
+	//if (isHuman() && (pCity->getNumActiveBuilding((BuildingTypes)(NUM_BUILDINGS_PLAGUE-1)) > 0))
+	//{
+	//	return DENIAL_NO_GAIN;
+	//}
 	//Rhye - end
 
 	if (pCity->getLiberationPlayer(false) == ePlayer)

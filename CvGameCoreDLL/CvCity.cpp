@@ -1956,10 +1956,11 @@ bool CvCity::canConstruct(BuildingTypes eBuilding, bool bContinue, bool bTestVis
 		}
 	}
 
+	//removed by bluepotato
 	//Rhye - start
-	if (eBuilding == OLYMPICPARK) {
-		if (GET_PLAYER(getOwnerINLINE()).isOlympics()) return false;
-	}
+	//if (eBuilding == OLYMPICPARK) {
+	//	if (GET_PLAYER(getOwnerINLINE()).isOlympics()) return false;
+	//}
 	//Rhye - end
 
 	//Rhye - start (embassy) RFGW
@@ -11046,10 +11047,11 @@ void CvCity::popOrder(int iNum, bool bFinish, bool bChoose)
 				GET_PLAYER(getOwnerINLINE()).changeGold(iProductionGold);
 			}
 
+			//removed by bluepotato
 			//Rhye - start
-			if (eConstructBuilding == OLYMPICPARK) {
-				GET_PLAYER(getOwnerINLINE()).setOlympics(true);
-			}
+			//if (eConstructBuilding == OLYMPICPARK) {
+			//	GET_PLAYER(getOwnerINLINE()).setOlympics(true);
+			//}
 			//Rhye - end
 
 			//bluepotato start: Elamite UP
