@@ -177,7 +177,6 @@ extern char startingYear600AD[34][6];
 extern bool startingEra600AD[34];*/
 //extern int militaryBonus[2][18];
 extern char uniquePower[35][2][16];
-extern char uniqueGoals[35][3][18];
 extern char rating[34][6][15];
 
 extern int turnPlayed[33];
