@@ -6763,7 +6763,15 @@ int CvUnit::upgradePrice(UnitTypes eUnit) const
 
 	//Rhye - start UP
 	if (getOwnerINLINE() == SPARTA) {
-		return 0;
+		for(int i = 0; i<GC.getNumTechInfos(); i++) {
+			if(_tcscmp(GC.getTechInfo((TechTypes)i).getType(), "TECH_MATHEMATICS") != 0) {
+				if(GET_TEAM(GET_PLAYER((PlayerTypes)SPARTA).getTeam()).isHasTech((TechTypes)i)) {
+					return 0;
+				} else {
+					break;
+				}
+			}
+		}
 	}
 	//Rhye - end UP
 
