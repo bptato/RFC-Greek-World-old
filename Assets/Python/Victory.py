@@ -631,8 +631,8 @@ class Victory:
 			elif iGameTurn < i1200BC: 
 				if self.getHittiteKilledUnits() >= 15:
 					self.setGoal(iHittites, 2, 1)
-			if self.getGoal(iHittites, 0) is -1 and iGameTurn > i1200BC:
-				self.setGoal(iHittites, 3, 0)
+			if self.getGoal(iHittites, 2) is -1 and iGameTurn > i1200BC:
+				self.setGoal(iHittites, 2, 0)
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
