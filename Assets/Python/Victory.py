@@ -628,7 +628,8 @@ class Victory:
 						if self.checkOwnedArea(i, tLevantTL, tLevantBR, 1):
 							result = False
 					else:
-						result = self.checkOwnedArea(i, tLevantTL, tLevantBR, 1)
+						if not self.checkOwnedArea(i, tLevantTL, tLevantBR, 1):
+							result = False
 				self.setGoal(iHittites, 1, result)
 			elif iGameTurn < i1200BC: 
 				if self.getHittiteKilledUnits() >= 15:
