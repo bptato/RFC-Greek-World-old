@@ -178,21 +178,21 @@ class Barbs:
 		self.foundCity(iIndependent2, lGordion, "Gordion", iGameTurn, 1, con.un('chariot'), 1)
 		self.foundCity(iIndependent, lTaxila, "Taxila", iGameTurn, 1, con.un('warrior'), 1)
 		self.foundCity(iBarbarian, lThebes, "Thebes", iGameTurn, 1, con.un('spearman'), 1)
-		self.foundCity(iBarbarian, lTushpa, "Tushpa", iGameTurn, 1, con.un('archer'), 1)
-		self.foundCity(iBarbarian, lHasanlu, "Hasanlu", iGameTurn, 1, con.un('archer'), 1)
-		self.foundCity(iIndependent2, lSardis, "Sardis", iGameTurn, 1, con.un('archer'), 1)
-		self.foundCity(iBarbarian, lTayma, "Tayma", iGameTurn, 1, con.un('archer'), 1)
+		self.foundCity(iBarbarian, lTushpa, "Tushpa", iGameTurn, 1, con.un('warrior'), 1)
+		self.foundCity(iBarbarian, lHasanlu, "Hasanlu", iGameTurn, 1, con.un('warrior'), 1)
+		self.foundCity(iIndependent2, lSardis, "Sardis", iGameTurn, 1, con.un('warrior'), 1)
+		self.foundCity(iBarbarian, lTayma, "Tayma", iGameTurn, 1, con.un('warrior'), 1)
 		self.foundCity(iIndependent, lSyracuse, "Syracuse", iGameTurn, 1, con.un('spearman'), 1)
-		self.foundCity(iIndependent2, lAmprakia, "Amprakia", iGameTurn, 1, con.un('archer'), 1)
-		self.foundCity(iBarbarian, lGerrha, "Gerrha", iGameTurn, 1, con.un('archer'), 1)
+		self.foundCity(iIndependent2, lAmprakia, "Amprakia", iGameTurn, 1, con.un('warrior'), 1)
+		self.foundCity(iBarbarian, lGerrha, "Gerrha", iGameTurn, 1, con.un('warrior'), 1)
 		self.foundCity(iIndependent, lCyrene, "Cyrene", iGameTurn, 1, con.un('spearman'), 1)
-		self.foundCity(iIndependent2, lSanaa, "Sana'a", iGameTurn, 1, con.un('archer'), 1)
+		self.foundCity(iIndependent2, lSanaa, "Sana'a", iGameTurn, 1, con.un('warrior'), 1)
 		self.foundCity(iIndependent, lMassilia, "Massilia", iGameTurn, 1, con.un('spearman'), 1)
 		self.foundCity(iIndependent2, lOlbia, "Olbia", iGameTurn, 1, con.un('spearman'), 1)
 		self.foundCity(iIndependent, lPanticapaeum, "Panticapaeum", iGameTurn, 1, con.un('spearman'), 1)
 		self.foundCity(iIndependent2, lHemeroscopeum, "Hemeroscopeum", iGameTurn, 1, con.un('spearman'), 1)
-		self.foundCity(iIndependent, lPattala, "Patala", iGameTurn, 1, con.un('archer'), 1)
-		self.foundCity(iIndependent2, lArtaxata, "Artashat", iGameTurn, 1, con.un('archer'), 1)
+		self.foundCity(iIndependent, lPattala, "Patala", iGameTurn, 1, con.un('warrior'), 1)
+		self.foundCity(iIndependent2, lArtaxata, "Artashat", iGameTurn, 1, con.un('warrior'), 1)
 		self.foundCity(iIndependent, lSarmizegetusa, "Sarmizegetusa", iGameTurn, 1, con.un('swordsman'), 1)
 
 		#handicap level modifier
@@ -252,7 +252,7 @@ class Barbs:
 
 		#Barbarian handicap
 		if (iGameTurn >= con.i2000BC and iGameTurn <= con.i1000BC):
-			self.spawnUnits(iBarbarian, (0, 0), (62, 59), con.un('archer'), 1+iHandicap*2, iGameTurn, 10, 4, utils.outerInvasion, 0)
+			self.spawnUnits(iBarbarian, (0, 0), (62, 59), con.un('warrior'), 1+iHandicap*2, iGameTurn, 10, 4, utils.outerInvasion, 0)
 
 		#Barbarian handicap
 		if (iGameTurn >= con.i1000BC and iGameTurn <= con.i500BC):
@@ -281,7 +281,7 @@ class Barbs:
 		#Egyptian Old Kingdom
 		if (iGameTurn >= con.i2686BC and iGameTurn <= con.i2540BC):
 			if (gc.getPlayer(con.iEgypt).isAlive()):
-				self.spawnUnits(iEgypt, (29, 7), (31, 9), con.un('archer'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
+				self.spawnUnits(iEgypt, (29, 7), (31, 9), con.un('warrior'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 
 		#Egypt 1st Intermediary Period
 		if (iGameTurn >= con.i2180BC and iGameTurn <= con.i1990BC):
@@ -290,7 +290,7 @@ class Barbs:
 		#Egyptian Middle Kingdom
 		if (iGameTurn >= con.i2055BC and iGameTurn <= con.i1990BC):
 			if (gc.getPlayer(con.iEgypt).isAlive()):
-				self.spawnUnits(iEgypt, (29, 7), (32, 10), con.un('archer'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
+				self.spawnUnits(iEgypt, (29, 7), (32, 10), con.un('warrior'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 				self.spawnUnits(iEgypt, (29, 7), (32, 10), con.un('settler'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 
 		#Aryans
@@ -315,7 +315,7 @@ class Barbs:
 		#Egyptian New Kingdom
 		if (iGameTurn >= con.i1550BC and iGameTurn <= con.i1500BC):
 			if (gc.getPlayer(con.iEgypt).isAlive()):
-				self.spawnUnits(iEgypt, (29, 7), (32, 11), con.un('archer'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
+				self.spawnUnits(iEgypt, (29, 7), (32, 11), con.un('warrior'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 				self.spawnUnits(iEgypt, (29, 7), (32, 11), con.un('settler'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 				self.spawnUnits(iEgypt, (29, 7), (32, 11), con.un('egypt_warchariot'), 1, iGameTurn, 4, 0, utils.inTerritoryInvasion, 0)
 
