@@ -1036,7 +1036,7 @@ tFeedUnits = [
 
 def getFeedUnits(civ):
 	for i in range(len(tFeedUnits)):
-		if tFeedUnits[i][0] is civ:
+		if tFeedUnits[i][0] == civ:
 			return un(tFeedUnits[i][1])
 	return 0
 

@@ -2101,7 +2101,7 @@ class RiseAndFall:
 
 		#bluepotato: adopted from RFCCW
 		#immobilize all units exceept 1 settler to prevent wandering before the flip
-		if iCiv is not utils.getHumanID():
+		if iCiv != utils.getHumanID():
 			bSettler = False
 			plot = gc.getMap().plot(tPlot[0], tPlot[1])
 			iNumUnitsInAPlot = plot.getNumUnits()
@@ -2112,7 +2112,7 @@ class RiseAndFall:
 						unitType = unit.getUnitType()
 						if (unitType == con.un('settler') or unitType == con.un('harappan_city_builder')) and not bSettler:
 							bSettler = True
-						elif unit.getUnitAIType() is not UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
+						elif unit.getUnitAIType() != UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
 							unit.setImmobileTimer(2)
 
 	def addMissionary(self, iCiv, tTopLeft, tBottomRight, tPlot, iNumber):

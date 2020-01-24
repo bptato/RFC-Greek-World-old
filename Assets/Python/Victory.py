@@ -184,9 +184,9 @@ class Victory:
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['lGoals'][i][j] = iNewValue
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
-		if iNewValue is 0:
+		if iNewValue == 0:
 			return
-		if self.getGoal(i, 0) is 1 and self.getGoal(i, 1) is 1 and self.getGoal(i, 2) is 1:
+		if self.getGoal(i, 0) == 1 and self.getGoal(i, 1) == 1 and self.getGoal(i, 2) == 1:
 			if gc.getGame().getWinner() == -1:
 				gc.getGame().setWinner(i, 7)
 
@@ -507,17 +507,17 @@ class Victory:
 				if (iGameTurn == i1000BC):
 					if (self.getGoal(iIndusValley, 2) == -1): #see onCityAcquired()
 						self.setGoal(iIndusValley, 2, 1)
-		elif iPlayer is iElam and iGameTurn <= i1000BC:
+		elif iPlayer == iElam and iGameTurn <= i1000BC:
 			if pElam.isAlive():
 				if iGameTurn < i1900BC:
 					if pElam.canContact(iIndusValley) and pElam.canTradeNetworkWith(iIndusValley):
 						self.setGoal(iElam, 1, 1)
-				elif iGameTurn is i1900BC and self.getGoal(iElam, 1) is -1:
+				elif iGameTurn == i1900BC and self.getGoal(iElam, 1) == -1:
 					self.setGoal(iElam, 1, 0)
-				elif iGameTurn < i1500BC and self.getGoal(iElam, 2) is -1:
+				elif iGameTurn < i1500BC and self.getGoal(iElam, 2) == -1:
 					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
 						self.setGoal(iElam, 2, 1)
-				elif iGameTurn is i1500BC and self.getGoal(iElam, 2) is -1:
+				elif iGameTurn == i1500BC and self.getGoal(iElam, 2) == -1:
 					if self.checkOwnedArea(iElam, tIranTL, tIranBR, 5):
 						self.setGoal(iElam, 2, 1)
 					else:
@@ -599,13 +599,13 @@ class Victory:
 						self.setGoal(iPhoenicia, 2, 1)
 					else:
 						self.setGoal(iPhoenicia, 2, 0)
-		elif iPlayer is iBabylonia and pBabylonia.isAlive() and iGameTurn <= i600BC:
+		elif iPlayer == iBabylonia and pBabylonia.isAlive() and iGameTurn <= i600BC:
 			if iGameTurn < i1000BC:
 				babylonPlot = gc.getMap().plot(46, 22)
 				if babylonPlot.isCity():
 					if babylonPlot.getPlotCity().getNumWorldWonders() >= 6:
 						self.setGoal(iBabylonia, 0, 1)
-			elif iGameTurn is i1000BC:
+			elif iGameTurn == i1000BC:
 				if not babylonPlot.isCity() or babylonPlot.getPlotCity().getNumWorldWonders() < 6:
 					self.setGoal(iBabylon, 0, 0)
 				else:
@@ -613,18 +613,18 @@ class Victory:
 			elif iGameTurn < i600BC:
 				if self.getBabyloniaKilledCivs() >= 3:
 					self.setGoal(iBabylonia, 2, 1)
-			elif iGameTurn is i600BC:
+			elif iGameTurn == i600BC:
 				if self.getBabyloniaKilledCivs() < 3:
 					self.setGoal(iBabylonia, 2, 0)
 				else:
 					self.setGoal(iBabylonia, 2, 1)
-		elif iPlayer is iHittites:
-			if self.getGoal(iHittites, 0) is -1 and iGameTurn > i1400BC:
+		elif iPlayer == iHittites:
+			if self.getGoal(iHittites, 0) == -1 and iGameTurn > i1400BC:
 				self.setGoal(iHittites, 0, 0)
-			if iGameTurn is i1300BC:
+			if iGameTurn == i1300BC:
 				result = True
 				for i in range(con.iNumPlayers):
-					if i is not iHittites:
+					if i != iHittites:
 						if self.checkOwnedArea(i, tLevantTL, tLevantBR, 1):
 							result = False
 					else:
@@ -634,7 +634,7 @@ class Victory:
 			elif iGameTurn < i1200BC: 
 				if self.getHittiteKilledUnits() >= 15:
 					self.setGoal(iHittites, 2, 1)
-			if self.getGoal(iHittites, 2) is -1 and iGameTurn > i1200BC:
+			if self.getGoal(iHittites, 2) == -1 and iGameTurn > i1200BC:
 				self.setGoal(iHittites, 2, 0)
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
@@ -662,14 +662,14 @@ class Victory:
 		cityX = city.getX()
 		cityY = city.getY()
 		
-		if self.getGoal(iElam, 0) is -1 and cityX is 46 and cityY is 19: #Ur captured by Elam
-			if attacker is iElam:
+		if self.getGoal(iElam, 0) == -1 and cityX == 46 and cityY == 19: #Ur captured by Elam
+			if attacker == iElam:
 				self.setGoal(iElam, 0, 1)
 			else:
 				self.setGoal(iElam, 0, 0)
 		
-		if self.getGoal(iHittites, 0) is -1 and cityX is 46 and cityY is 22: #Babylon captured by Hittites
-			if attacker is iHittites:
+		if self.getGoal(iHittites, 0) == -1 and cityX == 46 and cityY == 22: #Babylon captured by Hittites
+			if attacker == iHittites:
 				self.setGoal(iHittites, 0, 1)
 
 		if (owner == iIndusValley):
@@ -679,8 +679,8 @@ class Victory:
 						if (iGameTurn <= i1000BC):
 							if (attacker == iBarbarian):
 								self.setGoal(iIndusValley, 2, 0)
-		if attacker is iBabylonia:
-			if gc.getPlayer(owner).getNumCities() is 0:
+		if attacker == iBabylonia:
+			if gc.getPlayer(owner).getNumCities() == 0:
 				self.setBabyloniaKilledCivs(self.getBabyloniaKilledCivs()+1)
 			else:
 				print "cities: " + str(gc.getPlayer(owner).getNumCities())
@@ -689,8 +689,8 @@ class Victory:
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
 			return
 
-		if self.getGoal(iElam, 0) is -1 and city.getX() is 46 and city.getY() is 19: #Ur captured by Elam
-			if conqueror is iElam:
+		if self.getGoal(iElam, 0) == -1 and city.getX() == 46 and city.getY() == 19: #Ur captured by Elam
+			if conqueror == iElam:
 				self.setGoal(iElam, 0, 1)
 			else:
 				self.setGoal(iElam, 0, 0)
@@ -726,13 +726,13 @@ class Victory:
 						self.setGoal(iSumeria, 0, 1)
 					elif (self.getSumerianTechs(0) == 0 or self.getSumerianTechs(1) == 0 or self.getSumerianTechs(2) == 0):
 						self.setGoal(iSumeria, 0, 0)
-		elif iPlayer is iBabylonia:
+		elif iPlayer == iBabylonia:
 			if pBabylonia.isAlive():
-				if self.getGoal(iBabylonia, 1) is -1:
-					if iTech is con.tn('code_of_laws'):
+				if self.getGoal(iBabylonia, 1) == -1:
+					if iTech == con.tn('code_of_laws'):
 						self.setGoal(iBabylonia, 1, 1)
 						for iCiv in range(iNumPlayers):
-							if iCiv is not iBabylonia:
+							if iCiv != iBabylonia:
 								if gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech):
 									self.setGoal(iBabylonia, 1, 0)
 									break
@@ -760,8 +760,8 @@ class Victory:
 		pLosingPlayer = gc.getPlayer(pLosingUnit.getOwner())
 		cLosingUnit = PyHelpers.PyInfo.UnitInfo(pLosingUnit.getUnitType())
 		iPlayer = pWinningPlayer.getID()
-		if iPlayer is iHittites:
-			if pWinningUnit.getUnitType() is con.un('hittite_huluganni'):
+		if iPlayer == iHittites:
+			if pWinningUnit.getUnitType() == con.un('hittite_huluganni'):
 				self.setHittiteKilledUnits(self.getHittiteKilledUnits() + 1)
 
 	def calculateTopCityCulture(self, x, y):
