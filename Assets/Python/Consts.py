@@ -681,9 +681,6 @@ tHire = (
 100,
 100) #Barbs
 
-
-
-#rnf. Some civs have a double entry, for a higher chance TODO: revise this
 lEnemyCivsOnSpawn = [
 [], #Egypt
 [], #Sumer
@@ -691,28 +688,28 @@ lEnemyCivsOnSpawn = [
 [iSumeria,iBabylonia,iAssyria,iPersia,iSassanid], #Elam
 [], #Minoa
 [], #Phoenicia
-[iIndependent,iIndependent,iIndependent2,iIndependent2,iSumeria,iSumeria,iEgypt,iEgypt,iPhoenicia,iPhoenicia], #Babylonia
-[iEgypt,iEgypt,iBabylonia,iBabylonia,iPhoenicia,iPhoenicia,iIndependent,iIndependent,iIndependent2,iIndependent2], #Hittites
-[iMinoa,iMinoa,iIndependent,iIndependent,iIndependent2,iIndependent2], #Mycenae
-[iIndependent,iIndependent,iIndependent2,iIndependent2,iSumeria,iSumeria,iEgypt,iEgypt,iPhoenicia,iPhoenicia,iBabylonia,iBabylonia], #Assyria
-[iEgypt,iEgypt,iPhoenicia,iPhoenicia], #Israel
-[iMycenae,iMycenae,iIndependent,iIndependent,iIndependent2,iIndependent2], #Athens
-[iMycenae,iMycenae,iIndependent,iIndependent,iIndependent2,iIndependent2], #Sparta
-[iAssyria,iAssyria], #Scythia
+[iIndependent,iIndependent2,iSumeria,iEgypt,iPhoenicia], #Babylonia
+[iEgypt,iBabylonia,iPhoenicia,iIndependent,iIndependent2,iSumeria], #Hittites
+[iMinoa,iIndependent,iIndependent2], #Mycenae
+[iIndependent,iIndependent2,iSumeria,iEgypt,iPhoenicia,iBabylonia], #Assyria
+[iEgypt,iPhoenicia], #Israel
+[iMycenae,iIndependent,iIndependent2], #Athens
+[iMycenae,iIndependent,iIndependent2], #Sparta
+[iAssyria], #Scythia
 [], #Carthage
-[iAthens,iAthens,iSparta,iSparta], #Celtia
-[iCeltia,iCeltia], #Etruria
-[iEgypt,iEgypt], #Nubia
-[iEgypt,iEgypt,iBabylonia,iBabylonia,iPhoenicia,iPhoenicia,iHittites,iHittites,iSumeria,iSumeria,iIndusValley,iIndusValley,iAthens,iAthens,iSparta,iSparta,iAssyria,iAssyria,iIndependent,iIndependent,iIndependent2,iIndependent2], #Persia
-[iEtruria,iEtruria, iCarthage, iCarthage,iCeltia,iCeltia,iIndependent,iIndependent,iIndependent2,iIndependent2,iAthens,iAthens,iSparta,iSparta], #Rome
-[iAthens,iAthens,iSparta,iSparta,iHittites,iHittites,iPersia,iPersia,iBabylonia,iBabylonia,iIsrael,iIsrael,iAssyria,iAssyria,iPhoenicia,iPhoenicia,iIndependent,iIndependent,iIndependent2,iIndependent2], #Macedonia
-[iPersia,iPersia,iIndusValley,iIndusValley], #India
-[iPersia,iPersia,iIndusValley,iIndusValley,iIndia,iIndia], #Bactria
-[iCarthage,iCarthage], #Numidia
-[iRome,iRome,iCeltia,iCeltia,iEtruria,iEtruria,iAthens,iAthens,iSparta,iSparta,iMacedonia,iMacedonia,iIndependent,iIndependent,iIndependent2,iIndependent2], #Germania
-[iBabylonia,iBabylonia,iSumeria,iSumeria,iIndusValley,iIndusValley,iAssyria,iAssyria,iRome,iRome,iPersia,iPersia,iIndependent,iIndependent,iIndependent2,iIndependent2], #Sassanids
-[iGermania,iGermania,iPersia,iPersia,iAthens,iAthens,iSparta,iSparta,iMacedonia,iMacedonia,iSassanid,iSassanid,iIndependent,iIndependent,iIndependent2,iIndependent2], #Byzantium
-[iEgypt,iEgypt,iBabylonia,iBabylonia,iPhoenicia,iPhoenicia,iHittites,iHittites,iSumeria,iSumeria,iIndusValley,iIndusValley,iAthens,iAthens,iSparta,iSparta,iAssyria,iAssyria,iRome,iRome,iByzantium,iByzantium,iCeltia,iCeltia,iIndependent,iIndependent,iIndependent2,iIndependent2], #Huns
+[iAthens,iSparta], #Celtia
+[iCeltia], #Etruria
+[iEgypt], #Nubia
+[iEgypt,iBabylonia,iPhoenicia,iHittites,iSumeria,iIndusValley,iAthens,iSparta,iAssyria,iIndependent,iIndependent2], #Persia
+[iEtruria,iCarthage,iCeltia,iIndependent,iIndependent2,iAthens,iSparta], #Rome
+[iAthens,iSparta,iHittites,iPersia,iBabylonia,iIsrael,iAssyria,iPhoenicia,iIndependent,iIndependent2], #Macedonia
+[iPersia,iIndusValley], #India
+[iPersia,iIndusValley,iIndia], #Bactria
+[iCarthage], #Numidia
+[iRome,iCeltia,iEtruria,iAthens,iSparta,iMacedonia,iIndependent,iIndependent2], #Germania
+[iBabylonia,iSumeria,iIndusValley,iAssyria,iRome,iPersia,iIndependent,iIndependent2], #Sassanids
+[iGermania,iPersia,iAthens,iSparta,iMacedonia,iSassanid,iIndependent,iIndependent2], #Byzantium
+[iEgypt,iBabylonia,iPhoenicia,iHittites,iSumeria,iIndusValley,iAthens,iSparta,iAssyria,iRome,iByzantium,iCeltia,iIndependent,iIndependent2], #Huns
 ]
 
 

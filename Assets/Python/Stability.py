@@ -256,7 +256,11 @@ class Stability:
 
 
 
-
+		if iGameTurn > con.i1200BC and iGameTurn < con.i1000BC: #bronze age collapse
+			for i in range(iNumPlayers):
+				if (gc.getPlayer(i).isAlive()):
+					self.setStability(i, self.getStability(i) - gc.getGame().getSorenRandNum(2, 'bronze age collapse'))
+		
 		if (iGameTurn > con.i1000BC and gc.getPlayer(0).isPlayable() and iGameTurn % 20 == 15): #RFGW
 		#if (iGameTurn > 0): #debug
 			self.continentsNormalization(iGameTurn)
