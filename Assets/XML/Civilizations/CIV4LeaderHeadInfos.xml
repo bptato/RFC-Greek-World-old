@@ -103,18 +103,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -129,22 +117,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -155,18 +127,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -181,22 +141,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -636,18 +580,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -662,22 +594,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -688,18 +604,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -714,22 +618,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -1176,22 +1064,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -1206,22 +1078,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -1232,18 +1088,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -1258,22 +1102,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -1717,18 +1545,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -1743,22 +1559,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -1769,18 +1569,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -1795,22 +1583,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -2259,18 +2031,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -2285,22 +2045,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_BRENNUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -2311,18 +2055,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -2337,22 +2069,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -2805,18 +2521,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -2831,22 +2535,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_BRENNUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_BRENNUS_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -2857,18 +2545,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -2883,22 +2559,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -3350,20 +3010,6 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
@@ -3374,26 +3020,10 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
@@ -3406,18 +3036,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -3432,22 +3050,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -3895,20 +3497,6 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
@@ -3919,26 +3507,10 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
@@ -3951,18 +3523,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -3977,22 +3537,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -4436,18 +3980,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -4462,22 +3994,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_GILGAMESH_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_GILGAMESH_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GILGAMESH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_GILGAMESH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_GILGAMESH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -4488,18 +4004,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -4514,22 +4018,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -4978,18 +4466,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -4998,26 +4474,10 @@
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HAMMURABI_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_HAMMURABI_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HAMMURABI_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HAMMURABI_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HAMMURABI_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HAMMURABI_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
 					<DiploScriptId>AS2D_DIPLO_HAMMURABI_LATE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
@@ -5030,18 +4490,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -5056,22 +4504,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -5525,19 +4957,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -5552,22 +4971,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HANNIBAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -5578,18 +4981,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -5604,22 +4995,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -6061,22 +5436,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -6091,22 +5450,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -6117,18 +5460,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -6143,22 +5474,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -6602,18 +5917,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -6628,22 +5931,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CAESAR_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CAESAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -6654,18 +5941,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -6680,22 +5955,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -7139,18 +6398,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -7165,22 +6412,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_JUSTINIANI_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -7191,18 +6422,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -7217,1110 +6436,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-			</DiplomacyMusicWar>
-		</LeaderHeadInfo>
-		<LeaderHeadInfo>
-			<Type>LEADER_KUBLAI_KHAN</Type>
-			<Description>TXT_KEY_LEADER_KUBLAI_KHAN</Description>
-			<Civilopedia>TXT_KEY_LEADER_KUBLAI_KHAN_PEDIA</Civilopedia>
-			<ArtDefineTag>ART_DEF_LEADER_KUBLAI_KHAN</ArtDefineTag>
-			<iWonderConstructRand>30</iWonderConstructRand>
-			<iBaseAttitude>0</iBaseAttitude>
-			<iBasePeaceWeight>1</iBasePeaceWeight>
-			<iPeaceWeightRand>3</iPeaceWeightRand>
-			<iWarmongerRespect>2</iWarmongerRespect>
-			<iEspionageWeight>100</iEspionageWeight>
-			<iRefuseToTalkWarThreshold>8</iRefuseToTalkWarThreshold>
-			<iNoTechTradeThreshold>10</iNoTechTradeThreshold>
-			<iTechTradeKnownPercent>30</iTechTradeKnownPercent>
-			<iMaxGoldTradePercent>5</iMaxGoldTradePercent>
-			<iMaxGoldPerTurnTradePercent>10</iMaxGoldPerTurnTradePercent>
-			<iMaxWarRand>100</iMaxWarRand>
-			<iMaxWarNearbyPowerRatio>90</iMaxWarNearbyPowerRatio>
-			<iMaxWarDistantPowerRatio>50</iMaxWarDistantPowerRatio>
-			<iMaxWarMinAdjacentLandPercent>1</iMaxWarMinAdjacentLandPercent>
-			<iLimitedWarRand>60</iLimitedWarRand>
-			<iLimitedWarPowerRatio>120</iLimitedWarPowerRatio>
-			<iDogpileWarRand>50</iDogpileWarRand>
-			<iMakePeaceRand>40</iMakePeaceRand>
-			<iDeclareWarTradeRand>40</iDeclareWarTradeRand>
-			<iDemandRebukedSneakProb>40</iDemandRebukedSneakProb>
-			<iDemandRebukedWarProb>10</iDemandRebukedWarProb>
-			<iRazeCityProb>25</iRazeCityProb>
-			<iBuildUnitProb>25</iBuildUnitProb>
-			<iBaseAttackOddsChange>0</iBaseAttackOddsChange>
-			<iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-			<iWorseRankDifferenceAttitudeChange>0</iWorseRankDifferenceAttitudeChange>
-			<iBetterRankDifferenceAttitudeChange>3</iBetterRankDifferenceAttitudeChange>
-			<iCloseBordersAttitudeChange>-3</iCloseBordersAttitudeChange>
-			<iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
-			<iAtWarAttitudeDivisor>-5</iAtWarAttitudeDivisor>
-			<iAtWarAttitudeChangeLimit>5</iAtWarAttitudeChangeLimit>
-			<iAtPeaceAttitudeDivisor>60</iAtPeaceAttitudeDivisor>
-			<iAtPeaceAttitudeChangeLimit>1</iAtPeaceAttitudeChangeLimit>
-			<iSameReligionAttitudeChange>1</iSameReligionAttitudeChange>
-			<iSameReligionAttitudeDivisor>10</iSameReligionAttitudeDivisor>
-			<iSameReligionAttitudeChangeLimit>4</iSameReligionAttitudeChangeLimit>
-			<iDifferentReligionAttitudeChange>0</iDifferentReligionAttitudeChange>
-			<iDifferentReligionAttitudeDivisor>-5</iDifferentReligionAttitudeDivisor>
-			<iDifferentReligionAttitudeChangeLimit>-1</iDifferentReligionAttitudeChangeLimit>
-			<iBonusTradeAttitudeDivisor>50</iBonusTradeAttitudeDivisor>
-			<iBonusTradeAttitudeChangeLimit>2</iBonusTradeAttitudeChangeLimit>
-			<iOpenBordersAttitudeDivisor>25</iOpenBordersAttitudeDivisor>
-			<iOpenBordersAttitudeChangeLimit>2</iOpenBordersAttitudeChangeLimit>
-			<iDefensivePactAttitudeDivisor>12</iDefensivePactAttitudeDivisor>
-			<iDefensivePactAttitudeChangeLimit>2</iDefensivePactAttitudeChangeLimit>
-			<iShareWarAttitudeChange>1</iShareWarAttitudeChange>
-			<iShareWarAttitudeDivisor>8</iShareWarAttitudeDivisor>
-			<iShareWarAttitudeChangeLimit>3</iShareWarAttitudeChangeLimit>
-			<iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
-			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-			<iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
-			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
-			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
-			<TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
-			<StrategicBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StrategicBonusRefuseAttitudeThreshold>
-			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
-			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
-			<MapRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
-			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
-			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
-			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
-			<DefensivePactRefuseAttitudeThreshold>ATTITUDE_PLEASED</DefensivePactRefuseAttitudeThreshold>
-			<PermanentAllianceRefuseAttitudeThreshold>ATTITUDE_PLEASED</PermanentAllianceRefuseAttitudeThreshold>
-			<VassalRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</VassalRefuseAttitudeThreshold>
-			<iVassalPowerModifier>0</iVassalPowerModifier>
-			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_BUREAUCRACY</FavoriteCivic>
-			<FavoriteReligion>RELIGION_BUDDHISM</FavoriteReligion>
-			<Traits/>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_MILITARY</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_CULTURE</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-			</Flavors>
-			<ContactRands>
-				<ContactRand>
-					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
-					<iContactRand>500</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-					<iContactRand>250</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_JOIN_WAR</ContactType>
-					<iContactRand>10</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_STOP_TRADING</ContactType>
-					<iContactRand>50</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_GIVE_HELP</ContactType>
-					<iContactRand>100</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_ASK_FOR_HELP</ContactType>
-					<iContactRand>100</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_DEMAND_TRIBUTE</ContactType>
-					<iContactRand>500</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_OPEN_BORDERS</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_DEFENSIVE_PACT</ContactType>
-					<iContactRand>80</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_PERMANENT_ALLIANCE</ContactType>
-					<iContactRand>80</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_PEACE_TREATY</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_TECH</ContactType>
-					<iContactRand>5</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_BONUS</ContactType>
-					<iContactRand>5</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_MAP</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-			</ContactRands>
-			<ContactDelays>
-				<ContactDelay>
-					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_JOIN_WAR</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_STOP_TRADING</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_GIVE_HELP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_ASK_FOR_HELP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_DEMAND_TRIBUTE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_OPEN_BORDERS</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_DEFENSIVE_PACT</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_PERMANENT_ALLIANCE</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_PEACE_TREATY</ContactType>
-					<iContactDelay>10</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_TECH</ContactType>
-					<iContactDelay>30</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_BONUS</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_MAP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-			</ContactDelays>
-			<MemoryDecays>
-				<MemoryDecay>
-					<MemoryType>MEMORY_GIVE_HELP</MemoryType>
-					<iMemoryRand>200</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_REFUSED_HELP</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPT_DEMAND</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_REJECTED_DEMAND</MemoryType>
-					<iMemoryRand>150</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_RELIGION</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_RELIGION</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_CIVIC</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_CIVIC</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_JOIN_WAR</MemoryType>
-					<iMemoryRand>150</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_JOIN_WAR</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_STOP_TRADING</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_STOP_TRADING</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_STOPPED_TRADING_RECENT</MemoryType>
-					<iMemoryRand>30</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_MADE_DEMAND_RECENT</MemoryType>
-					<iMemoryRand>20</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_CANCELLED_OPEN_BORDERS</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_TRADED_TECH_TO_US</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_RECEIVED_TECH_FROM_ANY</MemoryType>
-					<iMemoryRand>20</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_VOTED_AGAINST_US</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_VOTED_FOR_US</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_EVENT_GOOD_TO_US</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_EVENT_BAD_TO_US</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-			</MemoryDecays>
-			<MemoryAttitudePercents>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DECLARED_WAR</MemoryType>
-					<iMemoryAttitudePercent>-300</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DECLARED_WAR_ON_FRIEND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_HIRED_WAR_ALLY</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_NUKED_US</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_NUKED_FRIEND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_RAZED_CITY</MemoryType>
-					<iMemoryAttitudePercent>-250</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_RAZED_HOLY_CITY</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_SPY_CAUGHT</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_GIVE_HELP</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_REFUSED_HELP</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPT_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_REJECTED_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_RELIGION</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_RELIGION</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_CIVIC</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_CIVIC</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_JOIN_WAR</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_STOP_TRADING</MemoryType>
-					<iMemoryAttitudePercent>50</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_STOP_TRADING</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_STOPPED_TRADING</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_HIRED_TRADE_EMBARGO</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_MADE_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_TRADED_TECH_TO_US</MemoryType>
-					<iMemoryAttitudePercent>15</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_VOTED_AGAINST_US</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_VOTED_FOR_US</MemoryType>
-					<iMemoryAttitudePercent>200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_EVENT_GOOD_TO_US</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_EVENT_BAD_TO_US</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_LIBERATED_CITIES</MemoryType>
-					<iMemoryAttitudePercent>150</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-			</MemoryAttitudePercents>
-			<NoWarAttitudeProbs>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-					<iNoWarProb>10</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-					<iNoWarProb>50</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-					<iNoWarProb>90</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-					<iNoWarProb>100</iNoWarProb>
-				</NoWarAttitudeProb>
-			</NoWarAttitudeProbs>
-			<UnitAIWeightModifiers>
-				<UnitAIWeightModifier>
-					<UnitAIType>UNITAI_ATTACK_CITY</UnitAIType>
-					<iWeightModifier>100</iWeightModifier>
-				</UnitAIWeightModifier>
-			</UnitAIWeightModifiers>
-			<ImprovementWeightModifiers/>
-			<DiplomacyIntroMusicPeace>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-			</DiplomacyIntroMusicPeace>
-			<DiplomacyMusicPeace>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_EARLY_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_KUBLAIKHAN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-			</DiplomacyMusicPeace>
-			<DiplomacyIntroMusicWar>
-				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_CLASSICAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicWarEra>
-			</DiplomacyIntroMusicWar>
-			<DiplomacyMusicWar>
-				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-			</DiplomacyMusicWar>
-		</LeaderHeadInfo>
-		<LeaderHeadInfo>
-			<Type>LEADER_LINCOLN</Type>
-			<Description>TXT_KEY_LEADER_LINCOLN</Description>
-			<Civilopedia>TXT_KEY_LEADER_LINCOLN_PEDIA</Civilopedia>
-			<ArtDefineTag>ART_DEF_LEADER_LINCOLN</ArtDefineTag>
-			<iWonderConstructRand>30</iWonderConstructRand>
-			<iBaseAttitude>1</iBaseAttitude>
-			<iBasePeaceWeight>9</iBasePeaceWeight>
-			<iPeaceWeightRand>3</iPeaceWeightRand>
-			<iWarmongerRespect>0</iWarmongerRespect>
-			<iEspionageWeight>110</iEspionageWeight>
-			<iRefuseToTalkWarThreshold>6</iRefuseToTalkWarThreshold>
-			<iNoTechTradeThreshold>10</iNoTechTradeThreshold>
-			<iTechTradeKnownPercent>30</iTechTradeKnownPercent>
-			<iMaxGoldTradePercent>10</iMaxGoldTradePercent>
-			<iMaxGoldPerTurnTradePercent>15</iMaxGoldPerTurnTradePercent>
-			<iMaxWarRand>300</iMaxWarRand>
-			<iMaxWarNearbyPowerRatio>90</iMaxWarNearbyPowerRatio>
-			<iMaxWarDistantPowerRatio>50</iMaxWarDistantPowerRatio>
-			<iMaxWarMinAdjacentLandPercent>2</iMaxWarMinAdjacentLandPercent>
-			<iLimitedWarRand>200</iLimitedWarRand>
-			<iLimitedWarPowerRatio>90</iLimitedWarPowerRatio>
-			<iDogpileWarRand>150</iDogpileWarRand>
-			<iMakePeaceRand>10</iMakePeaceRand>
-			<iDeclareWarTradeRand>40</iDeclareWarTradeRand>
-			<iDemandRebukedSneakProb>20</iDemandRebukedSneakProb>
-			<iDemandRebukedWarProb>0</iDemandRebukedWarProb>
-			<iRazeCityProb>0</iRazeCityProb>
-			<iBuildUnitProb>25</iBuildUnitProb>
-			<iBaseAttackOddsChange>0</iBaseAttackOddsChange>
-			<iAttackOddsChangeRand>8</iAttackOddsChangeRand>
-			<iWorseRankDifferenceAttitudeChange>-1</iWorseRankDifferenceAttitudeChange>
-			<iBetterRankDifferenceAttitudeChange>1</iBetterRankDifferenceAttitudeChange>
-			<iCloseBordersAttitudeChange>-2</iCloseBordersAttitudeChange>
-			<iLostWarAttitudeChange>-1</iLostWarAttitudeChange>
-			<iAtWarAttitudeDivisor>-5</iAtWarAttitudeDivisor>
-			<iAtWarAttitudeChangeLimit>5</iAtWarAttitudeChangeLimit>
-			<iAtPeaceAttitudeDivisor>60</iAtPeaceAttitudeDivisor>
-			<iAtPeaceAttitudeChangeLimit>1</iAtPeaceAttitudeChangeLimit>
-			<iSameReligionAttitudeChange>1</iSameReligionAttitudeChange>
-			<iSameReligionAttitudeDivisor>10</iSameReligionAttitudeDivisor>
-			<iSameReligionAttitudeChangeLimit>2</iSameReligionAttitudeChangeLimit>
-			<iDifferentReligionAttitudeChange>0</iDifferentReligionAttitudeChange>
-			<iDifferentReligionAttitudeDivisor>-5</iDifferentReligionAttitudeDivisor>
-			<iDifferentReligionAttitudeChangeLimit>-1</iDifferentReligionAttitudeChangeLimit>
-			<iBonusTradeAttitudeDivisor>50</iBonusTradeAttitudeDivisor>
-			<iBonusTradeAttitudeChangeLimit>2</iBonusTradeAttitudeChangeLimit>
-			<iOpenBordersAttitudeDivisor>25</iOpenBordersAttitudeDivisor>
-			<iOpenBordersAttitudeChangeLimit>2</iOpenBordersAttitudeChangeLimit>
-			<iDefensivePactAttitudeDivisor>12</iDefensivePactAttitudeDivisor>
-			<iDefensivePactAttitudeChangeLimit>2</iDefensivePactAttitudeChangeLimit>
-			<iShareWarAttitudeChange>1</iShareWarAttitudeChange>
-			<iShareWarAttitudeDivisor>8</iShareWarAttitudeDivisor>
-			<iShareWarAttitudeChangeLimit>4</iShareWarAttitudeChangeLimit>
-			<iFavoriteCivicAttitudeChange>1</iFavoriteCivicAttitudeChange>
-			<iFavoriteCivicAttitudeDivisor>10</iFavoriteCivicAttitudeDivisor>
-			<iFavoriteCivicAttitudeChangeLimit>4</iFavoriteCivicAttitudeChangeLimit>
-			<DemandTributeAttitudeThreshold>ATTITUDE_CAUTIOUS</DemandTributeAttitudeThreshold>
-			<NoGiveHelpAttitudeThreshold>ATTITUDE_CAUTIOUS</NoGiveHelpAttitudeThreshold>
-			<TechRefuseAttitudeThreshold>ATTITUDE_FURIOUS</TechRefuseAttitudeThreshold>
-			<StrategicBonusRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StrategicBonusRefuseAttitudeThreshold>
-			<HappinessBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HappinessBonusRefuseAttitudeThreshold>
-			<HealthBonusRefuseAttitudeThreshold>ATTITUDE_ANNOYED</HealthBonusRefuseAttitudeThreshold>
-			<MapRefuseAttitudeThreshold>ATTITUDE_ANNOYED</MapRefuseAttitudeThreshold>
-			<DeclareWarRefuseAttitudeThreshold>ATTITUDE_PLEASED</DeclareWarRefuseAttitudeThreshold>
-			<DeclareWarThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</DeclareWarThemRefuseAttitudeThreshold>
-			<StopTradingRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</StopTradingRefuseAttitudeThreshold>
-			<StopTradingThemRefuseAttitudeThreshold>ATTITUDE_ANNOYED</StopTradingThemRefuseAttitudeThreshold>
-			<AdoptCivicRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</AdoptCivicRefuseAttitudeThreshold>
-			<ConvertReligionRefuseAttitudeThreshold>ATTITUDE_CAUTIOUS</ConvertReligionRefuseAttitudeThreshold>
-			<OpenBordersRefuseAttitudeThreshold>ATTITUDE_ANNOYED</OpenBordersRefuseAttitudeThreshold>
-			<DefensivePactRefuseAttitudeThreshold>ATTITUDE_PLEASED</DefensivePactRefuseAttitudeThreshold>
-			<PermanentAllianceRefuseAttitudeThreshold>ATTITUDE_PLEASED</PermanentAllianceRefuseAttitudeThreshold>
-			<VassalRefuseAttitudeThreshold>ATTITUDE_PLEASED</VassalRefuseAttitudeThreshold>
-			<iVassalPowerModifier>0</iVassalPowerModifier>
-			<iFreedomAppreciation>10</iFreedomAppreciation>
-			<FavoriteCivic>CIVIC_EMANCIPATION</FavoriteCivic>
-			<FavoriteReligion>RELIGION_CHRISTIANITY</FavoriteReligion>
-			<Traits/>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_SCIENCE</FlavorType>
-					<iFlavor>5</iFlavor>
-				</Flavor>
-				<Flavor>
-					<FlavorType>FLAVOR_GROWTH</FlavorType>
-					<iFlavor>2</iFlavor>
-				</Flavor>
-			</Flavors>
-			<ContactRands>
-				<ContactRand>
-					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
-					<iContactRand>250</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-					<iContactRand>250</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_JOIN_WAR</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_STOP_TRADING</ContactType>
-					<iContactRand>50</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_GIVE_HELP</ContactType>
-					<iContactRand>100</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_ASK_FOR_HELP</ContactType>
-					<iContactRand>250</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_DEMAND_TRIBUTE</ContactType>
-					<iContactRand>1000</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_OPEN_BORDERS</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_DEFENSIVE_PACT</ContactType>
-					<iContactRand>80</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_PERMANENT_ALLIANCE</ContactType>
-					<iContactRand>80</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_PEACE_TREATY</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_TECH</ContactType>
-					<iContactRand>5</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_BONUS</ContactType>
-					<iContactRand>5</iContactRand>
-				</ContactRand>
-				<ContactRand>
-					<ContactType>CONTACT_TRADE_MAP</ContactType>
-					<iContactRand>20</iContactRand>
-				</ContactRand>
-			</ContactRands>
-			<ContactDelays>
-				<ContactDelay>
-					<ContactType>CONTACT_RELIGION_PRESSURE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_CIVIC_PRESSURE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_JOIN_WAR</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_STOP_TRADING</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_GIVE_HELP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_ASK_FOR_HELP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_DEMAND_TRIBUTE</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_OPEN_BORDERS</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_DEFENSIVE_PACT</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_PERMANENT_ALLIANCE</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_PEACE_TREATY</ContactType>
-					<iContactDelay>10</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_TECH</ContactType>
-					<iContactDelay>30</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_BONUS</ContactType>
-					<iContactDelay>20</iContactDelay>
-				</ContactDelay>
-				<ContactDelay>
-					<ContactType>CONTACT_TRADE_MAP</ContactType>
-					<iContactDelay>50</iContactDelay>
-				</ContactDelay>
-			</ContactDelays>
-			<MemoryDecays>
-				<MemoryDecay>
-					<MemoryType>MEMORY_GIVE_HELP</MemoryType>
-					<iMemoryRand>200</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_REFUSED_HELP</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPT_DEMAND</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_REJECTED_DEMAND</MemoryType>
-					<iMemoryRand>150</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_RELIGION</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_RELIGION</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_CIVIC</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_CIVIC</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_JOIN_WAR</MemoryType>
-					<iMemoryRand>150</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_JOIN_WAR</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_ACCEPTED_STOP_TRADING</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_DENIED_STOP_TRADING</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_STOPPED_TRADING_RECENT</MemoryType>
-					<iMemoryRand>30</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_MADE_DEMAND_RECENT</MemoryType>
-					<iMemoryRand>20</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_CANCELLED_OPEN_BORDERS</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_TRADED_TECH_TO_US</MemoryType>
-					<iMemoryRand>100</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_RECEIVED_TECH_FROM_ANY</MemoryType>
-					<iMemoryRand>20</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_VOTED_AGAINST_US</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_VOTED_FOR_US</MemoryType>
-					<iMemoryRand>10</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_EVENT_GOOD_TO_US</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-				<MemoryDecay>
-					<MemoryType>MEMORY_EVENT_BAD_TO_US</MemoryType>
-					<iMemoryRand>50</iMemoryRand>
-				</MemoryDecay>
-			</MemoryDecays>
-			<MemoryAttitudePercents>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DECLARED_WAR</MemoryType>
-					<iMemoryAttitudePercent>-300</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DECLARED_WAR_ON_FRIEND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_HIRED_WAR_ALLY</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_NUKED_US</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_NUKED_FRIEND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_RAZED_CITY</MemoryType>
-					<iMemoryAttitudePercent>-250</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_RAZED_HOLY_CITY</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_SPY_CAUGHT</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_GIVE_HELP</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_REFUSED_HELP</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPT_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_REJECTED_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_RELIGION</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_RELIGION</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_CIVIC</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_CIVIC</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_JOIN_WAR</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_ACCEPTED_STOP_TRADING</MemoryType>
-					<iMemoryAttitudePercent>50</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_DENIED_STOP_TRADING</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_STOPPED_TRADING</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_HIRED_TRADE_EMBARGO</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_MADE_DEMAND</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_TRADED_TECH_TO_US</MemoryType>
-					<iMemoryAttitudePercent>15</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_VOTED_AGAINST_US</MemoryType>
-					<iMemoryAttitudePercent>-200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_VOTED_FOR_US</MemoryType>
-					<iMemoryAttitudePercent>200</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_EVENT_GOOD_TO_US</MemoryType>
-					<iMemoryAttitudePercent>100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_EVENT_BAD_TO_US</MemoryType>
-					<iMemoryAttitudePercent>-100</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-				<MemoryAttitudePercent>
-					<MemoryType>MEMORY_LIBERATED_CITIES</MemoryType>
-					<iMemoryAttitudePercent>150</iMemoryAttitudePercent>
-				</MemoryAttitudePercent>
-			</MemoryAttitudePercents>
-			<NoWarAttitudeProbs>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-					<iNoWarProb>40</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-					<iNoWarProb>80</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-					<iNoWarProb>100</iNoWarProb>
-				</NoWarAttitudeProb>
-				<NoWarAttitudeProb>
-					<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-					<iNoWarProb>100</iNoWarProb>
-				</NoWarAttitudeProb>
-			</NoWarAttitudeProbs>
-			<UnitAIWeightModifiers>
-				<UnitAIWeightModifier>
-					<UnitAIType>UNITAI_CITY_COUNTER</UnitAIType>
-					<iWeightModifier>100</iWeightModifier>
-				</UnitAIWeightModifier>
-			</UnitAIWeightModifiers>
-			<ImprovementWeightModifiers>
-				<ImprovementWeightModifier>
-					<ImprovementType>IMPROVEMENT_TOWN</ImprovementType>
-					<iWeightModifier>20</iWeightModifier>
-				</ImprovementWeightModifier>
-				<ImprovementWeightModifier>
-					<ImprovementType>IMPROVEMENT_WINDMILL</ImprovementType>
-					<iWeightModifier>20</iWeightModifier>
-				</ImprovementWeightModifier>
-			</ImprovementWeightModifiers>
-			<DiplomacyIntroMusicPeace>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_CLASSICAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
-			</DiplomacyIntroMusicPeace>
-			<DiplomacyMusicPeace>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_EARLY</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_EARLY</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_LINCOLN_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-			</DiplomacyMusicPeace>
-			<DiplomacyIntroMusicWar>
-				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_CLASSICAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicWarEra>
-			</DiplomacyIntroMusicWar>
-			<DiplomacyMusicWar>
-				<DiploMusicWarEra>
-					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_EARLY</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -8773,18 +6888,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -8799,22 +6902,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -8825,18 +6912,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -8851,22 +6926,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -9322,22 +7381,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -9352,22 +7395,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_PETER_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_PETER_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -9378,18 +7405,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -9404,22 +7419,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -9866,22 +7865,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -9896,22 +7879,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -9922,18 +7889,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -9948,22 +7903,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -10405,19 +8344,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -10432,22 +8358,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_SHAKA_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SHAKA_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_SHAKA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_SHAKA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SHAKA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -10458,18 +8368,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -10484,22 +8382,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -10943,18 +8825,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -10969,22 +8839,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -10995,18 +8849,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -11021,22 +8863,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -11489,47 +9315,19 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_NAPOLEON_LATE</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_CHARLEMAGNE_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
@@ -11541,18 +9339,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -11567,22 +9353,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -12015,59 +9785,26 @@
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ATTILA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_EARLY_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ATTILA_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_GENGHISKHAN_LATE_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ATTILA_LATE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
@@ -12079,18 +9816,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -12105,22 +9830,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -12573,18 +10282,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -12599,22 +10296,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ELIZABETH_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ELIZABETH_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ELIZABETH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ELIZABETH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ELIZABETH_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -12625,18 +10306,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -12651,22 +10320,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -13120,19 +10773,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -13147,22 +10787,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HANNIBAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HANNIBAL_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -13173,18 +10797,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -13199,22 +10811,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -13656,19 +11252,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -13683,22 +11266,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_RAGNAR_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_RAGNAR_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -13709,18 +11276,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -13735,22 +11290,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -14203,18 +11742,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -14229,22 +11756,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MANSAMUSA_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -14255,18 +11766,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -14281,22 +11780,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -14738,22 +12221,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -14768,22 +12235,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -14794,18 +12245,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -14820,22 +12259,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -15275,18 +12698,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -15301,22 +12712,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -15327,18 +12722,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -15353,22 +12736,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -15820,22 +13187,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -15850,22 +13201,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_EARLY</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -15876,18 +13211,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -15902,22 +13225,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -16363,19 +13670,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -16390,22 +13684,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ALEXANDER_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -16416,18 +13694,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -16442,22 +13708,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -16904,22 +14154,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -16934,22 +14168,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_ASOKA_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -16960,18 +14178,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -16986,22 +14192,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -17453,22 +14643,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -17483,22 +14657,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -17509,18 +14667,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -17535,22 +14681,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -17989,22 +15119,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -18019,22 +15133,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -18045,18 +15143,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -18071,22 +15157,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -18556,19 +15626,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId/>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId/>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -18583,22 +15640,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_KHOSRAU_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_KHOSRAU_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_KHOSRAU_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_KHOSRAU_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_KHOSRAU_LATE</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -18609,18 +15650,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -18635,22 +15664,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -19097,22 +16110,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_MIDDLE_INTRO</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_MIDDLE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -19127,22 +16124,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_SALADIN_MIDDLE_LP</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_MIDDLE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_SALADIN_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -19153,18 +16134,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -19179,22 +16148,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>
@@ -19643,21 +16596,6 @@
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_INTRO</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
@@ -19672,22 +16610,6 @@
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_MIDDLE</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
-				<DiploMusicPeaceEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_CYRUS_LATE_LP</DiploScriptId>
-				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>
 				<DiploMusicWarEra>
@@ -19698,18 +16620,6 @@
 				</DiploMusicWarEra>
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
 				</DiploMusicWarEra>
 			</DiplomacyIntroMusicWar>
 			<DiplomacyMusicWar>
@@ -19724,22 +16634,6 @@
 				<DiploMusicWarEra>
 					<EraType>ERA_MEDIEVAL</EraType>
 					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_RENAISSANCE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_MIDDLE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_INDUSTRIAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_MODERN</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
-				</DiploMusicWarEra>
-				<DiploMusicWarEra>
-					<EraType>ERA_FUTURE</EraType>
-					<DiploScriptId>AS2D_DIPLO_WARDRUMS_LATE</DiploScriptId>
 				</DiploMusicWarEra>
 			</DiplomacyMusicWar>
 		</LeaderHeadInfo>

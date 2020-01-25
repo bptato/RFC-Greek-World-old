@@ -3070,25 +3070,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_KUBLAI_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_JULIUS_CAESAR</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>

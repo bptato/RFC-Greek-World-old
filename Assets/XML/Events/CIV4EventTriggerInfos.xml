@@ -118,22 +118,6 @@
 					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_ANCIENT_1</Text>
 					<Era>ERA_MEDIEVAL</Era>
 				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_ANCIENT_1</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_INDUSTRIAL_1</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_INDUSTRIAL_1</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_CITY_RUINS_INDUSTRIAL_1</Text>
-					<Era>ERA_FUTURE</Era>
-				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>0</bSinglePlayer>
 			<iPercentGamesActive>90</iPercentGamesActive>
@@ -2332,22 +2316,6 @@
 					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_2</Text>
 					<Era>ERA_MEDIEVAL</Era>
 				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_2</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_3</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_3</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_JOYOUS_WEDDING_3</Text>
-					<Era>ERA_FUTURE</Era>
-				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>1</bSinglePlayer>
 			<iPercentGamesActive>90</iPercentGamesActive>
@@ -2394,7 +2362,6 @@
 			<Events>
 				<Event>EVENT_JOYOUS_WEDDING_1</Event>
 				<Event>EVENT_JOYOUS_WEDDING_2</Event>
-				<Event>EVENT_JOYOUS_WEDDING_3</Event>
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
@@ -2437,22 +2404,6 @@
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_2</Text>
 					<Era>ERA_MEDIEVAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_2</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_3</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_3</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_WEDDING_FEUD_3</Text>
-					<Era>ERA_FUTURE</Era>
 				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>1</bSinglePlayer>
@@ -2543,22 +2494,6 @@
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_2</Text>
 					<Era>ERA_MEDIEVAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_2</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_3</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_3</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LEFT_AT_ALTAR_3</Text>
-					<Era>ERA_FUTURE</Era>
 				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>1</bSinglePlayer>
@@ -2737,22 +2672,6 @@
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_1</Text>
 					<Era>ERA_MEDIEVAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_2</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_2</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_3</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_TORNADO_3</Text>
-					<Era>ERA_FUTURE</Era>
 				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>0</bSinglePlayer>
@@ -3030,22 +2949,6 @@
 				<TriggerText>
 					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_1</Text>
 					<Era>ERA_MEDIEVAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_1</Text>
-					<Era>ERA_RENAISSANCE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_1</Text>
-					<Era>ERA_INDUSTRIAL</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_2</Text>
-					<Era>ERA_MODERN</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_LOOTERS_2</Text>
-					<Era>ERA_FUTURE</Era>
 				</TriggerText>
 			</TriggerTexts>
 			<bSinglePlayer>0</bSinglePlayer>
