@@ -2906,7 +2906,7 @@ BeginPlot
 EndPlot
 BeginPlot
 	x=8,y=21
-	TerrainType=TERRAIN_DESERT
+	TerrainType=TERRAIN_PLAINS
 	PlotType=1
 EndPlot
 BeginPlot
