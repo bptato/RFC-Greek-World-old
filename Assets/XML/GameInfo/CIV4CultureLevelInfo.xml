@@ -35,7 +35,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_FLEDGLING</Type>
 			<Description>TXT_KEY_CULTURELEVEL_FLEDGLING</Description>
-			<iCityDefenseModifier>20</iCityDefenseModifier>
+			<iCityDefenseModifier>10</iCityDefenseModifier>
 			<!-- Rhye - start -->
 			<SpeedThresholds>
 				<SpeedThreshold>
@@ -48,7 +48,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_DEVELOPING</Type>
 			<Description>TXT_KEY_CULTURELEVEL_DEVELOPING</Description>
-			<iCityDefenseModifier>40</iCityDefenseModifier>
+			<iCityDefenseModifier>20</iCityDefenseModifier>
 			<!-- Rhye - start -->
 			<SpeedThresholds>
 				<SpeedThreshold>
@@ -61,7 +61,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_REFINED</Type>
 			<Description>TXT_KEY_CULTURELEVEL_REFINED</Description>
-			<iCityDefenseModifier>60</iCityDefenseModifier>
+			<iCityDefenseModifier>30</iCityDefenseModifier>
 			<!-- Rhye - start -->
 			<SpeedThresholds>
 				<SpeedThreshold>
@@ -74,7 +74,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_INFLUENTIAL</Type>
 			<Description>TXT_KEY_CULTURELEVEL_INFLUENTIAL</Description>
-			<iCityDefenseModifier>80</iCityDefenseModifier>
+			<iCityDefenseModifier>40</iCityDefenseModifier>
 			<!-- Rhye - start -->
 			<SpeedThresholds>
 				<SpeedThreshold>
@@ -87,7 +87,7 @@
 		<CultureLevelInfo>
 			<Type>CULTURELEVEL_LEGENDARY</Type>
 			<Description>TXT_KEY_CULTURELEVEL_LEGENDARY</Description>
-			<iCityDefenseModifier>100</iCityDefenseModifier>
+			<iCityDefenseModifier>50</iCityDefenseModifier>
 			<!-- Rhye - start -->
 			<SpeedThresholds>
 				<SpeedThreshold>
