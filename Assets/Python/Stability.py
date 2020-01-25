@@ -448,12 +448,11 @@ class Stability:
 			
 			civicCompatibility = \
 			[
-			['tribal_federation', 'deification', 5],
 			['tribal_federation', 'vassalage', -5],
 			['tribal_federation', 'bureaucracy', -10],
 			['tribal_federation', 'empire', -15],
 			['tribal_federation', 'redistribution', -10],
-			['tribal_federation', 'tribalism', -10],
+			['tribal_federation', 'isolationism', 5],
 			['monarchy', 'redistribution', 10],
 			['oligarchy', 'slavery', 5],
 			['oligarchy', 'trade_economy', 10],
@@ -471,7 +470,8 @@ class Stability:
 			['temple_economy', 'theocracy', 5],
 			['tribal_custom', 'organized_religion', -10],
 			['tribal_custom', 'organized_religion', -10],
-			['empire', 'occupation', 5]
+			['empire', 'occupation', 5],
+			['vassalage', 'client_kingdoms', 5]
 			]
 
 			for compat in civicCompatibility:
