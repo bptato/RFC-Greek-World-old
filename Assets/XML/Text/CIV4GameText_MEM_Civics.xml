@@ -12,7 +12,7 @@
 		<Italian>Tribal Law</Italian>
 		<Spanish>Tribal Law</Spanish>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_OLIGARCHY</Tag>
 		<English>Oligarchy</English>
 	</TEXT>
@@ -177,12 +177,12 @@
 		<Spanish>[TAB]During the Islamic Golden Age, early forms of proto-capitalism and free markets were present in the Caliphate, where an early market economy and an early form of mercantilism were developed between the 8th-12th centuries, which some refer to as "Islamic capitalism". A vigorous monetary economy was created on the basis of the expanding levels of circulation of a stable, high-value currency (the dinar) and the integration of monetary areas that were previously independent.[PARAGRAPH:2]A number of economic concepts and techniques were applied in early Islamic banking, including bills of exchange, the first forms of partnership (mufawada) such as limited partnerships (mudaraba), and the earliest forms of capital (al-mal), capital accumulation (nama al-mal), cheques, promissory notes, trusts (waqf), transactional accounts, loaning, ledgers and assignments. Organizational enterprises independent from the state also existed in the medieval Islamic world, while the agency institution was also introduced during that time. Many of these early capitalist concepts were adopted and further advanced in medieval Europe from the 13th century onwards.</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_STATE_PROPERTY_STRATEGY</Tag>
-		<English>Can spend gold to finish production; trade companies have no effect</English>
-		<French>Can spend gold to finish production; trade companies have no effect</French>
-		<German>Can spend gold to finish production; trade companies have no effect</German>
-		<Italian>Can spend gold to finish production; trade companies have no effect</Italian>
-		<Spanish>Can spend gold to finish production; trade companies have no effect</Spanish>
+		<Tag>TXT_KEY_CIVIC_TEMPLE_ECONOMY_STRATEGY</Tag>
+		<English>Unlimited priests, cities with state religion build buildings faster, +1 gold per specialist</English>
+		<French>Unlimited priests, cities with state religion build buildings faster, +1 gold per specialist</French>
+		<German>Unlimited priests, cities with state religion build buildings faster, +1 gold per specialist</German>
+		<Italian>Unlimited priests, cities with state religion build buildings faster, +1 gold per specialist</Italian>
+		<Spanish>Unlimited priests, cities with state religion build buildings faster, +1 gold per specialist</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_THEOCRACY_STRATEGY</Tag>
@@ -233,20 +233,20 @@
 		<Spanish>No religious unrest; increases cultural output of all cities</Spanish>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_STATE_PROPERTY</Tag>
-		<English>State Monopoly</English>
-		<French>State Monopoly</French>
-		<German>State Monopoly</German>
-		<Italian>State Monopoly</Italian>
-		<Spanish>State Monopoly</Spanish>
-	</TEXT>
-	<TEXT>
 		<Tag>TXT_KEY_CIVIC_AGRARIANISM</Tag>
 		<English>Agrarianism</English>
 		<French>Agrarianism</French>
 		<German>Agrarianism</German>
 		<Italian>Agrarianism</Italian>
 		<Spanish>Agrarianism</Spanish>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_COLONIES</Tag>
+		<English>Colonies</English>
+		<French>Colonies</French>
+		<German>Colonies</German>
+		<Italian>Colonies</Italian>
+		<Spanish>Colonies</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_MERCHANT_CAPITALISM</Tag>
@@ -318,15 +318,15 @@
 		<French>Oligarchie</French>
 		<German>Oligarchie</German>
 		<Italian>Oligarchia</Italian>
-		<Spanish>Oligarquía</Spanish>
+		<Spanish>Oligarqu\EDa</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_OLIGARCHY_PEDIA</Tag>
 		<English>[TAB]An Oligarchy is a form of government where political power effectively rests with a small elite segment of society distinguished by royalty, wealth, family, military powers or occult spiritual hegemony. The word oligarchy is from the Greek words for "few" and "rule." Such states are often controlled by politically powerful families whose children were heavily conditioned and mentored to be heirs of the power of the oligarchy. This type of power by its very nature may not be exercised openly; the oligarchs preferring to remain "the power behind the throne", exerting control through economic means. Oligarchies have been tyrannical throughout history, being completely reliant on public servitude to exist. Although Aristotle pioneered the use of the term as a synonym for rule by the rich, for which the exact term is plutocracy, oligarchy is not always a rule by wealth, as oligarchs can simply be a privileged group.</English>
-		<French>[TAB]Une oligarchie - du grec oligos (peu nombreux) et arkhê (commandement) - est une forme de gouvernement par une classe dominante peu nombreuse qui s'est cooptée elle-même selon des critères mal définis. Sa légitimité n'est pas fondée sur celle des autres types de régime: ni d'être les meilleurs (aristocratie), ni les plus riches (ploutocratie), ni les plus populaires (démocratie), ni la plus compétente (technocratie), ni non plus le tirage au sort, la force ou l'hérédité, mais d'exercer un pouvoir de fait, en s'appuyant parfois sur un ou plusieurs des critères de légitimité qui caractérisent les autres régimes. Le terme oligarque, qui n'était plus utilisé que pour l'histoire des sociétés anciennes ou les récits de science fiction, a trouvé un regain de faveur pour désigner les hommes d'affaire riches ayant des liens avec le pouvoir politique qui ont émergé en Russie après la désintégration de la bureaucratie du régime soviétique.</French>
-		<German>[TAB]Die Oligarchie (vom griech.: oligarchia "Herrschaft Weniger", zusammengesetzt aus oligoi "Wenige" und arche "Herrschaft") ist in der klassischen (antiken) Verfassungslehre die Entartung der Aristokratie. Zur Abgrenzung von dieser Bedeutung und in Besinnung auf den eigentlichen Wortsinn wird heute auch der an sich gleichbedeutende Begriff Oligokratie (kratía = Macht, Herrschaft, Kraft, Stärke) verwendet. Die Oligarchie bei Platon (427-347 v. Chr.) ist die gesetzlose Herrschaft der Reichen, die nur an ihrem Eigennutz interessiert sind. Sie fällt wie die Aristokratie unter die Herrschaft der Wenigen, wobei die Aristokratie als gesetzmäßige, am Gemeinwohl ausgerichtete Herrschaft gilt. Diese Idee wurde zunächst von seinem Schüler Aristoteles (384-324 v. Chr.), und später vom griechischen Historiker Polybios (um 200 v. Chr. - etwa 118 v. Chr.) weiterentwickelt. Grundsätzlich bestand in der antiken Staatstheorie seit Platon die Idee, dass jede am Gemeinwohl orientierte Herrschaftsform (Monarchie (auch: Basileia), Aristokratie, Demokratie) ein entartetes, nur an den Interessen der Herrschenden orientiertes Gegenstück hat (Tyrannis, Oligarchie, Ochlokratie). Aus der Erkenntnis heraus, dass diese sechs Grundformen der Verfassungen notwendigerweise instabil sind, hat vor allem Polybios die Idee des Verfassungskreislaufs entwickelt, die diese Herrschaftsformen zueinander in Beziehung setzt.</German>
-		<Italian>[TAB]L'oligarchia (dal greco "oligoi" (pochi e "archè" (potere, comando) è il sistema di governo di una minoranza, di un gruppo ristretto di persone ed è anche detto Governo di Pochi. Nell'antica Grecia il termine oligarchia indicava principalmente il governo di una classe scelta in base al censo, invece che alla nascita, requisito essenziale del governo di matrice aristocratica. Nell'Atene del V secolo a.C. vi furono il governo oligarchico dei "Quattrocento" nel 411 a.C. ed il regime dei Trenta tiranni del 404 a.C. Nella tradizione del pensiero filosofico greco, sistematizzata da Aristotele (vedi principio aristotelico) l'oligarchia è una forma di governo "cattiva", non perché antidemocratica, ma perché quei pochi esercitano il potere indebitamente, o in quanto non ne hanno il diritto o in quanto lo fanno violando le leggi o, infine, in quanto lo esercitano favorendo gli interessi particolaristici a scapito di quelli della comunità. Se, invece, i pochi che esercitano un potere lo fanno in maniera legittima e in vista dell'interesse generale, allora il loro governo è quello dei migliori, e cioè un'aristocrazia. Secondo Aristotele l'oligarchia è dunque la degenerazione dell'aristocrazia. Nella tradizione del pensiero occidentale si è conservata a lungo, dall'antichità al Medioevo, il concetto che un governo di pochi non è cattivo in sé ma solo in quanto i pochi governino male. Nell'età moderna invece si è progressivamente affermata la concezione democratica e, con essa, la tesi che un governo di pochi è, in quanto tale, un cattivo governo: un governo buono è quello in cui è la maggioranza (i più) che governa.</Italian>
-		<Spanish>[TAB]La oligarquía, en ciencia política, es una forma de gobierno en la que el poder supremo está en manos de unas pocas personas. Los escritores políticos de la antigua Grecia emplearon el término para designar la forma degenerada y negativa de aristocracia (literalmente, gobierno de los mejores). Estrictamente, la oligarquía surgirá cuando la sucesión de un sistema aristocrático se perpetúe por transferencia sanguínea o mítica, sin que las cualidades éticas y de dirección de los mejores surjan como mérito reconocido por la comunidad, siendo esta definición muy cercana a la de monarquía y más todavía a la de nobleza. Los oligarcas dueños de propiedades, de tierras o de grandes acumulaciones de dinero, son poseedores de fuerza en la dirección política gracias a sus fuertes influencias económicas. Poseen estándares éticos posiblemente dudosos, con diversos medios de legitimación, que tienen como piso el poder acumulado y el símbolo histórico que haya significado la sucesión que les dio fuerza. La oligarquía es un grupo minoritario de personas, pertenecientes a una misma clase social, generalmente con gran poder e influencia (aristocrática) que dirige y controla una colectividad o institución.</Spanish>
+		<French>[TAB]Une oligarchie - du grec oligos (peu nombreux) et arkh\EA (commandement) - est une forme de gouvernement par une classe dominante peu nombreuse qui s'est coopt\E9e elle-m\EAme selon des crit\E8res mal d\E9finis. Sa l\E9gitimit\E9 n'est pas fond\E9e sur celle des autres types de r\E9gime: ni d'\EAtre les meilleurs (aristocratie), ni les plus riches (ploutocratie), ni les plus populaires (d\E9mocratie), ni la plus comp\E9tente (technocratie), ni non plus le tirage au sort, la force ou l'h\E9r\E9dit\E9, mais d'exercer un pouvoir de fait, en s'appuyant parfois sur un ou plusieurs des crit\E8res de l\E9gitimit\E9 qui caract\E9risent les autres r\E9gimes. Le terme oligarque, qui n'\E9tait plus utilis\E9 que pour l'histoire des soci\E9t\E9s anciennes ou les r\E9cits de science fiction, a trouv\E9 un regain de faveur pour d\E9signer les hommes d'affaire riches ayant des liens avec le pouvoir politique qui ont \E9merg\E9 en Russie apr\E8s la d\E9sint\E9gration de la bureaucratie du r\E9gime sovi\E9tique.</French>
+		<German>[TAB]Die Oligarchie (vom griech.: oligarchia "Herrschaft Weniger", zusammengesetzt aus oligoi "Wenige" und arche "Herrschaft") ist in der klassischen (antiken) Verfassungslehre die Entartung der Aristokratie. Zur Abgrenzung von dieser Bedeutung und in Besinnung auf den eigentlichen Wortsinn wird heute auch der an sich gleichbedeutende Begriff Oligokratie (krat\EDa = Macht, Herrschaft, Kraft, St\E4rke) verwendet. Die Oligarchie bei Platon (427-347 v. Chr.) ist die gesetzlose Herrschaft der Reichen, die nur an ihrem Eigennutz interessiert sind. Sie f\E4llt wie die Aristokratie unter die Herrschaft der Wenigen, wobei die Aristokratie als gesetzm\E4\DFige, am Gemeinwohl ausgerichtete Herrschaft gilt. Diese Idee wurde zun\E4chst von seinem Sch\FCler Aristoteles (384-324 v. Chr.), und sp\E4ter vom griechischen Historiker Polybios (um 200 v. Chr. - etwa 118 v. Chr.) weiterentwickelt. Grunds\E4tzlich bestand in der antiken Staatstheorie seit Platon die Idee, dass jede am Gemeinwohl orientierte Herrschaftsform (Monarchie (auch: Basileia), Aristokratie, Demokratie) ein entartetes, nur an den Interessen der Herrschenden orientiertes Gegenst\FCck hat (Tyrannis, Oligarchie, Ochlokratie). Aus der Erkenntnis heraus, dass diese sechs Grundformen der Verfassungen notwendigerweise instabil sind, hat vor allem Polybios die Idee des Verfassungskreislaufs entwickelt, die diese Herrschaftsformen zueinander in Beziehung setzt.</German>
+		<Italian>[TAB]L'oligarchia (dal greco "oligoi" (pochi e "arch\E8" (potere, comando) \E8 il sistema di governo di una minoranza, di un gruppo ristretto di persone ed \E8 anche detto Governo di Pochi. Nell'antica Grecia il termine oligarchia indicava principalmente il governo di una classe scelta in base al censo, invece che alla nascita, requisito essenziale del governo di matrice aristocratica. Nell'Atene del V secolo a.C. vi furono il governo oligarchico dei "Quattrocento" nel 411 a.C. ed il regime dei Trenta tiranni del 404 a.C. Nella tradizione del pensiero filosofico greco, sistematizzata da Aristotele (vedi principio aristotelico) l'oligarchia \E8 una forma di governo "cattiva", non perch\E9 antidemocratica, ma perch\E9 quei pochi esercitano il potere indebitamente, o in quanto non ne hanno il diritto o in quanto lo fanno violando le leggi o, infine, in quanto lo esercitano favorendo gli interessi particolaristici a scapito di quelli della comunit\E0. Se, invece, i pochi che esercitano un potere lo fanno in maniera legittima e in vista dell'interesse generale, allora il loro governo \E8 quello dei migliori, e cio\E8 un'aristocrazia. Secondo Aristotele l'oligarchia \E8 dunque la degenerazione dell'aristocrazia. Nella tradizione del pensiero occidentale si \E8 conservata a lungo, dall'antichit\E0 al Medioevo, il concetto che un governo di pochi non \E8 cattivo in s\E9 ma solo in quanto i pochi governino male. Nell'et\E0 moderna invece si \E8 progressivamente affermata la concezione democratica e, con essa, la tesi che un governo di pochi \E8, in quanto tale, un cattivo governo: un governo buono \E8 quello in cui \E8 la maggioranza (i pi\F9) che governa.</Italian>
+		<Spanish>[TAB]La oligarqu\EDa, en ciencia pol\EDtica, es una forma de gobierno en la que el poder supremo est\E1 en manos de unas pocas personas. Los escritores pol\EDticos de la antigua Grecia emplearon el t\E9rmino para designar la forma degenerada y negativa de aristocracia (literalmente, gobierno de los mejores). Estrictamente, la oligarqu\EDa surgir\E1 cuando la sucesi\F3n de un sistema aristocr\E1tico se perpet\FAe por transferencia sangu\EDnea o m\EDtica, sin que las cualidades \E9ticas y de direcci\F3n de los mejores surjan como m\E9rito reconocido por la comunidad, siendo esta definici\F3n muy cercana a la de monarqu\EDa y m\E1s todav\EDa a la de nobleza. Los oligarcas due\F1os de propiedades, de tierras o de grandes acumulaciones de dinero, son poseedores de fuerza en la direcci\F3n pol\EDtica gracias a sus fuertes influencias econ\F3micas. Poseen est\E1ndares \E9ticos posiblemente dudosos, con diversos medios de legitimaci\F3n, que tienen como piso el poder acumulado y el s\EDmbolo hist\F3rico que haya significado la sucesi\F3n que les dio fuerza. La oligarqu\EDa es un grupo minoritario de personas, pertenecientes a una misma clase social, generalmente con gran poder e influencia (aristocr\E1tica) que dirige y controla una colectividad o instituci\F3n.</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_ABSOLUTISM</Tag>
@@ -406,7 +406,7 @@
 		<French>Persecution</French>
 		<German>Persecution</German>
 		<Italian>Persecuzione</Italian>
-		<Spanish>Persecución</Spanish>
+		<Spanish>Persecuci\F3n</Spanish>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_APPRENTICESHIP</Tag>
@@ -467,20 +467,16 @@
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SLAVERY_PEDIA</Tag>
 		<English>[TAB]Historically, the major juristic schools of Islam traditionally accepted the institution of slavery. Muhammad and many of his companions bought, sold, freed, and captured slaves. In Islamic law the topic of slavery is covered at great length. The Qur'an and the hadith see slavery as an exceptional condition that can be entered into under certain limited circumstances. Only children of slaves or non-Muslim prisoners of war could become slaves, never a freeborn Muslim. They also consider manumission of a slave to be one of many meritorious deeds available for the expiation of sins. According to Sharia, slaves are considered human beings and possessed of some rights on the basis of their humanity.[PARAGRAPH:2]In practice, slaves played various social and economic roles from Emir to worker. Slaves were widely employed in irrigation, mining, pastoralism and the army. Even some rulers relied on military and administrative slaves to such a degree that they seized power. However, people do not always treat with slaves in accordance with Islamic law. In some cases, the situation has been so harsh as to have led to uprisings such as Zanj Rebellion. However, this was usually the exception rather than the norm, as the vast majority of labour in the medieval Islamic world consisted of free, paid labour. For a variety of reasons, internal growth of the slave population was not enough to fulfill the demand in Muslim society. This resulted in massive importation, which involved enormous suffering and loss of life from the capture and transportation of slaves from non-Muslim lands. In theory, slavery in Islamic law does not have a racial or color component, although this has not always been the case in practice.</English>
-    </TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_CIVIC_DEMOCRACY</Tag>
-		<English></English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRIBAL_CUSTOM</Tag>
 		<English>Tribal Custom</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_WAGE_LABOR</Tag>
 		<English>Wage Labor</English>
 	</TEXT>
-    	<TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_CIVIC_REDISTRIBUTION</Tag>
 		<English>Redistribution</English>
 	</TEXT>
@@ -489,35 +485,27 @@
 		<English>Increased food in capital; reduced commerce from trade routes; increased production speed for Granaries</English>
 		<French>Nourriture additionnelle dans la capitale ; les routes commerciales rapportent moins de commerce ; vitesse de production doubl&#233;e pour les greniers</French>
 	</TEXT>
-    <TEXT>
-    	<Tag>TXT_KEY_CIVIC_ISOLATIONISM</Tag>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_ISOLATIONISM</Tag>
 		<English>Isolationism</English>
 		<French>Isolationism</French>
 		<German>Isolation</German>
 		<Italian>Isolationism</Italian>
 		<Spanish>Isolationism</Spanish>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRADE_ECONOMY</Tag>
 		<English>Trade Economy</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TEMPLE_ECONOMY</Tag>
 		<English>Temple Economy</English>
 	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_PATRONAGE</Tag>
 		<English>Patronage</English>
 	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_CIVIC_DEPRESSION</Tag>
-		<English></English>
-	</TEXT>
-    <TEXT>
-		<Tag>TXT_KEY_CIVIC_POST_COMMUNISM</Tag>
-		<English></English>
-	</TEXT>
-    <TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_CIVIC_DEIFICATION</Tag>
 		<English>Deification</English>
 	</TEXT>
@@ -525,8 +513,16 @@
 		<Tag>TXT_KEY_CIVIC_DEIFICATION_STRATEGY</Tag>
 		<English>Increased wonder production speed; extra unhappiness from state religion; extra happiness from Pagan Temples</English>
 	</TEXT>
-    	<TEXT>
+		<TEXT>
 		<Tag>TXT_KEY_CIVIC_MILITANCY</Tag>
 		<English>Militancy</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_TRIBAL_WARFARE</Tag>
+		<English>Tribal Warfare</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_CIVIC_CLIENT_KINGDOMS</Tag>
+		<English>Client Kingdoms</English>
 	</TEXT>
 </Civ4GameText>

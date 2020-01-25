@@ -148,30 +148,6 @@
 		<Italian>[ICON_BULLET]Nessun punto stabilit&#224; negativo in caso di scarsa economia.</Italian>
 		<Spanish>[ICON_BULLET]No hay puntos de estabilidad negativos por econom&#237;a d&#233;bil</Spanish>
 	</TEXT>
-<!-- 	<TEXT>
-		<Tag>TXT_KEY_CIVIC_DEPRESSION</Tag>
-		<English>[ICON_BULLET]Risk of Great Depression</English>
-		<French>[ICON_BULLET]Risque de Grande Dépression</French>
-		<German>[ICON_BULLET]Risiko einer Gro&#223;en Depression</German>
-		<Italian>[ICON_BULLET]Rischio di Grande Depressione.</Italian>
-		<Spanish>[ICON_BULLET]Riesgo de Gran Depresi&#243;n</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIVIC_POST_COMMUNISM</Tag>
-		<English>[ICON_BULLET]Post-communist crisis in case of economic system switch</English>
-		<French>[ICON_BULLET]Crise post-communiste en cas de changement de système économique</French>
-		<German>[ICON_BULLET]Post-kommunistische Krise im Falle eines Wirtschaftssystemwechsels</German>
-		<Italian>[ICON_BULLET]Crisi post-comunista in caso di cambio di sistema economico.</Italian>
-		<Spanish>[ICON_BULLET]Crisis post-comunista en caso de cambio de sistema econ&#243;mico</Spanish>
-	</TEXT>
-	<TEXT>
-		<Tag>TXT_KEY_CIVIC_DEMOCRACY</Tag>
-		<English>[ICON_BULLET]Temporary instability caused by transition to Democracy</English>
-		<French>[ICON_BULLET]Instabilité temporaire causée par la transition vers la Démocratie</French>
-		<German>[ICON_BULLET]Vorübergehende Instabilität durch Wechsel zur Demokratie</German>
-		<Italian>[ICON_BULLET]Instabilit&#224; temporanea causata dal passaggio alla democrazia.</Italian>
-		<Spanish>[ICON_BULLET]Inestabilidad temporal causada por la transici&#243;n a la democracia</Spanish>
-	</TEXT>-->
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_SUBJUGATION_STRATEGY</Tag>
 		<English/>

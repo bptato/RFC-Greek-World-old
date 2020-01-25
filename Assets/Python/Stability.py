@@ -447,114 +447,38 @@ class Stability:
 
 
 			iTempCivicThreshold = iNewBaseStability
-			if (iCivic0 == 3 and iCivic1 == 9): #police and free speech
-				iNewBaseStability -= 10
-				#print("iNewBaseStability civic combination1",iNewBaseStability, iPlayer)
+			
+			civicCompatibility = \
+			[
+			['tribal_federation', 'deification', 5],
+			['tribal_federation', 'vassalage', -5],
+			['tribal_federation', 'bureaucracy', -10],
+			['tribal_federation', 'empire', -15],
+			['tribal_federation', 'redistribution', -10],
+			['tribal_federation', 'tribalism', -10],
+			['monarchy', 'redistribution', 10],
+			['oligarchy', 'slavery', 5],
+			['oligarchy', 'trade_economy', 10],
+			['oligarchy', 'isolationism', -15],
+			['oligarchy', 'temple_economy', -10],
+			['oligarchy', 'patronage', -5],
+			['aristocracy', 'wage_labor', 5],
+			['oligarchy', 'redistribution', -15],
+			['absolutism', 'slavery', 5],
+			['absolutism', 'empire', 10],
+			['religious_law', 'militancy', 5],
+			['religious_law', 'theocracy', 5],
+			['religious_law', 'persecution', 5],
+			['religious_law', 'deification', -20],
+			['tribal_custom', 'organized_religion', -10],
+			['tribal_custom', 'organized_religion', -10]
+			]
 
-			if (iCivic4 == 22 and iCivic2 == 14): #theo and emanc
-				iNewBaseStability -= 3
-				#print("iNewBaseStability civic combination2",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 4 and iCivic1 == 5): #univ and barbar
-				iNewBaseStability -= 3
-				#print("iNewBaseStability civic combination3",iNewBaseStability, iPlayer)
-
-			if (iCivic2 == 13 and iCivic3 == 18): #caste and state prop
-				iNewBaseStability -= 7
-				#print("iNewBaseStability civic combination4",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 0 and iCivic1 == 7): #despo and bureo
-				iNewBaseStability -= 2
-				#print("iNewBaseStability civic combination5",iNewBaseStability, iPlayer)
-				
-			if (iCivic1 == 6 and iCivic3 == 18): #vassal and state prop
-				iNewBaseStability -= 7
-				#print("iNewBaseStability civic combination6",iNewBaseStability, iPlayer)
-
-			if (iCivic1 == 8 and iCivic4 == 23): #nation and pacifism
-				iNewBaseStability -= 10
-				#print("iNewBaseStability civic combination7",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 3 and iCivic1 == 8): #police and nation
-				iNewBaseStability += 10
-				#print("iNewBaseStability civic combination8",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 3 and iCivic3 == 18): #police and state prop
-				iNewBaseStability += 5
-				#print("iNewBaseStability civic combination9",iNewBaseStability, iPlayer)
-
-			if (iCivic1 == 8 and iCivic3 == 16): #nation and mercant
-				iNewBaseStability += 6
-				#print("iNewBaseStability civic combination10",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 1 and iCivic1 == 6): #heredit and vassal
-				iNewBaseStability += 3
-				#print("iNewBaseStability civic combination11",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 2 and iCivic1 == 7): #repres and bureo
-				iNewBaseStability += 4
-				#print("iNewBaseStability civic combination12",iNewBaseStability, iPlayer)
-
-			if (iCivic2 == 14 and iCivic4 == 24): #emancip and free rel
-				iNewBaseStability += 2
-				#print("iNewBaseStability civic combination13",iNewBaseStability, iPlayer)
-
-			if (iCivic1 == 6): #vassallage
-				if (pPlayer.getCurrentEra() == 2):
-					iNewBaseStability += 3
-				else:
-					iNewBaseStability -= 3
-				#print("iNewBaseStability civic single 1",iNewBaseStability, iPlayer)
-
-			if (iCivic1 == 7): #burocr
-				if (pPlayer.getNumCities() <= 5):
-					iNewBaseStability += 5
-				else:
-					iNewBaseStability += max(-7,(5 - pPlayer.getNumCities()))
-				#print("iNewBaseStability civic single 2",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 2): #represent
-				iNewBaseStability += max(-7,2*(3 - pPlayer.getNumCities()))
-				#print("iNewBaseStability civic single 3",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 3): #police
-				iNewBaseStability += min(10, pPlayer.getNumCities()/5) #slightly counterbalances the effect of number of cities (below)
-
-				#print("iNewBaseStability civic single 4",iNewBaseStability, iPlayer)
-
-			if (iCivic1 == 8): #nationhood
-				iNewBaseStability += 3*teamPlayer.getAtWarCount(True)
-				#print("iNewBaseStability civic single 5",iNewBaseStability, iPlayer)
-
-			if (iCivic0 == 0): #despotism
-				if (self.getStability(iPlayer) < -60):
-					self.setStability(iPlayer, self.getStability(iPlayer)+20)
-					#print("iNewBaseStability civic first column 1",iNewBaseStability, iPlayer)
-			if (iCivic0 == 1): #hereditary rule
-				if (self.getStability(iPlayer) < -50):
-					self.setStability(iPlayer, -50)
-					#print("iNewBaseStability civic first column 2",iNewBaseStability, iPlayer)
-			if (iCivic0 == 2): #representation
-				if (self.getStability(iPlayer) > 30):
-					iNewBaseStability += 5
-					#print("iNewBaseStability civic first column 3",iNewBaseStability, iPlayer)
-			if (iCivic0 == 3): #police state
-				if (self.getStability(iPlayer) < -60):
-					self.setStability(iPlayer, self.getStability(iPlayer)+30)
-					#print("iNewBaseStability civic first column 4",iNewBaseStability, iPlayer)
-			if (iCivic0 == 4): #universal suffrage
-				if (self.getStability(iPlayer) > 50):
-					iNewBaseStability += 10
-					#print("iNewBaseStability civic first column 5",iNewBaseStability, iPlayer)
-
-			if (teamPlayer.isHasTech(con.tn('bronze_working'))):
-				if (iCivic2 == 11): #slavery
-					iNewBaseStability += 3
-					#print("iNewBaseStability slavery",iNewBaseStability, iPlayer)
-
-			if (iCivic3 == 15): #decentralization
-				iNewBaseStability -= 5
-				#print("iNewBaseStability decentralization",iNewBaseStability, iPlayer)
+			for compat in civicCompatibility:
+				firstCivicOption = con.civicOptionForCivic(compat[0])
+				secondCivicOption = con.civicOptionForCivic(compat[1])
+				if pPlayer.getCivics(firstCivicOption) == compat[0] and pPlayer.getCivics(secondCivicOption) == compat[1]:
+					iNewBaseStability += compat[3]
 
 			self.setParameter(iPlayer, iParCivics3, False, iNewBaseStability - iTempCivicThreshold)
 
@@ -845,9 +769,9 @@ class Stability:
 							self.setParameter(owner, iParDiplomacyE, True, -3)
 							self.setStability(playerType, self.getStability(owner) + 3)
 				if (city.getX() == tCapitals[owner][0] and city.getY() == tCapitals[owner][1]):
-					iTotalCityLostModifier += 20
+					iTotalCityLostModifier += 30
 				if (playerType == con.iBarbarian):
-					iTotalCityLostModifier += 1
+					iTotalCityLostModifier += 3
 			self.setParameter(owner, iParExpansionE, True, -iTotalCityLostModifier)
 			self.setStability(owner, self.getStability(owner) - iTotalCityLostModifier)
 			#print("Stability - city lost", iTotalCityLostModifier, owner)
@@ -887,6 +811,9 @@ class Stability:
 			self.setStability(iOwner, self.getStability(iOwner) - 3)
 			#print("Stability - city razed", -3, iOwner)
 			self.setParameter(iOwner, iParExpansionE, True, - 3)
+			if playerType == con.iBarbarian:
+				self.setStability(iOwner, self.getStability(iOwner) - 2)
+				self.setParameter(iOwner, iParExpansionE, True, - 2)
 
 		if (playerType < con.iNumPlayers):
 			iTempExpansionThreshold = self.getStability(playerType)		

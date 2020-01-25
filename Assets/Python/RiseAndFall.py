@@ -625,7 +625,6 @@ class RiseAndFall:
 					self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
 				if (con.getFeedUnits(iLoopCiv) > 0):
 					if (iGameTurn >= con.tBirth[iLoopCiv] and iGameTurn <= con.tBirth[iLoopCiv]+50):
-						print "feed units: " + str(con.tBirth[iLoopCiv]) + ", " + str(iGameTurn)
 						if ((iGameTurn-con.tBirth[iLoopCiv])%5 == 4):
 							self.spawnUnits(iLoopCiv, tCoreAreasTL[iLoopCiv], tCoreAreasBR[iLoopCiv], con.getFeedUnits(iLoopCiv), 3, utils.outerInvasion, 1)
 
@@ -1041,6 +1040,11 @@ class RiseAndFall:
 						utils.flipCity((splittingCity.getX(),splittingCity.getY()), 0, 0, iNewCiv, [iPlayer])   #by trade because by conquest may raze the city
 						utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iNewCiv)
 						if (iPlayer == utils.getHumanID()):
+							print "secession!"
+							print str(iPlayer)
+							print str(con.iDuration)
+							print str(splittingCity.getName())
+							print CyTranslator().getText("TXT_KEY_STABILITY_SECESSION", ())
 							CyInterface().addMessage(iPlayer, True, con.iDuration, splittingCity.getName() + " " + \
 											   CyTranslator().getText("TXT_KEY_STABILITY_SECESSION", ()), "", 0, "", ColorTypes(con.iOrange), -1, -1, True, True)
 						#print ("SECESSION", gc.getPlayer(iPlayer).getCivilizationAdjective(0), splittingCity.getName()) #causes c++ exception??

@@ -348,7 +348,7 @@ class RFCUtils:
 
 	def makeInvaderUnit(self, iUnit, iPlayer, tCoords, iNum):
 		'Makes iNum units for player iPlayer of the type iUnit at tCoords.'
-		print str(iPlayer) + " iPlayer invader unit"
+		print "Making (" + str(iNum) + ") invader units " + str(iUnit) + " at " + str(tCoords)
 		for i in range(iNum):
 			player = gc.getPlayer(iPlayer)
 			player.initUnit(iUnit, tCoords[0], tCoords[1], UnitAITypes.UNITAI_ATTACK_CITY, DirectionTypes.DIRECTION_SOUTH)

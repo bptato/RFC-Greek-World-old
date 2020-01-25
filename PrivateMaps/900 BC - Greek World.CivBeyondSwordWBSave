@@ -218,7 +218,7 @@ BeginPlayer
 	Team=15
 EndPlayer
 BeginPlayer
-	LeaderType=LEADER_Porsenna
+	LeaderType=LEADER_PORSENNA
 	CivType=CIVILIZATION_ETRURIA
 	StartingGold=200
 	Team=16

@@ -471,8 +471,8 @@
 			<BackgroundKFM>Art/Leaderheads/dido/isabella_bg.kfm</BackgroundKFM>
 		</LeaderheadArtInfo>
 		<LeaderheadArtInfo>
-			<Type>ART_DEF_LEADER_Porsenna</Type>
-			<Button>,Art\leaderheads\Porsenna/btn_lh_ETRUSCANS_Porsenna.dds</Button>
+			<Type>ART_DEF_LEADER_PORSENNA</Type>
+			<Button>,Art/Leaderheads/PORSENNA/btn_lh_ETRUSCANS_PORSENNA.dds</Button>
 			<NIF>art/LeaderHeads/Aigimios/Gilgamesh.nif</NIF>
 			<KFM>art/LeaderHeads/Aigimios/Gilgamesh.kfm</KFM>
 			<NoShaderNIF>art/LeaderHeads/Aigimios/Gilgamesh_NONSHADER.nif</NoShaderNIF>

@@ -63,76 +63,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -141,80 +71,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_LOUIS_XIV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -235,20 +91,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -257,62 +99,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -341,48 +127,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_JULIUS_CAESAR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PETER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_PETER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ISABELLA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -431,48 +175,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CHANGED_FIRST_CONTACT_LEADER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -481,62 +183,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_CHANGED_FIRST_CONTACT_LEADER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -585,34 +231,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -627,76 +245,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -705,20 +253,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_FIRST_CONTACT_LEADER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -758,62 +292,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -822,80 +300,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_LOUIS_XIV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -916,20 +320,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -938,62 +328,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1042,48 +376,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ISABELLA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AUGUSTUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1126,48 +418,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1176,76 +426,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1294,34 +474,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1336,76 +488,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1414,20 +496,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_REFUSE_TO_TALK_LEADER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1500,76 +568,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1578,80 +576,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_LOUIS_XIV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1672,20 +596,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1694,62 +604,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1778,48 +632,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_JULIUS_CAESAR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PETER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_PETER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_ISABELLA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -1868,48 +680,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -1918,62 +688,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2022,34 +736,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2064,76 +750,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2142,20 +758,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_NO_PEACE_LEADER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_NO_PEACE_LEADER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2218,141 +820,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2374,145 +841,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LOUIS_XIV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2546,33 +874,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -2594,114 +895,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2756,87 +949,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JULIUS_CAESAR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PETER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PETER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ISABELLA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -2924,87 +1036,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3026,114 +1057,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3221,60 +1144,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3302,141 +1171,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3458,33 +1192,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FRIENDLY</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_PLEASED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_CAUTIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FR_LEADER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3551,121 +1258,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3683,125 +1275,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LOUIS_XIV_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -3831,29 +1304,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -3871,98 +1321,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4038,52 +1396,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ISABELLA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_BRENNUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4130,75 +1442,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4216,98 +1459,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CHANGED_GREETINGS_ATT_FUR_LEADER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -4383,52 +1534,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4452,121 +1557,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -4584,29 +1574,6 @@
 					<DiplomacyPowers/>
 					<DiplomacyText>
 						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes>
-						<Attitude>
-							<AttitudeType>ATTITUDE_ANNOYED</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-						<Attitude>
-							<AttitudeType>ATTITUDE_FURIOUS</AttitudeType>
-							<bAttitudeType>1</bAttitudeType>
-						</Attitude>
-					</Attitudes>
-					<DiplomacyPowers/>
-					<DiplomacyText>
-						<Text>AI_DIPLO_GREETINGS_ATT_FUR_LEADER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5454,82 +2421,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -5543,63 +2434,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_NAPOLEON_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5625,25 +2459,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -5657,82 +2472,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -5796,44 +2535,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ISABELLA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_AUGUSTUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -5891,63 +2592,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -5961,82 +2605,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6100,44 +2668,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -6157,101 +2687,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -6265,25 +2700,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_WEAKER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_WEAKER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6329,82 +2745,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_FRANKLIN_ROOSEVELT</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_FRANKLIN_ROOSEVELT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MONTEZUMA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_HATSHEPSUT</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -6418,86 +2758,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HATSHEPSUT_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_BISMARCK_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6523,25 +2783,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -6555,82 +2796,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_GENGHIS_KHAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_KUBLAI_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_KUBLAI_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6669,44 +2834,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PETER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CATHERINE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ISABELLA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ISABELLA_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6770,63 +2897,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_CHANGED_DEMAND_TRIBUTE_POWER_EQUAL_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -6840,82 +2910,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -6979,44 +2973,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_PERICLES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7036,101 +2992,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7144,25 +3005,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_EQUAL</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_EQUAL_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7209,200 +3051,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_SALADIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SALADIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MONTEZUMA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MONTEZUMA_1_CORRECTED</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_QIN_SHI_HUANG</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_QIN_SHI_HUANG_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHINESE_LEADER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CHINESE_LEADER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_ELIZABETH</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ELIZABETH_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_VICTORIA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_VICTORIA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LOUIS_XIV</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LOUIS_XIV</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_NAPOLEON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_NAPOLEON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_BISMARCK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-						<Leader>
-							<LeaderType>LEADER_FREDERICK</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_BISMARCK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_HUAYNA_CAPAC</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_HUAYNA_CAPAC_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_ASOKA</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7416,63 +3064,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ASOKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_TOKUGAWA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_TOKUGAWA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MANSA_MUSA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MANSA_MUSA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_GENGHIS_KHAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_GENGHIS_KHAN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7511,44 +3102,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JULIUS_CAESAR_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PETER</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PETER_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CATHERINE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CATHERINE_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7612,63 +3165,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_STALIN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JOSEF_STALIN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_MEHMED</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_MEHMED_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_RAGNAR</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_RAGNAR_LODBROK_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_RAMESSES</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7682,82 +3178,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_RAMESSES_II_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SHAKA</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SHAKA_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_WANGKON</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WANG_KON_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHURCHILL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_WINSTON_CHURCHILL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_LINCOLN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_LINCOLN_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>
@@ -7821,158 +3241,6 @@
 					<Civilizations/>
 					<Leaders>
 						<Leader>
-							<LeaderType>LEADER_ZARA_YAQOB</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_ZARA_YAQOB_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_DE_GAULLE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_DE_GAULLE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PERICLES</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PERICLES_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_CHARLEMAGNE</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_CHARLEMAGNE_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SURYAVARMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SURYAVARMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_PACAL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_PACAL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SITTING_BULL</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SITTING_BULL_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_SULEIMAN</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_SULEIMAN_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
 							<LeaderType>LEADER_DARIUS</LeaderType>
 							<bLeaderType>1</bLeaderType>
 						</Leader>
@@ -7986,25 +3254,6 @@
 					</DiplomacyPowers>
 					<DiplomacyText>
 						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_DARIUS_1</Text>
-					</DiplomacyText>
-				</Response>
-				<Response>
-					<Civilizations/>
-					<Leaders>
-						<Leader>
-							<LeaderType>LEADER_JOAO</LeaderType>
-							<bLeaderType>1</bLeaderType>
-						</Leader>
-					</Leaders>
-					<Attitudes/>
-					<DiplomacyPowers>
-						<DiplomacyPower>
-							<DiplomacyPowerType>DIPLOMACYPOWER_STRONGER</DiplomacyPowerType>
-							<bDiplomacyPowerType>1</bDiplomacyPowerType>
-						</DiplomacyPower>
-					</DiplomacyPowers>
-					<DiplomacyText>
-						<Text>AI_DIPLO_DEMAND_TRIBUTE_POWER_STRONGER_JOAO_1</Text>
 					</DiplomacyText>
 				</Response>
 				<Response>

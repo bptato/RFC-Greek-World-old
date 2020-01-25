@@ -8,7 +8,7 @@
 	<CivicInfos>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
-			<Type>CIVIC_DESPOTISM</Type>
+			<Type>CIVIC_TRIBAL_FEDERATION</Type>
 			<Description>TXT_KEY_CIVIC_TRIBAL_FEDERATION</Description>
 			<Civilopedia>TXT_KEY_CIVIC_TRIBAL_FEDERATION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_TRIBAL_FEDERATION_STRATEGY</Strategy>
@@ -79,7 +79,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
-			<Type>CIVIC_HEREDITARY_RULE</Type>
+			<Type>CIVIC_MONARCHY</Type>
 			<Description>TXT_KEY_CIVIC_HEREDITARY_RULE</Description>
 			<Civilopedia>TXT_KEY_CIVIC_HEREDITARY_RULE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_HEREDITARY_RULE_STRATEGY</Strategy>
@@ -150,7 +150,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
-			<Type>CIVIC_REPRESENTATION</Type>
+			<Type>CIVIC_OLIGARCHY</Type>
 			<Description>TXT_KEY_CIVIC_OLIGARCHY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_ARISTOCRACY_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -222,8 +222,8 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
-			<Type>CIVIC_POLICE_STATE</Type>
-            <Description>TXT_KEY_CIVIC_ABSOLUTISM</Description>
+			<Type>CIVIC_ABSOLUTISM</Type>
+			<Description>TXT_KEY_CIVIC_ABSOLUTISM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_ABSOLUTISM_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_ABSOLUTISM_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Authoritarianism.dds</Button>
@@ -303,8 +303,8 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_GOVERNMENT</CivicOptionType>
-			<Type>CIVIC_UNIVERSAL_SUFFRAGE</Type>
-            <Description>TXT_KEY_CIVIC_ARISTOCRACY</Description>
+			<Type>CIVIC_ARISTOCRACY</Type>
+			<Description>TXT_KEY_CIVIC_ARISTOCRACY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_ARISTOCRACY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_ARISTOCRACY_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Aristocracy.dds</Button>
@@ -379,7 +379,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
-			<Type>CIVIC_BARBARISM</Type>
+			<Type>CIVIC_TRIBAL_CUSTOM</Type>
 			<Description>TXT_KEY_CIVIC_TRIBAL_CUSTOM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_TRIBAL_CUSTOM_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -596,10 +596,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
-			<Type>CIVIC_NATIONHOOD</Type>
-			<Description>Empire</Description>
-			<Civilopedia>Empire</Civilopedia>
-			<Strategy>Empire</Strategy>
+			<Type>CIVIC_EMPIRE</Type>
+			<Description>TXT_KEY_CIVIC_EMPIRE</Description>
+			<Civilopedia>TXT_KEY_CIVIC_EMPIRE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_EMPIRE_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Empire.dds</Button>
 			<TechPrereq>TECH_STANDING_ARMY</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -677,7 +677,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LEGAL</CivicOptionType>
-			<Type>CIVIC_FREE_SPEECH</Type>
+			<Type>CIVIC_RELIGIOUS_LAW</Type>
 			<Description>TXT_KEY_CIVIC_RELIGIOUS_LAW</Description>
 			<Civilopedia>TXT_KEY_CIVIC_RELIGIOUS_LAW_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -896,7 +896,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_LABOR</CivicOptionType>
-			<Type>CIVIC_SERFDOM</Type>
+			<Type>CIVIC_WAGE_LABOR</Type>
 			<Description>TXT_KEY_CIVIC_WAGE_LABOR</Description>
 			<Civilopedia>TXT_KEY_CIVIC_WAGE_LABOR_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1170,7 +1170,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_DECENTRALIZATION</Type>
+			<Type>CIVIC_REDISTRIBUTION</Type>
 			<Description>TXT_KEY_CIVIC_REDISTRIBUTION</Description>
 			<Civilopedia>TXT_KEY_CIVIC_REDISTRIBUTION_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1247,7 +1247,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_MERCANTILISM</Type>
+			<Type>CIVIC_ISOLATIONISM</Type>
 			<Description>TXT_KEY_CIVIC_ISOLATIONISM</Description>
 			<Civilopedia>TXT_KEY_CIVIC_ISOLATIONISM_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1345,7 +1345,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_FREE_MARKET</Type>
+			<Type>CIVIC_TRADE_ECONOMY</Type>
 			<Description>TXT_KEY_CIVIC_TRADE_ECONOMY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_TRADE_ECONOMY_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1421,7 +1421,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_STATE_PROPERTY</Type>
+			<Type>CIVIC_TEMPLE_ECONOMY</Type>
 			<Description>TXT_KEY_CIVIC_TEMPLE_ECONOMY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_TEMPLE_ECONOMY_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1501,7 +1501,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_ECONOMY</CivicOptionType>
-			<Type>CIVIC_ENVIRONMENTALISM</Type>
+			<Type>CIVIC_PATRONAGE</Type>
 			<Description>TXT_KEY_CIVIC_PATRONAGE</Description>
 			<Civilopedia>TXT_KEY_CIVIC_PATRONAGE_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1582,7 +1582,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
-			<Type>CIVIC_PAGANISM</Type>
+			<Type>CIVIC_DEIFICATION</Type>
 			<Description>TXT_KEY_CIVIC_DEIFICATION</Description>
 			<Civilopedia>TXT_KEY_CIVIC_DEIFICATION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_DEIFICATION_STRATEGY</Strategy>
@@ -1805,7 +1805,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
-			<Type>CIVIC_PACIFISM</Type>
+			<Type>CIVIC_PERSECUTION</Type>
 			<Description>TXT_KEY_CIVIC_PERSECUTION</Description>
 			<Civilopedia>TXT_KEY_CIVIC_PERSECUTION_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_CIVIC_PERSECUTION_STRATEGY</Strategy>
@@ -1882,7 +1882,7 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_RELIGION</CivicOptionType>
-			<Type>CIVIC_FREE_RELIGION</Type>
+			<Type>CIVIC_MILITANCY</Type>
 			<Description>TXT_KEY_CIVIC_MILITANCY</Description>
 			<Civilopedia>TXT_KEY_CIVIC_MILITANCY_PEDIA</Civilopedia>
 			<Strategy></Strategy>
@@ -1956,10 +1956,10 @@
 		<CivicInfo>
 			<!-- Rhye - start -->
 			<CivicOptionType>CIVICOPTION_EXPANSION</CivicOptionType>
-			<Type>CIVIC_SUBJUGATION</Type>
-			<Description>Tribal Warfare</Description>
-			<Civilopedia>TXT_KEY_CIVIC_SUBJUGATION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_SUBJUGATION_STRATEGY</Strategy>
+			<Type>CIVIC_TRIBAL_WARFARE</Type>
+			<Description>TXT_KEY_CIVIC_TRIBAL_WARFARE</Description>
+			<Civilopedia>TXT_KEY_CIVIC_TRIBAL_WARFARE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_TRIBAL_WARFARE_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/subjugation.dds,Art/Interface/Buttons/Civics_Civilizations_Religions_Atlas.dds,2,4</Button>
 			<TechPrereq>NONE</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -2027,10 +2027,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_EXPANSION</CivicOptionType>
-			<Type>CIVIC_VICEROYALTY</Type>
-			<Description>Client Kingdoms</Description>
-			<Civilopedia>TXT_KEY_CIVIC_VICEROYALTY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_VICEROYALTY_STRATEGY</Strategy>
+			<Type>CIVIC_CLIENT_KINGDOMS</Type>
+			<Description>TXT_KEY_CIVIC_CLIENT_KINGDOMS</Description>
+			<Civilopedia>TXT_KEY_CIVIC_CLIENT_KINGDOMS_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_CLIENT_KINGDOMS_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Clients.dds</Button>
 			<TechPrereq>TECH_IRON_WORKING</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>
@@ -2240,10 +2240,10 @@
 		</CivicInfo>
 		<CivicInfo>
 			<CivicOptionType>CIVICOPTION_EXPANSION</CivicOptionType>
-			<Type>CIVIC_COMMONWEALTH</Type>
-			<Description>Colonies</Description>
-			<Civilopedia>TXT_KEY_CIVIC_COMMONWEALTH_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_CIVIC_COMMONWEALTH_STRATEGY</Strategy>
+			<Type>CIVIC_COLONIES</Type>
+			<Description>TXT_KEY_CIVIC_COLONIES</Description>
+			<Civilopedia>TXT_KEY_CIVIC_COLONIES_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_CIVIC_COLONIES_STRATEGY</Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Colonies.dds</Button>
 			<TechPrereq>TECH_MANORIALISM</TechPrereq>
 			<iAnarchyLength>1</iAnarchyLength>

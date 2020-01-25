@@ -5036,24 +5036,6 @@ void CvGameTextMgr::parseCivicInfo(CvWStringBuffer &szHelpText, CivicTypes eCivi
 		szHelpText.append(gDLL->getText("TXT_KEY_CIVIC_MILITARY_SUPPORT_COSTS", (GC.getCivicInfo(eCivic).getGoldPerMilitaryUnit() > 0), GC.getCommerceInfo(COMMERCE_GOLD).getChar()));
 	}
 
-	//Rhye - start stability
-	if (eCivic == 4) //univ. suff
-	{
-		szHelpText.append(NEWLINE);
-		szHelpText.append(gDLL->getText("TXT_KEY_CIVIC_DEMOCRACY"));
-	}
-	if (eCivic == 17) //free market
-	{
-		szHelpText.append(NEWLINE);
-		szHelpText.append(gDLL->getText("TXT_KEY_CIVIC_DEPRESSION"));
-	}
-	if (eCivic == 18) //state property
-	{
-		szHelpText.append(NEWLINE);
-		szHelpText.append(gDLL->getText("TXT_KEY_CIVIC_POST_COMMUNISM"));
-	}
-	//Rhye - end stability
-
 	if (!CvWString(GC.getCivicInfo(eCivic).getHelp()).empty())
 	{
 		szHelpText.append(CvWString::format(L"%s%s", NEWLINE, GC.getCivicInfo(eCivic).getHelp()).c_str());

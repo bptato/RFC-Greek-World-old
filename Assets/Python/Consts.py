@@ -890,6 +890,30 @@ def un(unitName): #get unit number
 	raise Exception("Consts.un(): no unit found with name " + unitName + "!!!")
 	return None
 
+def getNumCivics():
+	return gc.getNumCivicInfos()
+
+def cn(civicName): #get civic number
+	numCivics = getNumCivics()
+	civicName = "CIVIC_" + civicName.upper()
+	for i in range(numCivics):
+		civicType = gc.getCivicInfo(i).getType()
+		if civicType == civicName:
+			return i
+	raise Exception("Consts.cn(): no civic found with name " + civicName + "!!!")
+	return None
+
+def civicOptionForCivic(civicName): #get civic option number for civic
+	numCivics = getNumCivics()
+	civicName = "CIVIC_" + civicName.upper()
+	for i in range(numCivics):
+		civic = gc.getCivicInfo(i)
+		civicType = civic.getType()
+		if civicType == civicName:
+			return civic.getCivicOptionType()
+	raise Exception("Consts.civicOptionForCivic(): no civic found with name " + civicName + "!!!")
+	return None
+
 # initialise bonuses variables to bonuses IDs from WBS
 iAluminium = 0
 iCoal = 1

@@ -6427,7 +6427,7 @@
 			<iWeight>100</iWeight>
 			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
 			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_UNIVERSAL_SUFFRAGE</Civic>
+			<Civic>CIVIC_ARISTOCRACY</Civic>
 			<iMinTreasury>0</iMinTreasury>
 			<iMinPopulation>0</iMinPopulation>
 			<iMaxPopulation>0</iMaxPopulation>
@@ -6487,168 +6487,6 @@
 			<bShowPlot>0</bShowPlot>
 			<iCityFoodWeight>0</iCityFoodWeight>
 			<PythonCanDo>canTriggerInterstate</PythonCanDo>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_EARTHDAY</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_EARTHDAY</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_EARTHDAY_1</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>1</bSinglePlayer>
-			<iPercentGamesActive>95</iPercentGamesActive>
-			<iWeight>100</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_ENVIRONMENTALISM</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired/>
-			<iNumBuildings>0</iNumBuildings>
-			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>0</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired/>
-			<iNumReligions>0</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_EARTHDAY_1</Event>
-				<Event>EVENT_EARTHDAY_2</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs/>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>0</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>0</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>0</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_FREEDOMCONCERT</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_FREEDOMCONCERT</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_FREEDOMCONCERT_1</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>0</bSinglePlayer>
-			<iPercentGamesActive>95</iPercentGamesActive>
-			<iWeight>100</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_FREE_RELIGION</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired/>
-			<iNumBuildings>0</iNumBuildings>
-			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>0</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired/>
-			<iNumReligions>3</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_FREEDOMCONCERT_1</Event>
-				<Event>EVENT_FREEDOMCONCERT_2</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs/>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>0</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>1</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>1</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
 			<PythonCanDoCity/>
 			<PythonCanDoUnit/>
 			<PythonCallback/>
@@ -10716,7 +10554,7 @@
 			<iWeight>100</iWeight>
 			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
 			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_HEREDITARY_RULE</Civic>
+			<Civic>CIVIC_MONARCHY</Civic>
 			<iMinTreasury>0</iMinTreasury>
 			<iMinPopulation>0</iMinPopulation>
 			<iMaxPopulation>0</iMaxPopulation>
@@ -10807,7 +10645,7 @@
 			<iWeight>100</iWeight>
 			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
 			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_REPRESENTATION</Civic>
+			<Civic>CIVIC_OLIGARCHY</Civic>
 			<iMinTreasury>0</iMinTreasury>
 			<iMinPopulation>0</iMinPopulation>
 			<iMaxPopulation>0</iMaxPopulation>
@@ -10889,7 +10727,7 @@
 			<iWeight>100</iWeight>
 			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
 			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_UNIVERSAL_SUFFRAGE</Civic>
+			<Civic>CIVIC_ARISTOCRACY</Civic>
 			<iMinTreasury>0</iMinTreasury>
 			<iMinPopulation>0</iMinPopulation>
 			<iMaxPopulation>0</iMaxPopulation>
@@ -13095,7 +12933,7 @@
 			<iWeight>100</iWeight>
 			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
 			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>CIVIC_HEREDITARY_RULE</Civic>
+			<Civic>CIVIC_MONARCHY</Civic>
 			<iMinTreasury>0</iMinTreasury>
 			<iMinPopulation>0</iMinPopulation>
 			<iMaxPopulation>0</iMaxPopulation>

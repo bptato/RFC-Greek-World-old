@@ -113,12 +113,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -222,12 +222,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -392,12 +392,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -525,12 +525,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -653,12 +653,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -745,20 +745,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_DIDO</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -857,12 +853,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1000,12 +996,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1094,12 +1090,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1241,12 +1237,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1342,26 +1338,22 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_SOLOMON</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
-			<CivilizationSelectionSound>AS3D_CHINA_SELECT</CivilizationSelectionSound>
-			<CivilizationActionSound>AS3D_CHINA_ORDER</CivilizationActionSound>
+			<CivilizationSelectionSound>AS3D_ARABIA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_ARABIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_ATHENS</Type>
@@ -1459,20 +1451,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_PERICLES</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -1584,20 +1572,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_LEONIDAS</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -1706,12 +1690,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1816,12 +1800,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -1929,12 +1913,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2048,16 +2032,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_Porsenna</LeaderName>
+					<LeaderName>LEADER_PORSENNA</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -2145,12 +2129,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2279,12 +2263,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2406,12 +2390,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2516,20 +2500,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_ALEXANDER</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -2685,12 +2665,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2819,12 +2799,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -2933,12 +2913,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -3095,20 +3075,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_FREDERICK</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_BISMARCK</LeaderName>
+					<LeaderName>LEADER_ALARIC</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -3214,12 +3190,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -3326,12 +3302,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -3442,20 +3418,16 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
-					<LeaderName>LEADER_QIN_SHI_HUANG</LeaderName>
-					<bLeaderAvailability>1</bLeaderAvailability>
-				</Leader>
-				<Leader>
-					<LeaderName>LEADER_CHINESE_LEADER</LeaderName>
+					<LeaderName>LEADER_ATTILA_THE_HUN</LeaderName>
 					<bLeaderAvailability>1</bLeaderAvailability>
 				</Leader>
 			</Leaders>
@@ -3522,12 +3494,12 @@
 			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -3613,12 +3585,12 @@
 			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -3751,12 +3723,12 @@
 			</FreeTechs>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
@@ -4214,12 +4186,12 @@
 			<FreeTechs/>
 			<DisableTechs/>
 			<InitialCivics>
-				<CivicType>CIVIC_DESPOTISM</CivicType>
-				<CivicType>CIVIC_BARBARISM</CivicType>
+				<CivicType>CIVIC_TRIBAL_FEDERATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
-				<CivicType>CIVIC_DECENTRALIZATION</CivicType>
-				<CivicType>CIVIC_PAGANISM</CivicType>
-				<CivicType>CIVIC_SUBJUGATION</CivicType>
+				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
+				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
 				<Leader>
