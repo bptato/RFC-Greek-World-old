@@ -645,7 +645,7 @@ tBroaderAreasBR = (
 
 
 
-#Mercenaries. Higher number = less likely to hire
+#Mercenaries. Higher number = less likely to hire TODO
 tHire = (
 10, #Egypt
 30, #India
@@ -691,7 +691,7 @@ lEnemyCivsOnSpawn = [
 [iIndependent,iIndependent2,iSumeria,iEgypt,iPhoenicia], #Babylonia
 [iEgypt,iBabylonia,iPhoenicia,iIndependent,iIndependent2,iSumeria], #Hittites
 [iMinoa,iIndependent,iIndependent2], #Mycenae
-[iIndependent,iIndependent2,iSumeria,iEgypt,iPhoenicia,iBabylonia], #Assyria
+[iIndependent,iIndependent2,iSumeria,iEgypt,iPhoenicia,iBabylonia,iHittites], #Assyria
 [iEgypt,iPhoenicia], #Israel
 [iMycenae,iIndependent,iIndependent2], #Athens
 [iMycenae,iIndependent,iIndependent2], #Sparta

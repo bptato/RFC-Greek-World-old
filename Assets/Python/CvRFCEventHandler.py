@@ -505,7 +505,7 @@ class CvRFCEventHandler:
 		if (pPlayer.isAlive() and not pPlayer.isMinorCiv() and pPlayer.getNumCities() > 0):
 			self.pla.checkPlayerTurn(iGameTurn, iPlayer)
 			self.sta.updateBaseStability(iGameTurn, iPlayer)
-			"only check victory for player"
+			#only check victory for player
 			if pPlayer.isHuman():
 				self.vic.checkPlayerTurn(iGameTurn, iPlayer)
 			
@@ -561,12 +561,8 @@ class CvRFCEventHandler:
 		'Called at the end of a players turn'
 
 	def onEndGameTurn(self, argsList):
-	    
 		iGameTurn = argsList[0]
-		print "sta.checkImplosion"
 		self.sta.checkImplosion(iGameTurn)
-		print "sta.checkImplosion done"
-
 
 	def onReligionSpread(self, argsList):
 	    

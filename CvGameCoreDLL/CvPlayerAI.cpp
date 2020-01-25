@@ -1425,7 +1425,7 @@ void CvPlayerAI::AI_conquerCity(CvCity* pCity)
 
 	if (!bRaze)
 	{
-		CvEventReporter::getInstance().cityAcquiredAndKept(pCity->getPreviousOwner(), GC.getGameINLINE().getActivePlayer(), pCity, true, false);
+		CvEventReporter::getInstance().cityAcquiredAndKept(pCity->getPreviousOwner(), getID(), pCity, true, false);
 	}
 }
 

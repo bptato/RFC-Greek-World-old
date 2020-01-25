@@ -625,6 +625,7 @@ class RiseAndFall:
 					self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
 				if (con.getFeedUnits(iLoopCiv) > 0):
 					if (iGameTurn >= con.tBirth[iLoopCiv] and iGameTurn <= con.tBirth[iLoopCiv]+50):
+						print "feed units: " + str(con.tBirth[iLoopCiv]) + ", " + str(iGameTurn)
 						if ((iGameTurn-con.tBirth[iLoopCiv])%5 == 4):
 							self.spawnUnits(iLoopCiv, tCoreAreasTL[iLoopCiv], tCoreAreasBR[iLoopCiv], con.getFeedUnits(iLoopCiv), 3, utils.outerInvasion, 1)
 
