@@ -109,6 +109,8 @@ EndTeam
 BeginPlayer
 	LeaderType=LEADER_RAMESSES
 	CivType=CIVILIZATION_EGYPT
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
 	StartingGold=100
 	Team=0
 EndPlayer

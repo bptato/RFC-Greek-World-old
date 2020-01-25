@@ -273,10 +273,8 @@ class Stability:
 				else:
 					print ("dead", iCiv)
 
-
 	def continentsNormalization(self, iGameTurn): #removed by bluepotato. TODO: re-add it in the future?
 		return None
-
 
 	def normalization(self, iGameTurn):
 		iMean = 0
@@ -470,8 +468,10 @@ class Stability:
 			['religious_law', 'theocracy', 5],
 			['religious_law', 'persecution', 5],
 			['religious_law', 'deification', -20],
+			['temple_economy', 'theocracy', 5],
 			['tribal_custom', 'organized_religion', -10],
-			['tribal_custom', 'organized_religion', -10]
+			['tribal_custom', 'organized_religion', -10],
+			['empire', 'occupation', 5]
 			]
 
 			for compat in civicCompatibility:
