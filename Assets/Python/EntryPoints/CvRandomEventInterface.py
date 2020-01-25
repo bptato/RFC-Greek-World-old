@@ -2412,7 +2412,7 @@ def canTriggerTea(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
 	
-	if player.isCivic(CvUtil.findInfoTypeNum(gc.getCivicInfo,gc.getNumCivicInfos(),'CIVIC_MERCANTILISM')):
+	if player.isCivic(CvUtil.findInfoTypeNum(gc.getCivicInfo,gc.getNumCivicInfos(),'CIVIC_ISOLATIONISM')):
 		return false
 
 	bCanTrade = false		
