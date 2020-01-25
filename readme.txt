@@ -1,5 +1,50 @@
 CURRENT VERSION:
-1.6
+Version 1.7
+Additions:
+Babylonian UHV
+Hittite UHV
+Experimental city plundering: the idea is that you should be able to sack cities without keeping them. Only available to the player. WIP, might remove it later
+Bronze age collapse: civs randomly receive a -2 to 0 stability malus every turn from 1200BC to 1000BC
+
+Changes:
+Changed Patronage cost to low
+Changed Temple Economy building modifier to 25%
+Increased Sea People strength to 5
+Increased amount of Sea People almost everywhere
+Removed UHV checks from AI civs
+Barbarian archers don't spawn anymore as they just pointlessly wandered around the map anyways
+Civic stability overhaul: the stability system was still using old values for checking civic compatibility, now it checks for RFGW civics; still WIP
+More severe stability penalties for losing cities
+Changed Egypt's and Persia's starting civics
+Persia starts with Fortification and Bread Making
+Changed Numidian starting plot (desert hill) to plains hill so that they can settle their capital
+Halved culture city defence modifiers
+Reduced walls' city defence modifier to 30%
+
+Technical changes:
+Removed a lot of useless vanilla leaderheads from the XML
+UHV strings moved to XML
+Removed a bunch of constants from the DLL
+
+Fixes:
+Removed Great Depressions
+Fixed starting expansion civics for some civs
+Removed unit stacking limit (I still don't know if it was intentional, a bug, or both... it was certainly annoying and didn't work anyways)
+Some starting units of the AI are immobilized at their spawn
+Fixed 900BC starting cities and units
+Fixed settler maps
+
+Known issues:
+Old civs can become way too powerful sometimes
+The mod attempts to spawn units with an extremely high id sometimes (probably doesn't affect anything but I will have to look into it)
+Alexander doesn't do anything
+Rome never gets to the Near East
+Units are too cheap
+Not enough stuff to build
+Olympic parks can be built more than once
+
+PREVIOUS VERSIONS:
+Version 1.6
 Additions:
 Added Elam
 	They are intended to boost Persia by building up infrastructure in their core and collapsing before their spawn. Still needs balancing for this to work well.
@@ -41,8 +86,6 @@ Old civs can still become way too powerful
 The mod attempts to spawn units with an extremely high id sometimes (probably doesn't affect anything but I will have to look into it)
 Vanilla RFC unit stacking bug
 Vanilla RFC "dumb AI moves out of starting city with their entire army" bug
-
-PREVIOUS VERSIONS:
 
 Version 1.5 (EdmundIronside):
 Fixed Egypts Nubia UHV
