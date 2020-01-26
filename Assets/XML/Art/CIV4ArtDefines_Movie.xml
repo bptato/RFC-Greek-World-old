@@ -208,39 +208,15 @@
 			<Type>ART_DEF_MOVIE_SHWEDAGON_PAYA</Type>
 			<Path>Art/Movies/Wonders/Shwedagon Paya.bik</Path>
 		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_CHRIST_THE_REDEEMER</Type>
-			<Path>Art/Movies/Wonders/Christ the Redeemer.bik</Path>
-		</MovieArtInfo>
 		<!-- Rhye - start -->
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_CHANNEL_TUNNEL</Type>
-			<Path>Art/Movies/Wonders/eurotunnel.bik</Path>
+		 <MovieArtInfo>
+			<Type>ART_DEF_MOVIE_ISHTAR_GATE</Type>
+			<Path>Art/Movies/Wonders/Ishtar_Gate.bik</Path>
 		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_MT_RUSHMORE</Type>
-			<Path>Art/Movies/Wonders/rushmore.bik</Path>
+		 <MovieArtInfo>
+			<Type>ART_DEF_MOVIE_LUXOR</Type>
+			<Path>Art/Movies/Wonders/Luxor.bik</Path>
 		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_FORBIDDEN_PALACE</Type>
-			<Path>Art/Movies/Wonders/forbidden.bik</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_FLAVIAN_AMPHITHEATRE</Type>
-			<Path>Art/Movies/Wonders/flavian.bik</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_LEANING_TOWER</Type>
-			<Path>Art/Movies/Wonders/pisa.bik</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_MOAI_STATUES</Type>
-			<Path>Art/Movies/Wonders/moai.bik</Path>
-		</MovieArtInfo>
-         <MovieArtInfo>
-            <Type>ART_DEF_MOVIE_LUXOR</Type>
-            <Path>Art/Movies/Wonders/Luxor.bik</Path>
-        </MovieArtInfo>
 		<!-- Rhye - end -->
 	</MovieArtInfos>
 </Civ4ArtDefines>

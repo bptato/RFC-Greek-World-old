@@ -791,10 +791,6 @@ class MercenaryUtils:
 			#Rhye - end
 
 			#Rhye - start (no anti-... before correct era)
-			if ((i == 7 or i == 24 or i == 34) and gc.getActivePlayer().getCurrentEra() < con.iRenaissance):
-				bEraMatch = false
-			if (i == 10 and gc.getActivePlayer().getCurrentEra() < con.iIndustrial):
-				bEraMatch = false
 			if (i == 9 and gc.getActivePlayer().getCurrentEra() < con.iClassical):
 				bEraMatch = false
 			#Rhye - end

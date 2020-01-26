@@ -11340,7 +11340,7 @@
 			<Strategy>TXT_KEY_BUILDING_HINDU_SHRINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_SHRINE</ArtDefineTag>
-			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_HINDU</MovieDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_ISHTAR_GATE</MovieDefineTag>
 			<HolyCity>RELIGION_HINDUISM</HolyCity>
 			<ReligionType>RELIGION_HINDUISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
