@@ -2008,7 +2008,7 @@ class AIWars:
                         if (attitude > 0):
                                 lTargetCivs[iLoopCiv] /= attitude
                         #exploit plague
-                        if (utils.getPlagueCountdown(iLoopCiv) > 0 or utils.getPlagueCountdown(iLoopCiv) < -10 and not (gc.getGame().getGameTurn() <= con.tBirth[iLoopCiv] + 20)):
+                        if (utils.getPlagueCountdown(iLoopCiv) > 0 or utils.getPlagueCountdown(iLoopCiv) < -10 and not (gc.getGame().getGameTurn() <= getTurnForYear(gc.getPlayer(iLoopCiv).getStartingYear()) + 20)):
                                 lTargetCivs[iLoopCiv] *= 3
                                 lTargetCivs[iLoopCiv] /= 2
 

@@ -192,44 +192,6 @@ tCapitals = (
 (31, 43) # Huns
 )
 
-
-# civ birth dates
-
-tBirth = (
-i4400BC, #4400BC Egypt
-i4400BC, #4400BC Sumeria
-37, #3300BC Indus Valley
-i2720BC, #2720BC Elam
-57, #2690BC Minoa
-64, #2500BC Phoenecia
-108, #1895BC Babylonia
-136, #1600BC Hitites
-137, #1600BC Mycenae
-160, #1392BC Assyria
-203, #1050BC Israel
-224, #900BC Athens
-225, #900BC Sparta
-226, #900BC Scythia
-241, #814BC Carthage
-242, #800BC Celtia
-243, #800BC Etruria
-245, #785BC Nubia
-285, #550BC Persia
-291, #509BC Rome
-297, #479BC Macedonia
-323, #321BC India
-334, #256BC Bactria
-343, #202BC Numidia
-403, #160AD Germania
-414, #224AD Sassanids
-424, #286AD Byzantium
-442, #370AD Huns
-0, #
-0, #
-0,
-0,
-)
-
 (i4400BCScenario, i896BCScenario) = range(2)
 
 tYear = (
@@ -260,8 +222,6 @@ tYear = (
 ("1200 ", "TXT_KEY_AD"),
 ("1280 ", "TXT_KEY_AD"),
 ("1775 ", "TXT_KEY_AD"))
-
-
 
 #core areas (for RiseAndFall and Victory)
 

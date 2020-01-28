@@ -321,12 +321,6 @@ class Plague:
 		pOwner = gc.getPlayer(iOwner)
 		teamOwner = gc.getTeam(gc.getPlayer(city.getOwner()).getTeam())
 
-		#deadly plague when human player isn't born yet, will speed up the loading
-		if (gc.getGame().getGameTurn() < con.tBirth[utils.getHumanID()] + 20):
-			iDamage += 10
-			baseValue -= 5
-
-
 		#print (city.getX(), city.getY())
 		iNumUnitsInAPlot = pCurrent.getNumUnits()
 		#iPreserveHumanDefenders = iPreserveDefenders -1 #human handicap
@@ -461,7 +455,7 @@ class Plague:
 	def onCityAcquired(self, iOldOwner, iNewOwner, city):
 		if (city.hasBuilding(con.bn("plague"))):
 			if (self.getFirstContactPlague(iOldOwner) == False): #don't infect if first contact plague
-				if (self.getPlagueCountdown(iNewOwner) <= 0 and gc.getGame().getGameTurn() > con.tBirth[iNewOwner] + iImmunity ): #skip immunity in this case (to prevent expoiting of being immune to conquer weak civs), but not for the new born civs
+				if (self.getPlagueCountdown(iNewOwner) <= 0 and gc.getGame().getGameTurnYear() > gc.getPlayer(iNewOwner).getStartingYear() + iImmunity ): #skip immunity in this case (to prevent expoiting of being immune to conquer weak civs), but not for the new born civs
 					#if (not gc.getTeam(gc.getPlayer(iNewOwner).getTeam()).isHasTech(con.tn('medicine'))): #but not permanent immunity
 					print("acquiring plague")
 					self.spreadPlague(iNewOwner)
@@ -486,48 +480,7 @@ class Plague:
 				print ("iNumCitiesInfected", iNumCitiesInfected)
 				if (iNumCitiesInfected == 0):
 					self.setPlagueCountdown(iNewOwner, 0) #undo spreadPlague called in onCityAcquired()
-					
-
-
-##	def onFirstContact(self, iTeamX, iHasMetTeamY):
-##		if (gc.getGame().getGameTurn() > con.tBirth[con.iAztecs] + 2 and gc.getGame().getGameTurn() < con.i1800AD):
-##			iOldWorldCiv = -1
-##			iNewWorldCiv = -1
-##			#if (iTeamX in con.lCivBioOldWorld and iHasMetTeamY in con.lCivBioNewWorld):
-##			#	iOldWorldCiv = iTeamX
-##			#	iNewWorldCiv = iHasMetTeamY
-##			if (iTeamX in con.lCivBioNewWorld and iHasMetTeamY in con.lCivBioOldWorld):
-##				iNewWorldCiv = iTeamX
-##				iOldWorldCiv = iHasMetTeamY
-##			if (iOldWorldCiv != -1 and iNewWorldCiv != -1):
-##				pNewWorldCiv = gc.getPlayer(iNewWorldCiv)
-##				if (self.getPlagueCountdown(iNewWorldCiv) == 0): #vulnerable
-##					#print ("vulnerable", iNewWorldCiv)
-##					if (not gc.getTeam(pNewWorldCiv.getTeam()).isHasTech(con.iBiology)):
-##						city = utils.getRandomCity(iNewWorldCiv)
-##						if (city != -1):
-##							iHealth = -30
-##							if (pNewWorldCiv.calculateTotalCityHealthiness() > 0):
-##								iHealth = int((1.0 * pNewWorldCiv.calculateTotalCityHealthiness()) / (pNewWorldCiv.calculateTotalCityHealthiness() + \
-##									pNewWorldCiv.calculateTotalCityUnhealthiness()) * 100) - 60
-##							if (iHealth < 10): #no spread for iHealth >= 70 years
-##								iHealth /= 10
-##								if (gc.getGame().getSorenRandNum(100, 'roll') > 30 + 5*iHealth):
-##									self.setPlagueCountdown(iNewWorldCiv, iDuration - iHealth)
-##									self.setFirstContactPlague(iNewWorldCiv, True)
-##									#print ("spreading (through first contact) plague to", iNewWorldCiv)
-##									self.infectCity(city)
-##									iHuman = utils.getHumanID()
-##									if (gc.getPlayer(iHuman).canContact(iNewWorldCiv) and iHuman != iNewWorldCiv):
-##										CyInterface().addMessage(iHuman, False, con.iDuration/2, CyTranslator().getText("TXT_KEY_PLAGUE_SPREAD_CITY", ()) + " " + city.getName() + " (" + gc.getPlayer(city.getOwner()).getCivilizationAdjective(0) + ")", "AS2D_PLAGUE", 0, "", ColorTypes(con.iLime), -1, -1, True, True)
-##
-
 
 	def onTechAcquired(self, iTech, iPlayer):
 		if (self.getPlagueCountdown(iPlayer) > 1):
 			self.setPlagueCountdown(iPlayer, 1)
-
-
-
-
-

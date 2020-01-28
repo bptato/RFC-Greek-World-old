@@ -4,7 +4,7 @@
 #define CyGameCoreUtils_h
 
 //
-// Python wrapper functions for DLL 
+// Python wrapper functions for DLL
 //
 
 class CyCity;
@@ -69,5 +69,9 @@ bool cyIsTeamProject(int /*ProjectTypes*/ eProject);
 bool cyIsLimitedProject(int /*ProjectTypes*/ eProject);
 int cyGetCombatOdds(CyUnit* pAttacker, CyUnit* pDefender);
 int cyGetEspionageModifier(int /*TeamTypes*/ iOurTeam, int /*TeamTypes*/ iTargetTeam);
+
+int cyGetTurnForYear(int iTurnYear);
+int cyGetGameTurnForYear(int iTurnYear, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed);
+int cyGetGameTurnForMonth(int iTurnMonth, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed);
 
 #endif	// CyGameCoreUtils_h

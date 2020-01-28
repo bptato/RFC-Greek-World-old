@@ -215,7 +215,7 @@ CvPlot* plotCity(int iX, int iY, int iIndex);																			// Exposed to Py
 int plotCityXY(int iDX, int iDY);																									// Exposed to Python
 int plotCityXY(const CvCity* pCity, const CvPlot* pPlot);													// Exposed to Python
 
-CardinalDirectionTypes getOppositeCardinalDirection(CardinalDirectionTypes eDir);	// Exposed to Python 
+CardinalDirectionTypes getOppositeCardinalDirection(CardinalDirectionTypes eDir);	// Exposed to Python
 DirectionTypes cardinalDirectionToDirection(CardinalDirectionTypes eCard);				// Exposed to Python
 DllExport bool isCardinalDirection(DirectionTypes eDirection);															// Exposed to Python
 DllExport DirectionTypes estimateDirection(int iDX, int iDY);																// Exposed to Python
@@ -352,5 +352,9 @@ void getActivityTypeString(CvWString& szString, ActivityTypes eActivityType);
 void getMissionTypeString(CvWString& szString, MissionTypes eMissionType);
 void getMissionAIString(CvWString& szString, MissionAITypes eMissionAI);
 void getUnitAIString(CvWString& szString, UnitAITypes eUnitAI);
+
+int getGameTurnForMonth(int iTurnMonth, int iStartYear, CalendarTypes eCalendar, GameSpeedTypes eSpeed);
+int getGameTurnForYear(int iTurnYear, int iStartYear, CalendarTypes eCalendar, GameSpeedTypes eSpeed);
+int getTurnForYear(int iTurnYear);
 
 #endif

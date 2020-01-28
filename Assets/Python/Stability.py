@@ -207,8 +207,9 @@ class Stability:
 						if (pCurrent.isCity()):
 							cityOwner = pCurrent.getPlotCity().getOwner()
 							for iLoop in range(con.iNumPlayers):
-								if (iLoop != cityOwner and gc.getPlayer(iLoop).isAlive() and iGameTurn >= con.tBirth[iLoop]+30 and iGameTurn >= self.getLatestRebellionTurn(iLoop) + 15):
-									if (gc.getPlayer(iLoop).getSettlersMaps(CyMap().getGridHeight()-1-y, x) >= 400):
+								player = gc.getPlayer(iLoop)
+								if (iLoop != cityOwner and player.isAlive() and iGameTurn >= getTurnForYear(player.getStartingYear()) + 30 and iGameTurn >= self.getLatestRebellionTurn(iLoop) + 15):
+									if (player.getSettlersMaps(CyMap().getGridHeight()-1-y, x) >= 400):
 										if (x >= con.tNormalAreasTL[iLoop][0] and x <= con.tNormalAreasBR[iLoop][0] and \
 										    y >= con.tNormalAreasTL[iLoop][1] and y <= con.tNormalAreasBR[iLoop][1]):
 											    if ((x,y) not in con.tNormalAreasSubtract[iLoop]):
@@ -490,7 +491,7 @@ class Stability:
 				iX = pLoopCity.GetCy().getX()
 				iY = pLoopCity.GetCy().getY()
 				for iLoop in range(iNumMajorPlayers):
-					if (iGameTurn > con.tBirth[iLoop] and iLoop != iPlayer):
+					if (gc.getGame().getTurnYear(iGameTurn) > gc.getPlayer(iLoop).getStartingYear() and iLoop != iPlayer):
 						if (iX >= con.tNormalAreasTL[iLoop][0] and iX <= con.tNormalAreasBR[iLoop][0] and \
 						    iY >= con.tNormalAreasTL[iLoop][1] and iY <= con.tNormalAreasBR[iLoop][1]):
 							if (gc.getPlayer(iPlayer).getSettlersMaps(CyMap().getGridHeight()-1-iY, iX) < 150):
@@ -631,7 +632,7 @@ class Stability:
 
 		#every turn
 
-		if (iGameTurn >= con.tBirth[iPlayer]+15):
+		if iGameTurn >= getTurnForYear(gc.getPlayer(iPlayer).getStartingYear())+15:
 			self.setGNPnew(iPlayer, self.getGNPnew(iPlayer) + (iEconomy + 4*iIndustry + 2*iAgriculture)/7)
 			if (iGameTurn % 3 == 2):
 				iTempEconomyThreshold = self.getStability(iPlayer)
@@ -730,7 +731,7 @@ class Stability:
 	def onCityBuilt(self, iPlayer, x, y):
 		iTempExpansionThreshold = self.getStability(iPlayer)
 		iGameTurn = gc.getGame().getGameTurn()
-		if (iGameTurn <= con.tBirth[iPlayer] + 20):
+		if (iGameTurn <= getTurnForYear(gc.getPlayer(iPlayer).getStartingYear()) + 20):
 			self.setStability(iPlayer, self.getStability(iPlayer) + 3)
 		else:
 			self.setStability(iPlayer, self.getStability(iPlayer) + 1)
@@ -750,9 +751,10 @@ class Stability:
 
 	def onCityAcquired(self, owner, playerType, city, bConquest, bTrade):
 		iGameTurn = gc.getGame().getGameTurn()
+		startingTurn = getTurnForYear(gc.getPlayer(playerType).getStartingYear())
 		if (owner < con.iNumPlayers):
 			iTotalCityLostModifier = 0
-			if (bTrade and (iGameTurn == con.tBirth[playerType] or iGameTurn == con.tBirth[playerType]+1 or iGameTurn == con.tBirth[playerType]+2)):
+			if (bTrade and (gc.getGame().getGameTurn() == startingTurn or iGameTurn == startingTurn+1 or iGameTurn == startingTurn+2)):
 				iTotalCityLostModifier = 3 #during a civ birth
 				if (not gc.getPlayer(owner).isHuman()):
 					iTotalCityLostModifier += 1
@@ -778,7 +780,7 @@ class Stability:
 
 		if (playerType < con.iNumPlayers):
 			iTempExpansionThreshold = self.getStability(playerType)
-			if (iGameTurn == con.tBirth[playerType] or iGameTurn == con.tBirth[playerType]+1 or iGameTurn == con.tBirth[playerType]+2):
+			if (iGameTurn == startingTurn or iGameTurn == startingTurn+1 or iGameTurn == startingTurn+2):
 				self.setStability(playerType, self.getStability(playerType) + 3)
 			elif (owner >= con.iNumPlayers):
 				self.setStability(playerType, self.getStability(playerType) + max(0,min(5,(12 - gc.getPlayer(playerType).getNumCities())/2)))
@@ -956,10 +958,10 @@ class Stability:
 
 
 	def checkImplosion(self, iGameTurn):
-
 		if (iGameTurn > con.i2000BC and iGameTurn % 10 == 5): #RFGW
 			for iPlayer in range(iNumPlayers):
-				if (gc.getPlayer(iPlayer).isAlive() and iGameTurn >= con.tBirth[iPlayer] + 25):
+				player = gc.getPlayer(iPlayer)
+				if (player.isAlive() and iGameTurn >= getTurnForYear(player.getStartingYear()) + 25):
 					if (self.getStability(iPlayer) < -40): #civil war
 						print ("COLLAPSE: CIVIL WAR", gc.getPlayer(iPlayer).getCivilizationAdjective(0))
 						if (iPlayer != utils.getHumanID()):

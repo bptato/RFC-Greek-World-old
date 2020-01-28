@@ -3029,7 +3029,7 @@ class CvMainInterface:
 											szBuffer = szBuffer + szTempBuffer
 
 										#Rhye - start
-										if (not gc.getTeam(eTeam).isAlive() and gc.getGame().getGameTurn() >= con.tBirth[eTeam]):
+										if (not gc.getTeam(eTeam).isAlive() and gc.getGame().getGameTurnYear() >= getTurnForYear(gc.getPlayer(ePlayer).getStartingYear())):
 											szBuffer = szBuffer + " -" 
 										else:
 											szBuffer = szBuffer + u" %d" %(gc.getGame().getPlayerScore(ePlayer))

@@ -286,6 +286,9 @@ public:
 	DllExport void changeGold(int iChange);																													// Exposed to Python
 
 	int getGoldPerTurn() const;																																						// Exposed to Python
+																																		// Exposed to Python
+	void setStartingYear(int startingYear);
+	int getStartingYear() const;
 
 	DllExport int getAdvancedStartPoints() const;																																				// Exposed to Python
 	DllExport void setAdvancedStartPoints(int iNewValue);																													// Exposed to Python
@@ -1070,6 +1073,7 @@ protected:
 	int m_iTotalLandScored;
 	int m_iGold;
 	int m_iGoldPerTurn;
+	int startingYear;
 	int m_iAdvancedStartPoints;
 	int m_iGoldenAgeTurns;
 	int m_iNumUnitGoldenAges;

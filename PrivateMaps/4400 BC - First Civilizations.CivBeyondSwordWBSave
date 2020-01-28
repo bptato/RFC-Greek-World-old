@@ -112,108 +112,126 @@ BeginPlayer
 	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
 	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
 	StartingGold=100
+	StartingYear=-4400
 	Team=0
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_GILGAMESH
 	CivType=CIVILIZATION_SUMERIA
 	StartingGold=100
+	StartingYear=-4400
 	Team=1
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_VATAVELLI
 	CivType=CIVILIZATION_INDUS_VALLEY
 	StartingGold=100
+	StartingYear=-3290
 	Team=2
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_KINDATTU
 	CivType=CIVILIZATION_ELAM
 	StartingGold=100
+	StartingYear=-2720
 	Team=3
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_SATUR
 	CivType=CIVILIZATION_MINOA
 	StartingGold=100
+	StartingYear=-2690
 	Team=4
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_DIDO
 	CivType=CIVILIZATION_PHOENICIA
 	StartingGold=150
+	StartingYear=-2495
 	Team=5
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_HAMMURABI
 	CivType=CIVILIZATION_BABYLON
 	StartingGold=150
+	StartingYear=-1890
 	Team=6
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_SUPPILULIUMA_I
 	CivType=CIVILIZATION_HITTITE
 	StartingGold=150
+	StartingYear=-1610
 	Team=7
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_AGAMEMNON
 	CivType=CIVILIZATION_MYCENAE
 	StartingGold=200
+	StartingYear=-1600
 	Team=8
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ASHUR
 	CivType=CIVILIZATION_ASSYRIA
 	StartingGold=200
+	StartingYear=-1396
 	Team=9
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_SOLOMON
 	CivType=CIVILIZATION_ISRAEL
 	StartingGold=150
+	StartingYear=-1052
 	Team=10
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_PERICLES
 	CivType=CIVILIZATION_ATHENS
 	StartingGold=200
+	StartingYear=-914
 	Team=11
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_LEONIDAS
 	CivType=CIVILIZATION_SPARTA
 	StartingGold=200
+	StartingYear=-908
 	Team=12
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ATHEAS
 	CivType=CIVILIZATION_SCYTHIA
 	StartingGold=200
+	StartingYear=-902
 	Team=13
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_HANNIBAL
 	CivType=CIVILIZATION_CARTHAGE
 	StartingGold=250
+	StartingYear=-812
 	Team=14
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_BRENNUS
 	CivType=CIVILIZATION_CELT
 	StartingGold=200
+	StartingYear=-806
 	Team=15
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_PORSENNA
 	CivType=CIVILIZATION_ETRURIA
 	StartingGold=200
+	StartingYear=-800
 	Team=16
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_TAHARQA
 	CivType=CIVILIZATION_NUBIA
 	StartingGold=200
+	StartingYear=-788
 	Team=17
 EndPlayer
 BeginPlayer
@@ -226,60 +244,70 @@ BeginPlayer
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
 	CivicOption=CIVICOPTION_EXPANSION, Civic=CIVIC_CLIENT_KINGDOMS
 	StartingGold=250
+	StartingYear=-548
 	Team=18
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_JULIUS_CAESAR
 	CivType=CIVILIZATION_ROME
 	StartingGold=300
+	StartingYear=-512
 	Team=19
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ALEXANDER
 	CivType=CIVILIZATION_MACEDONIA
 	StartingGold=250
+	StartingYear=-476
 	Team=20
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ASOKA
 	CivType=CIVILIZATION_INDIA
 	StartingGold=250
+	StartingYear=-320
 	Team=21
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_DIODOTUS
 	CivType=CIVILIZATION_BACTRIA
 	StartingGold=300
+	StartingYear=-254
 	Team=22
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_MASINISSA
 	CivType=CIVILIZATION_NUMIDIA
 	StartingGold=200
+	StartingYear=-200
 	Team=23
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ALARIC
 	CivType=CIVILIZATION_GERMANIA
 	StartingGold=200
+	StartingYear=160
 	Team=24
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_KHOSRAU
 	CivType=CIVILIZATION_SASSANID
 	StartingGold=350
+	StartingYear=226
 	Team=25
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_JUSTINIAN
 	CivType=CIVILIZATION_BYZANTIUM
 	StartingGold=350
+	StartingYear=286
 	Team=26
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ATTILA_THE_HUN
 	CivType=CIVILIZATION_HUNS
 	StartingGold=150
+	StartingYear=368
 	Team=27
 EndPlayer
 BeginPlayer

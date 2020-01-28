@@ -395,6 +395,7 @@ void CvPlayer::reset(PlayerTypes eID, bool bConstructorCall)
 	m_iTotalLandScored = 0;
 	m_iGold = 0;
 	m_iGoldPerTurn = 0;
+	startingYear = 0;
 	m_iAdvancedStartPoints = -1;
 	m_iGoldenAgeTurns = 0;
 	m_iNumUnitGoldenAges = 0;
@@ -8148,6 +8149,16 @@ void CvPlayer::changeGold(int iChange)
 int CvPlayer::getGoldPerTurn() const
 {
 	return m_iGoldPerTurn;
+}
+
+int CvPlayer::getStartingYear() const
+{
+	return startingYear;
+}
+
+void CvPlayer::setStartingYear(int newStartingYear)
+{
+	startingYear = newStartingYear;
 }
 
 int CvPlayer::getAdvancedStartPoints() const
@@ -16481,6 +16492,7 @@ void CvPlayer::read(FDataStreamBase* pStream)
 	pStream->Read(&m_iTotalLandScored);
 	pStream->Read(&m_iGold);
 	pStream->Read(&m_iGoldPerTurn);
+	pStream->Read(&startingYear);
 	pStream->Read(&m_iAdvancedStartPoints);
 	pStream->Read(&m_iGoldenAgeTurns);
 	pStream->Read(&m_iNumUnitGoldenAges);
@@ -16953,6 +16965,7 @@ void CvPlayer::write(FDataStreamBase* pStream)
 	pStream->Write(m_iTotalLandScored);
 	pStream->Write(m_iGold);
 	pStream->Write(m_iGoldPerTurn);
+	pStream->Write(startingYear);
 	pStream->Write(m_iAdvancedStartPoints);
 	pStream->Write(m_iGoldenAgeTurns);
 	pStream->Write(m_iNumUnitGoldenAges);

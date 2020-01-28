@@ -69,4 +69,8 @@ void CyGameCoreUtilsPythonInterface()
 	python::def("isLimitedProject", cyIsLimitedProject, "bool (int /*ProjectTypes*/ eProject)");
 	python::def("getCombatOdds", cyGetCombatOdds, "int (CyUnit* pAttacker, CyUnit* pDefender)");
 	python::def("getEspionageModifier", cyGetEspionageModifier, "int (int /*TeamTypes*/ iOurTeam, int /*TeamTypes*/ iTargetTeam)");
+
+	python::def("getTurnForYear", cyGetTurnForYear, "int (int iTurnYear)");
+	python::def("getGameTurnForYear", cyGetGameTurnForYear, "int (int iTurnYear, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed)");
+	python::def("getGameTurnForMonth", cyGetGameTurnForMonth, "int (int iTurnMonth, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed)");
 }

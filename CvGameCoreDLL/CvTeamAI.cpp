@@ -2569,7 +2569,7 @@ DenialTypes CvTeamAI::AI_defensivePactTrade(TeamTypes eTeam) const
 	PROFILE_FUNC();
 
 	AttitudeTypes eAttitude;
-	int iI;
+	//int iI;
 
 	FAssertMsg(eTeam != getID(), "shouldn't call this function on ourselves");
 

@@ -135,6 +135,8 @@ def getPlayerData():
 		t=t+(artStyle,)
 		t=t+(WBDesc.playersDesc[i].isMinorNationCiv,)
 		t=t+(WBDesc.playersDesc[i].isWhiteFlag,)
+		#ugly hack to get starting year on the screen. TODO: remove this abomination
+		gc.getPlayer(i).setStartingYear(WBDesc.playersDesc[i].startingYear)
 				
 	return t
 		
@@ -147,5 +149,5 @@ def getPlayerDesc():
 		t=t+(WBDesc.playersDesc[i].szLeaderName,)
 		t=t+(WBDesc.playersDesc[i].szCivAdjective,)
 		t=t+(WBDesc.playersDesc[i].szFlagDecal,)
-		
+
 	return t

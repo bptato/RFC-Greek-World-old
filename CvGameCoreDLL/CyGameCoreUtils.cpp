@@ -263,3 +263,14 @@ int cyGetEspionageModifier(int iOurTeam, int iTargetTeam)
 	return getEspionageModifier((TeamTypes)iOurTeam, (TeamTypes)iTargetTeam);
 }
 
+int cyGetTurnForYear(int iTurnYear) {
+	return getTurnForYear(iTurnYear);
+}
+
+int cyGetGameTurnForYear(int iTurnYear, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed) {
+	return getGameTurnForYear(iTurnYear, iStartYear, (CalendarTypes)eCalendar, (GameSpeedTypes)eSpeed);
+}
+
+int cyGetGameTurnForMonth(int iTurnMonth, int iStartYear, int /*CalendarTypes*/ eCalendar, int /*GameSpeedTypes*/ eSpeed) {
+	return getGameTurnForMonth(iTurnMonth, iStartYear, (CalendarTypes)eCalendar, (GameSpeedTypes)eSpeed);
+}

@@ -369,22 +369,6 @@ class CvRFCEventHandler:
 		self.sta.onCombatResult(argsList)
 		self.rnf.immuneMode(argsList)
 
-
-
-##	def onChangeWar(self, argsList):
-##		print ("No cheaters1")
-##		if (bIsWar):
-##			print ("No cheaters2")
-##			if (argsList[1] == utils.getHumanID() and gc.getGame().getGameTurn() <= con.tBirth[argsList[1]] + iBetrayalCheaters):
-##				print ("No cheaters3")
-##				self.rnf.setNewCivFlip(argsList[1])
-##				self.rnf.setTempTopLeft(rnf.tCoreAreasTL[argsList[1]])
-##				self.rnf.setTempBottomRight(rnf.tCoreAreasBR[argsList[1]])
-##				self.rnf.setBetrayalTurns(rnf.iBetrayalPeriod)
-##				self.rnf.initBetrayal()
-
-
-
 	def onReligionFounded(self, argsList):
 		'Religion Founded'
 		iReligion, iFounder = argsList
@@ -451,7 +435,7 @@ class CvRFCEventHandler:
 
 		#Mercenaries - start
 
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]):
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear():
 			
 			# Get the list of active players in the game
 			playerList = PyGame.getCivPlayerList()
@@ -520,7 +504,7 @@ class CvRFCEventHandler:
 		# and provide the logic to make the computer players think.
 		player = gc.getPlayer(iPlayer)
 
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
+		if (gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear()): #Rhye
 
 			# Debug code - start
 			if(g_bDebug):
@@ -576,7 +560,7 @@ class CvRFCEventHandler:
 ##		self.pla.onFirstContact(iTeamX, iHasMetTeamY)
 		#RFGW
 		if (con.getFeedUnits(iTeamX) > 0 and iHasMetTeamY<iNumMajorPlayers):
-			if (gc.getGame().getGameTurn() > con.tBirth[iTeamX]):
+			if (gc.getGame().getGameTurnYear() > gc.getPlayer(iTeamX).getStartingYear()):
 				self.rnf.spawnUnits(iTeamX, con.tCoreAreasTL[iHasMetTeamY], con.tCoreAreasBR[iHasMetTeamY], con.getFeedUnits(iTeamX), 1, utils.outerInvasion, 1)
 
 
@@ -588,7 +572,7 @@ class CvRFCEventHandler:
 
 		iHuman = utils.getHumanID()
 				
-		if (gc.getGame().getGameTurn() > con.tBirth[iPlayer]):		    
+		if (gc.getGame().getGameTurnYear() > gc.getPlayer(iPlayer).getStartingYear()):		    
 			if (iPlayer == con.iPhoenicia or \
 			    iPlayer == con.iMinoa or \
 			    iPlayer == con.iSumeria or \
@@ -596,7 +580,7 @@ class CvRFCEventHandler:
 				self.vic.onTechAcquired(argsList[0], argsList[2])
 			self.cnm.onTechAcquired(argsList[2])
 ##		
-		if (gc.getPlayer(iPlayer).isAlive() and gc.getGame().getGameTurn() > con.tBirth[iPlayer] and not gc.getPlayer(iPlayer).isMinorCiv()):
+		if (gc.getPlayer(iPlayer).isAlive() and gc.getGame().getGameTurnYear() > gc.getPlayer(iPlayer).getStartingYear() and not gc.getPlayer(iPlayer).isMinorCiv()):
 			self.sta.onTechAcquired(argsList[0], argsList[2])
 
 		
@@ -606,7 +590,7 @@ class CvRFCEventHandler:
 
 	# This method creates a new instance of the MercenaryUtils class to be used later
 	def onLoadGame(self, argsList):
-		if gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]: #Rhye
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear(): #Rhye
 
 			global objMercenaryUtils
 
@@ -619,7 +603,7 @@ class CvRFCEventHandler:
 	def onUnitPromoted(self, argsList):
 		'Unit Promoted'
 
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye	
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear(): #Rhye	
 			pUnit, iPromotion = argsList
 			player = PyPlayer(pUnit.getOwner())
 
@@ -637,7 +621,7 @@ class CvRFCEventHandler:
 		
 		return
 		
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear(): #Rhye
 			
 			mercenary = objMercenaryUtils.getMercenary(unit.getNameNoDesc())
 			if(mercenary != None and g_bDisplayMercenaryMessages and mercenary.getBuilder() != -1 and unit.isDead()):
@@ -653,7 +637,7 @@ class CvRFCEventHandler:
 
 		return
 
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear(): #Rhye
 	
 			unit = argsList[0]
 			
@@ -720,7 +704,7 @@ class CvRFCEventHandler:
 	def onKbdEvent(self, argsList):
 		'keypress handler - return 1 if the event was consumed'
 
-		if (gc.getGame().getGameTurn() >= con.tBirth[utils.getHumanID()]): #Rhye
+		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear(): #Rhye
 		
 			# TO DO: REMOVE THE FOLLOWING LINE BEFORE RELEASE.
 			#gc.getPlayer(0).setGold(20000)

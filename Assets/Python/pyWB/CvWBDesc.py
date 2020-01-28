@@ -429,6 +429,7 @@ class CvPlayerDesc:
 		self.isPlayableCiv = 1
 		self.isMinorNationCiv = 0
 		self.iStartingGold = 0
+		self.startingYear = 0
 		self.iStartingX = -1
 		self.iStartingY = -1
 		self.stateReligion = ""
@@ -594,6 +595,11 @@ class CvPlayerDesc:
 				v = parser.findTokenValue(toks, "StartingGold")
 				if v!=-1:
 					self.iStartingGold = int(v)
+					continue
+				
+				v = parser.findTokenValue(toks, "StartingYear")
+				if v!=-1:
+					self.startingYear = int(v)
 					continue
 
 				vX = parser.findTokenValue(toks, "StartingX")
@@ -1679,6 +1685,9 @@ class CvWBDesc:
 					
 					# Player's starting gold
 					pPlayer.setGold(pWBPlayer.iStartingGold)
+					
+					#Player's starting year
+					pPlayer.setStartingYear(pWBPlayer.startingYear)
 					
 					# Player's starting plot
 					if ((pWBPlayer.iStartingX != -1) and (pWBPlayer.iStartingY != -1)):

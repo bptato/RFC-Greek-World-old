@@ -25,7 +25,6 @@ iBetrayalThreshold = 80
 iRebellionDelay = 15
 iEscapePeriod = 30
 tAIStopBirthThreshold = con.tAIStopBirthThreshold
-tBirth = con.tBirth
 
 # initialise player variables
 
@@ -132,10 +131,6 @@ teamBarbarian = gc.getTeam(pBarbarian.getTeam())
 
 #for not allowing new civ popup if too close
 tDifference = (0, 0, 0, 0, 0, 3, 2, 2, 1, 1, 1, 0, 8, 7, 6, 5, 4, 3, 2, 2, 2, 2, 3, 2, 1, 0, 0, 0)
-									    #ma po in mo az tu am
-
-		
-
 
 # starting locations coordinates
 tCapitals = con.tCapitals
@@ -585,11 +580,12 @@ class RiseAndFall:
 			if (iCiv > utils.getHumanID() and iCiv < iHuns):
 				for j in range(iNumPlayers-1-iCiv):
 					iNextCiv = iCiv+j+1
-					if (con.tBirth[iCiv]+self.getBirthTurnModifier(iCiv) == con.tBirth[iNextCiv]+self.getBirthTurnModifier(iNextCiv)):
+					if (getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + self.getBirthTurnModifier(iCiv) == getTurnForYear(gc.getPlayer(iNextCiv).getStartingYear()) + self.getBirthTurnModifier(iNextCiv)):
 						self.setBirthTurnModifier(iNextCiv, (self.getBirthTurnModifier(iNextCiv)+1))
 
 	def checkTurn(self, iGameTurn):
-		print 'RiseAndFall.checkTurn()'
+		game = CyGame()
+		currentYear = game.getTurnYear(iGameTurn)
 		#debug
 
 		#Trigger betrayal mode
@@ -620,19 +616,15 @@ class RiseAndFall:
 
 		#birth of civs
 		for iLoopCiv in range(iNumMajorPlayers):
-			if (tBirth[iLoopCiv] > 0):
-				if (iGameTurn >= con.tBirth[iLoopCiv] - 2 and iGameTurn <= con.tBirth[iLoopCiv] + 6):
-					self.initBirth(iGameTurn, tBirth[iLoopCiv], iLoopCiv)
+			startingYear = gc.getPlayer(iLoopCiv).getStartingYear()
+			startingTurn = getTurnForYear(startingYear)
+			if (startingTurn > 0):
+				if (game.getTurnYear(iGameTurn + 1) >= startingYear and game.getTurnYear(iGameTurn - 6) <= startingYear):
+					self.initBirth(iGameTurn, startingTurn, iLoopCiv)
 				if (con.getFeedUnits(iLoopCiv) > 0):
-					if (iGameTurn >= con.tBirth[iLoopCiv] and iGameTurn <= con.tBirth[iLoopCiv]+50):
-						if ((iGameTurn-con.tBirth[iLoopCiv])%5 == 4):
+					if (currentYear >= startingYear and game.getTurnYear(iGameTurn - 50) <= startingYear):
+						if (iGameTurn-startingTurn)%5 == 4:
 							self.spawnUnits(iLoopCiv, tCoreAreasTL[iLoopCiv], tCoreAreasBR[iLoopCiv], con.getFeedUnits(iLoopCiv), 3, utils.outerInvasion, 1)
-
-		#flip Mesopotamia
-		#if (iGameTurn == 1):
-		#	self.convertSurroundingCities(iBabylonia, tBroaderAreasTL[iBabylonia], tBroaderAreasBR[iBabylonia])
-
-		#RFGW
 
 		#fragment utility
 		if (iGameTurn >= con.i450BC and iGameTurn % 15 == 6):
@@ -721,7 +713,7 @@ class RiseAndFall:
 		iRndnum = gc.getGame().getSorenRandNum(iNumPlayers, 'starting count')
 		for j in range(iRndnum, iRndnum + iNumPlayers):
 			iDeadCiv = j % iNumPlayers
-			if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > con.tBirth[iDeadCiv] + 50):
+			if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > getTurnForYear(gc.getPlayer(iDeadCiv).getStartingYear()) + 50):
 				pDeadCiv = gc.getPlayer(iDeadCiv)
 				teamDeadCiv = gc.getTeam(pDeadCiv.getTeam())
 				iCityCounter = 0
@@ -752,66 +744,10 @@ class RiseAndFall:
 										iDivideCounter += 1
 					return
 
-
-
-
-
-
-##	def collapseCapitals(self, iOldOwner, city, iNewOwner):
-##	#Persian UP inside
-##	#AI tweaked in CvCity::getCulturePercentAnger()
-##
-##		bCapital = False
-##		bPersia = False
-##		iModifier = 0
-##		for i in range(iNumPlayers):
-##			if (city.getX() == tCapitals[i][0] and city.getY() == tCapitals[i][1]):
-##				if (city.getOwner() == i): #otherwise it's no longer a capital
-##					bCapital = True
-##		if (iNewOwner == iPersia):
-##			bPersia = True
-##			if (not bCapital):
-##				iModifier = 1
-##		if (iNewOwner == self.getRebelCiv() and gc.getGame().getGameTurn() == self.getLatestRebellionTurn(self.getRebelCiv())):
-##			return #don't mess up with resurrection()
-##		#print ("iNewOwner", iNewOwner, con.tBirth[iNewOwner])
-##		if (iNewOwner == iBarbarian):
-##			return
-##		if (iNewOwner != iBarbarian):
-##			if (gc.getGame().getGameTurn() <= con.tBirth[iNewOwner] + 2):
-##				return #don't mess up with birth (case of delay still a problem...)
-##		if (bCapital or bPersia):
-##			for x in range(city.getX() -3 +iModifier, city.getX() +4 -iModifier):
-##				for y in range(city.getY() -3 +iModifier, city.getY() +4 -iModifier):
-##					pCurrent = gc.getMap().plot(x, y)
-##					if (pCurrent.isCity()):
-##						cityNear = pCurrent.getPlotCity()
-##						iOwnerNear = cityNear.getOwner()
-##						#print ("iOwnerNear", iOwnerNear, "citynear", cityNear.getName())
-##						if (iOwnerNear != iNewOwner and iOwnerNear == iOldOwner):
-##							if (cityNear != city):
-##								if (cityNear.getPopulation() <= city.getPopulation() and not cityNear.isCapital()):
-##									if (bPersia == True and iModifier == 1): #Persian UP - any city, 2x2 area
-##										if (cityNear.getPopulation() <= 8):
-##											if (self.getLatestFlipTurn() != gc.getGame().getGameTurn()):									
-##												utils.flipUnitsInCityBefore((x,y), iNewOwner, iOwnerNear)
-##												self.setTempFlippingCity((x,y))
-##												utils.flipCity((x,y), 0, 0, iNewOwner, [iOwnerNear])
-##												utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iNewOwner)
-##												self.setLatestFlipTurn(gc.getGame().getGameTurn())
-##												utils.cultureManager(self.getTempFlippingCity(), 50, iOwnerNear, iNewOwner, False, False, False)
-##									else:
-##										utils.flipUnitsInCityBefore((x,y), iNewOwner, iOwnerNear)
-##										self.setTempFlippingCity((x,y))
-##										utils.flipCity((x,y), 0, 0, iNewOwner, [iOwnerNear])
-##										utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iNewOwner)
-##										utils.cultureManager(self.getTempFlippingCity(), 50, iOwnerNear, iNewOwner, False, False, False)
-##										print ("COLLAPSE: CAPITALS", gc.getPlayer(iOwnerNear).getCivilizationShortDescription(0))
-
 	def collapseByBarbs(self, iGameTurn):
 		for iCiv in range(iNumPlayers):
 			if (gc.getPlayer(iCiv).isHuman() == 0 and gc.getPlayer(iCiv).isAlive()):
-				if (iGameTurn >= con.tBirth[iCiv] + 25):
+				if (iGameTurn >= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 25):
 					iNumCities = gc.getPlayer(iCiv).getNumCities()
 					iLostCities = 0
 					for x in range(0, 124):
@@ -833,7 +769,7 @@ class RiseAndFall:
 				pCiv = gc.getPlayer(iCiv)
 				teamCiv = gc.getTeam(pCiv.getTeam())
 				if (pCiv.isAlive()):
-					if (iGameTurn >= con.tBirth[iCiv] + 25):
+					if (iGameTurn >= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 25):
 						lNumCitiesNew[iCiv] = pCiv.getNumCities()
 						if (lNumCitiesNew[iCiv]*2 <= self.getNumCities(iCiv)): #if number of cities is less than half than some turns ago, the civ collapses
 							print ("COLLAPSE GENERIC", pCiv.getCivilizationAdjective(0), lNumCitiesNew[iCiv]*2, "<=", self.getNumCities(iCiv))
@@ -854,7 +790,7 @@ class RiseAndFall:
 			pCiv = gc.getPlayer(iCiv)
 			teamCiv = gc.getTeam(pCiv.getTeam())
 			if (pCiv.isHuman() == 0 and pCiv.isAlive()):
-				if (iGameTurn >= con.tBirth[iCiv] + 25):
+				if (iGameTurn >= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 25):
 					bSafe = False
 					for x in range(tCoreAreasTL[iCiv][0], tCoreAreasBR[iCiv][0]+1):
 						for y in range(tCoreAreasTL[iCiv][1], tCoreAreasBR[iCiv][1]+1):
@@ -993,7 +929,7 @@ class RiseAndFall:
 		iRndnum = gc.getGame().getSorenRandNum(iNumPlayers, 'starting count')
 		for j in range(iRndnum, iRndnum + iNumPlayers):
 			iPlayer = j % iNumPlayers
-			if (gc.getPlayer(iPlayer).isAlive() and iGameTurn >= con.tBirth[iPlayer] + 30):
+			if (gc.getPlayer(iPlayer).isAlive() and iGameTurn >= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 30):
 				if (utils.getStability(iPlayer) >= -400 and utils.getStability(iPlayer) < -20): #secession (-400 for any very low value, instead of -40)
 
 					cityList = []
@@ -1063,8 +999,7 @@ class RiseAndFall:
 				iDeadCiv = j % iNumPlayers
 				#iDeadCiv = iIndia #DEBUG
 				cityList = []
-				if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > con.tBirth[iDeadCiv] + 50 and iGameTurn > utils.getLastTurnAlive(iDeadCiv) + 20):
-				#if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > con.tBirth[iDeadCiv] + 50): #DEBUG
+				if (not gc.getPlayer(iDeadCiv).isAlive() and iGameTurn > getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 50 and iGameTurn > utils.getLastTurnAlive(iDeadCiv) + 20):
 					if (gc.getGame().getSorenRandNum(100, 'roll') >= con.tResurrectionProb[iDeadCiv]):
 						#print("skip")
 						continue
@@ -1319,8 +1254,6 @@ class RiseAndFall:
 		iHuman = utils.getHumanID()
 		print ("inside initbirth1",iCurrentTurn,iBirthYear-1 + self.getSpawnDelay(iCiv) + self.getFlipsDelay(iCiv),iBirthYear-1,self.getSpawnDelay(iCiv),self.getFlipsDelay(iCiv))
 		if (iCurrentTurn == iBirthYear-1 + self.getSpawnDelay(iCiv) + self.getFlipsDelay(iCiv)):
-
-			print ("inside initbirth2", iCiv)
 			tCapital = tCapitals[iCiv]
 			tTopLeft = tCoreAreasTL[iCiv]
 			tBottomRight = tCoreAreasBR[iCiv]
@@ -1351,7 +1284,6 @@ class RiseAndFall:
 								if (pCurrent.isCity() and pCurrent.getPlotCity().getOwner() == iHuman):
 									bDeleteEverything = False
 									print ("bDeleteEverything 2")
-									break
 									break
 				print ("bDeleteEverything", bDeleteEverything)
 				print("cap:",tCapital[0], tCapital[1],gc.getMap().plot(tCapital[0], tCapital[1]).isOwned())
@@ -1709,7 +1641,7 @@ class RiseAndFall:
 					if (iConvertedCitiesCount < 6): #there won't be more than 5 flips in the area
 						#utils.debugTextPopup('iConvertedCities OK')
 						iCultureChange = 50
-						if (gc.getGame().getGameTurn() <= con.tBirth[iCiv] + 5): #if we're during a birth
+						if (gc.getGame().getGameTurn() <= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 5): #if we're during a birth
 							rndNum = gc.getGame().getSorenRandNum(100, 'odds')
 							if (rndNum >= tAIStopBirthThreshold[iOwner]):
 								print (iOwner, "stops birth", iCiv, "rndNum:", rndNum, "threshold:", tAIStopBirthThreshold[iOwner])
@@ -1849,7 +1781,7 @@ class RiseAndFall:
 		iLosingPlayer = pLosingUnit.getOwner()
 		iUnitType = pLosingUnit.getUnitType()
 		if (iLosingPlayer < iNumMajorPlayers):
-			if (gc.getGame().getGameTurn() >= con.tBirth[iLosingPlayer] and gc.getGame().getGameTurn() <= con.tBirth[iLosingPlayer]+2):
+			if (gc.getGame().getGameTurnYear() >= gc.getPlayer(iLosingPlayer).getStartingYear() and gc.getGame().getGameTurn() <= getTurnForYear(gc.getPlayer(iLosingPlayer).getStartingYear())+2):
 				if (pLosingUnit.getX() == tCapitals[iLosingPlayer][0] and pLosingUnit.getY() == tCapitals[iLosingPlayer][1]):
 					print("new civs are immune for now")
 					if (gc.getGame().getSorenRandNum(100, 'immune roll') >= 50):
@@ -2209,23 +2141,21 @@ class RiseAndFall:
 		utils.makeUnit(con.un('worker'), iCiv, tPlot, amount)
 
 	def create900BCstartingUnits(self):
-		for iLoopCiv in range(iNumMajorPlayers):
-			if (tBirth[iLoopCiv] > utils.getScenarioStartYear() and iLoopCiv == utils.getHumanID()):
-				self.assign900BCTechs(iLoopCiv)
-
-			elif (tBirth[iLoopCiv] > utils.getScenarioStartYear() or iLoopCiv == utils.getHumanID()):
-				self.assign900BCTechs(iLoopCiv)
+		for i in range(iNumMajorPlayers):
+			player = gc.getPlayer(i)
+			if (player.getStartingYear() > utils.getScenarioStartYear() and i == utils.getHumanID()):
+				self.assign900BCTechs(i)
+			elif (player.getStartingYear() > utils.getScenarioStartYear() or i == utils.getHumanID()):
+				self.assign900BCTechs(i)
 
 
 	def create4400BCstartingUnits(self):
-
 		#RFGW
 		for iLoopCiv in range(iNumMajorPlayers):
-			if (tBirth[iLoopCiv] == 0 or iLoopCiv == utils.getHumanID()):
+			if (getTurnForYear(gc.getPlayer(iLoopCiv).getStartingYear()) == 0 or iLoopCiv == utils.getHumanID()):
 				utils.makeUnit(con.un('settler'), iLoopCiv, tCapitals[iLoopCiv], 1)
 				utils.makeUnit(con.un('warrior'), iLoopCiv, tCapitals[iLoopCiv], 1)
 				self.assignTechs(iLoopCiv)
-	
 
 	def assign900BCTechs(self, iCiv):
 		#popup = Popup.PyPopup()
