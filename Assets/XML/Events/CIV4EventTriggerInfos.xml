@@ -8758,9 +8758,7 @@
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs>
-				<PrereqTech>TECH_COMPASS</PrereqTech>
-			</OrPreReqs>
+			<OrPreReqs/>
 			<AndPreReqs/>
 			<ObsoleteTechs/>
 			<bRecurring>0</bRecurring>

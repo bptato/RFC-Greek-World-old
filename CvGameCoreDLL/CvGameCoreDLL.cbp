@@ -6,7 +6,7 @@
 		<Option pch_mode="2" />
 		<Option compiler="msvctk" />
 		<Build>
-			<Target title="Debug Win32">
+			<Target title="Debug">
 				<Option output="../Assets/CvGameCoreDLL_DEBUG" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Debug" />
 				<Option type="3" />
@@ -42,7 +42,7 @@
 					<Add directory="boost-1.32.0/libs/" />
 				</Linker>
 			</Target>
-			<Target title="Release Win32">
+			<Target title="Release">
 				<Option output="../Assets/CvGameCoreDLL_RELEASE" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Release" />
 				<Option type="3" />
@@ -78,7 +78,7 @@
 					<Add directory="boost-1.32.0/libs/" />
 				</Linker>
 			</Target>
-			<Target title="Final Release Win32">
+			<Target title="Final Release">
 				<Option output="../Assets/CvGameCoreDLL" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Final Release Win32" />
 				<Option type="3" />
@@ -114,7 +114,7 @@
 					<Add directory="boost-1.32.0/libs/" />
 				</Linker>
 			</Target>
-			<Target title="Final Debug Win32">
+			<Target title="Final Debug">
 				<Option output="../Assets/CvGameCoreDLL" prefix_auto="1" extension_auto="1" />
 				<Option object_output="Final Debug Win32" />
 				<Option type="3" />

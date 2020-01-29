@@ -10,7 +10,7 @@
 char uniquePower[35][2][16]  = {
 	{"TXT_KEY_UP_AME", "TXT_KEY_UP_AME2"},
 	{"TXT_KEY_UP_ARA", "TXT_KEY_UP_ARA2"},
-	{"TXT_KEY_UP_AZT", "TXT_KEY_UP_AZT2"},
+	{"TXT_KEY_UP_IVC", "TXT_KEY_UP_IVC2"},
 	{"TXT_KEY_UP_ELA", "TXT_KEY_UP_ELA2"},
 	{"TXT_KEY_UP_BAB", "TXT_KEY_UP_BAB2"},
 	{"TXT_KEY_UP_BYZ", "TXT_KEY_UP_BYZ2"},
@@ -47,7 +47,7 @@ char uniquePower[35][2][16]  = {
 char rating[34][6][15]  = {
 //		    TRA				 PRO				CUL					GRO				S.S.
 //America
-	{"TXT_KEY_4STARS", "TXT_KEY_5STARS", "TXT_KEY_1STAR", "TXT_KEY_5STARS", "TXT_KEY_1STAR" },
+	{"TXT_KEY_1STAR", "TXT_KEY_1STAR", "TXT_KEY_1STAR", "TXT_KEY_1STAR", "TXT_KEY_1STAR" },
 //Arabia
 	{"TXT_KEY_4STARS", "TXT_KEY_1STAR", "TXT_KEY_5STARS", "TXT_KEY_2STARS", "TXT_KEY_4STARS" },
 //Aztec

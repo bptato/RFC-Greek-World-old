@@ -9,21 +9,21 @@
 	<ProjectInfos>
 		<ProjectInfo>
 			<Type>PROJECT_MANHATTAN_PROJECT</Type>
-			<Description>TXT_KEY_PROJECT_MANHATTAN_PROJECT</Description>
+			<Description>Placeholder project</Description>
 			<Civilopedia>TXT_KEY_PROJECT_MANHATTAN_PROJECT_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_PROJECT_MANHATTAN_PROJECT_STRATEGY</Strategy>
 			<VictoryPrereq>NONE</VictoryPrereq>
-			<TechPrereq>TECH_OPTICS</TechPrereq>
+			<TechPrereq>NONE</TechPrereq>
 			<AnyonePrereqProject>NONE</AnyonePrereqProject>
 			<iMaxGlobalInstances>0</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iCost>1500</iCost>
+			<iCost>1</iCost>
 			<iNukeInterception>0</iNukeInterception>
 			<iTechShare>0</iTechShare>
 			<EveryoneSpecialUnit>NONE</EveryoneSpecialUnit>
 			<EveryoneSpecialBuilding>NONE</EveryoneSpecialBuilding>
 			<bSpaceship>0</bSpaceship>
-			<bAllowsNukes>1</bAllowsNukes>
+			<bAllowsNukes>0</bAllowsNukes>
 			<Button>,Art/Interface/Buttons/Buildings/ManhattanProject.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,4</Button>
 			<PrereqProjects/>
 			<VictoryThresholds/>
