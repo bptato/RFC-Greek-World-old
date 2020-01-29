@@ -35,7 +35,7 @@ echo "TARGET: $TARGET"
 export WINEPREFIX="$HOME/compile_linux"
 
 #Clean mode.
-if test $2 = "clean"; then
+if test "$2" = "clean"; then
 	rm -rf ./"$TARGET"
 fi
 
