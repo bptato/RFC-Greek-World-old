@@ -1316,33 +1316,6 @@ class RiseAndFall:
 		if (iCurrentTurn == iBirthYear + self.getSpawnDelay(iCiv)) and (gc.getPlayer(iCiv).isAlive()) and (self.getAlreadySwitched() == False) and (iHuman+tDifference[iHuman] < iCiv):
 			self.newCivPopup(iCiv)
 
-
-##	def moveOutUnits(self, x, y, tCapitalX, tCapitalY) #not used
-##		pCurrent=gc.getMap().plot(x, y)
-##		if (pCurrent.getNumUnits() > 0):
-##			unit = pCurrent.getUnit(0)
-##			tDestination = (-1, -1)
-##			plotList = []
-##			if (unit.getDomainType() == 2): #land unit
-##				dummy, plotList = utils.squareSearch((tCapitalX-3, tCapitalY-3), (tCapitalX+4, tCapitalY+4), utils.goodPlots, [])
-##				#dummy, plotList = utils.squareSearch((tCapitalX-3, tCapitalY-3), (tCapitalX+4, tCapitalY+4), utils.goodOwnedPlots, [])
-##			else: #sea unit
-##				dummy, plotList = utils.squareSearch((tCapitalX-3, tCapitalY-3), (tCapitalX+4, tCapitalY+4), utils.goodOwnedPlots, [])
-##
-##			rndNum = gc.getGame().getSorenRandNum(len(plotList), 'searching another free plot')
-##			if (len(plotList)):
-##				result = plotList[rndNum]
-##				if (result):
-##					tDestination = result
-##			print ("moving units around to", (tDestination[0], tDestination[1]))
-##			if (tDestination != (-1, -1)):
-##				for i in range(pCurrent.getNumUnits()):
-##					unit = pCurrent.getUnit(0)
-##					unit.setXY(tDestination[0], tDestination[1])
-
-
-
-
 	def deleteMode(self, iCurrentPlayer):
 		iCiv = self.getDeleteMode(0)
 		print ("deleteMode after", iCurrentPlayer)
@@ -1413,32 +1386,6 @@ class RiseAndFall:
 		if (self.getFlipsDelay(iCiv) == 0):
 			print("birthInFreeRegion2")
 			iFlipsDelay = self.getFlipsDelay(iCiv) + 2
-##			if (startingPlot.getNumUnits() > 0):
-##				unit = startingPlot.getUnit(0)
-##				if (unit.getOwner() != utils.getHumanID() or iCiv == utils.getHumanID()): #2nd check needed because in delete mode it finds the civ's (human's) units placed
-##					for i in range(startingPlot.getNumUnits()):
-##						unit = startingPlot.getUnit(0)	# 0 instead of i because killing units changes the indices
-##						unit.kill(False, iCiv)
-##					iFlipsDelay = self.getFlipsDelay(iCiv) + 2
-##					#utils.debugTextPopup('birthInFreeRegion in starting location')
-##				else:   #search another place
-##					dummy, plotList = utils.squareSearch(tTopLeft, tBottomRight, utils.goodPlots, [])
-##					rndNum = gc.getGame().getSorenRandNum(len(plotList), 'searching another free plot')
-##					if (len(plotList)):
-##						result = plotList[rndNum]
-##						if (result):
-##							self.createStartingUnits(iCiv, result)
-##							tCapital = result
-##							print ("birthInFreeRegion in another location")
-##							#utils.debugTextPopup('birthInFreeRegion in another location')
-##							iFlipsDelay = self.getFlipsDelay(iCiv) + 1 #add delay before flipping other cities
-##					else:
-##						if (self.getSpawnDelay(iCiv) < 10):  #wait
-##							iSpawnDelay = self.getSpawnDelay(iCiv) + 1
-##							self.setSpawnDelay(iCiv, iSpawnDelay)
-##			else:
-##				iFlipsDelay = self.getFlipsDelay(iCiv) + 2
-
 			if (iFlipsDelay > 0):
 				#startingPlot.setImprovementType(-1)
 
@@ -1449,15 +1396,6 @@ class RiseAndFall:
 				print ("starting units in", tCapital[0], tCapital[1])
 				self.createStartingUnits(iCiv, (tCapital[0], tCapital[1]))
 
-				#if (self.getDeleteMode(0) == iCiv):
-				#	self.createStartingWorkers(iCiv, tCapital) #XXX bugfix? no!
-
-##				settlerPlot = gc.getMap().plot(tCapital[0], tCapital[1])
-##				for i in range(settlerPlot.getNumUnits()):
-##					unit = settlerPlot.getUnit(i)
-##					if (unit.getUnitType() == un('settler')):
-##						break
-##				unit.found()
 				utils.flipUnitsInArea((tCapital[0]-3, tCapital[1]-3), (tCapital[0]+3, tCapital[1]+3), iCiv, iBarbarian, True, True) #This is mostly for the AI. During Human player spawn, that area should be already cleaned
 				utils.flipUnitsInArea((tCapital[0]-3, tCapital[1]-3), (tCapital[0]+3, tCapital[1]+3), iCiv, iIndependent, True, False) #This is mostly for the AI. During Human player spawn, that area should be already cleaned
 				utils.flipUnitsInArea((tCapital[0]-3, tCapital[1]-3), (tCapital[0]+3, tCapital[1]+3), iCiv, iIndependent2, True, False) #This is mostly for the AI. During Human player spawn, that area should be already cleaned

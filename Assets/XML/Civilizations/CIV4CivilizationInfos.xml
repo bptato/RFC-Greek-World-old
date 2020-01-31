@@ -1010,8 +1010,8 @@
 				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
-			<CivilizationSelectionSound>AS3D_CHINA_SELECT</CivilizationSelectionSound>
-			<CivilizationActionSound>AS3D_CHINA_ORDER</CivilizationActionSound>
+			<CivilizationSelectionSound>AS3D_PERSIA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_PERSIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_MYCENAE</Type>
@@ -1104,8 +1104,8 @@
 				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
-			<CivilizationSelectionSound>AS3D_CHINA_SELECT</CivilizationSelectionSound>
-			<CivilizationActionSound>AS3D_CHINA_ORDER</CivilizationActionSound>
+			<CivilizationSelectionSound>AS3D_GREECE_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_GREECE_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_ASSYRIA</Type>
@@ -3432,8 +3432,8 @@
 				</Leader>
 			</Leaders>
 			<DerivativeCiv>NONE</DerivativeCiv>
-			<CivilizationSelectionSound>AS3D_CHINA_SELECT</CivilizationSelectionSound>
-			<CivilizationActionSound>AS3D_CHINA_ORDER</CivilizationActionSound>
+			<CivilizationSelectionSound>AS3D_MONGOLIA_SELECT</CivilizationSelectionSound>
+			<CivilizationActionSound>AS3D_MONGOLIA_ORDER</CivilizationActionSound>
 		</CivilizationInfo>
 		<CivilizationInfo>
 			<Type>CIVILIZATION_INDEPENDENT</Type>
