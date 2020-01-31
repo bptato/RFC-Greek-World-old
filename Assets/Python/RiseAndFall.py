@@ -2180,7 +2180,7 @@ class RiseAndFall:
 			techs = ('cunniform','trade','slash_and_burn','fermentation','the_wheel','spokes','urban_culture','mining','hunting','arrows','logging','copper_working')
 		if (iCiv == iHittites):
 			techs = ('mining','bronze_working','the_wheel','hunting','slash_and_burn','copper_working','logging','iron_working',
-				'spokes','warrior_code','bread_making','urban_culture','fortification','agriculture','animal_husbandry','arrows')
+				'spokes','warrior_code','bread_making','urban_culture','fortification','agriculture','animal_husbandry','arrows','mysticism')
 		if (iCiv == iMycenae):
 			techs = ('fermentation','mysticism','warrior_code','the_wheel','pottery','hunting','bread_making',
 				'urban_culture','mining','copper_working','spokes','mythology','logging','fishing','boats')
