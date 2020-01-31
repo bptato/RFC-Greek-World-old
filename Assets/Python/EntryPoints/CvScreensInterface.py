@@ -75,8 +75,6 @@ def resetStabilityParameters(argsList):
         utils.setLastRecordedStabilityStuff(5, 0)
 #RFGW
 def getStartingTurn(argsList):
-        print argsList[0]
-        print str(getGameTurnForYear(gc.getPlayer(argsList[0]).getStartingYear(), -4400, 0, 0)) + " starting year"
         return getGameTurnForYear(gc.getPlayer(argsList[0]).getStartingYear(), -4400, 0, 0)
 def getSettlersMaps(argsList):
         return SettlersMaps.tSettlersMaps[argsList[0]][argsList[1]][argsList[2]]              
