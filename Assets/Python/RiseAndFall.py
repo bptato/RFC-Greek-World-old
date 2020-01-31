@@ -487,7 +487,7 @@ class RiseAndFall:
 				for y in range(tTopLeft[1], tBottomRight[1]+1):
 					betrayalPlot = gc.getMap().plot(x,y)
 					iNumUnitsInAPlot = betrayalPlot.getNumUnits()
-					if (iNumUnitsInAPlot):								
+					if (iNumUnitsInAPlot):
 						for i in range(iNumUnitsInAPlot):
 							unit = betrayalPlot.getUnit(i)
 							if (unit.getOwner() == iHuman):
@@ -540,7 +540,7 @@ class RiseAndFall:
 		iHuman = utils.getHumanID()
 		iRebelCiv = self.getRebelCiv()
 		if(popupReturn.getButtonClicked() == 0): # 1st button
-			gc.getTeam(gc.getPlayer(iHuman).getTeam()).makePeace(iRebelCiv)						
+			gc.getTeam(gc.getPlayer(iHuman).getTeam()).makePeace(iRebelCiv)
 		elif(popupReturn.getButtonClicked() == 1): # 2nd button
 			gc.getTeam(gc.getPlayer(iHuman).getTeam()).declareWar(iRebelCiv, False, -1)
 
@@ -603,9 +603,9 @@ class RiseAndFall:
 				self.setCheatersCheck(0, self.getCheatersCheck(0)-1)
 
 		if (iGameTurn % 20 == 0):
-			if (pIndependent.isAlive()):				
+			if (pIndependent.isAlive()):
 				utils.updateMinorTechs(iIndependent, iBarbarian)
-			if (pIndependent2.isAlive()):				
+			if (pIndependent2.isAlive()):
 				utils.updateMinorTechs(iIndependent2, iBarbarian)
 
 		#Colonists
@@ -661,7 +661,7 @@ class RiseAndFall:
 
 
 		#debug
-		#self.resurrection(iGameTurn)	
+		#self.resurrection(iGameTurn)
 		#self.resurrectionFromBarbs(iGameTurn)
 
 	def checkPlayerTurn(self, iGameTurn, iPlayer):
@@ -678,7 +678,7 @@ class RiseAndFall:
 			    gc.getGame().getSorenRandNum(100, 'die roll') < iThreshold):
 				gc.getPlayer(iPlayer).setLeader(tLateLeaders[iPlayer][iLeaderIndex])
 				print ("leader late switch:", tLateLeaders[iPlayer][iLeaderIndex], "in civ", iPlayer)
-	
+
 
 	def fragmentIndependents(self):
 		if (pIndependent.getNumCities() > 8 or pIndependent2.getNumCities() > 8):
@@ -701,7 +701,7 @@ class RiseAndFall:
 						city = pCity.GetCy()
 						pCurrent = gc.getMap().plot(city.getX(), city.getY())
 						utils.cultureManager((city.getX(),city.getY()), 50, iSmallIndependent, iBigIndependent, False, True, True)
-						utils.flipUnitsInCityBefore((city.getX(),city.getY()), iSmallIndependent, iBigIndependent)			
+						utils.flipUnitsInCityBefore((city.getX(),city.getY()), iSmallIndependent, iBigIndependent)
 						self.setTempFlippingCity((city.getX(),city.getY()))
 						utils.flipCity((city.getX(),city.getY()), 0, 0, iSmallIndependent, [iBigIndependent])   #by trade because by conquest may raze the city
 						utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iSmallIndependent)
@@ -737,7 +737,7 @@ class RiseAndFall:
 										iNewCiv = iIndependent2
 									if (iDivideCounter % 4 == 0 or iDivideCounter % 4 == 1):
 										utils.cultureManager((city.getX(),city.getY()), 50, iNewCiv, iBarbarian, False, True, True)
-										utils.flipUnitsInCityBefore((city.getX(),city.getY()), iNewCiv, iBarbarian)			
+										utils.flipUnitsInCityBefore((city.getX(),city.getY()), iNewCiv, iBarbarian)
 										self.setTempFlippingCity((city.getX(),city.getY()))
 										utils.flipCity((city.getX(),city.getY()), 0, 0, iNewCiv, [iBarbarian])   #by trade because by conquest may raze the city
 										utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iNewCiv)
@@ -837,7 +837,7 @@ class RiseAndFall:
 
 		if (gc.getTeam(gc.getPlayer(iNewOwner).getTeam()).isHasTech(con.tn('code_of_laws'))):
 			bEnabled = True
-				
+
 		iHuman = utils.getHumanID()
 		if (city.getX() == tCapitals[iHuman][0] and city.getY() == tCapitals[iHuman][1]):
 			bCapital = True
@@ -870,11 +870,11 @@ class RiseAndFall:
 					if (not teamWinner.isAtWar(iCiv)):
 						if (gc.getGame().getPlayerRank(iCiv) > gc.getGame().getPlayerRank(iHuman) + 1):
 							iDestination = iCiv
-							break					
+							break
 
 		print (iDestination)
 		popup = Popup.PyPopup()
-		popup.setHeaderString(CyTranslator().getText("TXT_KEY_EXILE_TITLE", ()))	
+		popup.setHeaderString(CyTranslator().getText("TXT_KEY_EXILE_TITLE", ()))
 		popup.setBodyString(CyTranslator().getText("TXT_KEY_EXILE_TEXT", (gc.getPlayer(iWinner).getCivilizationAdjectiveKey(), gc.getPlayer(iDestination).getCivilizationShortDescription(0))))
 		popup.launch()
 		self.setExileData(0, tCapitals[iHuman][0])
@@ -902,7 +902,7 @@ class RiseAndFall:
 				iHuman = utils.getHumanID()
 				utils.flipCity((city.getX(),city.getY()), 0, 0, iOldHuman, [iHuman])
 				popup = Popup.PyPopup()
-				popup.setHeaderString(CyTranslator().getText("TXT_KEY_ESCAPE_TITLE", ()))	
+				popup.setHeaderString(CyTranslator().getText("TXT_KEY_ESCAPE_TITLE", ()))
 				popup.setBodyString(CyTranslator().getText("TXT_KEY_ESCAPE_TEXT", (gc.getPlayer(iOldHuman).getCivilizationAdjectiveKey(),)))
 				popup.launch()
 
@@ -929,9 +929,9 @@ class RiseAndFall:
 		iRndnum = gc.getGame().getSorenRandNum(iNumPlayers, 'starting count')
 		for j in range(iRndnum, iRndnum + iNumPlayers):
 			iPlayer = j % iNumPlayers
-			if (gc.getPlayer(iPlayer).isAlive() and iGameTurn >= getTurnForYear(gc.getPlayer(iCiv).getStartingYear()) + 30):
+			player = gc.getPlayer(iPlayer)
+			if (player.isAlive() and iGameTurn >= getTurnForYear(player.getStartingYear()) + 30):
 				if (utils.getStability(iPlayer) >= -400 and utils.getStability(iPlayer) < -20): #secession (-400 for any very low value, instead of -40)
-
 					cityList = []
 					apCityList = PyPlayer(iPlayer).getCityList()
 					for pCity in apCityList:
@@ -942,8 +942,7 @@ class RiseAndFall:
 							if (gc.getPlayer(iPlayer).getNumCities() > 0): #this check is needed, otherwise game crashes
 								capital = gc.getPlayer(iPlayer).getCapitalCity()
 								iDistance = utils.calculateDistance(city.getX(), city.getY(), capital.getX(), capital.getY())
-								if (iDistance > 3):											
-							
+								if (iDistance > 3):
 									if (city.angryPopulation(0) > 0 or \
 									    city.healthRate(False, 0) < 0 or \
 									    city.getReligionBadHappiness() > 0 or \
@@ -971,7 +970,7 @@ class RiseAndFall:
 								iNewCiv = iBarbarian
 						splittingCity = cityList[gc.getGame().getSorenRandNum(len(cityList), 'random city')]
 						utils.cultureManager((splittingCity.getX(),splittingCity.getY()), 50, iNewCiv, iPlayer, False, True, True)
-						utils.flipUnitsInCityBefore((splittingCity.getX(),splittingCity.getY()), iNewCiv, iPlayer)			
+						utils.flipUnitsInCityBefore((splittingCity.getX(),splittingCity.getY()), iNewCiv, iPlayer)
 						self.setTempFlippingCity((splittingCity.getX(),splittingCity.getY()))
 						utils.flipCity((splittingCity.getX(),splittingCity.getY()), 0, 0, iNewCiv, [iPlayer])   #by trade because by conquest may raze the city
 						utils.flipUnitsInCityAfter(self.getTempFlippingCity(), iNewCiv)
@@ -1080,7 +1079,7 @@ class RiseAndFall:
 					if (teamDeadCiv.isVassal(iOtherCiv) or gc.getTeam(gc.getPlayer(iOtherCiv).getTeam()).isVassal(iDeadCiv)):
 						teamDeadCiv.freeVassal(iOtherCiv)
 						gc.getTeam(gc.getPlayer(iOtherCiv).getTeam()).freeVassal(iDeadCiv)
-							
+
 				iNewUnits = 2
 				if (self.getLatestRebellionTurn(iDeadCiv) > 0):
 					iNewUnits = 4
@@ -1102,7 +1101,7 @@ class RiseAndFall:
 				bAlreadyVassal = False
 				for k in range(len(cityList)):
 					if (cityList[k] != None): #once happened that it was = none
-						#print ("INDEPENDENCE: ", cityList[k].getName()) #may cause a c++ exception				
+						#print ("INDEPENDENCE: ", cityList[k].getName()) #may cause a c++ exception
 						iOwner = cityList[k].getOwner()
 						teamOwner = gc.getTeam(gc.getPlayer(iOwner).getTeam())
 						bOwnerVassal = teamOwner.isAVassal()
@@ -1220,7 +1219,7 @@ class RiseAndFall:
 
 	def convertBackCulture(self, iCiv):
 		tTopLeft = tNormalAreasTL[iCiv]
-		tBottomRight = tNormalAreasBR[iCiv]	
+		tBottomRight = tNormalAreasBR[iCiv]
 		cityList = []
 		#collect all the cities in the region
 		for x in range(tTopLeft[0], tBottomRight[0]+1):
@@ -1248,8 +1247,8 @@ class RiseAndFall:
 					city.setCulture(iCiv, iCivCulture + iLoopCivCulture, True)
 
 
-			
-				
+
+
 	def initBirth(self, iCurrentTurn, iBirthYear, iCiv):
 		iHuman = utils.getHumanID()
 		print ("inside initbirth1",iCurrentTurn,iBirthYear-1 + self.getSpawnDelay(iCiv) + self.getFlipsDelay(iCiv),iBirthYear-1,self.getSpawnDelay(iCiv),self.getFlipsDelay(iCiv))
@@ -1258,7 +1257,7 @@ class RiseAndFall:
 			tTopLeft = tCoreAreasTL[iCiv]
 			tBottomRight = tCoreAreasBR[iCiv]
 			tBroaderTopLeft = tBroaderAreasTL[iCiv]
-			tBroaderBottomRight = tBroaderAreasBR[iCiv]		
+			tBroaderBottomRight = tBroaderAreasBR[iCiv]
 			if (self.getFlipsDelay(iCiv) == 0): #city hasn't already been founded)
 				#this may fix the -1 bug
 				if (iCiv == iHuman):
@@ -1313,7 +1312,7 @@ class RiseAndFall:
 			else:
 				print ("setBirthType again: flips")
 				self.birthInFreeRegion(iCiv, tCapital, tTopLeft, tBottomRight)
-				
+
 		if (iCurrentTurn == iBirthYear + self.getSpawnDelay(iCiv)) and (gc.getPlayer(iCiv).isAlive()) and (self.getAlreadySwitched() == False) and (iHuman+tDifference[iHuman] < iCiv):
 			self.newCivPopup(iCiv)
 
@@ -1362,7 +1361,7 @@ class RiseAndFall:
 					pCurrent.setOwner(iCiv)
 			self.setDeleteMode(0, -1)
 			return
-		
+
 		#print ("iCurrentPlayer", iCurrentPlayer, "iCiv", iCiv)
 		if (iCurrentPlayer != iCiv-1):
 			return
@@ -1406,8 +1405,8 @@ class RiseAndFall:
 
 
 
-	
-		
+
+
 	def birthInFreeRegion(self, iCiv, tCapital, tTopLeft, tBottomRight):
 		startingPlot = gc.getMap().plot(tCapital[0], tCapital[1])
 		print("birthInFreeRegion1",self.getFlipsDelay(iCiv))
@@ -1442,7 +1441,7 @@ class RiseAndFall:
 
 			if (iFlipsDelay > 0):
 				#startingPlot.setImprovementType(-1)
-			
+
 				#gc.getPlayer(iCiv).found(tCapital[0], tCapital[1])
 				#gc.getMap().plot(tCapital[0], tCapital[1]).setRevealed(iCiv, False, True, -1);
 				#gc.getMap().plot(tCapital[0], tCapital[1]).setRevealed(iCiv, True, True, -1);
@@ -1620,7 +1619,7 @@ class RiseAndFall:
 				#case 2: human city
 				#elif (iOwner == iHuman and not loopCity.isCapital()): #exploitable
 				elif (iOwner == iHuman and not (loopX == tCapitals[iHuman] and loopY == tCapitals[iHuman]) and not gc.getPlayer(iHuman).getNumCities() <= 1 and not (self.getCheatMode() == True and loopCity.isCapital())):
-				
+
 					#utils.debugTextPopup('HUMAN')
 	##				bForeigners = False
 	##				cityPlot = gc.getMap().plot(cityList[i].getX(), cityList[i].getY())
@@ -1745,13 +1744,13 @@ class RiseAndFall:
 	def warOnSpawn(self):
 		for iCiv in range(iNumMajorPlayers):
 			if (not gc.getPlayer(0).isPlayable() and con.tIsActiveOnLateStart[iCiv]==0): #late start condition
-				continue #skip	
+				continue #skip
 			pCiv = gc.getPlayer(iCiv)
 			teamCiv = gc.getTeam(pCiv.getTeam())
 			iMin = 20
 			iMin = 0 #RFGW
 			if (pCiv.isHuman()):
-				iMin = 20 #can be set to 100 for skipping human player			
+				iMin = 20 #can be set to 100 for skipping human player
 			#bluepotato: removed randomness TODO remove duplicated entries if this turns out well
 			#if (gc.getGame().getSorenRandNum(100, 'first roll') >= iMin):
 			for iLoopCiv in con.lEnemyCivsOnSpawn[iCiv]:
@@ -1830,7 +1829,7 @@ class RiseAndFall:
 			for y in range(tTopLeft[1], tBottomRight[1]+1):
 				killPlot = gc.getMap().plot(x,y)
 				iNumUnitsInAPlot = killPlot.getNumUnits()
-				if (iNumUnitsInAPlot):								
+				if (iNumUnitsInAPlot):
 					for i in range(iNumUnitsInAPlot):
 						unit = killPlot.getUnit(i)
 						if (unit.getOwner() == iOldOwner):
@@ -2214,7 +2213,7 @@ class RiseAndFall:
 
 		if techs is None: #if civ has no starting techs; TODO: should this really be called then?
 			return
-		
+
 		self.assignPlayerTechs(iCiv, techs)
 
 		self.hitNeighboursStability(iCiv) #RFGW
@@ -2317,7 +2316,7 @@ class RiseAndFall:
 				'polytheism','trade','storytelling','cunniform','alphabet','pachyderm_domestication','writing','code_of_laws','tyranny','citizenship','philosophy','military_science',
 				'standing_army','herbalism')
 
-		
+
 		self.assignPlayerTechs(iCiv, techs)
 
 		self.hitNeighboursStability(iCiv)
@@ -2348,7 +2347,7 @@ class RiseAndFall:
 			if (iForceAttack == 0):
 				player.initUnit(iUnit, tCoords[0], tCoords[1], UnitAITypes.NO_UNITAI, DirectionTypes.DIRECTION_SOUTH)
 			elif (iForceAttack == 1):
-				player.initUnit(iUnit, tCoords[0], tCoords[1], UnitAITypes.UNITAI_ATTACK, DirectionTypes.DIRECTION_SOUTH)				
+				player.initUnit(iUnit, tCoords[0], tCoords[1], UnitAITypes.UNITAI_ATTACK, DirectionTypes.DIRECTION_SOUTH)
 			elif (iForceAttack == 2):
 				player.initUnit(iUnit, tCoords[0], tCoords[1], UnitAITypes.UNITAI_ATTACK_SEA, DirectionTypes.DIRECTION_SOUTH)
 
