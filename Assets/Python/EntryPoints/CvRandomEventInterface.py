@@ -1071,37 +1071,13 @@ def canTriggerElectricCompany(argsList):
 ######## GOLD RUSH ###########
 
 def canTriggerGoldRush(argsList):	
-	kTriggeredData = argsList[0]
-	
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-	
-	iIndustrial = CvUtil.findInfoTypeNum(gc.getEraInfo,gc.getNumEraInfos(),'ERA_INDUSTRIAL')
-	
-	if player.getCurrentEra() != iIndustrial:
-		return false
-	
-						
-	return true
+	return false
 	
 ######## INFLUENZA ###########
 
 def canTriggerInfluenza(argsList):	
-	kTriggeredData = argsList[0]
-	
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-	team = gc.getTeam(player.getTeam())
-	
-	iIndustrial = CvUtil.findInfoTypeNum(gc.getEraInfo,gc.getNumEraInfos(),'ERA_INDUSTRIAL')
-	
-	if player.getCurrentEra() <= iIndustrial:
-		return false
-	
-	iMedicine = CvUtil.findInfoTypeNum(gc.getTechInfo,gc.getNumTechInfos(),'TECH_MEDICINE')
-	
-	if team.isHasTech(iMedicine):
-		return false
-						
-	return true
+	kTriggeredData = argsList[0]		
+	return false
 	
 def applyInfluenza2(argsList):
 	iEvent = argsList[0]
