@@ -48,17 +48,6 @@
 
 #endif	// CVRHYES_H
 
-
-
-/*extern int startingTurn[];
-extern char loadingTime[34][4];
-extern char loadingTime600AD[34][4];
-extern char startingYear[34][6];
-extern bool startingEra[34];
-extern char startingYear600AD[34][6];
-extern bool startingEra600AD[34];*/
-//extern int militaryBonus[2][18];
-extern char uniquePower[35][2][16];
 extern char rating[34][6][15];
 
 extern int turnPlayed[33];

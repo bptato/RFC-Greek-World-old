@@ -3920,22 +3920,11 @@ void CvGameTextMgr::parseCivInfos(CvWStringBuffer &szInfoText, CivilizationTypes
 		}
 		szInfoText.append(szTempString);
 
-		/*szText = gDLL->getText(uniquePower[eCivilization][0]) + NEWLINE + gDLL->getText(uniquePower[eCivilization][1]);
-		swprintf(szTempString, L"%s" NEWLINE, szText.GetCString());*/
-
-		/*if (bDawnOfMan)
-		{*/
-			szText = gDLL->getText(uniquePower[eCivilization][0]);
-			swprintf(szTempString, L"%s" NEWLINE, szText.GetCString());
-		/*}
-		else
-		{
-			szText = gDLL->getSymbolID(BULLET_CHAR) + gDLL->getText(uniquePower[eCivilization][0]);
-			swprintf(szTempString, L"%s" NEWLINE, szText.GetCString());
-		}*/
+		szText = gDLL->getText(GC.getCivilizationInfo(eCivilization).getUPString() + "_TITLE") + ":";
+		swprintf(szTempString, L"%s" NEWLINE, szText.GetCString());
 		szInfoText.append(szTempString);
 
-		szText = gDLL->getText(uniquePower[eCivilization][1]);
+		szText = gDLL->getText(GC.getCivilizationInfo(eCivilization).getUPString());
 		swprintf(szTempString, L"%s" NEWLINE, szText.GetCString());
 		szInfoText.append(szTempString);
 

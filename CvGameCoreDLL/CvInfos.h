@@ -2187,6 +2187,7 @@ public:
 
 	DllExport int getDerivativeCiv() const;																// Exposed to Python
 	const std::wstring getUHVString() const;
+	const std::wstring getUPString() const;
 	void setDerivativeCiv(int iCiv);
 
 	bool read(CvXMLLoadUtility* pXML);
@@ -2230,6 +2231,7 @@ protected:
 	mutable std::vector<CvWString> m_aszShortDescription;
 	mutable std::vector<CvWString> m_aszAdjective;
 	CvWString m_UHVString;
+	CvWString m_UPString;
 };
 
 //++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

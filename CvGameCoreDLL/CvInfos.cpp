@@ -9172,6 +9172,7 @@ m_bPlayable(false),
 m_bAIPlayable(false),
 //bluepotato start
 m_UHVString(),
+m_UPString(),
 //bluepotato end
 m_piCivilizationBuildings(NULL),
 m_piCivilizationUnits(NULL),
@@ -9262,6 +9263,11 @@ bool CvCivilizationInfo::isPlayable() const
 const std::wstring CvCivilizationInfo::getUHVString() const
 {
 	return m_UHVString;
+}
+
+const std::wstring CvCivilizationInfo::getUPString() const
+{
+	return m_UPString;
 }
 //bluepotato end
 
@@ -9418,6 +9424,7 @@ void CvCivilizationInfo::read(FDataStreamBase* stream)
 	stream->ReadString(m_szShortDescriptionKey);
 	stream->ReadString(m_szAdjectiveKey);
 	//bluepotato start
+	stream->ReadString(m_UPString);
 	stream->ReadString(m_UHVString);
 	//bluepotato end
 
@@ -9538,6 +9545,7 @@ bool CvCivilizationInfo::read(CvXMLLoadUtility* pXML)
 	pXML->GetChildXmlValByName(&m_bPlayable, "bPlayable");
 	pXML->GetChildXmlValByName(&m_bAIPlayable, "bAIPlayable");
 	pXML->GetChildXmlValByName(m_UHVString, "UHVString");
+	pXML->GetChildXmlValByName(m_UPString, "UPString");
 
 	if (gDLL->getXMLIFace()->SetToChildByTagName(pXML->GetXML(),"Cities"))
 	{

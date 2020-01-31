@@ -49,6 +49,7 @@ void CyInfoPythonInterface2()
 		.def("isAIPlayable", &CvCivilizationInfo::isAIPlayable, "bool ()")
 		.def("isPlayable", &CvCivilizationInfo::isPlayable, "bool ()")
 		.def("getUHVString", &CvCivilizationInfo::getUHVString, "wstring ()")
+		.def("getUPString", &CvCivilizationInfo::getUHVString, "wstring ()")
 
 		.def("getShortDescription", &CvCivilizationInfo::pyGetShortDescription, "wstring ()")
 		.def("getShortDescriptionKey", &CvCivilizationInfo::pyGetShortDescriptionKey, "wstring ()")

@@ -419,6 +419,7 @@
 	<ElementType name="bPlayable" content="textOnly" dt:type="boolean"/>
 	<ElementType name="bAIPlayable" content="textOnly" dt:type="boolean"/>
 	<ElementType name="UHVString" content="textOnly"/>
+	<ElementType name="UPString" content="textOnly"/>
 	<ElementType name="LeaderName" content="textOnly"/>
 	<ElementType name="bLeaderAvailability" content="textOnly" dt:type="boolean"/>
 	<ElementType name="Leader" content="eltOnly">
@@ -444,6 +445,7 @@
 		<element type="bPlayable"/>
 		<element type="bAIPlayable"/>
 		<element type="UHVString"/>
+		<element type="UPString"/>
 		<element type="Cities"/>
 		<element type="Buildings"/>
 		<element type="Units"/>
