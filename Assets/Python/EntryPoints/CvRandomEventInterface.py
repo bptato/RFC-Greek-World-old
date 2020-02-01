@@ -3526,7 +3526,7 @@ def canApplyEliteSwordsDone2(argsList):
 	kTriggeredData = argsList[1]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
 		
-	iCivic = CvUtil.findInfoTypeNum(gc.getCivicInfo,gc.getNumCivicInfos(),'CIVIC_HEREDITARY_RULE')
+	iCivic = CvUtil.findInfoTypeNum(gc.getCivicInfo,gc.getNumCivicInfos(),'CIVIC_MONARCHY')
 	
 	if not player.isCivic(iCivic):
 		return false
@@ -3588,61 +3588,6 @@ def canApplyWarshipsDone2(argsList):
 	player = gc.getPlayer(kTriggeredData.ePlayer)
 		
 	iBuilding = CvUtil.findInfoTypeNum(gc.getBuildingInfo, gc.getNumBuildingInfos(), 'BUILDING_GREAT_LIGHTHOUSE')
-	if player.getBuildingClassCount(gc.getBuildingInfo(iBuilding).getBuildingClassType()) == 0:
-		return false
-
-	return true	
-
-######## GUNS NOT BUTTER ###########
-
-def getHelpGunsButter1(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
-		
-	#Rhye - start
-	#iNumUnits = gc.getWorldInfo(gc.getMap().getWorldSize()).getDefaultPlayers() + 1
-	iNumUnits = 7 + 1
-	#Rhye - end
-	iBuilding = CvUtil.findInfoTypeNum(gc.getBuildingInfo, gc.getNumBuildingInfos(), 'BUILDING_TAJ_MAHAL')
-	
-	szHelp = localText.getText("TXT_KEY_EVENT_GUNS_BUTTER_HELP_1", (iNumUnits, gc.getBuildingInfo(iBuilding).getTextKey()))
-
-	return szHelp
-
-def canTriggerGunsButterDone(argsList):
-	kTriggeredData = argsList[0]
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-	
-	#Rhye - start
-	#iNumUnits = gc.getWorldInfo(gc.getMap().getWorldSize()).getDefaultPlayers() + 1
-	iNumUnits = 7 + 1
-	#Rhye - end
-	iUnitClassType = CvUtil.findInfoTypeNum(gc.getUnitClassInfo, gc.getNumUnitClassInfos(), 'UNITCLASS_MUSKETMAN')
-
-	if player.getUnitClassCount(iUnitClassType) < iNumUnits:
-		return false
-			
-	return true
-
-
-def canApplyGunsButterDone2(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-		
-	iCivic = CvUtil.findInfoTypeNum(gc.getCivicInfo,gc.getNumCivicInfos(),'CIVIC_VASSALAGE')
-	
-	if not player.isCivic(iCivic):
-		return false
-	
-	return true	
-
-def canApplyGunsButterDone3(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-		
-	iBuilding = CvUtil.findInfoTypeNum(gc.getBuildingInfo, gc.getNumBuildingInfos(), 'BUILDING_TAJ_MAHAL')
 	if player.getBuildingClassCount(gc.getBuildingInfo(iBuilding).getBuildingClassType()) == 0:
 		return false
 
