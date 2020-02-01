@@ -633,98 +633,6 @@
 			<PythonCallback/>
 		</EventTriggerInfo>
 		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_HYMNS_AND_SCULPTURES</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_HYMNS_AND_SCULPTURES</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_HYMNS_AND_SCULPTURES_1</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_HYMNS_AND_SCULPTURES_2</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>0</bSinglePlayer>
-			<iPercentGamesActive>20</iPercentGamesActive>
-			<iWeight>200</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>1</bProbabilityBuildingMultiply>
-			<Civic>NONE</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired>
-				<BuildingClass>BUILDINGCLASS_JEWISH_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_CHRISTIAN_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_ISLAMIC_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_HINDU_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_BUDDHIST_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_CONFUCIAN_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClass>
-			</BuildingsRequired>
-			<iNumBuildings>1</iNumBuildings>
-			<iNumBuildingsGlobal>10</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>1</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired/>
-			<iNumReligions>0</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_HYMNS_AND_SCULPTURES_1</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs/>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>0</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>1</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>1</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
 			<Type>EVENTTRIGGER_CARELESS_APPRENTICE</Type>
 			<WorldNewsTexts>
 				<Text>TXT_KEY_EVENTTRIGGER_CARELESS_APPRENTICE</Text>
@@ -1494,7 +1402,6 @@
 			<ReligionsRequired>
 				<ReligionType>RELIGION_JUDAISM</ReligionType>
 				<ReligionType>RELIGION_CHRISTIANITY</ReligionType>
-				<ReligionType>RELIGION_ISLAM</ReligionType>
 			</ReligionsRequired>
 			<iNumReligions>1</iNumReligions>
 			<CorporationsRequired/>
@@ -5907,7 +5814,7 @@
 				<BuildingClass>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_CONFUCIAN_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_HINDU_MONASTERY</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_ISLAMIC_MONASTERY</BuildingClass>
+				<BuildingClass>BUILDINGCLASS_TEMPLE_OF_AMUN</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_JEWISH_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_TAOIST_MONASTERY</BuildingClass>
 			</BuildingsRequired>
@@ -7518,7 +7425,7 @@
 				<BuildingClass>BUILDINGCLASS_CONFUCIAN_TEMPLE</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_TAOIST_TEMPLE</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_CHRISTIAN_TEMPLE</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_ISLAMIC_TEMPLE</BuildingClass>
+				<BuildingClass>BUILDINGCLASS_PESEDJET_TEMPLE</BuildingClass>
 			</BuildingsRequired>
 			<iNumBuildings>1</iNumBuildings>
 			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
@@ -7812,94 +7719,6 @@
 			<bHeadquarters>0</bHeadquarters>
 			<Events>
 				<Event>EVENT_FARM_PLOWS_1</Event>
-			</Events>
-			<PrereqEvents/>
-			<bPrereqEventPlot>0</bPrereqEventPlot>
-			<OrPreReqs/>
-			<AndPreReqs/>
-			<ObsoleteTechs/>
-			<bRecurring>0</bRecurring>
-			<bTeam>0</bTeam>
-			<bGlobal>1</bGlobal>
-			<bPickPlayer>0</bPickPlayer>
-			<bOtherPlayerWar>0</bOtherPlayerWar>
-			<bOtherPlayerHasReligion>0</bOtherPlayerHasReligion>
-			<bOtherPlayerHasOtherReligion>0</bOtherPlayerHasOtherReligion>
-			<bOtherPlayerAI>0</bOtherPlayerAI>
-			<iOtherPlayerShareBorders>0</iOtherPlayerShareBorders>
-			<OtherPlayerHasTech>NONE</OtherPlayerHasTech>
-			<bPickCity>1</bPickCity>
-			<bPickOtherPlayerCity>0</bPickOtherPlayerCity>
-			<bShowPlot>1</bShowPlot>
-			<iCityFoodWeight>0</iCityFoodWeight>
-			<PythonCanDo/>
-			<PythonCanDoCity/>
-			<PythonCanDoUnit/>
-			<PythonCallback/>
-		</EventTriggerInfo>
-		<EventTriggerInfo>
-			<Type>EVENTTRIGGER_STAINED_GLASS</Type>
-			<WorldNewsTexts>
-				<Text>TXT_KEY_EVENTTRIGGER_STAINED_GLASS</Text>
-			</WorldNewsTexts>
-			<TriggerTexts>
-				<TriggerText>
-					<Text>TXT_KEY_EVENT_TRIGGER_STAINED_GLASS_1</Text>
-					<Era>NONE</Era>
-				</TriggerText>
-			</TriggerTexts>
-			<bSinglePlayer>0</bSinglePlayer>
-			<iPercentGamesActive>90</iPercentGamesActive>
-			<iWeight>100</iWeight>
-			<bProbabilityUnitMultiply>0</bProbabilityUnitMultiply>
-			<bProbabilityBuildingMultiply>0</bProbabilityBuildingMultiply>
-			<Civic>NONE</Civic>
-			<iMinTreasury>0</iMinTreasury>
-			<iMinPopulation>0</iMinPopulation>
-			<iMaxPopulation>0</iMaxPopulation>
-			<iMinMapLandmass>0</iMinMapLandmass>
-			<iMinOurLandmass>0</iMinOurLandmass>
-			<iMaxOurLandmass>-1</iMaxOurLandmass>
-			<MinDifficulty>NONE</MinDifficulty>
-			<iAngry>0</iAngry>
-			<iUnhealthy>0</iUnhealthy>
-			<UnitsRequired/>
-			<iNumUnits>0</iNumUnits>
-			<iNumUnitsGlobal>0</iNumUnitsGlobal>
-			<iUnitDamagedWeight>0</iUnitDamagedWeight>
-			<iUnitDistanceWeight>0</iUnitDistanceWeight>
-			<iUnitExperienceWeight>0</iUnitExperienceWeight>
-			<bUnitsOnPlot>0</bUnitsOnPlot>
-			<BuildingsRequired>
-				<BuildingClass>BUILDINGCLASS_JEWISH_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_CHRISTIAN_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_ISLAMIC_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_HINDU_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_BUDDHIST_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_CONFUCIAN_CATHEDRAL</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClass>
-			</BuildingsRequired>
-			<iNumBuildings>1</iNumBuildings>
-			<iNumBuildingsGlobal>0</iNumBuildingsGlobal>
-			<iNumPlotsRequired>0</iNumPlotsRequired>
-			<bOwnPlot>0</bOwnPlot>
-			<iPlotType>-1</iPlotType>
-			<FeaturesRequired/>
-			<TerrainsRequired/>
-			<ImprovementsRequired/>
-			<BonusesRequired/>
-			<RoutesRequired/>
-			<ReligionsRequired/>
-			<iNumReligions>0</iNumReligions>
-			<CorporationsRequired/>
-			<iNumCorporations>0</iNumCorporations>
-			<bPickReligion>0</bPickReligion>
-			<bStateReligion>0</bStateReligion>
-			<bHolyCity>0</bHolyCity>
-			<bPickCorporation>0</bPickCorporation>
-			<bHeadquarters>0</bHeadquarters>
-			<Events>
-				<Event>EVENT_STAINED_GLASS_1</Event>
 			</Events>
 			<PrereqEvents/>
 			<bPrereqEventPlot>0</bPrereqEventPlot>
@@ -9801,7 +9620,7 @@
 				<BuildingClass>BUILDINGCLASS_CHRISTIAN_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_CONFUCIAN_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_HINDU_MONASTERY</BuildingClass>
-				<BuildingClass>BUILDINGCLASS_ISLAMIC_MONASTERY</BuildingClass>
+				<BuildingClass>BUILDINGCLASS_TEMPLE_OF_AMUN</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_JEWISH_MONASTERY</BuildingClass>
 				<BuildingClass>BUILDINGCLASS_TAOIST_MONASTERY</BuildingClass>
 			</BuildingsRequired>

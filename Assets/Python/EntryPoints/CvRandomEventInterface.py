@@ -165,11 +165,10 @@ def getHelpHolyMountain1(argsList):
 	
 	if (-1 != iReligion):
 		for i in range(gc.getNumBuildingInfos()):
-			if (gc.getBuildingInfo(i).getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo, gc.getNumSpecialBuildingInfos(), 'SPECIALBUILDING_CATHEDRAL')):
+			if (gc.getBuildingInfo(i).getSpecialBuildingType() == CvUtil.findInfoTypeNum(gc.getSpecialBuildingInfo, gc.getNumSpecialBuildingInfos(), 'SPECIALBUILDING_MONASTERY')):
 				if (gc.getBuildingInfo(i).getReligionType() == iReligion):
 					iBuilding = i
 					break
-
 
 		szHelp = localText.getText("TXT_KEY_EVENT_HOLY_MOUNTAIN_HELP", ( gc.getBuildingInfo(iBuilding).getTextKey(), gc.getBuildingInfo(iBuilding).getTextKey(), iMinPoints))
 
@@ -1345,6 +1344,8 @@ def getHelpIndependentFilms(argsList):
 
 def canTriggerAncientOlympics(argsList):
 
+	#bluepotato TODO
+
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
 
@@ -1356,7 +1357,7 @@ def canTriggerAncientOlympics(argsList):
 	if stateReligion == CvUtil.findInfoTypeNum(gc.getReligionInfo,gc.getNumReligionInfos(),'RELIGION_CHRISTIANITY'):
 		return false
 
-	if stateReligion == CvUtil.findInfoTypeNum(gc.getReligionInfo,gc.getNumReligionInfos(),'RELIGION_ISLAM'):
+	if stateReligion == CvUtil.findInfoTypeNum(gc.getReligionInfo,gc.getNumReligionInfos(),'RELIGION_PESEDJET'):
 		return false
 
 	return true

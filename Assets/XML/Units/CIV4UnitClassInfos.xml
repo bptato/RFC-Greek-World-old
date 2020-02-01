@@ -106,13 +106,13 @@
 			<DefaultUnit>UNIT_CHRISTIAN_MISSIONARY</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
-			<Type>UNITCLASS_ISLAMIC_MISSIONARY</Type>
-			<Description>TXT_KEY_UNIT_ISLAMIC_MISSIONARY</Description>
+			<Type>UNITCLASS_PESEDJET_PRIEST</Type>
+			<Description>TXT_KEY_UNIT_PESEDJET_PRIEST</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>3</iMaxPlayerInstances>
 			<iInstanceCostModifier>0</iInstanceCostModifier>
-			<DefaultUnit>UNIT_ISLAMIC_MISSIONARY</DefaultUnit>
+			<DefaultUnit>UNIT_PESEDJET_PRIEST</DefaultUnit>
 		</UnitClassInfo>
 		<UnitClassInfo>
 			<Type>UNITCLASS_HINDU_MISSIONARY</Type>

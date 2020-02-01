@@ -772,42 +772,32 @@
 			<Button>,Art/Interface/Buttons/Buildings/Shrine_Christian.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,13</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ISLAMIC_TEMPLE</Type>
+			<Type>ART_DEF_BUILDING_PESEDJET_TEMPLE</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
+			<bAnimated>0</bAnimated>
+			<fScale>3.6</fScale>
+			<fInterfaceScale>0.4</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Pesedjet_Temple/tombking-castle.nif</NIF>
+			<KFM/>
+			<Button>Art/Structures/Buildings/Pesedjet_Temple/pesedjet_temple.dds</Button>
+		</BuildingArtInfo>
+		<BuildingArtInfo>
+			<Type>ART_DEF_BUILDING_TEMPLE_OF_AMUN</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>1</bAnimated>
-			<fScale>2.9</fScale>
-			<fInterfaceScale>0.69</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Temple/islamic/islamic_temple.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Temple_Islamic.dds,Art/Interface/Buttons/Buildings_Atlas.dds,4,14</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ISLAMIC_CATHEDRAL</Type>
-			<LSystem>LSYSTEM_4x4</LSystem>
 			<bAnimated>0</bAnimated>
-			<fScale>1.58</fScale>
-			<fInterfaceScale>0.57</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Cathedrals/islamic_cathedral.nif</NIF>
+			<fScale>1.05</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/TempleOfAmun/EgyptTemple.nif</NIF>
 			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Cathedral_Islamic.dds,Art/Interface/Buttons/Buildings_Atlas.dds,1,14</Button>
+			<Button>Art/Structures/Buildings/TempleOfAmun/EgyptTemple_Button.dds</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ISLAMIC_MONASTERY</Type>
-			<LSystem>LSYSTEM_3x1</LSystem>
-			<bAnimated>1</bAnimated>
-			<fScale>2.5</fScale>
-			<fInterfaceScale>0.56</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Monastery/Islamic/islamic_monastery.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Monastery_Islamic.dds,Art/Interface/Buttons/Buildings_Atlas.dds,2,14</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_ISLAMIC_SHRINE</Type>
-			<LSystem>LSYSTEM_4x4</LSystem>
+			<Type>ART_DEF_BUILDING_SPHINX</Type>
+			<LSystem>LSYSTEM_3x3</LSystem>
 			<bAnimated>0</bAnimated>
-			<fScale>3.03</fScale>
-			<fInterfaceScale>0.36</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Pyramid/Pyramid.nif</NIF>
+			<fScale>1.0</fScale>
+			<fInterfaceScale>0.5</fInterfaceScale>
+			<NIF>Art/Structures/Buildings/Sphinx/sphinx.nif</NIF>
 			<KFM/>
 			<Button>Art/Structures/Buildings/Sphinx/sphinx_button.dds</Button>
 		</BuildingArtInfo>

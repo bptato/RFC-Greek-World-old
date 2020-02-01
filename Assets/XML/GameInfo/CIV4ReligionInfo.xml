@@ -75,10 +75,10 @@
 			<Sound>AS2D_BUILD_CHRISTIAN</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_ISLAM</Type>
-			<Description>Theban Theology</Description>
-			<Adjective>TXT_KEY_RELIGION_ISLAM_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_ISLAM_PEDIA</Civilopedia>
+			<Type>RELIGION_PESEDJET</Type>
+			<Description>TXT_KEY_RELIGION_PESEDJET</Description>
+			<Adjective>TXT_KEY_RELIGION_PESEDJET_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_RELIGION_PESEDJET_PEDIA</Civilopedia>
 			<TechPrereq>TECH_HUNTING</TechPrereq>
 			<!-- Rhye RFGW -->
 			<FreeUnitClass/>
@@ -104,9 +104,9 @@
 			<!-- Rhye -->
 			<TechButton>Art/Interface/Buttons/TechTree/divine right.dds</TechButton>
 			<GenericTechButton>,Art/Interface/Buttons/TechTree/Islam.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,6,3</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Islam/Isl_Found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_ISLAMIC_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_ISLAMIC</Sound>
+			<MovieFile>Art/Movies/Religion/Pesedjet/Generic_Found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_PESEDJET_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_PESEDJET</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
 			<Type>RELIGION_HINDUISM</Type>

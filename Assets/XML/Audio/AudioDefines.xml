@@ -3838,15 +3838,15 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_ISLAMIC</SoundID>
-			<Filename>Sounds/Buildings/IslamicDink</Filename>
+			<SoundID>SND_BUILD_PESEDJET</SoundID>
+			<Filename>Sounds/Religions/PesedjetDink</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_ISLAMIC_MOVIE</SoundID>
-			<Filename>Sounds/Buildings/Islamic</Filename>
+			<SoundID>SND_BUILD_PESEDJET_MOVIE</SoundID>
+			<Filename>Sounds/Religions/Pesedjet</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
