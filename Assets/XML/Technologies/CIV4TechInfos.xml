@@ -1859,7 +1859,7 @@
 				<PrereqTech>TECH_ALPHABET</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs>
-				<PrereqTech>TECH_CUNNIFORM</PrereqTech>
+				<PrereqTech>TECH_CUNEIFORM</PrereqTech>
 			</AndPreReqs>
 			<Quote>TXT_KEY_TECH_WRITING_QUOTE</Quote>
 			<Sound>AS2D_TECH_WRITING</Sound>
@@ -5500,11 +5500,11 @@
 			<Button>Art/Interface/Buttons/TechTree/Shipbuilding.dds</Button>
 		</TechInfo>
 		<TechInfo>
-			<Type>TECH_CUNNIFORM</Type>
-			<Description>TXT_KEY_TECH_CUNNIFORM</Description>
-			<Civilopedia>TXT_KEY_TECH_CUNNIFORM_PEDIA</Civilopedia>
+			<Type>TECH_CUNEIFORM</Type>
+			<Description>TXT_KEY_TECH_CUNEIFORM</Description>
+			<Civilopedia>TXT_KEY_TECH_CUNEIFORM_PEDIA</Civilopedia>
 			<Help/>
-			<Strategy>TXT_KEY_TECH_CUNNIFORM_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_TECH_CUNEIFORM_STRATEGY</Strategy>
 			<Advisor>ADVISOR_SCIENCE</Advisor>
 			<iAIWeight>0</iAIWeight>
 			<iAITradeModifier>0</iAITradeModifier>
@@ -5567,10 +5567,10 @@
 				<PrereqTech>TECH_TRADE</PrereqTech>
 			</OrPreReqs>
 			<AndPreReqs/>
-			<Quote>TXT_KEY_TECH_CUNNIFORM_QUOTE</Quote>
+			<Quote>TXT_KEY_TECH_CUNEIFORM_QUOTE</Quote>
 			<Sound>AS2D_TECH_ALPHABET</Sound>
 			<SoundMP>AS2D_TECH_MP_ALPHABET</SoundMP>
-			<Button>Art/Interface/Buttons/TechTree/Cunniform.dds</Button>
+			<Button>Art/Interface/Buttons/TechTree/Cuneiform.dds</Button>
 		</TechInfo>
 		<TechInfo>
 			<Type>TECH_ARROWS</Type>

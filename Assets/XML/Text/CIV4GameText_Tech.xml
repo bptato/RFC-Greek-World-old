@@ -617,11 +617,11 @@ This goal of demanding multi-year sieges became impractical with the invention o
 		<English>Shipbuilding is, of course, the building of ships. Shipwrights follow a profession that traces its roots back to an age before recorded history. Archaeological evidence indicates that humans sailed to Borneo from Asia 120 thousand years ago aboard constructed ships; and later to New Guinea and Australia some 50 thousand years ago. In the fourth millennium BC, the Egyptians were constructing boat hulls from planks of wood, using treenails to hold them together and pitch to make them watertight. Across the ocean in India, the first shipbuilding docks were being utilized by the Harappans around 2500 BC.  While the Phoenicians, Greeks and Carthaginians were pretty good at shipbuilding, most of their knowledge was lost during the "Dark" Ages. Save for the Vikings, the Europeans weren't particularly skilled or innovative. However, in China during the Song and Ming dynasties, shipbuilding reached its peak, building junks and warships that filled the greatest ports of the time. In the Islamic world shipbuilding thrived in Basra and Alexandria, producing the dhows and feluccas that plied trade routes from East Asia to the tip of Africa.  The Age of Exploration, as the Europeans set out to conquer the world, demanded new approaches to shipbuilding. Shipyards became large industrial complexes (like the Arsenal in Venice), able to turn out ships of a standard design (like the carrack) in a matter of weeks or even days. By the Napoleonic Wars, ships were still being built to basic, standardized plans in expansive shipyards; the British in fact established Royal Dockyards across the globe to support their naval aspirations.  Advances in ship design and materials during the Industrial Revolution for shipbuilding for the first time in centuries made new methods mandatory. Massive iron- and steel-hulled ships such as the Great Eastern and the Titanic and modern dreadnaughts meant that most ships now are constructed in expansive drydocks.</English>
 	</TEXT> 
     <TEXT>
-		<Tag>TXT_KEY_TECH_CUNNIFORM</Tag>
-		<English>Cunniform</English>
+		<Tag>TXT_KEY_TECH_CUNEIFORM</Tag>
+		<English>Cuneiform</English>
 	</TEXT>  
     <TEXT>
-		<Tag>TXT_KEY_TECH_CUNNIFORM_PEDIA</Tag>
+		<Tag>TXT_KEY_TECH_CUNEIFORM_PEDIA</Tag>
 		<English>Cuneiform or Sumero-Akkadian cuneiform, one of the earliest systems of writing, was invented by the Sumerians. It is distinguished by its wedge-shaped marks on clay tablets, made by means of a blunt reed for a stylus. The name cuneiform itself simply means "wedge shaped"</English>
 	</TEXT> 
     <TEXT>
@@ -691,7 +691,7 @@ This goal of demanding multi-year sieges became impractical with the invention o
 		<English>The late 4th century author Vegetius provides the only contemporary account of ancient Roman crossbows. In his De Re Militaris, he describes arcubalistarii (crossbowmen) working together with archers and artillerymen. However it is disputed if arcuballistas were even crossbows or just more torsion powered weapons.</English>
 	</TEXT>
     <TEXT>
-		<Tag>TXT_KEY_TECH_CUNNIFORM_QUOTE</Tag>
+		<Tag>TXT_KEY_TECH_CUNEIFORM_QUOTE</Tag>
 		<English>"Reading in the third millennium B.C. may therefore have been a matter of hearing the cuneiform, that is, hallucinating the speech from looking at its picture symbols, rather than visual reading of syllables in our sense." Julian Jayness  </English>
 	</TEXT>
     <TEXT>

@@ -155,7 +155,7 @@
 			<Civilopedia>TXT_KEY_CIVIC_ARISTOCRACY_PEDIA</Civilopedia>
 			<Strategy></Strategy>
 			<Button>,Art/Interface/Buttons/Civics/Oligarchy.dds</Button>
-			<TechPrereq>TECH_CUNNIFORM</TechPrereq>
+			<TechPrereq>TECH_CUNEIFORM</TechPrereq>
 			<iAnarchyLength>0</iAnarchyLength>
 			<Upkeep>UPKEEP_HIGH</Upkeep>
 			<iAIWeight>0</iAIWeight>

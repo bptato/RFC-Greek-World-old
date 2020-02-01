@@ -716,7 +716,7 @@ class Victory:
 							if (iCiv != iSumeria):
 								if (gc.getTeam(gc.getPlayer(iCiv).getTeam()).isHasTech(iTech) == True):
 									self.setSumerianTechs(1, 0)
-					elif (iTech == con.tn('cunniform')):
+					elif (iTech == con.tn('cuneiform')):
 						self.setSumerianTechs(2, 1)
 						for iCiv in range(iNumPlayers):
 							if (iCiv != iSumeria):
