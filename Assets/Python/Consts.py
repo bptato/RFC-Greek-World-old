@@ -237,7 +237,7 @@ tCoreAreasTL = (
 (27, 22), #Mycenae
 (43, 23), #Assyria
 (39, 17), #Israel
-(31, 22), #Athens
+(31, 25), #Athens
 (25, 21), #Sparta
 (39, 38), #Scythia
 (8, 18), #Carthage
@@ -268,8 +268,8 @@ tCoreAreasBR = (
 (33, 33), #Mycenae
 (52, 31), #Assyria
 (42, 20), #Israel
-(37, 34), #Athens
-(29, 35), #Sparta
+(35, 30), #Athens
+(29, 31), #Sparta
 (57, 49), #Scythia
 (21, 22), #Carthage
 (19, 46), #Celtia

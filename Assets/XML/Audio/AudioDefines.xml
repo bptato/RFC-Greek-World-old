@@ -1339,6 +1339,27 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_AGAMEMNON_EARLY</SoundID>
+			<Filename>Sounds/Diplomacy/AGAMEMNON_Early</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AGAMEMNON_MIDDLE</SoundID>
+			<Filename>Sounds/Diplomacy/AGAMEMNON_Middle</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_AGAMEMNON_LATE</SoundID>
+			<Filename>Sounds/Diplomacy/AGAMEMNON_Late</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_ROOSEVELT_EARLY</SoundID>
 			<Filename>Sounds/Diplomacy/Roosevelt_Early</Filename>
 			<LoadType>STREAMED</LoadType>
