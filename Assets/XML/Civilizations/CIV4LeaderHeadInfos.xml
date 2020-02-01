@@ -14633,29 +14633,29 @@
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_EARLY</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_MEHMED_MIDDLE</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_ASHURBANIPAL_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>

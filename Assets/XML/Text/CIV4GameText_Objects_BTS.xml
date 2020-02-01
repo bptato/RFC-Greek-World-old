@@ -2928,37 +2928,11 @@
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_PESEDJET_ADJECTIVE</Tag>
-		<English>
-			<Text>Pesedjet</Text>
-		</English>
+		<English>Pesedjet</English>
 	</TEXT>
 	<TEXT>
-		<Tag>TXT_KEY_RELIGION_HINDUISM_ADJECTIVE</Tag>
-		<English>
-			<Text>Hindu</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</English>
-		<French>
-			<Text>hindou:hindoue:hindous:hindoues</Text>
-			<Gender>Male:Female:Male:Female</Gender>
-			<Plural>0:0:1:1</Plural>
-		</French>
-		<German>
-			<Text>Hinduistisch:hinduistischen:hinduistische</Text>
-			<Gender>Neuter:Neuter:Neuter</Gender>
-			<Plural>0:0:0</Plural>
-		</German>
-		<Italian>
-			<Text>ind&#249;</Text>
-			<Gender>Male</Gender>
-			<Plural>0</Plural>
-		</Italian>
-		<Spanish>
-			<Text>hind&#250;:hind&#250;:hind&#250;es:hind&#250;es</Text>
-			<Gender>Male:Female:Male:Female</Gender>
-			<Plural>0:0:1:1</Plural>
-		</Spanish>
+		<Tag>TXT_KEY_RELIGION_ANNUNAKI</Tag>
+		<English>Annunaki</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_RELIGION_BUDDHISM_ADJECTIVE</Tag>
