@@ -244,7 +244,7 @@ BeginPlayer
 	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_ORGANIZED_RELIGION
 	CivicOption=CIVICOPTION_EXPANSION, Civic=CIVIC_CLIENT_KINGDOMS
 	StartingGold=250
-	StartingYear=-678
+	StartingYear=-674
 	Team=18
 EndPlayer
 BeginPlayer
