@@ -1810,8 +1810,8 @@ class RiseAndFall:
 		if (iCiv == iBabylonia):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('babylon_bowman'), iCiv, tPlot, 2)
-			utils.makeInvaderUnit(con.un('babylon_bowman'), iCiv, tPlot, 5)
-			utils.makeInvaderUnit(con.un('spearman'), iCiv, tPlot, 5)
+			utils.makeInvaderUnit(con.un('babylon_bowman'), iCiv, tPlot, 3)
+			utils.makeInvaderUnit(con.un('spearman'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('javelineer'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('hindu_missionary'), iCiv, tPlot, 1)
 		if (iCiv == iHittites):
@@ -1831,9 +1831,9 @@ class RiseAndFall:
 		if (iCiv == iAssyria):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('spearman'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('assyria_ram'), iCiv, tPlot, 4)
-			utils.makeUnit(con.un('chariot'), iCiv, tPlot, 2)
+			utils.makeUnit(con.un('spearman'), iCiv, tPlot, 5)
+			utils.makeUnit(con.un('assyria_ram'), iCiv, tPlot, 5)
+			utils.makeUnit(con.un('chariot'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('swordsman'), iCiv, tPlot, 7)
 			utils.makeUnit(con.un('hindu_missionary'), iCiv, tPlot, 1)
 		if (iCiv == iIsrael):
