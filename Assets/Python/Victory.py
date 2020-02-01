@@ -65,7 +65,8 @@ tCyprusTL = (37, 21)
 tCyprusBR = (39, 23)
 tIberiaTL = (2, 26)
 tIberiaBR = (12, 38)
-
+tAnatoliaTL = (35, 25)
+tAnatoliaBR = (40, 32)
 
 # initialise player variables
 iEgypt = con.iEgypt
@@ -237,6 +238,15 @@ class Victory:
 	def setBabyloniaKilledCivs(self, i):
 		scriptDict = pickle.loads(gc.getGame().getScriptData())
 		scriptDict['babyloniaKilledCivs'] = i
+		gc.getGame().setScriptData(pickle.dumps(scriptDict))
+
+	def getMycenaeTombsBuilt(self):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		return scriptDict['mycenaeTombsBuilt']
+
+	def setMycenaeTombsBuilt(self, i):
+		scriptDict = pickle.loads(gc.getGame().getScriptData())
+		scriptDict['mycenaeTombsBuilt'] = i
 		gc.getGame().setScriptData(pickle.dumps(scriptDict))
 
 	def getHittiteKilledUnits(self):
@@ -636,6 +646,14 @@ class Victory:
 					self.setGoal(iHittites, 2, 1)
 			if self.getGoal(iHittites, 2) == -1 and iGameTurn > i1200BC:
 				self.setGoal(iHittites, 2, 0)
+		elif iPlayer == iMycenae:
+			if self.getGoal(iMycenae, 0) == -1 and iGameTurn > i1300BC:
+				self.setGoal(iMycenae, 0, 0)
+			if self.getGoal(iMycenae, 1) == -1 and iGameTurn > i1100BC:
+				self.setGoal(iMycenae, 1, 0)
+			if iGameTurn == i1000BC:
+				result = self.checkOwnedArea(iBarbarian, tAnatoliaTL, tAnatoliaBR, 1)
+				self.setGoal(iMycenae, 2, not result)
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
 		if (not gc.getGame().isVictoryValid(7)): #7 == historical
@@ -742,6 +760,16 @@ class Victory:
 			return
 
 		iGameTurn = gc.getGame().getGameTurn()
+		
+		if iPlayer == iMycenae and getGoal(iMycenae, 0) == -1:
+			if iBuilding == con.bn('mycenae_tholoi'):
+				setMycenaeTombsBuilt(getMycenaeTombsBuilt() + 1)
+				if getMycenaeTombsBuilt() >= 3:
+					setGoal(iMycenae, 0, 1)
+			elif iBuilding == con.bn('lion_gate'):
+				if getGoal(iMycenae, 1) == -1:
+					setGoal(iMycenae, 1, 1)
+			
 
 	def onProjectBuilt(self, iPlayer, iProject):
 

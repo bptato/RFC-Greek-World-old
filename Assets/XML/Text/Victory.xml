@@ -305,4 +305,28 @@
 		<Tag>TXT_KEY_UHV_HIT3</Tag>
 		<English>Destroy 15 units using chariots by 1200BC</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC1_TITLE</Tag>
+		<English>Tombs of Mycenae</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC1</Tag>
+		<English>Build three Tholoi by 1300BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC2_TITLE</Tag>
+		<English>Lion Gate</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC2</Tag>
+		<English>Build the Lion Gate by 1100BC</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC3_TITLE</Tag>
+		<English>Troyan War</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UHV_MYC3</Tag>
+		<English>Destroy all Barbarian cities in Anatolia by 1000BC</English>
+	</TEXT>
 </Civ4GameText>

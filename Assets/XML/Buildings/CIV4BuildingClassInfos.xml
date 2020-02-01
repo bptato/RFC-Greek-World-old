@@ -813,15 +813,15 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_CHICHEN_ITZA</Type>
-			<Description>TXT_KEY_BUILDING_CHICHEN_ITZA</Description>
+			<Type>BUILDINGCLASS_LION_GATE</Type>
+			<Description>TXT_KEY_BUILDING_LION_GATE</Description>
 			<iMaxGlobalInstances>1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_CHICHEN_ITZA</DefaultBuilding>
+			<DefaultBuilding>BUILDING_LION_GATE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
