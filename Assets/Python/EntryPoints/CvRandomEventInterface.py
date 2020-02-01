@@ -3305,9 +3305,6 @@ def canTriggerGreed(argsList):
 		return false
 
 	listBonuses = []
-	iOil = CvUtil.findInfoTypeNum(gc.getBonusInfo,gc.getNumBonusInfos(),'BONUS_OIL')
-	if 0 == player.getNumAvailableBonuses(iOil):
-		listBonuses.append(iOil)
 	iIron = CvUtil.findInfoTypeNum(gc.getBonusInfo,gc.getNumBonusInfos(),'BONUS_IRON')
 	if 0 == player.getNumAvailableBonuses(iIron):
 		listBonuses.append(iIron)
