@@ -15,6 +15,7 @@
 wine17="$HOME/.wine_versions/linux-amd64/1.7.55/bin/wine" #Your wine 1.7.55 installation directory.
 PSDK="C:\Program Files\Microsoft Platform SDK"
 VCTOOLKIT="C:\Program Files\Microsoft Visual C++ Toolkit 2003"
+DLLOUTPUT="../Assets/CvGameCoreDLL.dll"
 
 #You probably don't have to change these:
 ARGS=$#
@@ -30,7 +31,6 @@ fi
 
 echo "TARGET: $TARGET"
 
-
 #Your wineprefix for compilation.
 export WINEPREFIX="$HOME/compile_linux"
 
@@ -41,6 +41,29 @@ fi
 
 #Use nmake to compile the files.
 $wine17 "$PSDK\Bin\nmake" $TARGET
+
+##TODO
+#List files to compile.
+#COMPILEFILES=""
+#DLLEXISTS=$(test -f $DLLOUTPUT)
+#if $DLLEXISTS; then
+#	LASTCOMPILE=$(date -r $DLLOUTPUT +%s)
+#fi
+#for COMPILEFILE in $(ls)
+#do
+#	if ([[ $COMPILEFILE == *.cpp ]] || [[ $COMPILEFILE == *.h ]]) && (! $DLLEXISTS || [ "$LASTCOMPILE" -lt "$(date -r $COMPILEFILE +%s)" ]); then
+#		COMPILEFILES="$COMPILEFILES $COMPILEFILE"
+#	fi
+#done
+
+#echo "Files:" $COMPILEFILES
+
+#Compiles the files.
+#for COMPILEFILE in $COMPILEFILES
+#do
+#	rm $TARGET/${COMPILEFILE%.*}.obj
+#	$wine17 "$VCTOOLKIT\bin\cl.exe" /nologo /MD /O2 /Oy /Oi /G7 /DNDEBUG /DFINAL_RELEASE /Fp"$TARGET\CvGameCoreDLL.pch" /GR /Gy /W3 /EHsc /Gd /Gm- /DWIN32 /D_WINDOWS /D_USRDLL /DCVGAMECOREDLL_EXPORTS /Yu"CvGameCoreDLL.h" /IBoost-1.32.0/include /IPython24/include /I"$VCTOOLKIT/include" /I"$PSDK/Include" /I"$PSDK/Include/mfc" /I".\CvGameCoreDLL\Boost-1.32.0/include" /I".\CvGameCoreDLL\Python24/include" "/Fo$TARGET\\${COMPILEFILE%.*}.obj" /c $COMPILEFILE
+#done
 
 #Make a list of files to link.
 FILES=""
@@ -63,9 +86,9 @@ RELEASEFLAGS="$GLOBALFLAGS /INCREMENTAL:NO /OPT:REF /OPT:ICF"
 
 #Create a DLL.
 if test $TARGET = "Release"; then #For Release:
-	$wine17 "$VCTOOLKIT\bin\link.exe" /LIBPATH:Python24\libs /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:../Assets/CvGameCoreDLL.dll "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" $RELEASEFLAGS
+	$wine17 "$VCTOOLKIT\bin\link.exe" /LIBPATH:Python24\libs /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:"../Assets/CvGameCoreDLL.dll" "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" $RELEASEFLAGS
 elif test $TARGET = "Debug"; then #For Debug:
-	$wine17 "$VCTOOLKIT/bin/link.exe" /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:../Assets/CvGameCoreDLL.dll "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" "$PSDK\Lib\AMD64\msvcprtd.lib" $DEBUGFLAGS
+	$wine17 "$VCTOOLKIT/bin/link.exe" /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:"../Assets/CvGameCoreDLL.dll" "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" "$PSDK\Lib\AMD64\msvcprtd.lib" $DEBUGFLAGS
 else #We should never get here.
 	echo "ERROR: Wrong target " $TARGET
 	exit 2

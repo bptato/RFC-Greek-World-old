@@ -965,7 +965,7 @@ void CvPlayerAI::AI_updateAreaTargets()
 	{
 		if (!(pLoopArea->isWater()))
 		{
-			if (GC.getGameINLINE().getSorenRandNum(3, "AI Target City") == 0)
+			if (GC.getGameINLINE().getSorenRandNum(10, "AI Target City") == 0)
 			{
 				pLoopArea->setTargetCity(getID(), NULL);
 			}

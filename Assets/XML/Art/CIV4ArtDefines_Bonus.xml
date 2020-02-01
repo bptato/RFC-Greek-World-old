@@ -7,24 +7,6 @@
 <Civ4ArtDefines xmlns="x-schema:CIV4ArtDefinesSchema.xml">
 	<BonusArtInfos>
 		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_ALUMINUM</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Terrain/Resources/Aluminum/Aluminum.nif</NIF>
-			<KFM>Art/Terrain/Resources/Aluminum/Aluminum.kfm</KFM>
-			<Button>,Art/Interface/Buttons/WorldBuilder/Aluminum.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,12</Button>
-			<FontButtonIndex>0</FontButtonIndex>
-		</BonusArtInfo>
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_COAL</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Terrain/Resources/Coal/Coal.nif</NIF>
-			<KFM>Art/Terrain/Resources/Coal/Coal.kfm</KFM>
-			<Button>,Art/Interface/Buttons/WorldBuilder/Coal.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,12</Button>
-			<FontButtonIndex>1</FontButtonIndex>
-		</BonusArtInfo>
-		<BonusArtInfo>
 			<Type>ART_DEF_BONUS_COPPER</Type>
 			<fScale>1.0</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
@@ -62,15 +44,6 @@
 			<FontButtonIndex>5</FontButtonIndex>
 		</BonusArtInfo>
 		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_OIL</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Terrain/Resources/Oil/Oil.nif</NIF>
-			<KFM>Art/Terrain/Resources/Oil/Oil.kfm</KFM>
-			<Button>,Art/Interface/Buttons/WorldBuilder/Oil.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,15</Button>
-			<FontButtonIndex>6</FontButtonIndex>
-		</BonusArtInfo>
-		<BonusArtInfo>
 			<Type>ART_DEF_BONUS_STONE</Type>
 			<fScale>0.7</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
@@ -78,15 +51,6 @@
 			<KFM>Art/Terrain/Resources/Stone/Stone.kfm</KFM>
 			<Button>,Art/Interface/Buttons/WorldBuilder/Stone.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,6,14</Button>
 			<FontButtonIndex>7</FontButtonIndex>
-		</BonusArtInfo>
-		<BonusArtInfo>
-			<Type>ART_DEF_BONUS_URANIUM</Type>
-			<fScale>1.0</fScale>
-			<fInterfaceScale>1.0</fInterfaceScale>
-			<NIF>Art/Terrain/Resources/Uranium/Uranium.nif</NIF>
-			<KFM>Art/Terrain/Resources/Uranium/Uranium.kfm</KFM>
-			<Button>,Art/Interface/Buttons/WorldBuilder/Uranium.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,8,14</Button>
-			<FontButtonIndex>8</FontButtonIndex>
 		</BonusArtInfo>
 		<BonusArtInfo>
 			<Type>ART_DEF_BONUS_DYE</Type>
