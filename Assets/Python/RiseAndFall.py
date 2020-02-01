@@ -2213,7 +2213,8 @@ class RiseAndFall:
 				'bread_making','warrior_code','bronze_working','fishing','urban_culture','masonry','metal_casting')
 		if (iCiv == iPersia):
 			techs = ('slash_and_burn','the_wheel','spokes','trade','cunniform','alphabet','writing','fermentation','pottery','herbalism','code_of_laws','urban_culture','mysticism','polytheism',
-				'priesthood','tyranny','hunting','warrior_code','mining','arrows','logging','copper_working','metal_casting','bronze_working','iron_working','agriculture')
+				'priesthood','tyranny','hunting','warrior_code','mining','arrows','logging','copper_working','metal_casting','bronze_working','iron_working','agriculture','fortification',
+				'bread_making')
 		if (iCiv == iRome):
 			techs = ('logging','trade','mining','bronze_working','iron_working','metal_casting','mysticism','polytheism','masonry','sailing','the_wheel','pottery','writing','alphabet','hunting',
 				'animal_husbandry','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','spokes','mathematics','fishing','arrows',
