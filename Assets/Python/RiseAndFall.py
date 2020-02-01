@@ -646,11 +646,8 @@ class RiseAndFall:
 		#self.collapseMotherland()
 
 		#resurrection of civs
-		iNumDeadCivs1 = 11 #5 in vanilla, 8 in warlords (that includes native and celt)
-		iNumDeadCivs2 = 9 #3 in vanilla, 6 in Warlords: here we must count natives and celts as dead too
-		#if (not gc.getPlayer(0).isPlayable()):  #late start condition
-		#	iNumDeadCivs1 -= 2
-		#	iNumDeadCivs2 -= 2
+		iNumDeadCivs1 = 11
+		iNumDeadCivs2 = 9
 		if (gc.getGame().countCivPlayersEverAlive() - gc.getGame().countCivPlayersAlive() > iNumDeadCivs1):
 			if (iGameTurn % 15 == 10): #in Warlords 14, in vanilla 13
 				self.resurrection(iGameTurn)
@@ -2106,7 +2103,7 @@ class RiseAndFall:
 		if (iCiv == iPhoenicia):
 			techs = ('fishing','logging','boats','hunting','navigation','slash_and_burn','the_wheel','bread_making','spokes','trade','sailing','fermentation','mining','mysticism','polytheism','copper_working','bronze_working','pottery','urban_culture')
 		if (iCiv == iBabylonia):
-			techs = ('cuneiform','trade','slash_and_burn','fermentation','the_wheel','spokes','urban_culture','mining','hunting','arrows','logging','copper_working','warrior_code','masonry','bronze_working','fishing','bread_making','archery')
+			techs = ('cuneiform','trade','slash_and_burn','fermentation','the_wheel','spokes','urban_culture','mining','hunting','arrows','logging','copper_working','warrior_code','masonry','bronze_working','fishing','bread_making','archery','mysticism')
 		if (iCiv == iAssyria):
 			techs = ('cuneiform','fermentation','bread_making','slash_and_burn','the_wheel','spokes','hunting','warrior_code','mining','arrows','copper_working','urban_culture','fortification','archery','military_training','bronze_working','logging','agriculture','pottery','fishing','metal_casting','iron_working')
 		if (iCiv == iIsrael):
@@ -2186,7 +2183,7 @@ class RiseAndFall:
 				'urban_culture','mining','copper_working','spokes','mythology','logging','fishing','boats')
 		if (iCiv == iAssyria):
 			techs = ('fermentation', 'bread_making','slash_and_burn','the_wheel','spokes','hunting', 'warrior_code','mining','arrows','copper_working','urban_culture','fortification','archery',
-				'military_training','bronze_working','logging','agriculture','pottery')
+				'military_training','bronze_working','logging','agriculture','pottery','mysticism','trade','cuneiform')
 		if (iCiv == iIsrael):
 			techs = ('mysticism','polytheism','slash_and_burn','monotheism','the_wheel','fermentation','trade',
 				'alphabet','writing','fishing','urban_culture','priesthood','mining','hunting','arrows','bread_making')
@@ -2195,64 +2192,38 @@ class RiseAndFall:
 		if (iCiv == iSparta):
 			techs = ('mining','bronze_working','fortification','mysticism','polytheism','the_wheel','pottery','hunting','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','logging','fishing','arrows','archery','animal_husbandry','military_training','mythology','spokes','trade')
 		if (iCiv == iScythia):
-			techs = ('arrows','archery','hunting','warrior_code','mining','slash_and_burn','agriculture','animal_husbandry','equine_domestication','horseback_riding','copper_working',
-				'bronze_working','logging','bread_making','fermentation','mysticism','mythology')
+			techs = ('arrows','archery','hunting','warrior_code','mining','slash_and_burn','agriculture','animal_husbandry','equine_domestication','horseback_riding','copper_working','bronze_working','logging','bread_making','fermentation','mysticism','mythology')
 		if (iCiv == iCarthage):
-			techs = ('slash_and_burn','the_wheel','spokes','logging','trade','fishing','sailing','boats','mining','hunting','agriculture','bread_making','navigation','animal_husbandry',
-				'copper_working','bronze_working','fermentation','mysticism','polytheism','warrior_code','arrows','archery','urban_culture')
+			techs = ('slash_and_burn','the_wheel','spokes','logging','trade','fishing','sailing','boats','mining','hunting','agriculture','bread_making','navigation','animal_husbandry','copper_working','bronze_working','fermentation','mysticism','polytheism','warrior_code','arrows','archery','urban_culture')
 		if (iCiv == iCeltia):
-			techs = ('logging','mining','bronze_working','iron_working','the_wheel','pottery','hunting','fermentation','bread_making','copper_working','warrior_code','urban_culture','fortification',
-				'mysticism','polytheism','spokes','slash_and_burn','agriculture','animal_husbandry')
+			techs = ('logging','mining','bronze_working','iron_working','the_wheel','pottery','hunting','fermentation','bread_making','copper_working','warrior_code','urban_culture','fortification','mysticism','polytheism','spokes','slash_and_burn','agriculture','animal_husbandry')
 		if (iCiv == iEtruria):
-			techs = ('mining','masonry','the_wheel','pottery','hunting','animal_husbandry','archery','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working',
-				'warrior_code','logging','arrows','bronze_working','fishing','fortification','mysticism')
+			techs = ('mining','masonry','the_wheel','pottery','hunting','animal_husbandry','archery','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','logging','arrows','bronze_working','fishing','fortification','mysticism')
 		if (iCiv == iNubia):
-			techs = ('logging','arrows','mining','mysticism','polytheism','copper_working','the_wheel','pottery','agriculture','hunting','archery','animal_husbandry','slash_and_burn','fermentation',
-				'bread_making','warrior_code','bronze_working','fishing','urban_culture','masonry','metal_casting')
+			techs = ('logging','arrows','mining','mysticism','polytheism','copper_working','the_wheel','pottery','agriculture','hunting','archery','animal_husbandry','slash_and_burn','fermentation','bread_making','warrior_code','bronze_working','fishing','urban_culture','masonry','metal_casting')
 		if (iCiv == iPersia):
 			techs = ('slash_and_burn','the_wheel','spokes','trade','cuneiform','alphabet','writing','fermentation','pottery','herbalism','code_of_laws','urban_culture','mysticism','polytheism',
 				'priesthood','tyranny','hunting','warrior_code','mining','arrows','logging','copper_working','metal_casting','bronze_working','iron_working','agriculture','fortification',
 				'bread_making')
 		if (iCiv == iRome):
-			techs = ('logging','trade','mining','bronze_working','iron_working','metal_casting','mysticism','polytheism','masonry','sailing','the_wheel','pottery','writing','alphabet','hunting',
-				'animal_husbandry','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','spokes','mathematics','fishing','arrows',
-				'fortification','archery','military_training')
+			techs = ('logging','trade','mining','bronze_working','iron_working','metal_casting','mysticism','polytheism','masonry','sailing','the_wheel','pottery','writing','alphabet','hunting','animal_husbandry','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','spokes','mathematics','fishing','arrows','fortification','archery','military_training')
 		if (iCiv == iMacedonia):
-			techs = ('mining','mysticism','the_wheel','pottery','hunting','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code',
-				'animal_husbandry','bronze_working','equine_domestication','metal_casting','iron_working','horseback_riding','fortification','arrows','archery','fishing','logging','boats',
-				'mythology')
+			techs = ('mining','mysticism','the_wheel','pottery','hunting','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','animal_husbandry','bronze_working','equine_domestication','metal_casting','iron_working','horseback_riding','fortification','arrows','archery','fishing','logging','boats','mythology')
 		if (iCiv == iIndia):
-			techs = ('logging','trade','mining','bronze_working','mysticism','polytheism','the_wheel','pottery','writing','hunting','archery','agriculture','slash_and_burn','urban_culture',
-				'fermentation','bread_making','copper_working','warrior_code','animal_husbandry','fishing','arrows','herbalism','code_of_laws','record_keeping','priesthood','tyranny',
-				'citizenship','education','medicine','boats','spokes','mythology','masonry','pachyderm_domestication','equine_domestication','horseback_riding','alphabet','mathematics',
-				'currency','storytelling')
+			techs = ('logging','trade','mining','bronze_working','mysticism','polytheism','the_wheel','pottery','writing','hunting','archery','agriculture','slash_and_burn','urban_culture','fermentation','bread_making','copper_working','warrior_code','animal_husbandry','fishing','arrows','herbalism','code_of_laws','record_keeping','priesthood','tyranny','citizenship','education','medicine','boats','spokes','mythology','masonry','pachyderm_domestication','equine_domestication','horseback_riding','alphabet','mathematics','currency','storytelling')
 		if (iCiv == iBactria):
-			techs = ('slash_and_burn','warrior_code','agriculture','animal_husbandry','equine_domestication','pachyderm_domestication','camel_domestication','logging','trade','mining',
-			'bronze_working','mysticism','masonry','the_wheel','pottery','hunting','iron_working','urban_culture','fermentation','bread_making','copper_working','fortification','arrows','alphabet',
-			'mathematics','currency','fishing','polytheism','mythology','storytelling','archery','spokes','horseback_riding','cuneiform','writing','construction','monotheism','aesthetics')
+			techs = ('slash_and_burn','warrior_code','agriculture','animal_husbandry','equine_domestication','pachyderm_domestication','camel_domestication','logging','trade','mining','bronze_working','mysticism','masonry','the_wheel','pottery','hunting','iron_working','urban_culture','fermentation','bread_making','copper_working','fortification','arrows','alphabet','mathematics','currency','fishing','polytheism','mythology','storytelling','archery','spokes','horseback_riding','cuneiform','writing','construction','monotheism','aesthetics')
 		if (iCiv == iNumidia):
-			techs = ('slash_and_burn','the_wheel','spokes','logging','trade','fishing','boats','mining','hunting','agriculture','bread_making','animal_husbandry','copper_working','bronze_working',
-				'fermentation','mysticism','polytheism','warrior_code','arrows','archery','urban_culture','equine_domestication','camel_domestication','metal_casting','horseback_riding',
-				'iron_working','navigation','mythology','storytelling','pottery')
+			techs = ('slash_and_burn','the_wheel','spokes','logging','trade','fishing','boats','mining','hunting','agriculture','bread_making','animal_husbandry','copper_working','bronze_working','fermentation','mysticism','polytheism','warrior_code','arrows','archery','urban_culture','equine_domestication','camel_domestication','metal_casting','horseback_riding','iron_working','navigation','mythology','storytelling','pottery')
 		if (iCiv == iGermania):
-			techs = ('mining','bronze_working','iron_working','metal_casting','mysticism','the_wheel','pottery','hunting','animal_husbandry','equine_domestication','archery','fermentation',
-				'bread_making','copper_working','warrior_code','arrows','military_training','logging','fishing','mythology','spokes','trade','herbalism','slash_and_burn','polytheism','monotheism',
-				'cuneiform','alphabet','writing','code_of_laws','tyranny','boats','navigation','agriculture','storytelling','urban_culture')
+			techs = ('mining','bronze_working','iron_working','metal_casting','mysticism','the_wheel','pottery','hunting','animal_husbandry','equine_domestication','archery','fermentation','bread_making','copper_working','warrior_code','arrows','military_training','logging','fishing','mythology','spokes','trade','herbalism','slash_and_burn','polytheism','monotheism','cuneiform','alphabet','writing','code_of_laws','tyranny','boats','navigation','agriculture','storytelling','urban_culture')
 		if (iCiv == iSassanid):
-			techs = ('slash_and_burn','the_wheel','spokes','trade','cuneiform','alphabet','writing','fermentation','pottery','herbalism','code_of_laws','urban_culture','mysticism','polytheism',
-				'priesthood','tyranny','hunting','warrior_code','mining','arrows','agriculture','animal_husbandry','horseback_riding','record_keeping','citizenship','education','aristocracy',
-				'fishing','bread_making','logging','masonry','copper_working','metal_casting','bronze_working','iron_working','archery','boats','fortification','equine_domestication')
+			techs = ('slash_and_burn','the_wheel','spokes','trade','cuneiform','alphabet','writing','fermentation','pottery','herbalism','code_of_laws','urban_culture','mysticism','polytheism','priesthood','tyranny','hunting','warrior_code',
+'mining','arrows','agriculture','animal_husbandry','horseback_riding','record_keeping','citizenship','education','aristocracy','fishing','bread_making','logging','masonry','copper_working','metal_casting','bronze_working','iron_working','archery','boats','fortification','equine_domestication')
 		if (iCiv == iByzantium):
-			techs = ('fermentation','mysticism','polytheism','mythology','storytelling','slash_and_burn','the_wheel','spokes','trade','cuneiform','alphabet','writing','pottery','herbalism',
-				'code_of_laws','urban_culture','priesthood','tyranny','citizenship','philosophy','democracy','theology','agriculture','animal_husbandry','equine_domestication','mining',
-				'copper_working','bronze_working','logging','fishing','boats','hunting','warrior_code','fortification','arrows','archery','military_training','mathematics','navigation','sailing',
-				'cartography','naval_warfare','bread_making','masonry','metal_casting','iron_working')
+			techs = ('fermentation','mysticism','polytheism','mythology','storytelling','slash_and_burn','the_wheel','spokes','trade','cuneiform','alphabet','writing','pottery','herbalism','code_of_laws','urban_culture','priesthood','tyranny','citizenship','philosophy','democracy','theology','agriculture','animal_husbandry','equine_domestication','mining','copper_working','bronze_working','logging','fishing','boats','hunting','warrior_code','fortification','arrows','archery','military_training','mathematics','navigation','sailing','cartography','naval_warfare','bread_making','masonry','metal_casting','iron_working')
 		if (iCiv == iHuns):
-			techs = ('arrows','archery','hunting','warrior_code','mining','slash_and_burn','agriculture','animal_husbandry','equine_domestication','horseback_riding','copper_working',
-				'bronze_working','iron_working','metal_casting','mysticism','the_wheel','pottery','record_keeping','military_training','bread_making','fermentation','mythology','spokes',
-				'polytheism','trade','storytelling','cuneiform','alphabet','pachyderm_domestication','writing','code_of_laws','tyranny','citizenship','philosophy','military_science',
-				'standing_army','herbalism')
-
+			techs = ('arrows','archery','hunting','warrior_code','mining','slash_and_burn','agriculture','animal_husbandry','equine_domestication','horseback_riding','copper_working','bronze_working','iron_working','metal_casting','mysticism','the_wheel','pottery','record_keeping','military_training','bread_making','fermentation','mythology','spokes','polytheism','trade','storytelling','cuneiform','alphabet','pachyderm_domestication','writing','code_of_laws','tyranny','citizenship','philosophy','military_science','standing_army','herbalism')
 
 		self.assignPlayerTechs(iCiv, techs)
 
