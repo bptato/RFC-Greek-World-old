@@ -120,7 +120,6 @@ BeginPlayer
 	CivType=CIVILIZATION_SUMERIA
 	StartingGold=100
 	StartingYear=-4400
-	PlayableCiv=0
 	Team=1
 EndPlayer
 BeginPlayer
@@ -128,7 +127,6 @@ BeginPlayer
 	CivType=CIVILIZATION_INDUS_VALLEY
 	StartingGold=100
 	StartingYear=-3290
-	PlayableCiv=0
 	Team=2
 EndPlayer
 BeginPlayer
@@ -136,7 +134,6 @@ BeginPlayer
 	CivType=CIVILIZATION_ELAM
 	StartingGold=100
 	StartingYear=-2720
-	PlayableCiv=0
 	Team=3
 EndPlayer
 BeginPlayer
@@ -144,7 +141,6 @@ BeginPlayer
 	CivType=CIVILIZATION_MINOA
 	StartingGold=100
 	StartingYear=-2690
-	PlayableCiv=0
 	Team=4
 EndPlayer
 BeginPlayer
@@ -166,7 +162,6 @@ BeginPlayer
 	CivType=CIVILIZATION_HITTITE
 	StartingGold=150
 	StartingYear=-1610
-	PlayableCiv=0
 	Team=7
 EndPlayer
 BeginPlayer
@@ -174,12 +169,15 @@ BeginPlayer
 	CivType=CIVILIZATION_MYCENAE
 	StartingGold=200
 	StartingYear=-1600
-	PlayableCiv=0
 	Team=8
 EndPlayer
 BeginPlayer
 	LeaderType=LEADER_ASHUR
 	CivType=CIVILIZATION_ASSYRIA
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_ISOLATIONISM
 	StartingGold=200
 	StartingYear=-1396
 	Team=9
@@ -263,6 +261,12 @@ EndPlayer
 BeginPlayer
 	LeaderType=LEADER_JULIUS_CAESAR
 	CivType=CIVILIZATION_ROME
+	CivicOption=CIVICOPTION_GOVERNMENT, Civic=CIVIC_MONARCHY
+	CivicOption=CIVICOPTION_LEGAL, Civic=CIVIC_VASSALAGE
+	CivicOption=CIVICOPTION_LABOR, Civic=CIVIC_SLAVERY
+	CivicOption=CIVICOPTION_ECONOMY, Civic=CIVIC_TRADE_ECONOMY
+	CivicOption=CIVICOPTION_RELIGION, Civic=CIVIC_DEIFICATION
+	CivicOption=CIVICOPTION_EXPANSION, Civic=CIVIC_CLIENT_KINGDOMS
 	StartingGold=300
 	StartingYear=-512
 	Team=19

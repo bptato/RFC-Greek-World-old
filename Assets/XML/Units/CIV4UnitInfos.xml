@@ -4115,12 +4115,7 @@
 				</UnitAI>
 			</UnitAIs>
 			<NotUnitAIs/>
-			<Builds>
-				<Build>
-					<BuildType>BUILD_ROAD</BuildType>
-					<bBuild>1</bBuild>
-				</Build>
-			</Builds>
+			<Builds/>
 			<ReligionSpreads/>
 			<CorporationSpreads/>
 			<GreatPeoples/>
@@ -18281,7 +18276,7 @@
 			<LeaderPromotion>NONE</LeaderPromotion>
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
-	<UnitInfo>
+		<UnitInfo>
 			<Class>UNITCLASS_LEGION</Class>
 			<Type>UNIT_BURGUNDIAN</Type>
 			<UniqueNames/>
