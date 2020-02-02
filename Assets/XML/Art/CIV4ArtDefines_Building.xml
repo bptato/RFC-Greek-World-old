@@ -812,16 +812,6 @@
 			<Button>,Art/Interface/Buttons/Buildings/Temple_Hindu.dds,Art/Interface/Buttons/Buildings_Atlas.dds,8,12</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_HINDU_CATHEDRAL</Type>
-			<LSystem>LSYSTEM_4x4</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.8</fScale>
-			<fInterfaceScale>0.5</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/Cathedrals/hindu_cathedral.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/Cathedral_Hindu.dds,Art/Interface/Buttons/Buildings_Atlas.dds,5,12</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_HINDU_MONASTERY</Type>
 			<LSystem>LSYSTEM_3x2</LSystem>
 			<bAnimated>1</bAnimated>

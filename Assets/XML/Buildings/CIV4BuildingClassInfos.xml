@@ -451,39 +451,27 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HINDU_TEMPLE</Type>
-			<Description>TXT_KEY_BUILDING_HINDU_TEMPLE</Description>
+			<Type>BUILDINGCLASS_ANNUNAKI_TEMPLE</Type>
+			<Description>TXT_KEY_BUILDING_ANNUNAKI_TEMPLE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>1</bMonument>
-			<DefaultBuilding>BUILDING_HINDU_TEMPLE</DefaultBuilding>
+			<DefaultBuilding>BUILDING_ANNUNAKI_TEMPLE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HINDU_CATHEDRAL</Type>
-			<Description>TXT_KEY_BUILDING_HINDU_CATHEDRAL</Description>
-			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
-			<iMaxTeamInstances>-1</iMaxTeamInstances>
-			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
-			<iExtraPlayerInstances>0</iExtraPlayerInstances>
-			<bNoLimit>0</bNoLimit>
-			<bMonument>1</bMonument>
-			<DefaultBuilding>BUILDING_HINDU_CATHEDRAL</DefaultBuilding>
-			<VictoryThresholds/>
-		</BuildingClassInfo>
-		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_HINDU_MONASTERY</Type>
-			<Description>TXT_KEY_BUILDING_HINDU_MONASTERY</Description>
+			<Type>BUILDINGCLASS_ANNUNAKI_MONASTERY</Type>
+			<Description>TXT_KEY_BUILDING_ANNUNAKI_MONASTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_HINDU_MONASTERY</DefaultBuilding>
+			<DefaultBuilding>BUILDING_ANNUNAKI_MONASTERY</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>

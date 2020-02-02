@@ -3866,6 +3866,20 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>SND_BUILD_ANNUNAKI</SoundID>
+			<Filename>Sounds/Religions/AnnunakiDink</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>SND_BUILD_ANNUNAKI_MOVIE</SoundID>
+			<Filename>Sounds/Buildings/Annunaki</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>SND_BUILD_HINDU</SoundID>
 			<Filename>Sounds/Buildings/HinduDink</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>

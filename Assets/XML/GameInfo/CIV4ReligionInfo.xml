@@ -49,7 +49,7 @@
 			<!-- Rhye RFGW -->
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
-			<iSpreadFactor>150</iSpreadFactor>
+			<iSpreadFactor>200</iSpreadFactor>
 			<GlobalReligionCommerces>
 				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
@@ -80,10 +80,9 @@
 			<Adjective>TXT_KEY_RELIGION_PESEDJET_ADJECTIVE</Adjective>
 			<Civilopedia>TXT_KEY_RELIGION_PESEDJET_PEDIA</Civilopedia>
 			<TechPrereq>TECH_HUNTING</TechPrereq>
-			<!-- Rhye RFGW -->
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
-			<iSpreadFactor>30</iSpreadFactor> <!-- Rhye -->
+			<iSpreadFactor>30</iSpreadFactor>
 			<GlobalReligionCommerces>
 				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
@@ -92,7 +91,6 @@
 			<HolyCityCommerces>
 				<iHolyCityCommerce>0</iHolyCityCommerce>
 				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<!-- Rhye -->
 				<iHolyCityCommerce>3</iHolyCityCommerce>
 			</HolyCityCommerces>
 			<StateReligionCommerces>
@@ -101,7 +99,6 @@
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
 			<Button>Art/Interface/Buttons/Religions/egyptian mythology.dds</Button>
-			<!-- Rhye -->
 			<TechButton>Art/Interface/Buttons/TechTree/divine right.dds</TechButton>
 			<GenericTechButton>,Art/Interface/Buttons/TechTree/Islam.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,6,3</GenericTechButton>
 			<MovieFile>Art/Movies/Religion/Pesedjet/Generic_Found.nif</MovieFile>
@@ -109,16 +106,14 @@
 			<Sound>AS2D_BUILD_PESEDJET</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_HINDUISM</Type>
-			<Description>Akkadian Pantheon</Description>
-			<Adjective>TXT_KEY_RELIGION_HINDUISM_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_HINDUISM_PEDIA</Civilopedia>
-			<!-- Rhye -->
+			<Type>RELIGION_ANNUNAKI</Type>
+			<Description>TXT_KEY_RELIGION_ANNUNAKI</Description>
+			<Adjective>TXT_KEY_RELIGION_ANNUNAKI_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_RELIGION_ANNUNAKI_PEDIA</Civilopedia>
 			<TechPrereq>TECH_FERMENTATION</TechPrereq>
-			<!-- Rhye RFGW -->
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
-			<iSpreadFactor>30</iSpreadFactor> <!-- Rhye -->
+			<iSpreadFactor>30</iSpreadFactor>
 			<GlobalReligionCommerces>
 				<iGlobalReligionCommerce>1</iGlobalReligionCommerce>
 				<iGlobalReligionCommerce>0</iGlobalReligionCommerce>
@@ -127,7 +122,6 @@
 			<HolyCityCommerces>
 				<iHolyCityCommerce>0</iHolyCityCommerce>
 				<iHolyCityCommerce>0</iHolyCityCommerce>
-				<!-- Rhye -->
 				<iHolyCityCommerce>3</iHolyCityCommerce>
 			</HolyCityCommerces>
 			<StateReligionCommerces>
@@ -136,12 +130,11 @@
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
 			<Button>Art/Interface/Buttons/Religions/mesopotamian.dds</Button>
-			<!-- Rhye -->
-			<TechButton>Art/Interface/Buttons/TechTree/Meditation.dds</TechButton>
-			<GenericTechButton>,Art/Interface/Buttons/TechTree/Hinduism.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,2,3</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Hinduism/Hin_Found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_HINDU_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_HINDU</Sound>
+			<TechButton>Art/Interface/Buttons/Religions/mesopotamian.dds</TechButton>
+			<GenericTechButton>,Art/Interface/Buttons/Religions/mesopotamian.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,2,3</GenericTechButton>
+			<MovieFile>Art/Movies/Religion/Annunaki/generic_found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_ANNUNAKI_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_ANNUNAKI</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
 			<Type>RELIGION_BUDDHISM</Type>
