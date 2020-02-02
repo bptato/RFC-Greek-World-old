@@ -8864,8 +8864,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_ANNUNAKI</ScriptID>
-		<SoundID>SND_BUILD_ANNUNAKI</SoundID>
+		<ScriptID>AS2D_BUILD_ANUNNAKI</ScriptID>
+		<SoundID>SND_BUILD_ANUNNAKI</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>90</iMinVolume>
 		<iMaxVolume>90</iMaxVolume>
@@ -8887,8 +8887,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_ANNUNAKI_MOVIE</ScriptID>
-		<SoundID>SND_BUILD_ANNUNAKI_MOVIE</SoundID>
+		<ScriptID>AS2D_BUILD_ANUNNAKI_MOVIE</ScriptID>
+		<SoundID>SND_BUILD_ANUNNAKI_MOVIE</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>80</iMinVolume>
 		<iMaxVolume>80</iMaxVolume>

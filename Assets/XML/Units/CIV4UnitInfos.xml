@@ -2388,8 +2388,8 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_ANNUNAKI_MISSIONARY</Class>
-			<Type>UNIT_ANNUNAKI_MISSIONARY</Type>
+			<Class>UNITCLASS_ANUNNAKI_MISSIONARY</Class>
+			<Type>UNIT_ANUNNAKI_MISSIONARY</Type>
 			<UniqueNames/>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>NONE</Capture>
@@ -2398,9 +2398,9 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ANNUNAKI_MISSIONARY</Description>
+			<Description>TXT_KEY_UNIT_ANUNNAKI_MISSIONARY</Description>
 			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_ANNUNAKI_MISSIONARY_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_UNIT_ANUNNAKI_MISSIONARY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -2447,7 +2447,7 @@
 			<Builds/>
 			<ReligionSpreads>
 				<ReligionSpread>
-					<ReligionType>RELIGION_ANNUNAKI</ReligionType>
+					<ReligionType>RELIGION_ANUNNAKI</ReligionType>
 					<iReligionSpread>40</iReligionSpread>
 				</ReligionSpread>
 			</ReligionSpreads>
@@ -2458,9 +2458,9 @@
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>NONE</ReligionType>
 			<StateReligion>NONE</StateReligion>
-			<PrereqReligion>RELIGION_ANNUNAKI</PrereqReligion>
+			<PrereqReligion>RELIGION_ANUNNAKI</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_ANNUNAKI_MONASTERY</PrereqBuilding>
+			<PrereqBuilding>BUILDING_ANUNNAKI_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
 			<BonusType>NONE</BonusType>
@@ -2541,7 +2541,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_ANNUNAKI_MISSIONARY</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>

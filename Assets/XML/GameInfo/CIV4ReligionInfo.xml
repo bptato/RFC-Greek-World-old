@@ -106,10 +106,10 @@
 			<Sound>AS2D_BUILD_PESEDJET</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_ANNUNAKI</Type>
-			<Description>TXT_KEY_RELIGION_ANNUNAKI</Description>
-			<Adjective>TXT_KEY_RELIGION_ANNUNAKI_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_ANNUNAKI_PEDIA</Civilopedia>
+			<Type>RELIGION_ANUNNAKI</Type>
+			<Description>TXT_KEY_RELIGION_ANUNNAKI</Description>
+			<Adjective>TXT_KEY_RELIGION_ANUNNAKI_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_RELIGION_ANUNNAKI_PEDIA</Civilopedia>
 			<TechPrereq>TECH_FERMENTATION</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
@@ -130,11 +130,11 @@
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
 			<Button>Art/Interface/Buttons/Religions/mesopotamian.dds</Button>
-			<TechButton>Art/Interface/Buttons/Religions/mesopotamian.dds</TechButton>
-			<GenericTechButton>,Art/Interface/Buttons/Religions/mesopotamian.dds,Art/Interface/Buttons/Beyond the Sword_Atlas.dds,2,3</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Annunaki/generic_found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_ANNUNAKI_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_ANNUNAKI</Sound>
+			<TechButton>Art/Interface/Buttons/TechTree/Religion.dds</TechButton>
+			<GenericTechButton>Art/Interface/Buttons/TechTree/Religion.dds</GenericTechButton>
+			<MovieFile>Art/Movies/Religion/Anunnaki/generic_found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_ANUNNAKI_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_ANUNNAKI</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
 			<Type>RELIGION_BUDDHISM</Type>

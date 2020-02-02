@@ -345,7 +345,7 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ANNUNAKI_MISSIONARY</Type> <!--TODO-->
+			<Type>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</Type> <!--TODO-->
 			<Button>,Art/Interface/Buttons/Units/Missionary_Hindu.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,3</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>

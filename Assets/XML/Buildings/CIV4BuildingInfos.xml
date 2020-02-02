@@ -10612,20 +10612,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_ANNUNAKI_TEMPLE</BuildingClass>
-			<Type>BUILDING_ANNUNAKI_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_ANUNNAKI_TEMPLE</BuildingClass>
+			<Type>BUILDING_ANUNNAKI_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<Description>TXT_KEY_BUILDING_ANNUNAKI_TEMPLE</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ANNUNAKI_TEMPLE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ANNUNAKI_TEMPLE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_ANNUNAKI</ReligionType>
+			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_ANNUNAKI</PrereqReligion>
+			<PrereqReligion>RELIGION_ANUNNAKI</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -10761,7 +10761,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_ANNUNAKI</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ANUNNAKI</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -10787,20 +10787,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_ANNUNAKI_MONASTERY</BuildingClass>
-			<Type>BUILDING_ANNUNAKI_MONASTERY</Type>
+			<BuildingClass>BUILDINGCLASS_ANUNNAKI_MONASTERY</BuildingClass>
+			<Type>BUILDING_ANUNNAKI_MONASTERY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
 			<Description>Mesopotamian Monastery</Description>
-			<Civilopedia>TXT_KEY_BUILDING_ANNUNAKI_MONASTERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_ANNUNAKI_MONASTERY_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_MONASTERY</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_ANNUNAKI</ReligionType>
+			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_ANNUNAKI</PrereqReligion>
+			<PrereqReligion>RELIGION_ANUNNAKI</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -10934,7 +10934,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_ANNUNAKI</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ANUNNAKI</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -10969,14 +10969,14 @@
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<ArtDefineTag>ART_DEF_BUILDING_HINDU_SHRINE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ISHTAR_GATE</MovieDefineTag>
-			<HolyCity>RELIGION_ANNUNAKI</HolyCity>
-			<ReligionType>RELIGION_ANNUNAKI</ReligionType>
+			<HolyCity>RELIGION_ANUNNAKI</HolyCity>
+			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>RELIGION_ANNUNAKI</GlobalReligionCommerce>
+			<GlobalReligionCommerce>RELIGION_ANUNNAKI</GlobalReligionCommerce>
 			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
@@ -11101,7 +11101,7 @@
 			<CommerceHappinesses/>
 			<ReligionChanges>
 				<ReligionChange>
-					<ReligionType>RELIGION_ANNUNAKI</ReligionType>
+					<ReligionType>RELIGION_ANUNNAKI</ReligionType>
 					<iReligionChange>1</iReligionChange>
 				</ReligionChange>
 			</ReligionChanges>
@@ -11118,7 +11118,7 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
-			<ConstructSound>AS2D_BUILD_ANNUNAKI</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ANUNNAKI</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>

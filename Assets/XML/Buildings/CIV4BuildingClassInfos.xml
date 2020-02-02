@@ -451,27 +451,27 @@
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ANNUNAKI_TEMPLE</Type>
-			<Description>TXT_KEY_BUILDING_ANNUNAKI_TEMPLE</Description>
+			<Type>BUILDINGCLASS_ANUNNAKI_TEMPLE</Type>
+			<Description>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>1</bMonument>
-			<DefaultBuilding>BUILDING_ANNUNAKI_TEMPLE</DefaultBuilding>
+			<DefaultBuilding>BUILDING_ANUNNAKI_TEMPLE</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
-			<Type>BUILDINGCLASS_ANNUNAKI_MONASTERY</Type>
-			<Description>TXT_KEY_BUILDING_ANNUNAKI_MONASTERY</Description>
+			<Type>BUILDINGCLASS_ANUNNAKI_MONASTERY</Type>
+			<Description>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY</Description>
 			<iMaxGlobalInstances>-1</iMaxGlobalInstances>
 			<iMaxTeamInstances>-1</iMaxTeamInstances>
 			<iMaxPlayerInstances>-1</iMaxPlayerInstances>
 			<iExtraPlayerInstances>0</iExtraPlayerInstances>
 			<bNoLimit>0</bNoLimit>
 			<bMonument>0</bMonument>
-			<DefaultBuilding>BUILDING_ANNUNAKI_MONASTERY</DefaultBuilding>
+			<DefaultBuilding>BUILDING_ANUNNAKI_MONASTERY</DefaultBuilding>
 			<VictoryThresholds/>
 		</BuildingClassInfo>
 		<BuildingClassInfo>
