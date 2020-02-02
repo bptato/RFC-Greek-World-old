@@ -3880,6 +3880,20 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>SND_BUILD_ZOROASTRIAN</SoundID>
+			<Filename>Sounds/Religions/ZoroastrianDink</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>SND_BUILD_ZOROASTRIAN_MOVIE</SoundID>
+			<Filename>Sounds/Religions/Zoroastrian</Filename>
+			<LoadType>DYNAMIC_RES</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>SND_BUILD_HINDU</SoundID>
 			<Filename>Sounds/Buildings/HinduDink</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
@@ -3894,43 +3908,29 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_BUDDHIST</SoundID>
-			<Filename>Sounds/Buildings/BuddhistDink</Filename>
+			<SoundID>SND_BUILD_HELLENIC</SoundID>
+			<Filename>Sounds/Religions/HellenicDink</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_BUDDHIST_MOVIE</SoundID>
-			<Filename>Sounds/Buildings/Buddhist</Filename>
+			<SoundID>SND_BUILD_HELLENIC_MOVIE</SoundID>
+			<Filename>Sounds/Religions/Hellenic</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_CONFUCIAN</SoundID>
-			<Filename>Sounds/Buildings/ConfucianistDink</Filename>
+			<SoundID>SND_BUILD_BAALITE</SoundID>
+			<Filename>Sounds/Religions/BaaliteDink</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_CONFUCIAN_MOVIE</SoundID>
-			<Filename>Sounds/Buildings/Confuscianist</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_BUILD_TAOIST</SoundID>
-			<Filename>Sounds/Buildings/TaoistDink</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_BUILD_TAOIST_MOVIE</SoundID>
-			<Filename>Sounds/Buildings/Taoist</Filename>
+			<SoundID>SND_BUILD_BAALITE_MOVIE</SoundID>
+			<Filename>Sounds/Religions/Baalite</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>
@@ -5056,13 +5056,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_BUILD_TAOIST_MISSIONARY</SoundID>
-			<Filename>Sounds/Units/BuildTaoistMissionary</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>SND_BUILD_WAR_ELEPHANT</SoundID>
 			<Filename>Sounds/Units/BuildWarElephant</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
@@ -5812,13 +5805,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_TAOIST_MISSIONARY_ACTIVATE</SoundID>
-			<Filename>Sounds/Units/TaoistMissionaryActivate</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>SND_JEWISH_MISS_ACTIVATE</SoundID>
 			<Filename>Sounds/Units/JewishMissActivate</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
@@ -5828,27 +5814,6 @@
 		<SoundData>
 			<SoundID>SND_JEWISH_MISS_FORT</SoundID>
 			<Filename>Sounds/Units/JewishMissFort</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_TAOIST_MISS_DIE_VOX</SoundID>
-			<Filename>Sounds/Units/TaoistMissDieVox</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_TAOIST_MISS_FIDGT_VOX</SoundID>
-			<Filename>Sounds/Units/TaoistMissFidgtVox</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
-			<SoundID>SND_TAOIST_MISS_FORT_VOX</SoundID>
-			<Filename>Sounds/Units/TaoistMissFortVox</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

@@ -15,6 +15,7 @@ History Rewritten: https://forums.civfanatics.com/forums/mac-win-civ4-history-re
 Rhye's & Fall Classical World: https://forums.civfanatics.com/forums/rfc-mod-mod-classical-world.484/
 PIE's Ancient Europe: https://forums.civfanatics.com/threads/pies-ancient-europe.352646/
 Just Another Religion Mod: https://forums.civfanatics.com/resources/just-another-religion-mod-bts-modular-v-1-2.10354/
+Realism Invictus: https://forums.civfanatics.com/threads/realism-invictus.411799/
 
 Civilizations
 The Minoan civilization was borrowed from Civ Gold mod, credit goes to the civs original creator.
@@ -47,5 +48,8 @@ Units
 Most units used were created by ambrox62
 
 https://forums.civfanatics.com/threads/elamite-horned-warrior.486939/ for Elamite Horned Warrior
+
+Buildings
+https://forums.civfanatics.com/resources/knossos-labyrinth.18253/ (platyping)
 
 If there is anyone whose work was included but not credited, please message me or post on the forums

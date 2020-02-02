@@ -322,14 +322,14 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PESEDJET_MISSIONARY</Type>
-			<Button>Art/Units/Religions/PesedjetHemetNetjer/button_hem-netjer.dds</Button>
+			<Button>Art/Units/Religion/PesedjetHemetNetjer/button_hem-netjer.dds</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.nif</NIF>
-			<KFM>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.kfm</KFM>
-			<SHADERNIF>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.nif</SHADERNIF>
+			<NIF>Art/Units/Religion/PesedjetHemetNetjer/buddhist_missionary.nif</NIF>
+			<KFM>Art/Units/Religion/PesedjetHemetNetjer/buddhist_missionary.kfm</KFM>
+			<SHADERNIF>Art/Units/Religion/PesedjetHemetNetjer/buddhist_missionary.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -348,14 +348,14 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</Type>
-			<Button>Art/Units/Religions/AnunnakiEnsi/button_ensi.dds</Button>
+			<Button>Art/Units/Religion/AnunnakiEnsi/button_ensi.dds</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Religions/AnunnakiEnsi/greatprophet.nif</NIF>
-			<KFM>Art/Units/Religions/AnunnakiEnsi/greatprophet.kfm</KFM>
-			<SHADERNIF>Art/Units/Religions/AnunnakiEnsi/greatprophet.nif</SHADERNIF>
+			<NIF>Art/Units/Religion/AnunnakiEnsi/greatprophet.nif</NIF>
+			<KFM>Art/Units/Religion/AnunnakiEnsi/greatprophet.kfm</KFM>
+			<SHADERNIF>Art/Units/Religion/AnunnakiEnsi/greatprophet.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -371,39 +371,36 @@
 			</AudioRunSounds>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_BUDDHIST_MISSIONARY</Type>
-			<Button>,Art/Interface/Buttons/Units/Missionary_Buddhist.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,1,3</Button>
+			<Type>ART_DEF_UNIT_ZOROASTRIAN_MISSIONARY</Type>
+			<Button>Art/Units/Religion/ZoroastrianMagi/Button_Magi.dds</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Missionary/Buddhist/Buddhist_missionary.nif</NIF>
-			<KFM>Art/Units/Missionary/Buddhist/Buddhist_missionary.kfm</KFM>
-			<SHADERNIF>Art/Units/Missionary/Buddhist/Buddhist_missionary_FX.nif</SHADERNIF>
+			<NIF>Art/Units/Religion/ZoroastrianMagi/greatprophet.nif</NIF>
+			<KFM>Art/Units/Religion/ZoroastrianMagi/greatprophet.kfm</KFM>
+			<SHADERNIF>Art/Units/Religion/ZoroastrianMagi/greatprophet.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.85</fShadowScale>
+				<fShadowScale>1.0</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
 			<bActAsRanged>0</bActAsRanged>
 			<TrainSound>AS2D_UNIT_BUILD_UNIT</TrainSound>
-			<AudioRunSounds>
-				<AudioRunTypeLoop/>
-				<AudioRunTypeEnd/>
-			</AudioRunSounds>
+			<AudioRunSounds/>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_CONFUCIAN_MISSIONARY</Type>
-			<Button>,Art/Interface/Buttons/Units/Missionary_Confucian.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,3,3</Button>
-			<fScale>0.46</fScale>
+			<Type>ART_DEF_UNIT_HELLENIC_PRIEST</Type>
+			<Button>Art/Units/Religion/HellenicHiereia/Button_Heirophant.dds</Button>
+			<fScale>0.44</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Missionary/Confucian/Confucian_missionary.nif</NIF>
-			<KFM>Art/Units/Missionary/Confucian/Confucian_missionary.kfm</KFM>
-			<SHADERNIF>Art/Units/Missionary/Confucian/Confucian_Missionary_FX.nif</SHADERNIF>
+			<NIF>Art/Units/Religion/HellenicHiereia/christianmissionary.nif</NIF>
+			<KFM>Art/Units/Religion/HellenicHiereia/christianmissionary.kfm</KFM>
+			<SHADERNIF>Art/Units/Religion/HellenicHiereia/christianmissionary.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -417,21 +414,23 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
+			<SelectionSound>AS3D_FEMALE_FIDGT_VOX</SelectionSound>
+			<ActionSound>AS3D_FEMALE_ATTK_VOX</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_TAOIST_MISSIONARY</Type>
-			<Button>,Art/Interface/Buttons/Units/Missionary_Taoist.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,7,3</Button>
-			<fScale>0.46</fScale>
+			<Type>ART_DEF_UNIT_BAALITE_PRIEST</Type>
+			<Button>Art/Units/Religion/BaaliteKohen/Button_Kohen.dds</Button>
+			<fScale>0.44</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Missionary/Taoist/TaoistMissionary.nif</NIF>
-			<KFM>Art/Units/Missionary/Taoist/TaoistMissionary.kfm</KFM>
-			<SHADERNIF>Art/Units/Missionary/Taoist/TaoistMissionary_FX.nif</SHADERNIF>
+			<NIF>Art/Units/Religion/BaaliteKohen/buddhist_missionary.nif</NIF>
+			<KFM>Art/Units/Religion/BaaliteKohen/buddhist_missionary.kfm</KFM>
+			<SHADERNIF>Art/Units/Religion/BaaliteKohen/buddhist_missionary.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.85</fShadowScale>
+				<fShadowScale>1.0</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>
@@ -441,6 +440,8 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
+			<SelectionSound>AS3D_FEMALE_FIDGT_VOX</SelectionSound>
+			<ActionSound>AS3D_FEMALE_ATTK_VOX</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_WARRIOR</Type>

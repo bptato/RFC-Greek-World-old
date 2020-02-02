@@ -8910,6 +8910,52 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
+		<ScriptID>AS2D_BUILD_ZOROASTRIAN</ScriptID>
+		<SoundID>SND_BUILD_ZOROASTRIAN</SoundID>
+		<SoundType>GAME_SFX</SoundType>
+		<iMinVolume>70</iMinVolume>
+		<iMaxVolume>70</iMaxVolume>
+		<iPitchChangeDown>0</iPitchChangeDown>
+		<iPitchChangeUp>0</iPitchChangeUp>
+		<iMinLeftPan>-1</iMinLeftPan>
+		<iMaxLeftPan>-1</iMaxLeftPan>
+		<iMinRightPan>-1</iMinRightPan>
+		<iMaxRightPan>-1</iMaxRightPan>
+		<bLooping>0</bLooping>
+		<iMinTimeDelay>0</iMinTimeDelay>
+		<iMaxTimeDelay>0</iMaxTimeDelay>
+		<bTaperForSoundtracks>0</bTaperForSoundtracks>
+		<iLengthOfSound>0</iLengthOfSound>
+		<fMinDryLevel>1.0</fMinDryLevel>
+		<fMaxDryLevel>1.0</fMaxDryLevel>
+		<fMinWetLevel>0.0</fMinWetLevel>
+		<fMaxWetLevel>0.0</fMaxWetLevel>
+		<iNotPlayPercent>0</iNotPlayPercent>
+	</Script2DSound>
+	<Script2DSound>
+		<ScriptID>AS2D_BUILD_ZOROASTRIAN_MOVIE</ScriptID>
+		<SoundID>SND_BUILD_ZOROASTRIAN_MOVIE</SoundID>
+		<SoundType>GAME_SFX</SoundType>
+		<iMinVolume>70</iMinVolume>
+		<iMaxVolume>70</iMaxVolume>
+		<iPitchChangeDown>0</iPitchChangeDown>
+		<iPitchChangeUp>0</iPitchChangeUp>
+		<iMinLeftPan>-1</iMinLeftPan>
+		<iMaxLeftPan>-1</iMaxLeftPan>
+		<iMinRightPan>-1</iMinRightPan>
+		<iMaxRightPan>-1</iMaxRightPan>
+		<bLooping>0</bLooping>
+		<iMinTimeDelay>0</iMinTimeDelay>
+		<iMaxTimeDelay>0</iMaxTimeDelay>
+		<bTaperForSoundtracks>0</bTaperForSoundtracks>
+		<iLengthOfSound>0</iLengthOfSound>
+		<fMinDryLevel>1.0</fMinDryLevel>
+		<fMaxDryLevel>1.0</fMaxDryLevel>
+		<fMinWetLevel>0.0</fMinWetLevel>
+		<fMaxWetLevel>0.0</fMaxWetLevel>
+		<iNotPlayPercent>0</iNotPlayPercent>
+	</Script2DSound>
+	<Script2DSound>
 		<ScriptID>AS2D_BUILD_HINDU</ScriptID>
 		<SoundID>SND_BUILD_HINDU</SoundID>
 		<SoundType>GAME_SFX</SoundType>
@@ -8956,8 +9002,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_BUDDHIST</ScriptID>
-		<SoundID>SND_BUILD_BUDDHIST</SoundID>
+		<ScriptID>AS2D_BUILD_HELLENIC</ScriptID>
+		<SoundID>SND_BUILD_HELLENIC</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>90</iMinVolume>
 		<iMaxVolume>90</iMaxVolume>
@@ -8979,8 +9025,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_BUDDHIST_MOVIE</ScriptID>
-		<SoundID>SND_BUILD_BUDDHIST_MOVIE</SoundID>
+		<ScriptID>AS2D_BUILD_HELLENIC_MOVIE</ScriptID>
+		<SoundID>SND_BUILD_HELLENIC_MOVIE</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>80</iMinVolume>
 		<iMaxVolume>80</iMaxVolume>
@@ -9048,8 +9094,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_TAOIST</ScriptID>
-		<SoundID>SND_BUILD_TAOIST</SoundID>
+		<ScriptID>AS2D_BUILD_BAALITE</ScriptID>
+		<SoundID>SND_BUILD_BAALITE</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>90</iMinVolume>
 		<iMaxVolume>90</iMaxVolume>
@@ -9071,8 +9117,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_BUILD_TAOIST_MOVIE</ScriptID>
-		<SoundID>SND_BUILD_TAOIST_MOVIE</SoundID>
+		<ScriptID>AS2D_BUILD_BAALITE_MOVIE</ScriptID>
+		<SoundID>SND_BUILD_BAALITE_MOVIE</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>80</iMinVolume>
 		<iMaxVolume>80</iMaxVolume>
@@ -17882,29 +17928,6 @@
 	<Script2DSound>
 		<ScriptID>AS2D_UNIT_BUILD_TANK</ScriptID>
 		<SoundID>SND_BUILD_TANK</SoundID>
-		<SoundType>GAME_SFX</SoundType>
-		<iMinVolume>100</iMinVolume>
-		<iMaxVolume>100</iMaxVolume>
-		<iPitchChangeDown>0</iPitchChangeDown>
-		<iPitchChangeUp>0</iPitchChangeUp>
-		<iMinLeftPan>-1</iMinLeftPan>
-		<iMaxLeftPan>-1</iMaxLeftPan>
-		<iMinRightPan>-1</iMinRightPan>
-		<iMaxRightPan>-1</iMaxRightPan>
-		<bLooping>0</bLooping>
-		<iMinTimeDelay>0</iMinTimeDelay>
-		<iMaxTimeDelay>0</iMaxTimeDelay>
-		<bTaperForSoundtracks>0</bTaperForSoundtracks>
-		<iLengthOfSound>0</iLengthOfSound>
-		<fMinDryLevel>1.0</fMinDryLevel>
-		<fMaxDryLevel>1.0</fMaxDryLevel>
-		<fMinWetLevel>0.0</fMinWetLevel>
-		<fMaxWetLevel>0.0</fMaxWetLevel>
-		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>
-	<Script2DSound>
-		<ScriptID>AS2D_UNIT_BUILD_TAOIST_MISSIONARY</ScriptID>
-		<SoundID>SND_BUILD_TAOIST_MISSIONARY</SoundID>
 		<SoundType>GAME_SFX</SoundType>
 		<iMinVolume>100</iMinVolume>
 		<iMaxVolume>100</iMaxVolume>

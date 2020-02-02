@@ -131,19 +131,6 @@
 			<Path>Art/Movies/Religion/Christianity/Shrine_Chr_dwg_512.dds</Path>
 		</MovieArtInfo>
 		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_SHRINE_BUDDHIST</Type>
-			<Path>Art/Movies/Religion/Buddhism/Shrine_Bud_Dwg_512.dds</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_SHRINE_CONFUCIAN</Type>
-			<Path>Art/Movies/Religion/Confucianism/Shrine_Con_dwg_512.dds</Path>
-		</MovieArtInfo>
-		<MovieArtInfo>
-			<Type>ART_DEF_MOVIE_SHRINE_TAOIST</Type>
-			<Path>Art/Movies/Religion/Taoism/Shrine_Tao_dwg_512.dds</Path>
-			<KFM>None</KFM>
-		</MovieArtInfo>
-		<MovieArtInfo>
 			<Type>ART_DEF_MOVIE_APOSTOLIC_PALACE</Type>
 			<Path>Art/Movies/Wonders/Apostolic Palace.bik</Path>
 		</MovieArtInfo>
@@ -161,7 +148,7 @@
 		</MovieArtInfo>
 		 <MovieArtInfo>
 			<Type>ART_DEF_MOVIE_ISHTAR_GATE</Type>
-			<Path>Art/Movies/Wonders/Ishtar_Gate.bik</Path>
+			<Path>Art/Movies/Wonders/IshtarGate.bik</Path>
 		</MovieArtInfo>
 		 <MovieArtInfo>
 			<Type>ART_DEF_MOVIE_LUXOR</Type>
@@ -170,6 +157,18 @@
 		 <MovieArtInfo>
 			<Type>ART_DEF_MOVIE_SPHINX</Type>
 			<Path>Art/Movies/Wonders/Sphinx.bik</Path>
+		</MovieArtInfo>
+		 <MovieArtInfo>
+			<Type>ART_DEF_MOVIE_LABYRINTH</Type>
+			<Path>Art/Movies/Wonders/Labyrinth.bik</Path>
+		</MovieArtInfo>
+		 <MovieArtInfo>
+			<Type>ART_DEF_MOVIE_ADUR_FARNBAG</Type>
+			<Path>Art/Movies/Wonders/AdurFarnbag.bik</Path>
+		</MovieArtInfo>
+		 <MovieArtInfo>
+			<Type>ART_DEF_MOVIE_MAABED</Type>
+			<Path>Art/Movies/Wonders/Maabed.dds</Path>
 		</MovieArtInfo>
 	</MovieArtInfos>
 </Civ4ArtDefines>

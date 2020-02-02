@@ -131,10 +131,10 @@
 			<Sound>AS2D_BUILD_ANUNNAKI</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_BUDDHISM</Type>
-			<Description>TXT_KEY_RELIGION_BUDDHISM</Description>
-			<Adjective>TXT_KEY_RELIGION_BUDDHISM_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_BUDDHISM_PEDIA</Civilopedia>
+			<Type>RELIGION_ZOROASTRIANISM</Type>
+			<Description>TXT_KEY_RELIGION_ZOROASTRIANISM</Description>
+			<Adjective>TXT_KEY_RELIGION_ZOROASTRIANISM_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_RELIGION_ZOROASTRIANISM_PEDIA</Civilopedia>
 			<TechPrereq>TECH_TYRANNY</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
@@ -154,18 +154,18 @@
 				<iStateReligionCommerce>0</iStateReligionCommerce>
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Buddhism.dds</Button>
+			<Button>Art/Interface/Buttons/Religions/zoroastrianism.dds</Button>
 			<TechButton>Art/Interface/Buttons/TechTree/Religion.dds</TechButton>
 			<GenericTechButton>Art/Interface/Buttons/TechTree/Religion.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Buddhism/Bud_Found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_BUDDHIST_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_BUDDHIST</Sound>
+			<MovieFile>Art/Movies/Religion/zoroastrianism/tao_found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_ZOROASTRIAN_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_ZOROASTRIAN</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_CONFUCIANISM</Type>
-			<Description>TXT_KEY_RELIGION_CONFUCIANISM</Description>
-			<Adjective>TXT_KEY_RELIGION_CONFUCIANISM_ADJECTIVE</Adjective>
-			<Civilopedia>TXT_KEY_RELIGION_CONFUCIANISM_PEDIA</Civilopedia>
+			<Type>RELIGION_HELLENISM</Type>
+			<Description>TXT_KEY_RELIGION_HELLENISM</Description>
+			<Adjective>TXT_KEY_RELIGION_HELLENISM_ADJECTIVE</Adjective>
+			<Civilopedia>TXT_KEY_RELIGION_HELLENISM_PEDIA</Civilopedia>
 			<TechPrereq>TECH_MASONRY</TechPrereq>
 			<FreeUnitClass/>
 			<iFreeUnits>0</iFreeUnits>
@@ -185,17 +185,17 @@
 				<iStateReligionCommerce>0</iStateReligionCommerce>
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/Confuscianism.dds</Button>
+			<Button>Art/Interface/Buttons/Religions/Hellenism.dds</Button>
 			<TechButton>Art/Interface/Buttons/TechTree/Religion.dds</TechButton>
 			<GenericTechButton>Art/Interface/Buttons/TechTree/Religion.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Confucianism/Con_Found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_CONFUCIAN_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_CONFUCIAN</Sound>
+			<MovieFile>Art/Movies/Religion/Hellenism/Generic_Found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_HELLENIC_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_HELLENIC</Sound>
 		</ReligionInfo>
 		<ReligionInfo>
-			<Type>RELIGION_TAOISM</Type>
-			<Description>Cannanite Religion</Description>
-			<Adjective>Cannanite</Adjective>
+			<Type>RELIGION_BAALISM</Type>
+			<Description>TXT_KEY_RELIGION_BAALISM</Description>
+			<Adjective>TXT_KEY_RELIGION_BAALITE</Adjective>
 			<Civilopedia></Civilopedia>
 			<TechPrereq>TECH_NAVIGATION</TechPrereq>
 			<FreeUnitClass/>
@@ -219,9 +219,9 @@
 			<Button>Art/Interface/Buttons/Religions/baalism.dds</Button>
 			<TechButton>Art/Interface/Buttons/TechTree/Religion.dds</TechButton>
 			<GenericTechButton>Art/Interface/Buttons/TechTree/Religion.dds</GenericTechButton>
-			<MovieFile>Art/Movies/Religion/Taoism/Tao_Found.nif</MovieFile>
-			<MovieSound>AS2D_BUILD_TAOIST_MOVIE</MovieSound>
-			<Sound>AS2D_BUILD_TAOIST</Sound>
+			<MovieFile>Art/Movies/Religion/Baalism/Generic_Found.nif</MovieFile>
+			<MovieSound>AS2D_BUILD_BAALITE_MOVIE</MovieSound>
+			<Sound>AS2D_BUILD_BAALITE</Sound>
 		</ReligionInfo>
 	</ReligionInfos>
 </Civ4ReligionInfo>

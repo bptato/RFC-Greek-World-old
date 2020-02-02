@@ -11144,20 +11144,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_BUDDHIST_TEMPLE</BuildingClass>
-			<Type>BUILDING_BUDDHIST_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_ZOROASTRIAN_TEMPLE</BuildingClass>
+			<Type>BUILDING_ZOROASTRIAN_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<Description>Zoarastrian Temple</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BUDDHIST_TEMPLE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BUDDHIST_TEMPLE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_ZOROASTRIAN_TEMPLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ZOROASTRIAN_TEMPLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ZOROASTRIAN_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_BUDDHIST_TEMPLE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ZOROASTRIAN_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
+			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_BUDDHISM</PrereqReligion>
+			<PrereqReligion>RELIGION_ZOROASTRIANISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -11293,7 +11293,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ZOROASTRIAN</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -11319,206 +11319,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_BUDDHIST_CATHEDRAL</BuildingClass>
-			<Type>BUILDING_BUDDHIST_CATHEDRAL</Type>
-			<SpecialBuildingType>SPECIALBUILDING_CATHEDRAL</SpecialBuildingType>
-			<Description>Zoarastrian Cathedral</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BUDDHIST_CATHEDRAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BUDDHIST_CATHEDRAL_STRATEGY</Strategy>
-			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_BUDDHIST_CATHEDRAL</ArtDefineTag>
-			<MovieDefineTag>NONE</MovieDefineTag>
-			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
-			<StateReligion>NONE</StateReligion>
-			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_BUDDHISM</PrereqReligion>
-			<PrereqCorporation>NONE</PrereqCorporation>
-			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
-			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
-			<VictoryPrereq>NONE</VictoryPrereq>
-			<FreeStartEra>NONE</FreeStartEra>
-			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>NONE</ObsoleteTech>
-			<PrereqTech>NONE</PrereqTech>
-			<TechTypes/>
-			<Bonus>NONE</Bonus>
-			<PrereqBonuses/>
-			<ProductionTraits/>
-			<HappinessTraits/>
-			<NoBonus>NONE</NoBonus>
-			<PowerBonus>NONE</PowerBonus>
-			<FreeBonus>NONE</FreeBonus>
-			<iNumFreeBonuses>0</iNumFreeBonuses>
-			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>NONE</FreePromotion>
-			<CivicOption>NONE</CivicOption>
-			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
-			<iHurryAngerModifier>0</iHurryAngerModifier>
-			<bBorderObstacle>0</bBorderObstacle>
-			<bTeamShare>0</bTeamShare>
-			<bWater>0</bWater>
-			<bRiver>0</bRiver>
-			<bPower>0</bPower>
-			<bDirtyPower>0</bDirtyPower>
-			<bAreaCleanPower>0</bAreaCleanPower>
-			<DiploVoteType>NONE</DiploVoteType>
-			<bForceTeamVoteEligible>0</bForceTeamVoteEligible>
-			<bCapital>0</bCapital>
-			<bGovernmentCenter>0</bGovernmentCenter>
-			<bGoldenAge>0</bGoldenAge>
-			<bAllowsNukes>0</bAllowsNukes>
-			<bMapCentering>0</bMapCentering>
-			<bNoUnhappiness>0</bNoUnhappiness>
-			<bNoUnhealthyPopulation>0</bNoUnhealthyPopulation>
-			<bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
-			<bNeverCapture>1</bNeverCapture>
-			<bNukeImmune>0</bNukeImmune>
-			<bPrereqReligion>0</bPrereqReligion>
-			<bCenterInCity>0</bCenterInCity>
-			<iAIWeight>0</iAIWeight>
-			<iCost>300</iCost>
-			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iConquestProb>0</iConquestProb>
-			<iCitiesPrereq>0</iCitiesPrereq>
-			<iTeamsPrereq>0</iTeamsPrereq>
-			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
-			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
-			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
-			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
-			<iAnarchyModifier>0</iAnarchyModifier>
-			<iGoldenAgeModifier>0</iGoldenAgeModifier>
-			<iGlobalHurryModifier>0</iGlobalHurryModifier>
-			<iExperience>0</iExperience>
-			<iGlobalExperience>0</iGlobalExperience>
-			<iFoodKept>0</iFoodKept>
-			<iAirlift>0</iAirlift>
-			<iAirModifier>0</iAirModifier>
-			<iAirUnitCapacity>0</iAirUnitCapacity>
-			<iNukeModifier>0</iNukeModifier>
-			<iNukeExplosionRand>0</iNukeExplosionRand>
-			<iFreeSpecialist>0</iFreeSpecialist>
-			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
-			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>0</iMaintenanceModifier>
-			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
-			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
-			<iHealRateChange>0</iHealRateChange>
-			<iHealth>0</iHealth>
-			<iAreaHealth>0</iAreaHealth>
-			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>0</iHappiness>
-			<iAreaHappiness>0</iAreaHappiness>
-			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
-			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
-			<iSpaceProductionModifier>0</iSpaceProductionModifier>
-			<iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
-			<iTradeRoutes>0</iTradeRoutes>
-			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>
-			<iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-			<iTradeRouteModifier>0</iTradeRouteModifier>
-			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
-			<iGlobalPopulationChange>0</iGlobalPopulationChange>
-			<iFreeTechs>0</iFreeTechs>
-			<iDefense>0</iDefense>
-			<iBombardDefense>0</iBombardDefense>
-			<iAllCityDefense>0</iAllCityDefense>
-			<iEspionageDefense>0</iEspionageDefense>
-			<iAsset>6</iAsset>
-			<iPower>0</iPower>
-			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<SeaPlotYieldChanges/>
-			<RiverPlotYieldChanges/>
-			<GlobalSeaPlotYieldChanges/>
-			<YieldChanges/>
-			<CommerceChanges/>
-			<ObsoleteSafeCommerceChanges/>
-			<CommerceChangeDoubleTimes/>
-			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
-			</CommerceModifiers>
-			<GlobalCommerceModifiers/>
-			<SpecialistExtraCommerces/>
-			<StateReligionCommerces/>
-			<CommerceHappinesses/>
-			<ReligionChanges/>
-			<SpecialistCounts>
-				<SpecialistCount>
-					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iSpecialistCount>2</iSpecialistCount>
-				</SpecialistCount>
-			</SpecialistCounts>
-			<FreeSpecialistCounts/>
-			<CommerceFlexibles/>
-			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
-			<BonusHealthChanges/>
-			<BonusHappinessChanges>
-				<BonusHappinessChange>
-					<BonusType>BONUS_INCENSE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-			</BonusHappinessChanges>
-			<BonusProductionModifiers>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>100</iProductonModifier>
-				</BonusProductionModifier>
-			</BonusProductionModifiers>
-			<UnitCombatFreeExperiences/>
-			<DomainFreeExperiences/>
-			<DomainProductionModifiers/>
-			<BuildingHappinessChanges/>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_BUDDHIST_TEMPLE</BuildingClassType>
-					<iNumBuildingNeeded>2</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs/>
-			<SpecialistYieldChanges/>
-			<BonusYieldModifiers/>
-			<ImprovementFreeSpecialists/>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>10</iFlavor>
-				</Flavor>
-			</Flavors>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_BUDDHIST_MONASTERY</BuildingClass>
-			<Type>BUILDING_BUDDHIST_MONASTERY</Type>
+			<BuildingClass>BUILDINGCLASS_ZOROASTRIAN_MONASTERY</BuildingClass>
+			<Type>BUILDING_ZOROASTRIAN_MONASTERY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
-			<Description>Zoarastrian Monastery</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BUDDHIST_MONASTERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BUDDHIST_MONASTERY_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_ZOROASTRIAN_MONASTERY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ZOROASTRIAN_MONASTERY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ZOROASTRIAN_MONASTERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_BUDDHIST_MONASTERY</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ZOROASTRIAN_MONASTERY</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
+			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_BUDDHISM</PrereqReligion>
+			<PrereqReligion>RELIGION_ZOROASTRIANISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -11652,7 +11466,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ZOROASTRIAN</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -11678,23 +11492,23 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_BUDDHIST_SHRINE</BuildingClass>
-			<Type>BUILDING_BUDDHIST_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_ZOROASTRIAN_SHRINE</BuildingClass>
+			<Type>BUILDING_ZOROASTRIAN_SHRINE</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>
-			<Description>Ghagha Shahr</Description>
-			<Civilopedia>TXT_KEY_BUILDING_BUDDHIST_SHRINE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_BUDDHIST_SHRINE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_ZOROASTRIAN_SHRINE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_ZOROASTRIAN_SHRINE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_ZOROASTRIAN_SHRINE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_BUDDHIST_SHRINE</ArtDefineTag>
-			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_BUDDHIST</MovieDefineTag>
-			<HolyCity>RELIGION_BUDDHISM</HolyCity>
-			<ReligionType>RELIGION_BUDDHISM</ReligionType>
+			<ArtDefineTag>ART_DEF_BUILDING_ZOROASTRIAN_SHRINE</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_ADUR_FARNBAG</MovieDefineTag>
+			<HolyCity>RELIGION_ZOROASTRIANISM</HolyCity>
+			<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>RELIGION_BUDDHISM</GlobalReligionCommerce>
+			<GlobalReligionCommerce>RELIGION_ZOROASTRIANISM</GlobalReligionCommerce>
 			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
@@ -11819,7 +11633,7 @@
 			<CommerceHappinesses/>
 			<ReligionChanges>
 				<ReligionChange>
-					<ReligionType>RELIGION_BUDDHISM</ReligionType>
+					<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 					<iReligionChange>1</iReligionChange>
 				</ReligionChange>
 			</ReligionChanges>
@@ -11836,7 +11650,7 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
-			<ConstructSound>AS2D_BUILD_BUDDHIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_ZOROASTRIAN</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -11862,20 +11676,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_CONFUCIAN_TEMPLE</BuildingClass>
-			<Type>BUILDING_CONFUCIAN_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_HELLENIC_TEMPLE</BuildingClass>
+			<Type>BUILDING_HELLENIC_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
 			<Description>Helenic Temple</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CONFUCIAN_TEMPLE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CONFUCIAN_TEMPLE_STRATEGY</Strategy>
+			<Civilopedia>TXT_KEY_BUILDING_HELLENIC_TEMPLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HELLENIC_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_CONFUCIAN_TEMPLE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_HELLENIC_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+			<ReligionType>RELIGION_HELLENISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
+			<PrereqReligion>RELIGION_HELLENISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -12011,7 +11825,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
+			<ConstructSound>AS2D_BUILD_HELLENIC</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -12037,206 +11851,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_CONFUCIAN_CATHEDRAL</BuildingClass>
-			<Type>BUILDING_CONFUCIAN_CATHEDRAL</Type>
-			<SpecialBuildingType>SPECIALBUILDING_CATHEDRAL</SpecialBuildingType>
-			<Description>Helenic Cathedral</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CONFUCIAN_CATHEDRAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CONFUCIAN_CATHEDRAL_STRATEGY</Strategy>
-			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_CONFUCIAN_CATHEDRAL</ArtDefineTag>
-			<MovieDefineTag>NONE</MovieDefineTag>
-			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
-			<StateReligion>NONE</StateReligion>
-			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
-			<PrereqCorporation>NONE</PrereqCorporation>
-			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
-			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
-			<VictoryPrereq>NONE</VictoryPrereq>
-			<FreeStartEra>NONE</FreeStartEra>
-			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>NONE</ObsoleteTech>
-			<PrereqTech>NONE</PrereqTech>
-			<TechTypes/>
-			<Bonus>NONE</Bonus>
-			<PrereqBonuses/>
-			<ProductionTraits/>
-			<HappinessTraits/>
-			<NoBonus>NONE</NoBonus>
-			<PowerBonus>NONE</PowerBonus>
-			<FreeBonus>NONE</FreeBonus>
-			<iNumFreeBonuses>0</iNumFreeBonuses>
-			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>NONE</FreePromotion>
-			<CivicOption>NONE</CivicOption>
-			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
-			<iHurryAngerModifier>0</iHurryAngerModifier>
-			<bBorderObstacle>0</bBorderObstacle>
-			<bTeamShare>0</bTeamShare>
-			<bWater>0</bWater>
-			<bRiver>0</bRiver>
-			<bPower>0</bPower>
-			<bDirtyPower>0</bDirtyPower>
-			<bAreaCleanPower>0</bAreaCleanPower>
-			<DiploVoteType>NONE</DiploVoteType>
-			<bForceTeamVoteEligible>0</bForceTeamVoteEligible>
-			<bCapital>0</bCapital>
-			<bGovernmentCenter>0</bGovernmentCenter>
-			<bGoldenAge>0</bGoldenAge>
-			<bAllowsNukes>0</bAllowsNukes>
-			<bMapCentering>0</bMapCentering>
-			<bNoUnhappiness>0</bNoUnhappiness>
-			<bNoUnhealthyPopulation>0</bNoUnhealthyPopulation>
-			<bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
-			<bNeverCapture>1</bNeverCapture>
-			<bNukeImmune>0</bNukeImmune>
-			<bPrereqReligion>0</bPrereqReligion>
-			<bCenterInCity>0</bCenterInCity>
-			<iAIWeight>0</iAIWeight>
-			<iCost>300</iCost>
-			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iConquestProb>0</iConquestProb>
-			<iCitiesPrereq>0</iCitiesPrereq>
-			<iTeamsPrereq>0</iTeamsPrereq>
-			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
-			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
-			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
-			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
-			<iAnarchyModifier>0</iAnarchyModifier>
-			<iGoldenAgeModifier>0</iGoldenAgeModifier>
-			<iGlobalHurryModifier>0</iGlobalHurryModifier>
-			<iExperience>0</iExperience>
-			<iGlobalExperience>0</iGlobalExperience>
-			<iFoodKept>0</iFoodKept>
-			<iAirlift>0</iAirlift>
-			<iAirModifier>0</iAirModifier>
-			<iAirUnitCapacity>0</iAirUnitCapacity>
-			<iNukeModifier>0</iNukeModifier>
-			<iNukeExplosionRand>0</iNukeExplosionRand>
-			<iFreeSpecialist>0</iFreeSpecialist>
-			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
-			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>0</iMaintenanceModifier>
-			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
-			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
-			<iHealRateChange>0</iHealRateChange>
-			<iHealth>0</iHealth>
-			<iAreaHealth>0</iAreaHealth>
-			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>0</iHappiness>
-			<iAreaHappiness>0</iAreaHappiness>
-			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
-			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
-			<iSpaceProductionModifier>0</iSpaceProductionModifier>
-			<iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
-			<iTradeRoutes>0</iTradeRoutes>
-			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>
-			<iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-			<iTradeRouteModifier>0</iTradeRouteModifier>
-			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
-			<iGlobalPopulationChange>0</iGlobalPopulationChange>
-			<iFreeTechs>0</iFreeTechs>
-			<iDefense>0</iDefense>
-			<iBombardDefense>0</iBombardDefense>
-			<iAllCityDefense>0</iAllCityDefense>
-			<iEspionageDefense>0</iEspionageDefense>
-			<iAsset>6</iAsset>
-			<iPower>0</iPower>
-			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<SeaPlotYieldChanges/>
-			<RiverPlotYieldChanges/>
-			<GlobalSeaPlotYieldChanges/>
-			<YieldChanges/>
-			<CommerceChanges/>
-			<ObsoleteSafeCommerceChanges/>
-			<CommerceChangeDoubleTimes/>
-			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
-			</CommerceModifiers>
-			<GlobalCommerceModifiers/>
-			<SpecialistExtraCommerces/>
-			<StateReligionCommerces/>
-			<CommerceHappinesses/>
-			<ReligionChanges/>
-			<SpecialistCounts>
-				<SpecialistCount>
-					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iSpecialistCount>2</iSpecialistCount>
-				</SpecialistCount>
-			</SpecialistCounts>
-			<FreeSpecialistCounts/>
-			<CommerceFlexibles/>
-			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
-			<BonusHealthChanges/>
-			<BonusHappinessChanges>
-				<BonusHappinessChange>
-					<BonusType>BONUS_INCENSE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-			</BonusHappinessChanges>
-			<BonusProductionModifiers>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>100</iProductonModifier>
-				</BonusProductionModifier>
-			</BonusProductionModifiers>
-			<UnitCombatFreeExperiences/>
-			<DomainFreeExperiences/>
-			<DomainProductionModifiers/>
-			<BuildingHappinessChanges/>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_CONFUCIAN_TEMPLE</BuildingClassType>
-					<iNumBuildingNeeded>2</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs/>
-			<SpecialistYieldChanges/>
-			<BonusYieldModifiers/>
-			<ImprovementFreeSpecialists/>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>10</iFlavor>
-				</Flavor>
-			</Flavors>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_CONFUCIAN_MONASTERY</BuildingClass>
-			<Type>BUILDING_CONFUCIAN_MONASTERY</Type>
+			<BuildingClass>BUILDINGCLASS_HELLENIC_ORACLE</BuildingClass>
+			<Type>BUILDING_HELLENIC_ORACLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
-			<Description>Helenic Monastery</Description>
-			<Civilopedia>TXT_KEY_BUILDING_CONFUCIAN_MONASTERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CONFUCIAN_MONASTERY_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_HELLENIC_ORACLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_HELLENIC_ORACLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_HELLENIC_ORACLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_CONFUCIAN_MONASTERY</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ORACLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+			<ReligionType>RELIGION_HELLENISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
+			<PrereqReligion>RELIGION_HELLENISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -12370,7 +11998,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
+			<ConstructSound>AS2D_BUILD_HELLENIC</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -12396,23 +12024,23 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_CONFUCIAN_SHRINE</BuildingClass>
-			<Type>BUILDING_CONFUCIAN_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_LABYRINTH</BuildingClass>
+			<Type>BUILDING_LABYRINTH</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>
-			<Description>Poseidon of Melos</Description>
-			<Civilopedia>TXT_KEY_BUILDING_POSEIDON_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_CONFUCIAN_SHRINE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_LABYRINTH</Description>
+			<Civilopedia>TXT_KEY_BUILDING_LABYRINTH_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_LABYRINTH_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_CONFUCIAN_SHRINE</ArtDefineTag>
-			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_CONFUCIAN</MovieDefineTag>
-			<HolyCity>RELIGION_CONFUCIANISM</HolyCity>
-			<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+			<ArtDefineTag>ART_DEF_BUILDING_LABYRINTH</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_LABYRINTH</MovieDefineTag>
+			<HolyCity>RELIGION_HELLENISM</HolyCity>
+			<ReligionType>RELIGION_HELLENISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>RELIGION_CONFUCIANISM</GlobalReligionCommerce>
+			<GlobalReligionCommerce>RELIGION_HELLENISM</GlobalReligionCommerce>
 			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
@@ -12537,7 +12165,7 @@
 			<CommerceHappinesses/>
 			<ReligionChanges>
 				<ReligionChange>
-					<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+					<ReligionType>RELIGION_HELLENISM</ReligionType>
 					<iReligionChange>1</iReligionChange>
 				</ReligionChange>
 			</ReligionChanges>
@@ -12554,7 +12182,7 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
-			<ConstructSound>AS2D_BUILD_CONFUCIAN</ConstructSound>
+			<ConstructSound>AS2D_BUILD_HELLENIC</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -12580,20 +12208,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_TAOIST_TEMPLE</BuildingClass>
-			<Type>BUILDING_TAOIST_TEMPLE</Type>
+			<BuildingClass>BUILDINGCLASS_BAALITE_TEMPLE</BuildingClass>
+			<Type>BUILDING_BAALITE_TEMPLE</Type>
 			<SpecialBuildingType>SPECIALBUILDING_TEMPLE</SpecialBuildingType>
-			<Description>Cannanite Temple</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TAOIST_TEMPLE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TAOIST_TEMPLE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_BAALITE_TEMPLE</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BAALITE_TEMPLE_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAALITE_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_TAOIST_TEMPLE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_BAALITE_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_TAOISM</ReligionType>
+			<ReligionType>RELIGION_BAALISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_TAOISM</PrereqReligion>
+			<PrereqReligion>RELIGION_BAALISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -12729,7 +12357,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_BAALITE</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -12755,206 +12383,20 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_TAOIST_CATHEDRAL</BuildingClass>
-			<Type>BUILDING_TAOIST_CATHEDRAL</Type>
-			<SpecialBuildingType>SPECIALBUILDING_CATHEDRAL</SpecialBuildingType>
-			<Description>Cannanite Cathedral</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TAOIST_CATHEDRAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TAOIST_CATHEDRAL_STRATEGY</Strategy>
-			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_TAOIST_CATHEDRAL</ArtDefineTag>
-			<MovieDefineTag>NONE</MovieDefineTag>
-			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_TAOISM</ReligionType>
-			<StateReligion>NONE</StateReligion>
-			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_TAOISM</PrereqReligion>
-			<PrereqCorporation>NONE</PrereqCorporation>
-			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
-			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
-			<VictoryPrereq>NONE</VictoryPrereq>
-			<FreeStartEra>NONE</FreeStartEra>
-			<MaxStartEra>NONE</MaxStartEra>
-			<ObsoleteTech>NONE</ObsoleteTech>
-			<PrereqTech>NONE</PrereqTech>
-			<TechTypes/>
-			<Bonus>NONE</Bonus>
-			<PrereqBonuses/>
-			<ProductionTraits/>
-			<HappinessTraits/>
-			<NoBonus>NONE</NoBonus>
-			<PowerBonus>NONE</PowerBonus>
-			<FreeBonus>NONE</FreeBonus>
-			<iNumFreeBonuses>0</iNumFreeBonuses>
-			<FreeBuilding>NONE</FreeBuilding>
-			<FreePromotion>NONE</FreePromotion>
-			<CivicOption>NONE</CivicOption>
-			<GreatPeopleUnitClass>NONE</GreatPeopleUnitClass>
-			<iGreatPeopleRateChange>0</iGreatPeopleRateChange>
-			<iHurryAngerModifier>0</iHurryAngerModifier>
-			<bBorderObstacle>0</bBorderObstacle>
-			<bTeamShare>0</bTeamShare>
-			<bWater>0</bWater>
-			<bRiver>0</bRiver>
-			<bPower>0</bPower>
-			<bDirtyPower>0</bDirtyPower>
-			<bAreaCleanPower>0</bAreaCleanPower>
-			<DiploVoteType>NONE</DiploVoteType>
-			<bForceTeamVoteEligible>0</bForceTeamVoteEligible>
-			<bCapital>0</bCapital>
-			<bGovernmentCenter>0</bGovernmentCenter>
-			<bGoldenAge>0</bGoldenAge>
-			<bAllowsNukes>0</bAllowsNukes>
-			<bMapCentering>0</bMapCentering>
-			<bNoUnhappiness>0</bNoUnhappiness>
-			<bNoUnhealthyPopulation>0</bNoUnhealthyPopulation>
-			<bBuildingOnlyHealthy>0</bBuildingOnlyHealthy>
-			<bNeverCapture>1</bNeverCapture>
-			<bNukeImmune>0</bNukeImmune>
-			<bPrereqReligion>0</bPrereqReligion>
-			<bCenterInCity>0</bCenterInCity>
-			<iAIWeight>0</iAIWeight>
-			<iCost>300</iCost>
-			<iHurryCostModifier>0</iHurryCostModifier>
-			<iAdvancedStartCost>-1</iAdvancedStartCost>
-			<iAdvancedStartCostIncrease>0</iAdvancedStartCostIncrease>
-			<iMinAreaSize>-1</iMinAreaSize>
-			<iConquestProb>0</iConquestProb>
-			<iCitiesPrereq>0</iCitiesPrereq>
-			<iTeamsPrereq>0</iTeamsPrereq>
-			<iLevelPrereq>0</iLevelPrereq>
-			<iMinLatitude>0</iMinLatitude>
-			<iMaxLatitude>90</iMaxLatitude>
-			<iGreatPeopleRateModifier>0</iGreatPeopleRateModifier>
-			<iGreatGeneralRateModifier>0</iGreatGeneralRateModifier>
-			<iDomesticGreatGeneralRateModifier>0</iDomesticGreatGeneralRateModifier>
-			<iGlobalGreatPeopleRateModifier>0</iGlobalGreatPeopleRateModifier>
-			<iAnarchyModifier>0</iAnarchyModifier>
-			<iGoldenAgeModifier>0</iGoldenAgeModifier>
-			<iGlobalHurryModifier>0</iGlobalHurryModifier>
-			<iExperience>0</iExperience>
-			<iGlobalExperience>0</iGlobalExperience>
-			<iFoodKept>0</iFoodKept>
-			<iAirlift>0</iAirlift>
-			<iAirModifier>0</iAirModifier>
-			<iAirUnitCapacity>0</iAirUnitCapacity>
-			<iNukeModifier>0</iNukeModifier>
-			<iNukeExplosionRand>0</iNukeExplosionRand>
-			<iFreeSpecialist>0</iFreeSpecialist>
-			<iAreaFreeSpecialist>0</iAreaFreeSpecialist>
-			<iGlobalFreeSpecialist>0</iGlobalFreeSpecialist>
-			<iMaintenanceModifier>0</iMaintenanceModifier>
-			<iWarWearinessModifier>0</iWarWearinessModifier>
-			<iGlobalWarWearinessModifier>0</iGlobalWarWearinessModifier>
-			<iEnemyWarWearinessModifier>0</iEnemyWarWearinessModifier>
-			<iHealRateChange>0</iHealRateChange>
-			<iHealth>0</iHealth>
-			<iAreaHealth>0</iAreaHealth>
-			<iGlobalHealth>0</iGlobalHealth>
-			<iHappiness>0</iHappiness>
-			<iAreaHappiness>0</iAreaHappiness>
-			<iGlobalHappiness>0</iGlobalHappiness>
-			<iStateReligionHappiness>2</iStateReligionHappiness>
-			<iWorkerSpeedModifier>0</iWorkerSpeedModifier>
-			<iMilitaryProductionModifier>0</iMilitaryProductionModifier>
-			<iSpaceProductionModifier>0</iSpaceProductionModifier>
-			<iGlobalSpaceProductionModifier>0</iGlobalSpaceProductionModifier>
-			<iTradeRoutes>0</iTradeRoutes>
-			<iCoastalTradeRoutes>0</iCoastalTradeRoutes>
-			<iGlobalTradeRoutes>0</iGlobalTradeRoutes>
-			<iTradeRouteModifier>0</iTradeRouteModifier>
-			<iForeignTradeRouteModifier>0</iForeignTradeRouteModifier>
-			<iGlobalPopulationChange>0</iGlobalPopulationChange>
-			<iFreeTechs>0</iFreeTechs>
-			<iDefense>0</iDefense>
-			<iBombardDefense>0</iBombardDefense>
-			<iAllCityDefense>0</iAllCityDefense>
-			<iEspionageDefense>0</iEspionageDefense>
-			<iAsset>6</iAsset>
-			<iPower>0</iPower>
-			<fVisibilityPriority>1.0</fVisibilityPriority>
-			<SeaPlotYieldChanges/>
-			<RiverPlotYieldChanges/>
-			<GlobalSeaPlotYieldChanges/>
-			<YieldChanges/>
-			<CommerceChanges/>
-			<ObsoleteSafeCommerceChanges/>
-			<CommerceChangeDoubleTimes/>
-			<CommerceModifiers>
-				<iCommerce>0</iCommerce>
-				<iCommerce>0</iCommerce>
-				<iCommerce>50</iCommerce>
-			</CommerceModifiers>
-			<GlobalCommerceModifiers/>
-			<SpecialistExtraCommerces/>
-			<StateReligionCommerces/>
-			<CommerceHappinesses/>
-			<ReligionChanges/>
-			<SpecialistCounts>
-				<SpecialistCount>
-					<SpecialistType>SPECIALIST_PRIEST</SpecialistType>
-					<iSpecialistCount>2</iSpecialistCount>
-				</SpecialistCount>
-			</SpecialistCounts>
-			<FreeSpecialistCounts/>
-			<CommerceFlexibles/>
-			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
-			<BonusHealthChanges/>
-			<BonusHappinessChanges>
-				<BonusHappinessChange>
-					<BonusType>BONUS_INCENSE</BonusType>
-					<iHappinessChange>1</iHappinessChange>
-				</BonusHappinessChange>
-			</BonusHappinessChanges>
-			<BonusProductionModifiers>
-				<BonusProductionModifier>
-					<BonusType>BONUS_COPPER</BonusType>
-					<iProductonModifier>100</iProductonModifier>
-				</BonusProductionModifier>
-			</BonusProductionModifiers>
-			<UnitCombatFreeExperiences/>
-			<DomainFreeExperiences/>
-			<DomainProductionModifiers/>
-			<BuildingHappinessChanges/>
-			<PrereqBuildingClasses>
-				<PrereqBuildingClass>
-					<BuildingClassType>BUILDINGCLASS_TAOIST_TEMPLE</BuildingClassType>
-					<iNumBuildingNeeded>2</iNumBuildingNeeded>
-				</PrereqBuildingClass>
-			</PrereqBuildingClasses>
-			<BuildingClassNeededs/>
-			<SpecialistYieldChanges/>
-			<BonusYieldModifiers/>
-			<ImprovementFreeSpecialists/>
-			<Flavors>
-				<Flavor>
-					<FlavorType>FLAVOR_RELIGION</FlavorType>
-					<iFlavor>10</iFlavor>
-				</Flavor>
-			</Flavors>
-			<HotKey/>
-			<bAltDown>0</bAltDown>
-			<bShiftDown>0</bShiftDown>
-			<bCtrlDown>0</bCtrlDown>
-			<iHotKeyPriority>0</iHotKeyPriority>
-		</BuildingInfo>
-		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_TAOIST_MONASTERY</BuildingClass>
-			<Type>BUILDING_TAOIST_MONASTERY</Type>
+			<BuildingClass>BUILDINGCLASS_BAALITE_SANCTUARY</BuildingClass>
+			<Type>BUILDING_BAALITE_SANCTUARY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
-			<Description>Cannanite Monastery</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TAOIST_MONASTERY_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TAOIST_MONASTERY_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_BAALITE_SANCTUARY</Description>
+			<Civilopedia>TXT_KEY_BUILDING_BAALITE_SANCTUARY_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAALITE_SANCTUARY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_TAOIST_MONASTERY</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_BAALITE_SANCTUARY</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
-			<ReligionType>RELIGION_TAOISM</ReligionType>
+			<ReligionType>RELIGION_BAALISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
-			<PrereqReligion>RELIGION_TAOISM</PrereqReligion>
+			<PrereqReligion>RELIGION_BAALISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
 			<GlobalReligionCommerce>NONE</GlobalReligionCommerce>
@@ -13088,7 +12530,7 @@
 			<FreeSpecialistCounts/>
 			<CommerceFlexibles/>
 			<CommerceChangeOriginalOwners/>
-			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_BAALITE</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>
@@ -13114,23 +12556,23 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_TAOIST_SHRINE</BuildingClass>
-			<Type>BUILDING_TAOIST_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_MAABED</BuildingClass>
+			<Type>BUILDING_MAABED</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>
-			<Description>Temple of Baal</Description>
-			<Civilopedia>TXT_KEY_BUILDING_TEMPLE_OF_BAAL_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_TAOIST_SHRINE_STRATEGY</Strategy>
+			<Description>TXT_KEY_BUILDING_MAABED</Description>
+			<Civilopedia>TXT_KEY_BUILDING_MAABED_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_BAALITE_MAABED_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_TAOIST_SHRINE</ArtDefineTag>
-			<MovieDefineTag>ART_DEF_MOVIE_SHRINE_TAOIST</MovieDefineTag>
-			<HolyCity>RELIGION_TAOISM</HolyCity>
-			<ReligionType>RELIGION_TAOISM</ReligionType>
+			<ArtDefineTag>ART_DEF_BUILDING_MAABED</ArtDefineTag>
+			<MovieDefineTag>ART_DEF_MOVIE_MAABED</MovieDefineTag>
+			<HolyCity>RELIGION_BAALISM</HolyCity>
+			<ReligionType>RELIGION_BAALISM</ReligionType>
 			<StateReligion>NONE</StateReligion>
 			<bStateReligion>0</bStateReligion>
 			<PrereqReligion>NONE</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
 			<FoundsCorporation>NONE</FoundsCorporation>
-			<GlobalReligionCommerce>RELIGION_TAOISM</GlobalReligionCommerce>
+			<GlobalReligionCommerce>RELIGION_BAALISM</GlobalReligionCommerce>
 			<GlobalCorporationCommerce>NONE</GlobalCorporationCommerce>
 			<VictoryPrereq>NONE</VictoryPrereq>
 			<FreeStartEra>NONE</FreeStartEra>
@@ -13255,7 +12697,7 @@
 			<CommerceHappinesses/>
 			<ReligionChanges>
 				<ReligionChange>
-					<ReligionType>RELIGION_TAOISM</ReligionType>
+					<ReligionType>RELIGION_BAALISM</ReligionType>
 					<iReligionChange>1</iReligionChange>
 				</ReligionChange>
 			</ReligionChanges>
@@ -13272,7 +12714,7 @@
 				<bCommerceChangeOriginalOwner>0</bCommerceChangeOriginalOwner>
 				<bCommerceChangeOriginalOwner>1</bCommerceChangeOriginalOwner>
 			</CommerceChangeOriginalOwners>
-			<ConstructSound>AS2D_BUILD_TAOIST</ConstructSound>
+			<ConstructSound>AS2D_BUILD_MAABED</ConstructSound>
 			<BonusHealthChanges/>
 			<BonusHappinessChanges/>
 			<BonusProductionModifiers/>

@@ -26,6 +26,30 @@
 		<English>Ishtar Gate</English>
 	</TEXT>
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_TEMPLE</Tag>
+		<English>Hellenic Temple</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_HELLENIC_ORACLE</Tag>
+		<English>Hellenic Oracle</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_LABYRINTH</Tag>
+		<English>Labyrinth</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BAALITE_TEMPLE</Tag>
+		<English>Baalite Temple</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_BAALITE_SANCTUARY</Tag>
+		<English>Baalite Sanctuary</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_MAABED</Tag>
+		<English>Ma'abed</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BAKERY</Tag>
 		<English>Bakery</English>
 	</TEXT>
@@ -342,5 +366,4 @@
 		<Italian>[TAB]The Garamantes constructed a network of underground tunnels and shafts to mine the fossil water from under the limestone layer under the desert sand. It was built around 200 BC to 200 AD. The network of tunnels is known to Berbers as Foggaras. The network allowed agriculture to flourish, but it required the use of slaves to maintain.[PARAGRAPH:1]The channels were generally very narrow - less than 2 feet wide and 5 high - but some were several miles long, and in total some 600 foggara extended for hundreds of miles underground. The channels were dug out and maintained using a series of regularly-spaced vertical shafts, one every 30 feet or so, 100,000 in total, averaging 30 feet in depth, but sometimes reaching 130.[PARAGRAPH:1]The length of the foggaras in this region is estimated to be thousands of kilometers.[PARAGRAPH:1]</Italian>
 		<Spanish>[TAB]The Garamantes constructed a network of underground tunnels and shafts to mine the fossil water from under the limestone layer under the desert sand. It was built around 200 BC to 200 AD. The network of tunnels is known to Berbers as Foggaras. The network allowed agriculture to flourish, but it required the use of slaves to maintain.[PARAGRAPH:1]The channels were generally very narrow - less than 2 feet wide and 5 high - but some were several miles long, and in total some 600 foggara extended for hundreds of miles underground. The channels were dug out and maintained using a series of regularly-spaced vertical shafts, one every 30 feet or so, 100,000 in total, averaging 30 feet in depth, but sometimes reaching 130.[PARAGRAPH:1]The length of the foggaras in this region is estimated to be thousands of kilometers.[PARAGRAPH:1]</Spanish>
 	</TEXT>
-
 </Civ4GameText>

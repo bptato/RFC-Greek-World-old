@@ -2388,8 +2388,8 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_ANUNNAKI_MISSIONARY</Class>
-			<Type>UNIT_ANUNNAKI_MISSIONARY</Type>
+			<Class>UNITCLASS_ANUNNAKI_PRIEST</Class>
+			<Type>UNIT_ANUNNAKI_PRIEST</Type>
 			<UniqueNames/>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>NONE</Capture>
@@ -2555,8 +2555,8 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_BUDDHIST_MISSIONARY</Class>
-			<Type>UNIT_BUDDHIST_MISSIONARY</Type>
+			<Class>UNITCLASS_ZOROASTRIAN_PRIEST</Class>
+			<Type>UNIT_ZOROASTRIAN_PRIEST</Type>
 			<UniqueNames/>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>NONE</Capture>
@@ -2565,9 +2565,9 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>Zorastrian Missionary</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_BUDDHIST_MISSIONARY_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_ZOROASTRIAN_PRIEST</Description>
+			<Civilopedia>TXT_KEY_UNIT_ZOROASTRIAN_PRIEST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ZOROASTRIAN_PRIEST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -2614,7 +2614,7 @@
 			<Builds/>
 			<ReligionSpreads>
 				<ReligionSpread>
-					<ReligionType>RELIGION_BUDDHISM</ReligionType>
+					<ReligionType>RELIGION_ZOROASTRIANISM</ReligionType>
 					<iReligionSpread>40</iReligionSpread>
 				</ReligionSpread>
 			</ReligionSpreads>
@@ -2625,9 +2625,9 @@
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>NONE</ReligionType>
 			<StateReligion>NONE</StateReligion>
-			<PrereqReligion>RELIGION_BUDDHISM</PrereqReligion>
+			<PrereqReligion>RELIGION_ZOROASTRIANISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_BUDDHIST_MONASTERY</PrereqBuilding>
+			<PrereqBuilding>BUILDING_ZOROASTRIAN_MONASTERY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
 			<BonusType>NONE</BonusType>
@@ -2708,7 +2708,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_BUDDHIST_MISSIONARY</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_ZOROASTRIAN_MISSIONARY</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -2722,8 +2722,8 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_CONFUCIAN_MISSIONARY</Class>
-			<Type>UNIT_CONFUCIAN_MISSIONARY</Type>
+			<Class>UNITCLASS_HELLENIC_PRIEST</Class>
+			<Type>UNIT_HELLENIC_PRIEST</Type>
 			<UniqueNames/>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>NONE</Capture>
@@ -2732,9 +2732,9 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>Hellenic Missionary</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_CONFUCIAN_MISSIONARY_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_HELLENIC_PRIEST</Description>
+			<Civilopedia>TXT_KEY_UNIT_HELLENIC_PRIEST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_HELLENIC_PRIEST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -2781,7 +2781,7 @@
 			<Builds/>
 			<ReligionSpreads>
 				<ReligionSpread>
-					<ReligionType>RELIGION_CONFUCIANISM</ReligionType>
+					<ReligionType>RELIGION_HELLENISM</ReligionType>
 					<iReligionSpread>40</iReligionSpread>
 				</ReligionSpread>
 			</ReligionSpreads>
@@ -2792,9 +2792,9 @@
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>NONE</ReligionType>
 			<StateReligion>NONE</StateReligion>
-			<PrereqReligion>RELIGION_CONFUCIANISM</PrereqReligion>
+			<PrereqReligion>RELIGION_HELLENISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_CONFUCIAN_MONASTERY</PrereqBuilding>
+			<PrereqBuilding>BUILDING_HELLENIC_ORACLE</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
 			<BonusType>NONE</BonusType>
@@ -2875,7 +2875,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_CONFUCIAN_MISSIONARY</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_HELLENIC_PRIEST</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -2889,8 +2889,8 @@
 			<iLeaderExperience>0</iLeaderExperience>
 		</UnitInfo>
 		<UnitInfo>
-			<Class>UNITCLASS_TAOIST_MISSIONARY</Class>
-			<Type>UNIT_TAOIST_MISSIONARY</Type>
+			<Class>UNITCLASS_BAALITE_PRIEST</Class>
+			<Type>UNIT_BAALITE_PRIEST</Type>
 			<UniqueNames/>
 			<Special>SPECIALUNIT_PEOPLE</Special>
 			<Capture>NONE</Capture>
@@ -2899,9 +2899,9 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>Cannanite Mythology Misssionary</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_TAOIST_MISSIONARY_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_BAALITE_PRIEST</Description>
+			<Civilopedia>TXT_KEY_UNIT_BAALITE_PRIEST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_BAALITE_PRIEST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -2948,7 +2948,7 @@
 			<Builds/>
 			<ReligionSpreads>
 				<ReligionSpread>
-					<ReligionType>RELIGION_TAOISM</ReligionType>
+					<ReligionType>RELIGION_BAALISM</ReligionType>
 					<iReligionSpread>40</iReligionSpread>
 				</ReligionSpread>
 			</ReligionSpreads>
@@ -2959,9 +2959,9 @@
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>NONE</ReligionType>
 			<StateReligion>NONE</StateReligion>
-			<PrereqReligion>RELIGION_TAOISM</PrereqReligion>
+			<PrereqReligion>RELIGION_BAALISM</PrereqReligion>
 			<PrereqCorporation>NONE</PrereqCorporation>
-			<PrereqBuilding>BUILDING_TAOIST_MONASTERY</PrereqBuilding>
+			<PrereqBuilding>BUILDING_BAALITE_SANCTUARY</PrereqBuilding>
 			<PrereqTech>NONE</PrereqTech>
 			<TechTypes/>
 			<BonusType>NONE</BonusType>
@@ -3042,7 +3042,7 @@
 				<iRangedWaveSize>0</iRangedWaveSize>
 				<UnitMeshGroup>
 					<iRequired>1</iRequired>
-					<EarlyArtDefineTag>ART_DEF_UNIT_TAOIST_MISSIONARY</EarlyArtDefineTag>
+					<EarlyArtDefineTag>ART_DEF_UNIT_BAALITE_PRIEST</EarlyArtDefineTag>
 				</UnitMeshGroup>
 			</UnitMeshGroups>
 			<FormationType>FORMATION_TYPE_DEFAULT</FormationType>
@@ -8618,15 +8618,15 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_BUDDHIST_SHRINE</BuildingType>
+					<BuildingType>BUILDING_ZOROASTRIAN_SHRINE</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_CONFUCIAN_SHRINE</BuildingType>
+					<BuildingType>BUILDING_LABYRINTH</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_TAOIST_SHRINE</BuildingType>
+					<BuildingType>BUILDING_MAABED</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 			</Buildings>
