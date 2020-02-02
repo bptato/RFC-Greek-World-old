@@ -1758,45 +1758,6 @@ def getHelpAncientTexts2(argsList):
 
 	return szHelp
 
-
-######## IMPACT_CRATER ###########
-
-def canTriggerImpactCrater(argsList):
-
-	kTriggeredData = argsList[0]
-	player = gc.getPlayer(kTriggeredData.ePlayer)
-	
-	iUranium = CvUtil.findInfoTypeNum(gc.getBonusInfo,gc.getNumBonusInfos(),'BONUS_URANIUM')
-	if player.getNumAvailableBonuses(iUranium) > 0:
-		return false
-	
-	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-	if not plot.canHaveBonus(iUranium, false):
-		return false
-	
-	return true
-
-def doImpactCrater2(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
-
-	plot = gc.getMap().plot(kTriggeredData.iPlotX, kTriggeredData.iPlotY)
-	
-	if not plot.isNone():
-		plot.setImprovementType(CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_MINE'))
-	
-	return 1
-
-def getHelpImpactCrater2(argsList):
-	iEvent = argsList[0]
-	kTriggeredData = argsList[1]
-	
-	iMine = CvUtil.findInfoTypeNum(gc.getImprovementInfo,gc.getNumImprovementInfos(),'IMPROVEMENT_MINE')
-	szHelp = localText.getText("TXT_KEY_EVENT_IMPROVEMENT_GROWTH", ( gc.getImprovementInfo(iMine).getTextKey(), ))
-
-	return szHelp
-
-
 ######## THE_HUNS ###########
 
 def canTriggerTheHuns(argsList):
