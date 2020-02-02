@@ -811,15 +811,6 @@ tMaxColonists = (
 0, #Turkey
 0) #America
 
-
-# initialise religion variables to religion indices from XML
-iJudaism = 0
-iChristianity = 1
-iIslam = 2
-iHinduism = 3
-iBuddhism = 4
-iConfucianism = 5
-iTaoism = 6
 iNumReligions = 7
 
 #bluepotato: replaced hardcoded tech ids with a potentially slower but much more convenient function. TODO: speed it up

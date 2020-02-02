@@ -1810,7 +1810,7 @@ class RiseAndFall:
 			utils.makeInvaderUnit(con.un('babylon_bowman'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('spearman'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('javelineer'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('hindu_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('anunnaki_missionary'), iCiv, tPlot, 1)
 		if (iCiv == iHittites):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 2)
@@ -1832,7 +1832,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('assyria_ram'), iCiv, tPlot, 5)
 			utils.makeUnit(con.un('chariot'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('swordsman'), iCiv, tPlot, 7)
-			utils.makeUnit(con.un('hindu_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('anunnaki_missionary'), iCiv, tPlot, 1)
 		if (iCiv == iIsrael):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('maccabee'), iCiv, tPlot, 1)
