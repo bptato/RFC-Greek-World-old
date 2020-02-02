@@ -347,19 +347,19 @@
 			<ActionSound>AS3D_FEMALE_ATTK_VOX</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
-			<Type>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</Type> <!--TODO-->
-			<Button>,Art/Interface/Buttons/Units/Missionary_Hindu.dds,Art/Interface/Buttons/Unit_Resource_Atlas.dds,4,3</Button>
+			<Type>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</Type>
+			<Button>Art/Units/Religions/AnunnakiEnsi/button_ensi.dds</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/Missionary/Hindu/Hindu_Missionary.nif</NIF>
-			<KFM>Art/Units/Missionary/Hindu/Hindu_Missionary.kfm</KFM>
-			<SHADERNIF>Art/Units/Missionary/Hindu/Hindu_Missionary_FX.nif</SHADERNIF>
+			<NIF>Art/Units/Religions/AnunnakiEnsi/greatprophet.nif</NIF>
+			<KFM>Art/Units/Religions/AnunnakiEnsi/greatprophet.kfm</KFM>
+			<SHADERNIF>Art/Units/Religions/AnunnakiEnsi/greatprophet.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
-				<fShadowScale>0.8</fShadowScale>
+				<fShadowScale>1.0</fShadowScale>
 			</ShadowDef>
 			<fBattleDistance>0.35</fBattleDistance>
 			<fRangedDeathTime>0.31</fRangedDeathTime>

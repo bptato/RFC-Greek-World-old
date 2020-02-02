@@ -3874,7 +3874,7 @@
 		</SoundData>
 		<SoundData>
 			<SoundID>SND_BUILD_ANUNNAKI_MOVIE</SoundID>
-			<Filename>Sounds/Buildings/Anunnaki</Filename>
+			<Filename>Sounds/Religions/Anunnaki</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>
 			<bIsCompressed>1</bIsCompressed>
 			<bInGeneric>1</bInGeneric>

@@ -822,16 +822,6 @@
 			<Button>,Art/Interface/Buttons/Buildings/Monastery_Hindu.dds,Art/Interface/Buttons/Buildings_Atlas.dds,6,12</Button>
 		</BuildingArtInfo>
 		<BuildingArtInfo>
-			<Type>ART_DEF_BUILDING_HINDU_SHRINE</Type>
-			<LSystem>LSYSTEM_2x2</LSystem>
-			<bAnimated>0</bAnimated>
-			<fScale>1.25</fScale>
-			<fInterfaceScale>0.56</fInterfaceScale>
-			<NIF>Art/Structures/Buildings/IshtarGate/IshtarGate.nif</NIF>
-			<KFM/>
-			<Button>,Art/Interface/Buttons/Buildings/IshtarGate.dds,Art/Interface/Buttons/Buildings_Atlas.dds,7,12</Button>
-		</BuildingArtInfo>
-		<BuildingArtInfo>
 			<Type>ART_DEF_BUILDING_BUDDHIST_TEMPLE</Type>
 			<LSystem>LSYSTEM_2x2</LSystem>
 			<bAnimated>1</bAnimated>

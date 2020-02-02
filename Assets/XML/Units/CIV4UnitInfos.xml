@@ -2398,9 +2398,9 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>TXT_KEY_UNIT_ANUNNAKI_MISSIONARY</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_UNIT_ANUNNAKI_MISSIONARY_STRATEGY</Strategy>
+			<Description>TXT_KEY_UNIT_ANUNNAKI_PRIEST</Description>
+			<Civilopedia>TXT_KEY_UNIT_ANUNNAKI_PRIEST_PEDIA</Civilopedia>
+			<Strategy>TXT_KEY_UNIT_ANUNNAKI_PRIEST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>
 			<bFood>0</bFood>
@@ -8614,7 +8614,7 @@
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>
-					<BuildingType>BUILDING_HINDU_SHRINE</BuildingType>
+					<BuildingType>BUILDING_ISHTAR_GATE</BuildingType>
 					<bBuilding>1</bBuilding>
 				</Building>
 				<Building>

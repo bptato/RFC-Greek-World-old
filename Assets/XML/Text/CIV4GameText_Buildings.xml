@@ -2,8 +2,28 @@
 <!-- edited with XMLSPY v2004 rel. 2 U (http://www.xmlspy.com) by lcollins (Firaxis Games) -->
 <Civ4GameText xmlns="http://www.firaxis.com">
 	<TEXT>
+		<Tag>TXT_KEY_BUILDING_PESEDJET_TEMPLE</Tag>
+		<English>Pesedjet Temple</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_TEMPLE_OF_AMUN</Tag>
+		<English>Temple of Amun</English>
+	</TEXT>
+	<TEXT>
 		<Tag>TXT_KEY_BUILDING_SPHINX</Tag>
 		<English>Sphinx</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE</Tag>
+		<English>Anunnaki Temple</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY</Tag>
+		<English>Anunnaki Altar</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_BUILDING_ISHTAR_GATE</Tag>
+		<English>Ishtar Gate</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_BUILDING_BAKERY</Tag>

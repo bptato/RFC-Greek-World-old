@@ -417,4 +417,16 @@
 		<Tag>TXT_KEY_UNIT_PESEDJET_PRIEST_STRATEGY</Tag>
 		<English>[TAB]A Hemet-Netjer can spread the Pesedjet Religion to other cities.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANUNNAKI_PRIEST</Tag>
+		<English>Ensi</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANUNNAKI_PRIEST_PEDIA</Tag>
+		<English>[TAB]In Mesopotamian society, priests and priestesses were equals to the king in power and honor, and were mediators between the gods and the people. The word En or Ensi referred to chief priests, who also controlled a city state.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_ANUNNAKI_PRIEST_STRATEGY</Tag>
+		<English>[TAB]An Ensi can spread the Anunnaki Religion to other cities.</English>
+	</TEXT>
 </Civ4GameText>

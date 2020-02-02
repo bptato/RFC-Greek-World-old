@@ -10960,14 +10960,14 @@
 			<iHotKeyPriority>0</iHotKeyPriority>
 		</BuildingInfo>
 		<BuildingInfo>
-			<BuildingClass>BUILDINGCLASS_HINDU_SHRINE</BuildingClass>
-			<Type>BUILDING_HINDU_SHRINE</Type>
+			<BuildingClass>BUILDINGCLASS_ISHTAR_GATE</BuildingClass>
+			<Type>BUILDING_ISHTAR_GATE</Type>
 			<SpecialBuildingType>NONE</SpecialBuildingType>
-			<Description>Ishtar Gate</Description>
+			<Description>TXT_KEY_BUILDING_ISHTAR_GATE</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ISHTAR_GATE_PEDIA</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_HINDU_SHRINE_STRATEGY</Strategy>
+			<Strategy>TXT_KEY_BUILDING_ISHTAR_GATE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_HINDU_SHRINE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ISHTAR_GATE</ArtDefineTag>
 			<MovieDefineTag>ART_DEF_MOVIE_ISHTAR_GATE</MovieDefineTag>
 			<HolyCity>RELIGION_ANUNNAKI</HolyCity>
 			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
