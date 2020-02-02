@@ -322,14 +322,14 @@
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_PESEDJET_MISSIONARY</Type>
-			<Button>Art/Units/PesedjetMissionary/Ra_missionary.dds</Button>
+			<Button>Art/Units/Religions/PesedjetHemetNetjer/button_hem-netjer.dds</Button>
 			<fScale>0.46</fScale>
 			<fInterfaceScale>1.0</fInterfaceScale>
 			<bActAsLand>0</bActAsLand>
 			<bActAsAir>0</bActAsAir>
-			<NIF>Art/Units/PesedjetMissionary/hindu_missionary.nif</NIF>
-			<KFM>Art/Units/PesedjetMissionary/hindu_missionary.kfm</KFM>
-			<SHADERNIF>Art/Units/PesedjetMissionary/hindu_missionary_fx.nif</SHADERNIF>
+			<NIF>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.nif</NIF>
+			<KFM>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.kfm</KFM>
+			<SHADERNIF>Art/Units/Religions/PesedjetHemetNetjer/buddhist_missionary.nif</SHADERNIF>
 			<ShadowDef>
 				<ShadowNIF>Art/Units/01_UnitShadows/UnitShadow.nif</ShadowNIF>
 				<ShadowAttachNode>BIP Pelvis</ShadowAttachNode>
@@ -343,6 +343,8 @@
 				<AudioRunTypeLoop/>
 				<AudioRunTypeEnd/>
 			</AudioRunSounds>
+			<SelectionSound>AS3D_FEMALE_FIDGT_VOX</SelectionSound>
+			<ActionSound>AS3D_FEMALE_ATTK_VOX</ActionSound>
 		</UnitArtInfo>
 		<UnitArtInfo>
 			<Type>ART_DEF_UNIT_ANUNNAKI_MISSIONARY</Type> <!--TODO-->

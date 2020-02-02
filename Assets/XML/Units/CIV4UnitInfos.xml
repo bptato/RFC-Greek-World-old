@@ -2231,8 +2231,8 @@
 			<DefaultUnitAI>UNITAI_MISSIONARY</DefaultUnitAI>
 			<Invisible>NONE</Invisible>
 			<SeeInvisible>NONE</SeeInvisible>
-			<Description>Pesedjet Priest</Description>
-			<Civilopedia>TXT_KEY_CONCEPT_RELIGION_PEDIA</Civilopedia>
+			<Description>TXT_KEY_UNIT_PESEDJET_PRIEST</Description>
+			<Civilopedia>TXT_KEY_UNIT_PESEDJET_PRIEST_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_UNIT_PESEDJET_PRIEST_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
 			<bAnimal>0</bAnimal>

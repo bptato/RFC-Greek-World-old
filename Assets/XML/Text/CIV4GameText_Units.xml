@@ -405,4 +405,16 @@
 		<Tag>TXT_KEY_UNIT_ELAM_KASSU_RISA_PEDIA</Tag>
 		<English>[TAB]Elamite culture was suffused with the image of the horned diety, and these attributes were considered sacred. Texts attest to the fielding of "horned warriors" and images of the troops, wearing horned helmets and bearing axes, exist; Elam certainly had it's military traditions and fought long and hard against first the Sumer - Akkad city states and later babylon and Assyria. "Kassu Risa" is Elamite and means "great horn".</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PESEDJET_PRIEST</Tag>
+		<English>Hemet-Netjer</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PESEDJET_PRIEST_PEDIA</Tag>
+		<English>[TAB]In the ancient Egyptian religion, female priests were known as hemet-netjer, which meant "servants of the god". There was a hierarchy in the priesthood from the high priest (hem-netjer-tepi, "first servant of god") at the top to the wab priests at the bottom. The wab priests carried out the essential but fairly mundane tasks of taking care of the temple complex and performing whatever function they were called upon for, such as helping to prepare for festivals.</English>
+	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_UNIT_PESEDJET_PRIEST_STRATEGY</Tag>
+		<English>[TAB]A Hemet-Netjer can spread the Pesedjet Religion to other cities.</English>
+	</TEXT>
 </Civ4GameText>
