@@ -10619,7 +10619,7 @@
 			<Civilopedia>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_ANUNNAKI_TEMPLE_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_HINDU_TEMPLE</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ANUNNAKI_TEMPLE</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
@@ -10790,11 +10790,11 @@
 			<BuildingClass>BUILDINGCLASS_ANUNNAKI_MONASTERY</BuildingClass>
 			<Type>BUILDING_ANUNNAKI_MONASTERY</Type>
 			<SpecialBuildingType>SPECIALBUILDING_MONASTERY</SpecialBuildingType>
-			<Description>Mesopotamian Monastery</Description>
+			<Description>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY</Description>
 			<Civilopedia>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY_PEDIA</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_ANUNNAKI_MONASTERY_STRATEGY</Strategy>
 			<Advisor>ADVISOR_RELIGION</Advisor>
-			<ArtDefineTag>ART_DEF_BUILDING_HINDU_MONASTERY</ArtDefineTag>
+			<ArtDefineTag>ART_DEF_BUILDING_ANUNNAKI_ALTAR</ArtDefineTag>
 			<MovieDefineTag>NONE</MovieDefineTag>
 			<HolyCity>NONE</HolyCity>
 			<ReligionType>RELIGION_ANUNNAKI</ReligionType>
