@@ -9900,7 +9900,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=12,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=12,
 	EndUnit
 	BeginCity
 		CityOwner=12
@@ -9950,7 +9950,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=30,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
 		CityOwner=30
@@ -10214,7 +10214,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ISLAMIC_MISSIONARY, UnitOwner=0,
+		UnitType=UNIT_PESEDJET_MISSIONARY, UnitOwner=0,
 	EndUnit
 	BeginCity
 		CityOwner=0
@@ -10382,7 +10382,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=30,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
 		CityOwner=30
@@ -10687,7 +10687,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_ISLAMIC_MISSIONARY, UnitOwner=0,
+		UnitType=UNIT_PESEDJET_MISSIONARY, UnitOwner=0,
 	EndUnit
 	BeginCity
 		CityOwner=0
@@ -11456,7 +11456,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=28,
 	EndUnit
 	BeginCity
 		CityOwner=28
@@ -11530,7 +11530,7 @@ BeginPlot
 		UnitAIType=UNITAI_SETTLER_SEA
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=11,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=11,
 	EndUnit
 	BeginCity
 		CityOwner=11
@@ -12261,7 +12261,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=29,
 	EndUnit
 	BeginCity
 		CityOwner=29
@@ -12601,7 +12601,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=28,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=28,
 	EndUnit
 	BeginCity
 		CityOwner=28
@@ -13251,7 +13251,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_CONFUCIAN_MISSIONARY, UnitOwner=29,
+		UnitType=UNIT_HELLENIC_MISSIONARY, UnitOwner=29,
 	EndUnit
 	BeginCity
 		CityOwner=29
@@ -14287,7 +14287,7 @@ BeginPlot
 		UnitType=UNIT_SETTLER, UnitOwner=5,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=5,
+		UnitType=UNIT_BAALITE_MISSIONARY, UnitOwner=5,
 	EndUnit
 	BeginCity
 		CityOwner=5
@@ -14665,7 +14665,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_TAOIST_MISSIONARY, UnitOwner=5,
+		UnitType=UNIT_BAALITE_MISSIONARY, UnitOwner=5,
 	EndUnit
 	BeginCity
 		CityOwner=5
@@ -15396,7 +15396,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=30,
+		UnitType=UNIT_ANUNNAKI_MISSIONARY, UnitOwner=30,
 	EndUnit
 	BeginCity
 		CityOwner=30
@@ -16082,7 +16082,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=6,
+		UnitType=UNIT_ANUNNAKI_MISSIONARY, UnitOwner=6,
 	EndUnit
 	BeginCity
 		CityOwner=6
@@ -16515,7 +16515,7 @@ BeginPlot
 		UnitType=UNIT_JAVELINEER, UnitOwner=9,
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=9,
+		UnitType=UNIT_ANUNNAKI_MISSIONARY, UnitOwner=9,
 	EndUnit
 	BeginCity
 		CityOwner=9
@@ -16571,7 +16571,7 @@ BeginPlot
 		UnitAIType=UNITAI_CITY_DEFENSE
 	EndUnit
 	BeginUnit
-		UnitType=UNIT_HINDU_MISSIONARY, UnitOwner=9,
+		UnitType=UNIT_ANUNNAKI_MISSIONARY, UnitOwner=9,
 	EndUnit
 	BeginCity
 		CityOwner=9
