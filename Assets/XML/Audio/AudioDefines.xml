@@ -5756,13 +5756,6 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
-			<SoundID>SND_CONFUCIAN_MISS_ACTIVATE</SoundID>
-			<Filename>Sounds/Units/ConfucianMissActivate</Filename>
-			<LoadType>DYNAMIC_RES</LoadType>
-			<bIsCompressed>1</bIsCompressed>
-			<bInGeneric>1</bInGeneric>
-		</SoundData>
-		<SoundData>
 			<SoundID>SND_EAT_VOX</SoundID>
 			<Filename>Sounds/Units/EatVox</Filename>
 			<LoadType>DYNAMIC_RES</LoadType>

@@ -1832,7 +1832,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('assyria_ram'), iCiv, tPlot, 5)
 			utils.makeUnit(con.un('chariot'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('swordsman'), iCiv, tPlot, 7)
-			utils.makeUnit(con.un('anunnaki_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('anunnaki_priest'), iCiv, tPlot, 1)
 		if (iCiv == iIsrael):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('maccabee'), iCiv, tPlot, 1)
@@ -1842,7 +1842,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('greek_phalanx'), iCiv, tPlot, 2)
 			utils.makeInvaderUnit(con.un('greek_phalanx'), iCiv, tPlot, 5)
-			utils.makeUnit(con.un('hellenic_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('hellenic_priest'), iCiv, tPlot, 1)
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
 			if (tSeaPlot):
 				gc.getPlayer(iCiv).initUnit(con.un('galley'), tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
@@ -1850,7 +1850,7 @@ class RiseAndFall:
 		if (iCiv == iSparta):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('spartiates_hoplite'), iCiv, tPlot, 3) #3
-			utils.makeUnit(con.un('hellenic_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('hellenic_priest'), iCiv, tPlot, 1)
 			utils.makeInvaderUnit(con.un('greek_phalanx'), iCiv, tPlot, 5)
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
 			if (tSeaPlot):
@@ -1870,7 +1870,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('war_elephant'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('carthage_numidian_cavalry'), iCiv, tPlot, 3)
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
-			utils.makeUnit(con.un('baalite_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('baalite_priest'), iCiv, tPlot, 1)
 			if (tSeaPlot):
 				utils.makeUnit(con.un('workboat'), iCiv, tSeaPlot, 2)
 				gc.getPlayer(iCiv).initUnit(con.un('galley'), tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
@@ -1899,7 +1899,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('persia_immortal'), iCiv, tPlot, 8)
 			utils.makeUnit(con.un('war_elephant'), iCiv, tPlot, 8)
 			utils.makeUnit(con.un('catapult'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('buddhist_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('zoroastrian_priest'), iCiv, tPlot, 1)
 		if (iCiv == iRome):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 2)
@@ -1921,7 +1921,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('hoplite'), iCiv, tPlot, 4)
 			utils.makeInvaderUnit(con.un('greek_phalanx'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('companion_cavalry'), iCiv, tPlot, 6)
-			utils.makeUnit(con.un('hellenic_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('hellenic_priest'), iCiv, tPlot, 1)
 		if (iCiv == iIndia):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 5)
@@ -1936,7 +1936,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('hoplite'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('camel_cataphract'), iCiv, tPlot, 1)
 			utils.makeUnit(con.un('axeman'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('hellenic_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('hellenic_priest'), iCiv, tPlot, 1)
 		if (iCiv == iNumidia):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 3)
@@ -1955,7 +1955,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('noble_cavalry'), iCiv, tPlot, 4)
 			utils.makeUnit(con.un('war_elephant'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('catapult'), iCiv, tPlot, 2)
-			utils.makeUnit(con.un('buddhist_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('zoroastrian_priest'), iCiv, tPlot, 1)
 		if (iCiv == iByzantium):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 3)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 3)
@@ -1985,45 +1985,6 @@ class RiseAndFall:
 							bSettler = True
 						elif unit.getUnitAIType() != UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
 							unit.setImmobileTimer(2)
-
-	def addMissionary(self, iCiv, tTopLeft, tBottomRight, tPlot, iNumber):
-		lReligions = [0, 0, 0, 0, 0, 0, 0]
-		for x in range(tTopLeft[0], tBottomRight[0]+1):
-			for y in range(tTopLeft[1], tBottomRight[1]+1):
-				pCurrent = gc.getMap().plot(x, y)
-				if (pCurrent.isCity()):
-					city = pCurrent.getPlotCity()
-					iOwner = city.getOwner()
-					if (iOwner != iCiv):
-						iStateReligion = gc.getPlayer(iOwner).getStateReligion()
-						if (iStateReligion >= 0 and iStateReligion < con.iNumReligions):
-							lReligions[iStateReligion] += 1
-		iMax = 0
-		iWinnerReligion = -1
-		for i in range(1, len(lReligions)+1): #so that Christianity comes first
-			iLoopReligion = i % con.iNumReligions
-			if (lReligions[iLoopReligion] > iMax):
-				iMax = lReligions[iLoopReligion]
-				iWinnerReligion = iLoopReligion
-
-		if (iWinnerReligion == -1):
-			for iLoopCiv in range(iNumMajorPlayers):
-				if (iLoopCiv != iCiv):
-					if (gc.getMap().plot(tPlot[0], tPlot[1]).isRevealed(iLoopCiv, False)):
-						iStateReligion = gc.getPlayer(iLoopCiv).getStateReligion()
-						if (iStateReligion >= 0 and iStateReligion < con.iNumReligions):
-							lReligions[iStateReligion] += 1
-
-			for iLoopReligion in range(1, len(lReligions)+1): #so that Christianity comes first
-				iLoopReligion = i % con.iNumReligions
-				if (lReligions[iLoopReligion] > iMax):
-					iMax = lReligions[iLoopReligion]
-					iWinnerReligion = iLoopReligion
-
-		if (iWinnerReligion != -1):
-			utils.makeUnit(con.un('jewish_missionary') + iWinnerReligion, iCiv, tPlot, iNumber)
-
-
 
 	def createStartingWorkers(self, iCiv, tPlot):
 		amount = 0
