@@ -5414,6 +5414,9 @@ bool CvUnit::spread(ReligionTypes eReligion)
 		{
 			pCity->setHasReligion(eReligion, true, true, false);
 			bSuccess = true;
+			if(GC.getGameINLINE().getHolyCity(eReligion) == NULL) {
+				GC.getGameINLINE().setHolyCity(eReligion, pCity, false);
+			}
 		}
 		else
 		{
