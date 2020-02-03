@@ -5464,6 +5464,28 @@ void CvGame::setVoteChosen(int iSelection, int iVoteId)
 	deleteVoteSelection(iVoteId);
 }
 
+void CvGame::relocateHolyCity(ReligionTypes religion, CvCity* fallbackCity) {
+	CvCity* finalCity = NULL;
+	int finalCulture = 0;
+	for(int i = 0; i < MAX_CIV_PLAYERS; i++) {
+		CvPlayer& player = GET_PLAYER((PlayerTypes)i);
+		if(player.isAlive() && player.getStateReligion() == religion) {
+			for(int j = 0; j < player.getNumCities(); j++) {
+				CvCity* city = player.getCity(j);
+				if(city->isHasReligion(religion)) {
+					if(city->getCulture((PlayerTypes)i) > finalCulture) {
+						finalCulture = city->getCulture((PlayerTypes)i);
+						finalCity = city;
+					}
+				}
+			}
+		}
+	}
+	if(finalCity==NULL) {
+		finalCity = fallbackCity;
+	}
+	setHolyCity(religion, finalCity, false);
+}
 
 CvCity* CvGame::getHolyCity(ReligionTypes eIndex)
 {

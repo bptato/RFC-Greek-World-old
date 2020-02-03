@@ -1810,7 +1810,7 @@ class RiseAndFall:
 			utils.makeInvaderUnit(con.un('babylon_bowman'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('spearman'), iCiv, tPlot, 3)
 			utils.makeInvaderUnit(con.un('javelineer'), iCiv, tPlot, 3)
-			utils.makeUnit(con.un('anunnaki_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('anunnaki_priest'), iCiv, tPlot, 1)
 		if (iCiv == iHittites):
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('archer'), iCiv, tPlot, 2)
@@ -1819,7 +1819,7 @@ class RiseAndFall:
 			utils.makeUnit(con.un('settler'), iCiv, tPlot, 2)
 			utils.makeUnit(con.un('mycenae_eqeta'), iCiv, tPlot, 5)
 			utils.makeUnit(con.un('chariot'), iCiv, tPlot, 2)
-			utils.makeUnit(con.un('hellenic_missionary'), iCiv, tPlot, 1)
+			utils.makeUnit(con.un('hellenic_priest'), iCiv, tPlot, 1)
 			tSeaPlot = self.findSeaPlots(tPlot, 1, iCiv)
 			if (tSeaPlot):
 				gc.getPlayer(iCiv).initUnit(con.un('galley'), tSeaPlot[0], tSeaPlot[1], UnitAITypes.UNITAI_SETTLER_SEA, DirectionTypes.DIRECTION_SOUTH)
@@ -2037,26 +2037,18 @@ class RiseAndFall:
 
 	def create900BCstartingUnits(self):
 		for i in range(iNumMajorPlayers):
-			player = gc.getPlayer(i)
-			if (player.getStartingYear() > utils.getScenarioStartYear() and i == utils.getHumanID()):
+			if (gc.getPlayer(i).getStartingYear() <= utils.getScenarioStartYear() or i == utils.getHumanID()):
 				self.assign900BCTechs(i)
-			elif (player.getStartingYear() > utils.getScenarioStartYear() or i == utils.getHumanID()):
-				self.assign900BCTechs(i)
-
 
 	def create4400BCstartingUnits(self):
 		#RFGW
-		for iLoopCiv in range(iNumMajorPlayers):
-			if (getTurnForYear(gc.getPlayer(iLoopCiv).getStartingYear()) == 0 or iLoopCiv == utils.getHumanID()):
-				utils.makeUnit(con.un('settler'), iLoopCiv, tCapitals[iLoopCiv], 1)
-				utils.makeUnit(con.un('warrior'), iLoopCiv, tCapitals[iLoopCiv], 1)
-				self.assignTechs(iLoopCiv)
+		for i in range(iNumMajorPlayers):
+			if (getTurnForYear(gc.getPlayer(i).getStartingYear()) == 0 or i == utils.getHumanID()):
+				utils.makeUnit(con.un('settler'), i, tCapitals[i], 1)
+				utils.makeUnit(con.un('warrior'), i, tCapitals[i], 1)
+				self.assignTechs(i)
 
 	def assign900BCTechs(self, iCiv):
-		#popup = Popup.PyPopup()
-		#popup.setBodyString('assigning techs to civ #%d' %(iCiv))
-		#popup.launch()
-
 		tCiv = gc.getTeam(gc.getPlayer(iCiv).getTeam())
 		techs = None
 		if (iCiv == iEgypt):
@@ -2107,7 +2099,7 @@ class RiseAndFall:
 		if (iCiv == iHuns):
 			techs = ('arrows','archery','hunting','warrior_code','mining','slash_and_burn','agriculture','animal_husbandry','equine_domestication','horseback_riding','copper_working','bronze_working','iron_working','metal_casting','mysticism','the_wheel','pottery','record_keeping','military_training','bread_making','fermentation','mythology','spokes','polytheism','trade','storytelling','cuneiform','alphabet','pachyderm_domestication','writing','code_of_laws','tyranny','citizenship','philosophy','military_science','standing_army','herbalism')
 
-		if techs is None: #if civ has no starting techs; TODO: should this really be called then?
+		if techs is None: #if civ has no starting techs
 			return
 
 		self.assignPlayerTechs(iCiv, techs)
