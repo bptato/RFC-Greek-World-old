@@ -5368,31 +5368,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_DIPLO_TOKUGAWA_EARLY_INTRO</ScriptID>
-		<SoundID>DIPLO_TOKUGAWA_EARLY_INTRO</SoundID>
-		<SoundType>GAME_MUSIC</SoundType>
-		<iMinVolume>75</iMinVolume>
-		<iMaxVolume>75</iMaxVolume>
-		<iPitchChangeDown>0</iPitchChangeDown>
-		<iPitchChangeUp>0</iPitchChangeUp>
-		<iMinLeftPan>-1</iMinLeftPan>
-		<iMaxLeftPan>-1</iMaxLeftPan>
-		<iMinRightPan>-1</iMinRightPan>
-		<iMaxRightPan>-1</iMaxRightPan>
-		<bLooping>0</bLooping>
-		<iMinTimeDelay>0</iMinTimeDelay>
-		<iMaxTimeDelay>0</iMaxTimeDelay>
-		<bTaperForSoundtracks>0</bTaperForSoundtracks>
-		<iLengthOfSound>0</iLengthOfSound>
-		<fMinDryLevel>1.0</fMinDryLevel>
-		<fMaxDryLevel>1.0</fMaxDryLevel>
-		<fMinWetLevel>0.0</fMinWetLevel>
-		<fMaxWetLevel>0.0</fMaxWetLevel>
-		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>
-	<Script2DSound>
-		<ScriptID>AS2D_DIPLO_TOKUGAWA_EARLY_LP</ScriptID>
-		<SoundID>DIPLO_TOKUGAWA_EARLY_LP</SoundID>
+		<ScriptID>AS2D_DIPLO_TAHARQA_EARLY</ScriptID>
+		<SoundID>DIPLO_TAHARQA_EARLY</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
 		<iMinVolume>75</iMinVolume>
 		<iMaxVolume>75</iMaxVolume>
@@ -5414,31 +5391,8 @@
 		<iNotPlayPercent>0</iNotPlayPercent>
 	</Script2DSound>
 	<Script2DSound>
-		<ScriptID>AS2D_DIPLO_TOKUGAWA_MIDDLE</ScriptID>
-		<SoundID>DIPLO_TOKUGAWA_MIDDLE</SoundID>
-		<SoundType>GAME_MUSIC</SoundType>
-		<iMinVolume>75</iMinVolume>
-		<iMaxVolume>75</iMaxVolume>
-		<iPitchChangeDown>0</iPitchChangeDown>
-		<iPitchChangeUp>0</iPitchChangeUp>
-		<iMinLeftPan>-1</iMinLeftPan>
-		<iMaxLeftPan>-1</iMaxLeftPan>
-		<iMinRightPan>-1</iMinRightPan>
-		<iMaxRightPan>-1</iMaxRightPan>
-		<bLooping>1</bLooping>
-		<iMinTimeDelay>0</iMinTimeDelay>
-		<iMaxTimeDelay>0</iMaxTimeDelay>
-		<bTaperForSoundtracks>0</bTaperForSoundtracks>
-		<iLengthOfSound>0</iLengthOfSound>
-		<fMinDryLevel>1.0</fMinDryLevel>
-		<fMaxDryLevel>1.0</fMaxDryLevel>
-		<fMinWetLevel>0.0</fMinWetLevel>
-		<fMaxWetLevel>0.0</fMaxWetLevel>
-		<iNotPlayPercent>0</iNotPlayPercent>
-	</Script2DSound>
-	<Script2DSound>
-		<ScriptID>AS2D_DIPLO_TOKUGAWA_LATE</ScriptID>
-		<SoundID>DIPLO_TOKUGAWA_LATE</SoundID>
+		<ScriptID>AS2D_DIPLO_TAHARQA_MIDDLE</ScriptID>
+		<SoundID>DIPLO_TAHARQA_MIDDLE</SoundID>
 		<SoundType>GAME_MUSIC</SoundType>
 		<iMinVolume>75</iMinVolume>
 		<iMaxVolume>75</iMaxVolume>

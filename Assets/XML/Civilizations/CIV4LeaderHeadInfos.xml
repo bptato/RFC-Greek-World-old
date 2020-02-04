@@ -12211,29 +12211,29 @@
 			<DiplomacyIntroMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_INTRO</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_INTRO</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyIntroMusicPeace>
 			<DiplomacyMusicPeace>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_ANCIENT</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_CLASSICAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_EARLY_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_EARLY</DiploScriptId>
 				</DiploMusicPeaceEra>
 				<DiploMusicPeaceEra>
 					<EraType>ERA_MEDIEVAL</EraType>
-					<DiploScriptId>AS2D_DIPLO_HATSHEPSUT_MIDDLE_LP</DiploScriptId>
+					<DiploScriptId>AS2D_DIPLO_TAHARQA_MIDDLE</DiploScriptId>
 				</DiploMusicPeaceEra>
 			</DiplomacyMusicPeace>
 			<DiplomacyIntroMusicWar>

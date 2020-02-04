@@ -1787,6 +1787,20 @@
 			<bInGeneric>1</bInGeneric>
 		</SoundData>
 		<SoundData>
+			<SoundID>DIPLO_TAHARQA_EARLY</SoundID>
+			<Filename>Sounds/Diplomacy/amanirena_early</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
+			<SoundID>DIPLO_TAHARQA_MIDDLE</SoundID>
+			<Filename>Sounds/Diplomacy/amanirena_middle</Filename>
+			<LoadType>STREAMED</LoadType>
+			<bIsCompressed>1</bIsCompressed>
+			<bInGeneric>1</bInGeneric>
+		</SoundData>
+		<SoundData>
 			<SoundID>DIPLO_ASHURBANIPAL_EARLY</SoundID>
 			<Filename>Sounds/Diplomacy/ashurbanipal_early</Filename>
 			<LoadType>STREAMED</LoadType>
