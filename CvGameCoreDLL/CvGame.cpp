@@ -5466,8 +5466,8 @@ void CvGame::relocateHolyCity(ReligionTypes religion, CvCity* fallbackCity) {
 	for(int i = 0; i < MAX_CIV_PLAYERS; i++) {
 		CvPlayer& player = GET_PLAYER((PlayerTypes)i);
 		if(player.isAlive() && player.getStateReligion() == religion) {
-			for(int j = 0; j < player.getNumCities(); j++) {
-				CvCity* city = player.getCity(j);
+			int j;
+			for(CvCity* city = player.firstCity(&j); NULL != city; city = player.nextCity(&j)) {
 				if(city->isHasReligion(religion)) {
 					if(city->getCulture((PlayerTypes)i) > finalCulture) {
 						finalCulture = city->getCulture((PlayerTypes)i);
