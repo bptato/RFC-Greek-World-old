@@ -88,6 +88,7 @@ CvCity::CvCity()
 
 	m_pabWorkingPlot = NULL;
 	m_pabHasReligion = NULL;
+	m_believers = NULL;
 	m_pabHasCorporation = NULL;
 
 	m_paTradeCities = NULL;
@@ -367,6 +368,7 @@ void CvCity::uninit()
 
 	SAFE_DELETE_ARRAY(m_pabWorkingPlot);
 	SAFE_DELETE_ARRAY(m_pabHasReligion);
+	SAFE_DELETE_ARRAY(m_believers);
 	SAFE_DELETE_ARRAY(m_pabHasCorporation);
 
 	SAFE_DELETE_ARRAY(m_paTradeCities);
@@ -637,11 +639,13 @@ void CvCity::reset(int iID, PlayerTypes eOwner, int iX, int iY, bool bConstructo
 
 		m_paiReligionInfluence = new int[GC.getNumReligionInfos()];
 		m_paiStateReligionHappiness = new int[GC.getNumReligionInfos()];
+		m_believers = new int[GC.getNumReligionInfos()];
 		m_pabHasReligion = new bool[GC.getNumReligionInfos()];
 		for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 		{
 			m_paiReligionInfluence[iI] = 0;
 			m_paiStateReligionHappiness[iI] = 0;
+			m_believers[iI] = 0;
 			m_pabHasReligion[iI] = false;
 		}
 
@@ -759,7 +763,7 @@ void CvCity::kill(bool bUpdatePlotGroups)
 
 	for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 	{
-		setHasReligion(((ReligionTypes)iI), false, false, true);
+		setBelievers(((ReligionTypes)iI), 0, false, true);
 
 		if (isHolyCity((ReligionTypes)iI))
 		{
@@ -5181,8 +5185,43 @@ void CvCity::setPopulation(int iNewValue)
 
 	iOldPopulation = getPopulation();
 
-	if (iOldPopulation != iNewValue)
-	{
+	if (iOldPopulation != iNewValue) {
+		int i;
+		int religionChances = 0;
+		int believers = 0;
+		int* newPopReligionChance = new int[GC.getNumReligionInfos()];
+		for(i = 0; i < GC.getNumReligionInfos(); i++) {
+			if(m_believers[i] > 0) {
+				newPopReligionChance[i] = m_believers[i] * GC.getReligionInfo((ReligionTypes)i).getSpreadFactor();
+				religionChances += newPopReligionChance[i];
+				believers += m_believers[i];
+			} else {
+				newPopReligionChance[i] = 0;
+			}
+		}
+
+		if(religionChances > 0) { //do this only if there are non-pagans in the city
+
+			religionChances += 10 * (getPopulation() - believers);
+			int rand = GC.getGameINLINE().getSorenRandNum(100, "New population religion");
+
+			for(i = 0; i < GC.getNumReligionInfos(); i++) {
+				if((float)newPopReligionChance[i] * (float)religionChances != 0) { //avoid division by zero
+					newPopReligionChance[i] = (int)ceil((float)100 / (float)religionChances * (float)newPopReligionChance[i]); // aaaaaaaaaaaaaaa
+				}
+			}
+
+			religionChances = 0;
+			for(i = 0; i < GC.getNumReligionInfos(); i++) {
+				religionChances += newPopReligionChance[i];
+				if(rand <= religionChances) {
+					m_believers[i] += iNewValue - iOldPopulation;
+					break;
+				}
+			}
+		}
+		delete [] newPopReligionChance;
+
 		m_iPopulation = iNewValue;
 
 		FAssert(getPopulation() >= 0);
@@ -10231,7 +10270,7 @@ void CvCity::setNumRealBuildingTimed(BuildingTypes eIndex, int iNewValue, bool b
 					{
 						if (GC.getBuildingInfo(eIndex).getReligionChange(iI) > 0)
 						{
-							setHasReligion(((ReligionTypes)iI), true, true, true);
+							convert(((ReligionTypes)iI), true, true);
 						}
 					}
 
@@ -10350,30 +10389,125 @@ bool CvCity::isHasReligion(ReligionTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
 	FAssertMsg(eIndex < GC.getNumReligionInfos(), "eIndex expected to be < GC.getNumReligionInfos()");
-	return m_pabHasReligion[eIndex];
+	return m_believers[eIndex] > 0;
+}
+
+void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
+	FAssertMsg(religion >= 0, "religion expected to be >= 0");
+	FAssertMsg(religion < GC.getNumReligionInfos(), "religion expected to be < GC.getNumReligionInfos()");
+
+	int i;
+	int j;
+	int faithfulPopulation = 0;
+	for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource) {
+		processVoteSourceBonus((VoteSourceTypes)iVoteSource, false);
+	}
+
+	GET_PLAYER(getOwnerINLINE()).changeHasReligionCount(religion, (!(isHasReligion(religion)) ? 1 : 0));
+	m_pabHasReligion[religion] = true;
+
+	for(i = 0; i<GC.getNumReligionInfos(); i++) {
+		if(m_believers[(ReligionTypes)i] > 0) {
+			for(j = 0; j<m_believers[(ReligionTypes)i]; j++) {
+				if((int)religion != i) {
+					if(GC.getGameINLINE().getSorenRandNum(100, "Convert roll") < GC.getReligionInfo(religion).getSpreadFactor()) {
+						m_believers[(ReligionTypes)i] -= 1;
+						m_believers[religion] += 1;
+					}
+				}
+			}
+		}
+	}
+
+	for(i = 0; i<GC.getNumReligionInfos(); i++) {
+		if(m_believers[(ReligionTypes)i] > 0) {
+			for(j = 0; j<m_believers[(ReligionTypes)i]; j++) {
+				faithfulPopulation += 1;
+			}
+		}
+	}
+
+	for(i = 0; i<getPopulation() - faithfulPopulation; i++) {
+		if(i == 0 || GC.getGameINLINE().getSorenRandNum(100, "Convert roll") < GC.getReligionInfo(religion).getSpreadFactor()) {
+			m_believers[religion] += 1;
+		}
+	}
+
+	for(i = 0; i<GC.getNumReligionInfos(); i++) {
+		if(m_believers[(ReligionTypes)i] <= 0) {
+			m_pabHasReligion[(ReligionTypes)i] = false;
+		}
+	}
+
+	for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource) {
+		processVoteSourceBonus((VoteSourceTypes)iVoteSource, true);
+	}
+
+
+	updateMaintenance();
+	updateReligionHappiness();
+	updateReligionCommerce();
+
+	AI_setAssignWorkDirty(true);
+
+	setInfoDirty(true);
+
+	if (isHasReligion(religion)) {
+		GC.getGameINLINE().makeReligionFounded(religion, getOwnerINLINE());
+
+		if (announce) {
+			if (GC.getGameINLINE().getHolyCity(religion) != this) {
+				for (int iI = 0; iI < MAX_PLAYERS; iI++) {
+					if (GET_PLAYER((PlayerTypes)iI).isAlive()) {
+						if (isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false)) {
+							if ((getOwnerINLINE() == iI) || (GET_PLAYER((PlayerTypes)iI).getStateReligion() == religion) || GET_PLAYER((PlayerTypes)iI).hasHolyCity(religion)) {
+								CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_RELIGION_SPREAD", GC.getReligionInfo(religion).getTextKeyWide(), getNameKey());
+								gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getReligionInfo(religion).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(religion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), arrows, arrows);
+							}
+						}
+					}
+				}
+			}
+
+			if (isHuman()) {
+				if (GET_PLAYER(getOwnerINLINE()).getHasReligionCount(religion) == 1) {
+					if (GET_PLAYER(getOwnerINLINE()).canConvert(religion) && (GET_PLAYER(getOwnerINLINE()).getStateReligion() == NO_RELIGION)) {
+						CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CHANGERELIGION);
+						if (NULL != pInfo) {
+							pInfo->setData1(religion);
+							gDLL->getInterfaceIFace()->addPopup(pInfo, getOwnerINLINE());
+						}
+					}
+				}
+			}
+		}
+	}
+
+	CvEventReporter::getInstance().religionSpread(religion, getOwnerINLINE(), this);
 }
 
 
-void CvCity::setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce, bool bArrows)
+void CvCity::setBelievers(ReligionTypes religion, int newValue, bool bAnnounce, bool bArrows)
 {
-	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
-	FAssertMsg(eIndex < GC.getNumReligionInfos(), "eIndex expected to be < GC.getNumReligionInfos()");
+	FAssertMsg(religion >= 0, "religion expected to be >= 0");
+	FAssertMsg(religion < GC.getNumReligionInfos(), "religion expected to be < GC.getNumReligionInfos()");
 
-	if (isHasReligion(eIndex) != bNewValue)
+	if(getBelievers(religion) != newValue)
 	{
 		for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource)
 		{
 			processVoteSourceBonus((VoteSourceTypes)iVoteSource, false);
 		}
 
-		m_pabHasReligion[eIndex] = bNewValue;
+		m_pabHasReligion[religion] = newValue > 0;
+		m_believers[religion] = newValue;
 
 		for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource)
 		{
 			processVoteSourceBonus((VoteSourceTypes)iVoteSource, true);
 		}
 
-		GET_PLAYER(getOwnerINLINE()).changeHasReligionCount(eIndex, ((isHasReligion(eIndex)) ? 1 : -1));
+		GET_PLAYER(getOwnerINLINE()).changeHasReligionCount(religion, ((isHasReligion(religion)) ? 1 : -1));
 
 		updateMaintenance();
 		updateReligionHappiness();
@@ -10383,13 +10517,13 @@ void CvCity::setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce
 
 		setInfoDirty(true);
 
-		if (isHasReligion(eIndex))
+		if (isHasReligion(religion))
 		{
-			GC.getGameINLINE().makeReligionFounded(eIndex, getOwnerINLINE());
+			GC.getGameINLINE().makeReligionFounded(religion, getOwnerINLINE());
 
 			if (bAnnounce)
 			{
-				if (GC.getGameINLINE().getHolyCity(eIndex) != this)
+				if (GC.getGameINLINE().getHolyCity(religion) != this)
 				{
 					for (int iI = 0; iI < MAX_PLAYERS; iI++)
 					{
@@ -10397,10 +10531,10 @@ void CvCity::setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce
 						{
 							if (isRevealed(GET_PLAYER((PlayerTypes)iI).getTeam(), false))
 							{
-								if ((getOwnerINLINE() == iI) || (GET_PLAYER((PlayerTypes)iI).getStateReligion() == eIndex) || GET_PLAYER((PlayerTypes)iI).hasHolyCity(eIndex))
+								if ((getOwnerINLINE() == iI) || (GET_PLAYER((PlayerTypes)iI).getStateReligion() == religion) || GET_PLAYER((PlayerTypes)iI).hasHolyCity(religion))
 								{
-									CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_RELIGION_SPREAD", GC.getReligionInfo(eIndex).getTextKeyWide(), getNameKey());
-									gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getReligionInfo(eIndex).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(eIndex).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), bArrows, bArrows);
+									CvWString szBuffer = gDLL->getText("TXT_KEY_MISC_RELIGION_SPREAD", GC.getReligionInfo(religion).getTextKeyWide(), getNameKey());
+									gDLL->getInterfaceIFace()->addMessage(((PlayerTypes)iI), false, GC.getDefineINT("EVENT_MESSAGE_TIME_LONG"), szBuffer, GC.getReligionInfo(religion).getSound(), MESSAGE_TYPE_MAJOR_EVENT, GC.getReligionInfo(religion).getButton(), (ColorTypes)GC.getInfoTypeForString("COLOR_WHITE"), getX_INLINE(), getY_INLINE(), bArrows, bArrows);
 								}
 							}
 						}
@@ -10409,14 +10543,14 @@ void CvCity::setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce
 
 				if (isHuman())
 				{
-					if (GET_PLAYER(getOwnerINLINE()).getHasReligionCount(eIndex) == 1)
+					if (GET_PLAYER(getOwnerINLINE()).getHasReligionCount(religion) == 1)
 					{
-						if (GET_PLAYER(getOwnerINLINE()).canConvert(eIndex) && (GET_PLAYER(getOwnerINLINE()).getStateReligion() == NO_RELIGION))
+						if (GET_PLAYER(getOwnerINLINE()).canConvert(religion) && (GET_PLAYER(getOwnerINLINE()).getStateReligion() == NO_RELIGION))
 						{
 							CvPopupInfo* pInfo = new CvPopupInfo(BUTTONPOPUP_CHANGERELIGION);
 							if (NULL != pInfo)
 							{
-								pInfo->setData1(eIndex);
+								pInfo->setData1(religion);
 								gDLL->getInterfaceIFace()->addPopup(pInfo, getOwnerINLINE());
 							}
 						}
@@ -10425,20 +10559,26 @@ void CvCity::setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce
 			}
 		}
 
-		if (bNewValue)
+		if (newValue > 0)
 		{
 			// Python Event
-			CvEventReporter::getInstance().religionSpread(eIndex, getOwnerINLINE(), this);
+			CvEventReporter::getInstance().religionSpread(religion, getOwnerINLINE(), this);
 		}
 		else
 		{
 			// Python Event
-			CvEventReporter::getInstance().religionRemove(eIndex, getOwnerINLINE(), this);
+			CvEventReporter::getInstance().religionRemove(religion, getOwnerINLINE(), this);
 		}
 
 	}
 }
 
+int CvCity::getBelievers(ReligionTypes religion) const
+{
+	FAssertMsg(religion >= 0, "religion expected to be >= 0");
+	FAssertMsg(religion < GC.getNumReligionInfos(), "religion expected to be < GC.getNumReligionInfos()");
+	return m_believers[religion];
+}
 
 void CvCity::processVoteSourceBonus(VoteSourceTypes eVoteSource, bool bActive)
 {
@@ -11803,7 +11943,7 @@ void CvCity::doReligion()
 	{
 		for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 		{
-			if (!isHasReligion((ReligionTypes)iI))
+			if (getBelievers((ReligionTypes)iI) < getPopulation())
 			{
 				if ((iI == GET_PLAYER(getOwnerINLINE()).getStateReligion()) || !(GET_PLAYER(getOwnerINLINE()).isNoNonStateReligionSpread()))
 				{
@@ -11818,17 +11958,6 @@ void CvCity::doReligion()
 								if (pLoopCity->isConnectedTo(this))
 								{
 									iSpread = pLoopCity->getReligionInfluence((ReligionTypes)iI);
-
-									//Rhye - start
-									//iSpread *= GC.getReligionInfo((ReligionTypes)iI).getSpreadFactor();
-									int iBaseSpreadFactor = GC.getReligionInfo((ReligionTypes)iI).getSpreadFactor();
-									int iSpreadFactor = civSpreadFactor[getOwnerINLINE()][iI] * iBaseSpreadFactor / 100;
-									iSpread *= iSpreadFactor;
-
-									if (!GET_PLAYER((PlayerTypes)EGYPT).isPlayable()) //late start condition
-										if (iI == 1 && getOwnerINLINE() == CELTIA) //no spread of Christianity in the Byzantine empire, because otherwise the Turks will get it
-											iSpread = 0;
-									//Rhye - end
 
 									if (iSpread > 0)
 									{
@@ -11845,7 +11974,7 @@ void CvCity::doReligion()
 
 					if (GC.getGameINLINE().getSorenRandNum(GC.getDefineINT("RELIGION_SPREAD_RAND"), "Religion Spread") < iRandThreshold)
 					{
-						setHasReligion(((ReligionTypes)iI), true, true, true);
+						convert(((ReligionTypes)iI), true, true);
 						break;
 					}
 				}
@@ -12138,6 +12267,7 @@ void CvCity::read(FDataStreamBase* pStream)
 	pStream->Read(GC.getNumBuildingInfos(), m_paiNumFreeBuilding);
 
 	pStream->Read(NUM_CITY_PLOTS, m_pabWorkingPlot);
+	pStream->Read(GC.getNumReligionInfos(), m_believers);
 	pStream->Read(GC.getNumReligionInfos(), m_pabHasReligion);
 	pStream->Read(GC.getNumCorporationInfos(), m_pabHasCorporation);
 
@@ -12376,6 +12506,7 @@ void CvCity::write(FDataStreamBase* pStream)
 	pStream->Write(GC.getNumBuildingInfos(), m_paiNumFreeBuilding);
 
 	pStream->Write(NUM_CITY_PLOTS, m_pabWorkingPlot);
+	pStream->Write(GC.getNumReligionInfos(), m_believers);
 	pStream->Write(GC.getNumReligionInfos(), m_pabHasReligion);
 	pStream->Write(GC.getNumCorporationInfos(), m_pabHasCorporation);
 

@@ -832,7 +832,7 @@ class CvUnitDesc:
 			f.write("\t\tPlunder\n")
 		f.write("\t\tUnitAIType=%s\n" %(gc.getUnitAIInfo(unit.getUnitAIType()).getType()))
 		if unit.getScriptData():
-			f.write("\t\tScriptData=%s\n" %unit.getScriptData() )
+			f.write("\t\tScriptData=%s\n" %unit.getScriptData())
 		f.write("\tEndUnit\n")
 
 ############
@@ -850,6 +850,7 @@ class CvCityDesc:
 		self.culture = 0
 		self.bldgType = []
 		self.religions = []
+		self.believers = []
 		self.holyCityReligions = []
 		self.corporations = []
 		self.headquarterCorporations = []
@@ -880,9 +881,11 @@ class CvCityDesc:
 			bldgTypeNum = CvUtil.findInfoTypeNum(gc.getBuildingInfo, gc.getNumBuildingInfos(), bldg)
 			self.city.setNumRealBuilding(bldgTypeNum, 1)
 		
+		i = 0
 		for religion in (self.religions):
 			religionTypeNum = CvUtil.findInfoTypeNum(gc.getReligionInfo, gc.getNumReligionInfos(), religion)
-			self.city.setHasReligion(religionTypeNum, true, false, true)
+			self.city.setBelievers(religionTypeNum, believers[i], false, true)
+			i += 1
 			
 		for holyCityRel in (self.holyCityReligions):
 			religionTypeNum = CvUtil.findInfoTypeNum(gc.getReligionInfo, gc.getNumReligionInfos(), holyCityRel)
@@ -945,8 +948,8 @@ class CvCityDesc:
 				f.write("\t\tBuildingType=%s\n" %(gc.getBuildingInfo(iI).getType()))	
 		
 		for iI in range(gc.getNumReligionInfos()):
-			if city.isHasReligion(iI):
-				f.write("\t\tReligionType=%s\n" %(gc.getReligionInfo(iI).getType()))	
+			if city.getBelievers(iI) > 0:
+				f.write("\t\tReligionType=%s, Believers=%d\n" %(gc.getReligionInfo(iI).getType(), city.getBelievers(iI)))	
 			if (city.isHolyCityByType(iI)):
 				f.write("\t\tHolyCityReligionType=%s\n" %(gc.getReligionInfo(iI).getType()))
 		
@@ -1038,10 +1041,13 @@ class CvCityDesc:
 				continue
 	
 			# City - Religions
-			v=parser.findTokenValue(toks, "ReligionType")
+			vrel = parser.findTokenValue(toks, "ReligionType")
 			if v!=-1:
-				self.religions.append(v)
-				continue
+				v = parser.findTokenValue(toks, "Believers")
+				if v!=-1:
+					self.religions.append(vrel)
+					self.believers.append(v)
+					continue
 
 			# City - HolyCity
 			v=parser.findTokenValue(toks, "HolyCityReligionType")
@@ -1167,29 +1173,29 @@ class CvPlotDesc:
 			f.write("\tScriptData=%s\n" %plot.getScriptData())
 		# rivers
 		if (plot.getRiverNSDirection() != CardinalDirectionTypes.NO_CARDINALDIRECTION):
-			f.write("\tRiverNSDirection=%d\n" %(int(plot.getRiverNSDirection()),) )
+			f.write("\tRiverNSDirection=%d\n" %(int(plot.getRiverNSDirection()),))
 		if (plot.isNOfRiver()):
 			f.write("\tisNOfRiver\n")
 		if (plot.getRiverWEDirection() != CardinalDirectionTypes.NO_CARDINALDIRECTION):
-			f.write("\tRiverWEDirection=%d\n" %(int(plot.getRiverWEDirection()),) )
+			f.write("\tRiverWEDirection=%d\n" %(int(plot.getRiverWEDirection()),))
 		if (plot.isWOfRiver()):
 			f.write("\tisWOfRiver\n")
 		# extras
 		if (plot.isStartingPlot()):
 			f.write("\tStartingPlot\n")
 		if (plot.getBonusType(-1)!=-1):
-			f.write("\tBonusType=%s\n" %(gc.getBonusInfo(plot.getBonusType(-1)).getType()) )
+			f.write("\tBonusType=%s\n" %(gc.getBonusInfo(plot.getBonusType(-1)).getType()))
 		if (plot.getImprovementType()!=-1):
-			f.write("\tImprovementType=%s\n" %(gc.getImprovementInfo(plot.getImprovementType()).getType()) )
+			f.write("\tImprovementType=%s\n" %(gc.getImprovementInfo(plot.getImprovementType()).getType()))
 		if (plot.getFeatureType()!=-1):
 			f.write("\tFeatureType=%s, FeatureVariety=%d\n" 
-			%(gc.getFeatureInfo(plot.getFeatureType()).getType(), plot.getFeatureVariety(), ) )	
+			%(gc.getFeatureInfo(plot.getFeatureType()).getType(), plot.getFeatureVariety(),))	
 		if (plot.getRouteType()!=-1):
-			f.write("\tRouteType=%s\n" %(gc.getRouteInfo(plot.getRouteType()).getType()) )
+			f.write("\tRouteType=%s\n" %(gc.getRouteInfo(plot.getRouteType()).getType()))
 		if (plot.getTerrainType()!=-1):
-			f.write("\tTerrainType=%s\n" %(gc.getTerrainInfo(plot.getTerrainType()).getType()) )
+			f.write("\tTerrainType=%s\n" %(gc.getTerrainInfo(plot.getTerrainType()).getType()))
 		if (plot.getPlotType()!=PlotTypes.NO_PLOT):
-			f.write("\tPlotType=%d\n" %(int(plot.getPlotType()),) )
+			f.write("\tPlotType=%d\n" %(int(plot.getPlotType()),))
 			
 		# units
 		for i in range(plot.getNumUnits()):
@@ -1526,7 +1532,7 @@ class CvWBDesc:
 		"Save out a high-level desc of the world, and height/terrainmaps"		
 		fileName = os.path.normpath(fileName)
 		fileName,ext = os.path.splitext(fileName)
-		CvUtil.pyPrint( 'saveDesc:%s, curDir:%s' %(fileName,os.getcwd()) )
+		CvUtil.pyPrint('saveDesc:%s, curDir:%s' %(fileName,os.getcwd()))
 
 		f = file(self.getDescFileName(fileName), "w")		# open text file		
 		f.write("Version=%d\n" %(self.getVersion(),))		
@@ -1780,7 +1786,7 @@ class CvWBDesc:
 		fileName,ext=os.path.splitext(fileName)	
 		if len(ext) == 0:
 			ext = getWBSaveExtension()		
-		CvUtil.pyPrint( 'loadDesc:%s, curDir:%s' %(fileName,os.getcwd()) )
+		CvUtil.pyPrint('loadDesc:%s, curDir:%s' %(fileName,os.getcwd()))
 	
 		if (not os.path.isfile(fileName+ext)):
 			CvUtil.pyPrint("Error: file %s does not exist" %(fileName+ext,))

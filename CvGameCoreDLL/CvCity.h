@@ -800,7 +800,10 @@ public:
 	void setNumFreeBuilding(BuildingTypes eIndex, int iNewValue);
 
 	bool isHasReligion(ReligionTypes eIndex) const;
-	void setHasReligion(ReligionTypes eIndex, bool bNewValue, bool bAnnounce, bool bArrows = true);
+	void setBelievers(ReligionTypes religion, int newValue, bool bAnnounce, bool bArrows = true);
+	void convert(ReligionTypes religion, bool announce, bool arrows = true);
+
+	int getBelievers(ReligionTypes religion) const;
 
 	bool isHasCorporation(CorporationTypes eIndex) const;
 	void setHasCorporation(CorporationTypes eIndex, bool bNewValue, bool bAnnounce, bool bArrows = true);
@@ -1099,6 +1102,7 @@ protected:
 	int* m_paiNumFreeBuilding;
 
 	bool* m_pabWorkingPlot;
+	int* m_believers;
 	bool* m_pabHasReligion;
 	bool* m_pabHasCorporation;
 

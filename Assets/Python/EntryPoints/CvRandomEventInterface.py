@@ -1581,7 +1581,7 @@ def applyFreedomConcert2(argsList):
 				
 
 			if bestCity != None:									
-				bestCity.setHasReligion(iReligion, true, true, true)
+				bestCity.convert(iReligion, true, true)
 
 ######## HEROIC_GESTURE ###########
 
@@ -3091,7 +3091,7 @@ def applyCrusadeDone3(argsList):
 	
 	for i in range(iNumCities):
 		iDistance, loopCity = listCities[i]
-		loopCity.setHasReligion(kTriggeredData.eReligion, true, true, true)	
+		loopCity.convert(kTriggeredData.eReligion, true, true)	
 
 ######## ESTEEMEED_PLAYWRIGHT ###########
 
@@ -4079,25 +4079,19 @@ def canTriggerPreachingResearcherCity(argsList):
 		return true
 	return false
 
-######## Toxcatl (Aztec event) #########
+######## Toxcatl (disabled) #########
 
 def canTriggerToxcatl(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
-
-	if (player.getCivilizationType() == gc.getInfoTypeForString("CIVILIZATION_AZTEC")):
-		return true
 	return false
 
-######## Dissident Priest (Egyptian event) #######
+######## Dissident Priest (TODO) #######
 
 def canTriggerDissidentPriest(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
-
-	if (player.getCivilizationType() == gc.getInfoTypeForString("CIVILIZATION_EGYPT")):
-		return true
-	return false
+	return true
 
 def canTriggerDissidentPriestCity(argsList):
 	iCity = argsList[2]
@@ -4114,35 +4108,26 @@ def canTriggerDissidentPriestCity(argsList):
 
 	return true
 
-######## Rogue Station  (Russian event) ###########
+######## Rogue Station  (disabled) ###########
 
 def canTriggerRogueStation(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
-
-	if (player.getCivilizationType() == gc.getInfoTypeForString("CIVILIZATION_RUSSIA")):
-		return true
 	return false
 
-######## Antimonarchists (French event) #########
+######## Antimonarchists (TODO) #########
 
 def canTriggerAntiMonarchists(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
+	return true
 
-	if (player.getCivilizationType() == gc.getInfoTypeForString("CIVILIZATION_FRANCE")):
-		return true
-	return false
-
-######## Impeachment (American event) ########
+######## Impeachment (TODO) ########
 
 def canTriggerImpeachment(argsList):
 	kTriggeredData = argsList[0]
 	player = gc.getPlayer(kTriggeredData.ePlayer)
-
-	if (player.getCivilizationType() == gc.getInfoTypeForString("CIVILIZATION_AMERICA")):
-		return true
-	return false
+	return true
 
 def canTriggerImpeachmentCity(argsList):
 	iCity = argsList[2]

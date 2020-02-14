@@ -5,9 +5,8 @@
 #### Paths ####
 TOOLKIT=C:\Program Files\Microsoft Visual C++ Toolkit 2003
 PSDK=C:\Program Files\Microsoft Platform SDK
-CIVINSTALL=.
-GLOBALBOOST=$(CIVINSTALL)\CvGameCoreDLL\Boost-1.32.0
-GLOBALPYTHON=$(CIVINSTALL)\CvGameCoreDLL\Python24
+GLOBALBOOST=.\Boost-1.32.0
+GLOBALPYTHON=.\Python24
 ## Uncomment to have newly compiled dlls copied to your mod's Assets directory
 #YOURMOD=$(CIVINSTALL)\Mods\MyMod
 
@@ -62,13 +61,13 @@ Release_LDFLAGS=/INCREMENTAL:NO /OPT:REF /OPT:ICF /PDB:"$(Release_PDB)" $(GLOBAL
 
 #### INCLUDES ####
 GLOBAL_INCS=/I"$(TOOLKIT)/include" /I"$(PSDK)/Include" /I"$(PSDK)/Include/mfc" /I"$(GLOBALBOOST)/include" /I"$(GLOBALPYTHON)/include"
-PROJECT_INCS=/IBoost-1.32.0/include /IPython24/include
+PROJECT_INCS=/IBoost-1.32.0/include/IPython24/include
 Debug_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 Release_INCS=$(PROJECT_INCS) $(GLOBAL_INCS)
 
 #### LIBS ####
-GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib"  /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"$(GLOBALPYTHON)/libs" winmm.lib user32.lib
-PROJECT_LIBS=/LIBPATH:Python24/libs /LIBPATH:boost-1.32.0/libs/ boost_python-vc71-mt-1_32.lib
+GLOBAL_LIBS=/LIBPATH:"$(TOOLKIT)/lib" /LIBPATH:"$(PSDK)/Lib"  /LIBPATH:"$(GLOBALBOOST)/libs" /LIBPATH:"$(GLOBALPYTHON)/libs" winmm.lib user32.lib "$(TOOLKIT)/lib/OLDNAMES.lib" "$(TOOLKIT)/lib/msvcrt.lib" "$(TOOLKIT)/lib/msvcprt.lib"
+PROJECT_LIBS=/LIBPATH:Python24/libs /LIBPATH:boost-1.32.0/libs/boost_python-vc71-mt-1_32.lib
 Debug_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS) msvcprt.lib
 Release_LIBS=$(PROJECT_LIBS) $(GLOBAL_LIBS)
 

@@ -2639,7 +2639,7 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_VASSALAGE</FavoriteCivic>
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_ZOROASTRIANISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>
 				<Flavor>
@@ -3130,7 +3130,7 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_CLIENT_KINGDOMS</FavoriteCivic>
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_ZOROASTRIANISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>
 				<Flavor>
@@ -15237,7 +15237,7 @@
 			<iVassalPowerModifier>0</iVassalPowerModifier>
 			<iFreedomAppreciation>10</iFreedomAppreciation>
 			<FavoriteCivic>CIVIC_VASSALAGE</FavoriteCivic>
-			<FavoriteReligion>NONE</FavoriteReligion>
+			<FavoriteReligion>RELIGION_ZOROASTRIANISM</FavoriteReligion>
 			<Traits/>
 			<Flavors>
 				<Flavor>

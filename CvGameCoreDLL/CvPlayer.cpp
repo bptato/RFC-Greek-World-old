@@ -1291,7 +1291,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 	CvUnit* pLoopUnit;
 	CvPlot* pCityPlot;
 	CvPlot* pLoopPlot;
-	bool* pabHasReligion;
+	int* believers;
 	bool* pabHolyCity;
 	bool* pabHasCorporation;
 	bool* pabHeadquarters;
@@ -1463,7 +1463,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	changeGold(iCaptureGold);
 
-	pabHasReligion = new bool[GC.getNumReligionInfos()];
+	believers = new int[GC.getNumReligionInfos()];
 	pabHolyCity = new bool[GC.getNumReligionInfos()];
 	pabHasCorporation = new bool[GC.getNumCorporationInfos()];
 	pabHeadquarters = new bool[GC.getNumCorporationInfos()];
@@ -1505,7 +1505,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 	{
-		pabHasReligion[iI] = pOldCity->isHasReligion((ReligionTypes)iI);
+		believers[iI] = pOldCity->getBelievers((ReligionTypes)iI);
 		pabHolyCity[iI] = pOldCity->isHolyCity((ReligionTypes)iI);
 	}
 
@@ -1668,10 +1668,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	for (iI = 0; iI < GC.getNumReligionInfos(); iI++)
 	{
-		if (pabHasReligion[iI])
-		{
-			pNewCity->setHasReligion(((ReligionTypes)iI), true, false, true);
-		}
+		pNewCity->setBelievers((ReligionTypes)iI, believers[iI], false, true);
 
 		if (pabHolyCity[iI])
 		{
@@ -1746,7 +1743,7 @@ void CvPlayer::acquireCity(CvCity* pOldCity, bool bConquest, bool bTrade, bool b
 
 	CvEventReporter::getInstance().cityAcquired(eOldOwner, getID(), pNewCity, bConquest, bTrade);
 
-	SAFE_DELETE_ARRAY(pabHasReligion);
+	SAFE_DELETE_ARRAY(believers);
 	SAFE_DELETE_ARRAY(pabHolyCity);
 	SAFE_DELETE_ARRAY(pabHasCorporation);
 	SAFE_DELETE_ARRAY(pabHeadquarters);
@@ -18977,7 +18974,7 @@ void CvPlayer::applyEvent(EventTypes eEvent, int iEventTriggeredId, bool bUpdate
 
 	for (std::vector<CvCity*>::iterator it = apSpreadReligionCities.begin(); it != apSpreadReligionCities.end(); ++it)
 	{
-		(*it)->setHasReligion(pTriggeredData->m_eReligion, true, true, false);
+		(*it)->convert(pTriggeredData->m_eReligion, true, false);
 	}
 
 	apSpreadReligionCities.clear();
@@ -19022,7 +19019,7 @@ void CvPlayer::applyEvent(EventTypes eEvent, int iEventTriggeredId, bool bUpdate
 
 	for (std::vector<CvCity*>::iterator it = apSpreadReligionCities.begin(); it != apSpreadReligionCities.end(); ++it)
 	{
-		(*it)->setHasReligion(pTriggeredData->m_eReligion, true, true, false);
+		(*it)->convert(pTriggeredData->m_eReligion, true, false);
 	}
 
 	if (0 != kEvent.getOurAttitudeModifier())

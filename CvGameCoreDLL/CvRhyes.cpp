@@ -79,76 +79,6 @@ char rating[34][6][15]  = {
 
 int turnPlayed[33] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0};
 
-
-int civSpreadFactor[33][7]  = { //TODO huh?
-//		JUD	 CHR  ISL  HIN  BUD  CON  TAO
-//Egypt
-	{	 70, 250, 350,  20,  20,  20,  20 },	//100, 200, 300,  20,  20,  20,  20  before removal of Aggressive trait
-//India
-	{	 20,  90, 180, 400, 180,  20,  60 },	// 20,  80, 150, 300, 100,  20,  40  before removal of Aggressive trait
-//China
-	{	 20,  80,  20,  20, 200, 300, 200 },
-//Elam
-	{	 20,  90, 180, 400, 180,  20,  60 },
-//Babylonia
-	{	 50, 200, 350,  20,  20,  20,  20 },
-//Greece
-	{	 40, 300,  40,  70,  50,  20,  20 },
-//Persia
-	{	 70,  20, 300,  40,  40,  20,  20 },
-//Carthage
-	{	 80, 200, 400,  20,  20,  20,  20 },
-//Rome
-	{	 40, 300,  40,  20,  40,  20,  20 },
-//Japan
-	{	 20,  40,  20,  20, 300, 120, 100 },
-//Ethiopia
-	{	200, 400, 400,  80,  80,  80,  80 }, //was 80, 300, 300,  20,  20,  20,  20 before; increased to help with their UHV
-//Maya
-	{	 70, 300,  80,  80,  80,  80,  80 },
-//Viking
-	{	 40, 300,  80,  20,  40,  20,  20 },
-//Arabia
-	{	 40,  30, 400,  20,  20,  20,  20 },
-//Khmer
-	{	 20,  40,  20,  80, 400,  80, 100 },
-//Spain
-	{	 80, 400, 100,  20,  40,  20,  20 },
-//France
-	{	 60, 300, 100,  20,  40,  20,  20 },
-//England
-	{	 70, 300,  80,  20,  40,  20,  20 },
-//Germany
-	{	 70, 300,  80,  20,  40,  20,  20 },
-//Russia
-	{	 70, 300,  40,  20,  40,  20,  20 },
-//Holland
-	{	120, 300,  40,  20,  20,  20,  20 },
-//Mali
-	{	 50,  90, 400,  20,  20,  20,  20 },
-//Portugal
-	{	 40, 400, 100,  20,  40,  20,  20 },
-//Inca
-	{	 70, 300,  80,  80,  80,  80,  80 },
-//Mongolia
-	{	 20,  80,  80,  20, 300, 150, 100 },
-//Aztec
-	{	 70, 400,  90,  90,  90,  90,  90 },
-//Turkey
-	{	 50,  80, 400,  20,  20,  20,  20 },
-//America
-	{	100, 300,  20,  20,  20,  20,  20 },
-//Independent
-	{	 80, 250, 250,  50, 100,  50,  40 },
-//Independent2
-	{	 80, 200, 200,  80, 150,  80,  80 },
-//Native
-	{	120, 200, 200,  80,  80,  80,  80 },
-//Celtia
-	{	 80, 300,  80,  20,  40,  20,  20 },
-//Barbarian
-	{	100, 100, 100, 100, 100, 100, 100 }};
-
 // (dynamic civ names - not jdog's)
 wchar civDynamicNames[28][22][19]  = { //TODO
 //				//people		monarchy		monarchy ext		monarchy mod		monarchy ext mod		republic			communism			fascism				islam monarchy		islam republic			vas. Persia			vas. Rome			vas. Arabia			vas. Spain				vas. France			vas. England		vas. Germany			vas. Russia			vas. Mongolia			vas. Turkey			vas. Chi/Jap/Khm	vassal generic
@@ -208,10 +138,3 @@ wchar civDynamicNames[28][22][19]  = { //TODO
 	{	 L"TXT_KEY_DN_TUR00", L"TXT_KEY_DN_TUR01", L"TXT_KEY_DN_TUR02", L"TXT_KEY_DN_TUR03",  L"TXT_KEY_DN_TUR04",  L"TXT_KEY_DN_TUR05",  L"TXT_KEY_DN_TUR06",  L"TXT_KEY_DN_TUR07",  L"TXT_KEY_DN_TUR08",  L"TXT_KEY_DN_TUR09",  L"TXT_KEY_DN_TUR10",  L"TXT_KEY_DN_TUR11",  L"TXT_KEY_DN_TUR12",  L"TXT_KEY_DN_TUR13",  L"TXT_KEY_DN_TUR14",  L"TXT_KEY_DN_TUR15",  L"TXT_KEY_DN_TUR16",  L"TXT_KEY_DN_TUR17",  L"TXT_KEY_DN_TUR18",  L"TXT_KEY_DN_TUR19",  L"TXT_KEY_DN_TUR20",  L"TXT_KEY_DN_TUR21" },
 //America
 	{	 L"TXT_KEY_DN_AME00", L"TXT_KEY_DN_AME01", L"TXT_KEY_DN_AME02", L"TXT_KEY_DN_AME03",  L"TXT_KEY_DN_AME04",  L"TXT_KEY_DN_AME05",  L"TXT_KEY_DN_AME06",  L"TXT_KEY_DN_AME07",  L"TXT_KEY_DN_AME08",  L"TXT_KEY_DN_AME09",  L"TXT_KEY_DN_AME10",  L"TXT_KEY_DN_AME11",  L"TXT_KEY_DN_AME12",  L"TXT_KEY_DN_AME13",  L"TXT_KEY_DN_AME14",  L"TXT_KEY_DN_AME15",  L"TXT_KEY_DN_AME16",  L"TXT_KEY_DN_AME17",  L"TXT_KEY_DN_AME18",  L"TXT_KEY_DN_AME19",  L"TXT_KEY_DN_AME20",  L"TXT_KEY_DN_AME21" }};
-
-
-int civDynamicNamesFlag[28] = 	{	 1,  1,  0,  0,  1,  0,  1,  1,  0,  0,  1,  0,  0,  1,  0,  0,  0,  0,  0,  0,  0,  1,  0,  0,  0,  0,  1,  0 };
-//									EGY	IND CHI ELA BAB GRE PER CAR ROM JAP ETH MAY VIK ARA KHM SPA FRA ENG GER RUS HOL MAL POR INC MON AZT TUR AME
-// 1 = REL, 0 = GOV
-
-int civDynamicNamesEraThreshold[28] = { 2,  3,  4,  4,  2,  2,  3,  2,  3,  4,  3,  3,  3,  4,  4,  4,  4,  4,  4,  4,  4,  3,  4,  3,  3,  3,  3,  4};

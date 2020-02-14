@@ -160,7 +160,7 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 	case WIDGET_END_TURN:
 		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_END_TURN"));
 		break;
-		
+
 	case WIDGET_LAUNCH_VICTORY:
 		szBuffer.append(gDLL->getText("TXT_KEY_WIDGET_LAUNCH_VICTORY"));
 		break;
@@ -576,6 +576,9 @@ void CvDLLWidgetData::parseHelp(CvWStringBuffer &szBuffer, CvWidgetDataStruct &w
 		parseCommerceModHelp(widgetDataStruct, szBuffer);
 		break;
 
+	case WIDGET_HELP_BELIEVERS:
+		parseBelieverRateHelp(widgetDataStruct, szBuffer);
+		break;
 	}
 }
 
@@ -1427,7 +1430,7 @@ void CvDLLWidgetData::doPediaTrainJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(GC.getCivilizationInfo(GC.getGameINLINE().getActiveCivilizationType()).getCivilizationUnits(widgetDataStruct.m_iData1));
-	
+
 	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToUnit", argsList.makeFunctionArgs());
 }
 
@@ -1443,12 +1446,12 @@ void CvDLLWidgetData::doPediaConstructJump(CvWidgetDataStruct &widgetDataStruct)
 
 void CvDLLWidgetData::doPediaBack()
 {
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaBack");	
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaBack");
 }
 
 void CvDLLWidgetData::doPediaForward()
 {
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaForward");	
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaForward");
 }
 
 void CvDLLWidgetData::doPediaBonusJump(CvWidgetDataStruct &widgetDataStruct, bool bData2)
@@ -1462,21 +1465,21 @@ void CvDLLWidgetData::doPediaBonusJump(CvWidgetDataStruct &widgetDataStruct, boo
 	{
 		argsList.add(widgetDataStruct.m_iData1);
 	}
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBonus", argsList.makeFunctionArgs());	
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToBonus", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaSpecialistJump(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToSpecialist", argsList.makeFunctionArgs());	
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaJumpToSpecialist", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaMain(CvWidgetDataStruct &widgetDataStruct)
 {
 	CyArgsList argsList;
 	argsList.add(widgetDataStruct.m_iData1 < 0 ? 0 : widgetDataStruct.m_iData1);
-	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaMain", argsList.makeFunctionArgs());	
+	gDLL->getPythonIFace()->callFunction(PYScreensModule, "pediaMain", argsList.makeFunctionArgs());
 }
 
 void CvDLLWidgetData::doPediaPromotionJump(CvWidgetDataStruct &widgetDataStruct)
@@ -1806,7 +1809,7 @@ void CvDLLWidgetData::parseHurryHelp(CvWidgetDataStruct &widgetDataStruct, CvWSt
 					setListHelp(szBuffer, szTempBuffer, GC.getCivicInfo((CivicTypes)iI).getDescription(), gDLL->getText("TXT_KEY_OR").c_str(), bFirst);
 					bFirst = false;
 				}
-			}		
+			}
 
 			if (!bFirst)
 			{
@@ -1882,7 +1885,7 @@ void CvDLLWidgetData::parseConscriptHelp(CvWidgetDataStruct &widgetDataStruct, C
 						setListHelp(szBuffer, szTempBuffer, GC.getCivicInfo((CivicTypes)iI).getDescription(), gDLL->getText("TXT_KEY_OR").c_str(), bFirst);
 						bFirst = false;
 					}
-				}		
+				}
 
 				if (!bFirst)
 				{
@@ -2287,7 +2290,7 @@ void CvDLLWidgetData::parseActionHelp(CvWidgetDataStruct &widgetDataStruct, CvWS
 					if (pSelectedUnit->canDiscover(pMissionPlot))
 					{
 						eTech = pSelectedUnit->getDiscoveryTech();
-	
+
 						if (pSelectedUnit->getDiscoverResearch(eTech) >= GET_TEAM(pSelectedUnit->getTeam()).getResearchLeft(eTech))
 						{
 							szTempBuffer.Format(SETCOLR L"%s" ENDCOLR, TEXT_COLOR("COLOR_TECH_TEXT"), GC.getTechInfo(eTech).getDescription());
@@ -3299,7 +3302,7 @@ void CvDLLWidgetData::parseIncompleteStabilityInfo(CvWidgetDataStruct &widgetDat
 	int iResult = (int)result;
 	szBuffer.append(gDLL->getText("TXT_KEY_STABILITY_ADVISOR_TITLE"));
 	szBuffer.append(" ");
-	if (iResult < -20) {		
+	if (iResult < -20) {
 		//szBuffer.append(gDLL->getText("TXT_KEY_STABILITY_LOW"));
 		szBuffer.append(gDLL->getText("TXT_KEY_STABILITY_UNSTABLE"));
 		szBuffer.append(" / ");
@@ -3328,10 +3331,10 @@ void CvDLLWidgetData::parseHistoricalVictoryInfo(CvWidgetDataStruct &widgetDataS
 	int iResult = (int)result;
 	szBuffer.append(gDLL->getText("TXT_KEY_VICTORY_ACCOMPLISHED"));
 	szBuffer.append(gDLL->getText(" "));
-	if (iResult == 0) {		
+	if (iResult == 0) {
 		szBuffer.append("0");
 	}
-	else if (iResult == 1) {		
+	else if (iResult == 1) {
 		szBuffer.append("1");
 	}
 	else if (iResult == 2) {
@@ -3765,6 +3768,35 @@ void CvDLLWidgetData::parseNationalityHelp(CvWidgetDataStruct &widgetDataStruct,
 					swprintf(szTempBuffer, L"%.2f", std::max(0.0f, (1.0f - (((float)iGarrison) / ((float)iCityStrength)))) * ((float)(std::min(100.0f, ((float)pHeadSelectedCity->getRevoltTestProbability())))));
 					szBuffer.append(NEWLINE);
 					szBuffer.append(gDLL->getText("TXT_KEY_MISC_CHANCE_OF_REVOLT", szTempBuffer));
+				}
+			}
+		}
+	}
+}
+
+void CvDLLWidgetData::parseBelieverRateHelp(CvWidgetDataStruct &widgetDataStruct, CvWStringBuffer &szBuffer)
+{
+	wchar szTempBuffer[1024];
+	CvCity* headSelectedCity;
+	int believerRate;
+	int i;
+
+	szBuffer.assign(gDLL->getText("TXT_KEY_MISC_CITY_BELIEVERS"));
+
+	headSelectedCity = gDLL->getInterfaceIFace()->getHeadSelectedCity();
+
+	if (headSelectedCity != NULL && headSelectedCity->getPopulation() != 0) {
+		for (i = 0; i < GC.getNumReligionInfos(); i++) {
+			if (headSelectedCity->isHasReligion((ReligionTypes)i)) {
+				believerRate = 100 * (headSelectedCity->getBelievers((ReligionTypes)i) / headSelectedCity->getPopulation());
+
+				if (believerRate > 0) {
+					//Ugly hack, this will break as soon as there are more religions than civs. And it's ugly. important TODO: actual religion colors
+					swprintf(szTempBuffer, L"\n%d%% " SETCOLR L"%s" ENDCOLR, believerRate,
+					GET_PLAYER((PlayerTypes)i).getPlayerTextColorR(), GET_PLAYER((PlayerTypes)i).getPlayerTextColorG(), GET_PLAYER((PlayerTypes)i).getPlayerTextColorB(), GET_PLAYER((PlayerTypes)i).getPlayerTextColorA(),
+					GC.getReligionInfo((ReligionTypes)i).getDescription());
+
+					szBuffer.append(szTempBuffer);
 				}
 			}
 		}

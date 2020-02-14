@@ -5356,8 +5356,11 @@ bool CvUnit::canSpread(const CvPlot* pPlot, ReligionTypes eReligion, bool bTestV
 		return false;
 	}
 
-	if (pCity->isHasReligion(eReligion))
-	{
+	if(pCity->getOwnerINLINE() != getOwnerINLINE() && !GET_TEAM(pCity->getTeam()).isVassal(getTeam())) {
+		return false;
+	}
+
+	if(pCity->getBelievers(eReligion) == pCity->getPopulation()) {
 		return false;
 	}
 
@@ -5412,7 +5415,7 @@ bool CvUnit::spread(ReligionTypes eReligion)
 
 		if (GC.getGameINLINE().getSorenRandNum(100, "Unit Spread Religion") < iSpreadProb)
 		{
-			pCity->setHasReligion(eReligion, true, true, false);
+			pCity->convert(eReligion, true, false);
 			bSuccess = true;
 			if(GC.getGameINLINE().getHolyCity(eReligion) == NULL || GC.getGameINLINE().getSorenRandNum(100, "Holy city relocation") > 90) {
 				GC.getGameINLINE().relocateHolyCity(eReligion, pCity);

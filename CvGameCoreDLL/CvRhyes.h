@@ -51,11 +51,4 @@
 extern char rating[34][6][15];
 
 extern int turnPlayed[33];
-extern int civSpreadFactor[33][7];
-//extern int borders[27][27]; //RFGW
 extern wchar civDynamicNames[28][22][19]; //(dynamic civ names - not jdog's)
-extern int civDynamicNamesFlag[28];
-extern int civDynamicNamesEraThreshold[28];
-//extern int settlersMaps[][68][124]; //RFGW
-
-

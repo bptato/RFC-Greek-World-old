@@ -2121,11 +2121,7 @@ void CvGame::update()
 
 		if (getTurnSlice() == 0)
 		{
-			//bluepotato start - no autosaves during autoplay
-			if(iResult <= getGameTurn()) {
-				gDLL->getEngineIFace()->AutoSave(true);
-			}
-			//bluepotato end
+			gDLL->getEngineIFace()->AutoSave(true);
 		}
 
 		if (getNumGameTurnActive() == 0)
@@ -5537,7 +5533,7 @@ void CvGame::setHolyCity(ReligionTypes eIndex, CvCity* pNewValue, bool bAnnounce
 		{
 			pHolyCity = getHolyCity(eIndex);
 
-			pHolyCity->setHasReligion(eIndex, true, bAnnounce, true);
+			pHolyCity->convert(eIndex, bAnnounce, true);
 			pHolyCity->changeReligionInfluence(eIndex, GC.getDefineINT("HOLY_CITY_INFLUENCE"));
 
 			pHolyCity->updateReligionCommerce();
@@ -5921,9 +5917,9 @@ void CvGame::doTurn()
 	int iResult = (int)result;
 
 	//bluepotato start - no autosaves during autoplay
-	if(iResult <= getGameTurn()) {
-		gDLL->getEngineIFace()->AutoSave();
-	}
+	//if(iResult <= getGameTurn()) {
+	gDLL->getEngineIFace()->AutoSave();
+	//}
 	//bluepotato end
 }
 

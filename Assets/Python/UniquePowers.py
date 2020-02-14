@@ -232,7 +232,7 @@ class UniquePowers:
 		iStateReligion = pByzantium.getStateReligion()
 		if (iStateReligion >= 0):
 			if (not city.isHasReligion(iStateReligion)):
-				city.setHasReligion(iStateReligion, True, True, False)
+				city.convert(iStateReligion, True, False)
 			if (not city.hasBuilding(con.sbn('TEMPLE') + iStateReligion*4)):
 				city.setHasRealBuilding((con.sbn('TEMPLE') + iStateReligion*4), True)
 			if (not city.hasBuilding(con.sbn('CATHEDRAL') + iStateReligion*4)):

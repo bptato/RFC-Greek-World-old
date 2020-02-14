@@ -11,6 +11,8 @@
 #ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
 #OTHER DEALINGS IN THE SOFTWARE.
 
+#set -x
+
 #You might want to change these variables here:
 wine17="$HOME/.wine_versions/linux-amd64/1.7.55/bin/wine" #Your wine 1.7.55 installation directory.
 PSDK="C:\Program Files\Microsoft Platform SDK"
@@ -86,7 +88,7 @@ RELEASEFLAGS="$GLOBALFLAGS /INCREMENTAL:NO /OPT:REF /OPT:ICF"
 
 #Create a DLL.
 if test $TARGET = "Release"; then #For Release:
-	$wine17 "$VCTOOLKIT\bin\link.exe" /LIBPATH:Python24\libs /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:"../Assets/CvGameCoreDLL.dll" "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" $RELEASEFLAGS
+	$wine17 "$VCTOOLKIT\bin\link.exe" /LIBPATH:Python24/libs /LIBPATH:"boost-1.32.0/libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:"../Assets/CvGameCoreDLL.dll" "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" $RELEASEFLAGS
 elif test $TARGET = "Debug"; then #For Debug:
 	$wine17 "$VCTOOLKIT/bin/link.exe" /LIBPATH:"boost-1.32.0\libs" /LIBPATH:"$VCTOOLKIT\lib" /LIBPATH:"$PSDK\Lib" /out:"../Assets/CvGameCoreDLL.dll" "boost-1.32.0\libs\boost_python-vc71-mt-1_32.lib" winmm.lib user32.lib "$VCTOOLKIT\lib\msvcprt.lib" "$VCTOOLKIT\lib\msvcrt.lib" "Python24\libs\python24.lib" "$VCTOOLKIT\lib\OLDNAMES.lib" "$PSDK\Lib\AMD64\msvcprtd.lib" $DEBUGFLAGS
 else #We should never get here.

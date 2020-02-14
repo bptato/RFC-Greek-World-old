@@ -377,4 +377,8 @@
 		<Tag>TXT_KEY_BUILDING_HELLENIC_ORACLE_PEDIA</Tag>
 		<English>[TAB]The word oracle comes from the Latin verb orare, "to speak" and properly refers to the priest or priestess uttering the prediction. In extended use, oracle may also refer to the site of the oracle, and to the oracular utterances themselves, called khresme in Greek. [PARAGRAPH:2:1]Oracles were thought to be portals through which the gods spoke directly to people. In this sense they were different from seers (manteis) who interpreted signs sent by the gods through bird signs, animal entrails, and other various methods.</English>
 	</TEXT>
+	<TEXT>
+		<Tag>TXT_KEY_MISC_CITY_BELIEVERS</Tag>
+		<English>Religions in the city:</English>
+	</TEXT>
 </Civ4GameText>
