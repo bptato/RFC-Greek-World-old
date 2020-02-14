@@ -474,12 +474,28 @@ class Stability:
 			['empire', 'occupation', 5],
 			['vassalage', 'client_kingdoms', 5]
 			]
-
+			
 			for compat in civicCompatibility:
 				firstCivicOption = con.civicOptionForCivic(compat[0])
 				secondCivicOption = con.civicOptionForCivic(compat[1])
-				if pPlayer.getCivics(firstCivicOption) == compat[0] and pPlayer.getCivics(secondCivicOption) == compat[1]:
+				if pPlayer.getCivics(firstCivicOption) == con.cn(compat[0]) and pPlayer.getCivics(secondCivicOption) == con.cn(compat[1]):
 					iNewBaseStability += compat[3]
+			
+			religiousModifiers = \
+			[
+			['organized_religion', 2],
+			['theocracy', 3],
+			['militancy', 3],
+			['persecution', 4],
+			['religious_law', 2],
+			['temple_economy', 2]
+			]
+			religiousStabilityModifier = 2
+			
+			for modifier in religiousModifiers:
+				civicOption = con.civicOptionForCivic(compat[0])
+				if pPlayer.getCivics(firstCivicOption) == con.cn(compat[0]):
+					religiousStabilityModifier *= compat[1]
 
 			self.setParameter(iPlayer, iParCivics3, False, iNewBaseStability - iTempCivicThreshold)
 
@@ -490,6 +506,8 @@ class Stability:
 			for pLoopCity in apCityList:
 				iX = pLoopCity.GetCy().getX()
 				iY = pLoopCity.GetCy().getY()
+				
+				
 				for iLoop in range(iNumMajorPlayers):
 					if (gc.getGame().getTurnYear(iGameTurn) > gc.getPlayer(iLoop).getStartingYear() and iLoop != iPlayer):
 						if (iX >= con.tNormalAreasTL[iLoop][0] and iX <= con.tNormalAreasBR[iLoop][0] and \
@@ -505,11 +523,19 @@ class Stability:
 								#print("city owned in unstable area: -1", pLoopCity.GetCy().getName(), iPlayer)
 								break
 			
-
 			for pCity in apCityList:
 				city = pCity.GetCy()
 				pCurrent = gc.getMap().plot(city.getX(), city.getY())
 				iTempCityStability = 0
+				
+				#bluepotato: religious stability
+				heathenPop = 0
+				faithfulPop = 0
+				for religionID in range(gc.getNumReligionInfos()):
+					if pPlayer.getStateReligion() != religionID:
+						heathenPop += city.getBelievers(religionID)
+					else:
+						faithfulPop += city.getBelievers(religionID)
 
 				if (iCivic5 == 28 and city.isOccupation()):		
 					#print("iTotalTempCityStability civic 6th column occupation", iTotalTempCityStability, city.getName(), iPlayer)
@@ -558,13 +584,16 @@ class Stability:
 										iTempCityStability -= 2
 										break
 
-
+					#bluepotato: religious stability
+					iTempCityStability += (faithfulPop - heathenPop) * religiousStabilityModifier / 4
+					
 					if (iTempCityStability < 0):
 						iTotalTempCityStability += max(-5,iTempCityStability)
 						#print("iTotalTempCityStability", iTotalTempCityStability, city.getName(), iPlayer)
 
 					if (iTotalTempCityStability <= -12): #middle check, for optimization
 						break
+			
 
 			if (iTotalTempCityStability < 0):
 				iNewBaseStability += max(-12, iTotalTempCityStability)
@@ -955,6 +984,7 @@ class Stability:
 							self.setParameter(iPlayer, iParCitiesE, True, -1)
 							#print("Stability - onReligionSpread", iPlayer)
 							break
+
 
 
 	def checkImplosion(self, iGameTurn):
