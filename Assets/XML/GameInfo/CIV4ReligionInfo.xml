@@ -123,7 +123,7 @@
 				<iStateReligionCommerce>0</iStateReligionCommerce>
 				<iStateReligionCommerce>1</iStateReligionCommerce>
 			</StateReligionCommerces>
-			<Button>Art/Interface/Buttons/Religions/mesopotamian.dds</Button>
+			<Button>Art/Interface/Buttons/Religions/Anunnaki.dds</Button>
 			<TechButton>Art/Interface/Buttons/TechTree/Religion.dds</TechButton>
 			<GenericTechButton>Art/Interface/Buttons/TechTree/Religion.dds</GenericTechButton>
 			<MovieFile>Art/Movies/Religion/Anunnaki/generic_found.nif</MovieFile>
