@@ -11868,7 +11868,16 @@ int CvPlayer::getHasReligionCount(ReligionTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex is expected to be non-negative (invalid Index)");
 	FAssertMsg(eIndex < GC.getNumReligionInfos(), "eIndex is expected to be within maximum bounds (invalid Index)");
-	return m_paiHasReligionCount[eIndex];
+	//bluepotato start: kind of a TODO, though I think it's better to calculate this than to store it due to the complexity of the new system. probably has not much effect on performance either
+	int count = 0;
+	int iLoop;
+	for (CvCity* pLoopCity = firstCity(&iLoop); NULL != pLoopCity; pLoopCity = nextCity(&iLoop)) {
+		if(pLoopCity->isHasReligion(eIndex)) {
+			count++;
+		}
+	}
+	return count;
+	//bluepotato end
 }
 
 

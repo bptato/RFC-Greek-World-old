@@ -5186,6 +5186,7 @@ void CvCity::setPopulation(int iNewValue)
 	iOldPopulation = getPopulation();
 
 	if (iOldPopulation != iNewValue) {
+
 		int i;
 		int religionChances = 0;
 		int believers = 0;
@@ -5220,6 +5221,11 @@ void CvCity::setPopulation(int iNewValue)
 				}
 			}
 		}
+
+		for(i = 0; i<GC.getNumReligionInfos(); i++) {
+			m_pabHasReligion[i] = (m_believers[i] > 0);
+		}
+
 		delete [] newPopReligionChance;
 
 		m_iPopulation = iNewValue;
@@ -10389,7 +10395,7 @@ bool CvCity::isHasReligion(ReligionTypes eIndex) const
 {
 	FAssertMsg(eIndex >= 0, "eIndex expected to be >= 0");
 	FAssertMsg(eIndex < GC.getNumReligionInfos(), "eIndex expected to be < GC.getNumReligionInfos()");
-	return m_believers[eIndex] > 0;
+	return m_pabHasReligion[eIndex];
 }
 
 void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
@@ -10399,12 +10405,10 @@ void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
 	int i;
 	int j;
 	int faithfulPopulation = 0;
+	bool hadReligion = isHasReligion(religion);
 	for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource) {
 		processVoteSourceBonus((VoteSourceTypes)iVoteSource, false);
 	}
-
-	GET_PLAYER(getOwnerINLINE()).changeHasReligionCount(religion, (!(isHasReligion(religion)) ? 1 : 0));
-	m_pabHasReligion[religion] = true;
 
 	for(i = 0; i<GC.getNumReligionInfos(); i++) {
 		if(m_believers[(ReligionTypes)i] > 0) {
@@ -10438,6 +10442,8 @@ void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
 			m_pabHasReligion[(ReligionTypes)i] = false;
 		}
 	}
+
+	m_pabHasReligion[religion] = m_believers[religion] > 0;
 
 	for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource) {
 		processVoteSourceBonus((VoteSourceTypes)iVoteSource, true);
@@ -11961,7 +11967,7 @@ void CvCity::doReligion()
 
 									if (iSpread > 0)
 									{
-										iSpread /= std::max(1, (((GC.getDefineINT("RELIGION_SPREAD_DISTANCE_DIVISOR") * plotDistance(getX_INLINE(), getY_INLINE(), pLoopCity->getX_INLINE(), pLoopCity->getY_INLINE())) / GC.getMapINLINE().maxPlotDistance()) - 5));
+										iSpread /= std::max(1, (((GC.getDefineINT("RELIGION_SPREAD_DISTANCE_DIVISOR") * plotDistance(getX_INLINE(), getY_INLINE(), pLoopCity->getX_INLINE(), pLoopCity->getY_INLINE())) / std::min(1, GC.getMapINLINE().maxPlotDistance())) - 5));
 
 										//iSpread /= (getReligionCount() + 1);
 
