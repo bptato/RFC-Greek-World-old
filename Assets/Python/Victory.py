@@ -610,16 +610,16 @@ class Victory:
 					else:
 						self.setGoal(iPhoenicia, 2, 0)
 		elif iPlayer == iBabylonia and pBabylonia.isAlive() and iGameTurn <= i600BC:
+			babylonPlot = gc.getMap().plot(46, 22)
 			if iGameTurn < i1000BC:
-				babylonPlot = gc.getMap().plot(46, 22)
 				if babylonPlot.isCity():
 					if babylonPlot.getPlotCity().getNumWorldWonders() >= 6:
 						self.setGoal(iBabylonia, 0, 1)
 			elif iGameTurn == i1000BC:
 				if not babylonPlot.isCity() or babylonPlot.getPlotCity().getNumWorldWonders() < 6:
-					self.setGoal(iBabylon, 0, 0)
+					self.setGoal(iBabylonia, 0, 0)
 				else:
-					self.setGoal(iBabylon, 0, 1)
+					self.setGoal(iBabylonia, 0, 1)
 			elif iGameTurn < i600BC:
 				if self.getBabyloniaKilledCivs() >= 3:
 					self.setGoal(iBabylonia, 2, 1)
