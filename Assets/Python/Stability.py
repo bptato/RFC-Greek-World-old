@@ -479,7 +479,7 @@ class Stability:
 				firstCivicOption = con.civicOptionForCivic(compat[0])
 				secondCivicOption = con.civicOptionForCivic(compat[1])
 				if pPlayer.getCivics(firstCivicOption) == con.cn(compat[0]) and pPlayer.getCivics(secondCivicOption) == con.cn(compat[1]):
-					iNewBaseStability += compat[3]
+					iNewBaseStability += compat[2]
 			
 			religiousModifiers = \
 			[
@@ -493,9 +493,9 @@ class Stability:
 			religiousStabilityModifier = 2
 			
 			for modifier in religiousModifiers:
-				civicOption = con.civicOptionForCivic(compat[0])
-				if pPlayer.getCivics(firstCivicOption) == con.cn(compat[0]):
-					religiousStabilityModifier *= compat[1]
+				civicOption = con.civicOptionForCivic(modifier[0])
+				if pPlayer.getCivics(firstCivicOption) == con.cn(modifier[0]):
+					religiousStabilityModifier *= modifier[1]
 
 			self.setParameter(iPlayer, iParCivics3, False, iNewBaseStability - iTempCivicThreshold)
 
