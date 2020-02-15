@@ -118,7 +118,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -228,7 +228,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -399,7 +399,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -533,7 +533,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -662,7 +662,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -755,7 +755,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -864,7 +864,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1008,7 +1008,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1103,7 +1103,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1251,7 +1251,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1353,7 +1353,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1467,7 +1467,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1589,7 +1589,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1708,7 +1708,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1819,7 +1819,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -1933,7 +1933,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2053,7 +2053,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2151,7 +2151,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2286,7 +2286,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2414,7 +2414,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2525,7 +2525,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2691,7 +2691,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2826,7 +2826,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -2941,7 +2941,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3104,7 +3104,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3220,7 +3220,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3333,7 +3333,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3450,7 +3450,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3527,7 +3527,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3619,7 +3619,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -3758,7 +3758,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>
@@ -4038,7 +4038,7 @@
 				<CivicType>CIVIC_TRIBAL_CUSTOM</CivicType>
 				<CivicType>CIVIC_TRIBALISM</CivicType>
 				<CivicType>CIVIC_REDISTRIBUTION</CivicType>
-				<CivicType>CIVIC_DEIFICATION</CivicType>
+				<CivicType>CIVIC_ANIMISM</CivicType>
 				<CivicType>CIVIC_TRIBAL_WARFARE</CivicType>
 			</InitialCivics>
 			<Leaders>

@@ -406,8 +406,18 @@ class CvRFCEventHandler:
 		self.aiw.checkTurn(iGameTurn)
 		self.pla.checkTurn(iGameTurn)
 		self.sta.checkTurn(iGameTurn)
-
-		#Mercenaries - start
+		
+		#bluepotato: persecution conversion
+		playerList = PyGame.getCivPlayerList()
+		for pyPlayer in playerList:
+			player = pyPlayer.getPlayer()
+			if player.getStateReligion() != -1 and player.getCivics(con.civicOptionForCivic('persecution')) == con.cn('persecution'):
+				for pyCity in pyPlayer.getCityList():
+					if gc.getGame().getSorenRandNum(100, 'Persecution roll') < 60:
+						pyCity.GetCy().convert(player.getStateReligion(), false, false)
+		
+		return 0
+		#Mercenaries start
 
 		if gc.getGame().getGameTurnYear() >= gc.getPlayer(utils.getHumanID()).getStartingYear():
 

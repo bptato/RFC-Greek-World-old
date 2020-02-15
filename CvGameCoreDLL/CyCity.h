@@ -300,7 +300,9 @@ public:
 
 	int visiblePopulation(void);
 
+	//bluepotato start
 	int getBelievers(int religion);
+	//bluepotato end
 
 	int getOccupationTimer();
 	bool isOccupation();
@@ -451,8 +453,11 @@ public:
 	int getNumRealBuilding(int /*BuildingTypes*/ iIndex);
 	void setNumRealBuilding(int /*BuildingTypes*/ iIndex, int iNewValue);
 	int getNumFreeBuilding(int /*BuildingTypes*/ iIndex);
+	//bluepotato start
 	bool isHasReligion(int /*ReligionTypes*/ iIndex);
 	void setBelievers(int /*ReligionTypes*/ iIndex, int newValue, bool bAnnounce, bool bArrows);
+	void convert(int /*ReligionTypes*/ iIndex, bool bAnnounce, bool bArrows);
+	//bluepotato end
 	bool isHasCorporation(int /*CorporationTypes*/ iIndex);
 	void setHasCorporation(int /*CorporationTypes*/ iIndex, bool bNewValue, bool bAnnounce, bool bArrows);
 	bool isActiveCorporation(int /*CorporationTypes*/ eCorporation);

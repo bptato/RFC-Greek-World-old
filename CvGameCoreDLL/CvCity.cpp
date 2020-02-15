@@ -6514,7 +6514,7 @@ int CvCity::getReligionHappiness(ReligionTypes eReligion) const
 
 	iHappiness = 0;
 
-	if (isHasReligion(eReligion))
+	if (getBelievers(eReligion) > getPopulation() / 5) //bluepotato TODO: make this a global define?
 	{
 		if (eReligion == GET_PLAYER(getOwnerINLINE()).getStateReligion())
 		{

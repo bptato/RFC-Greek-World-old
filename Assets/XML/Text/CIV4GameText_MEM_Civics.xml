@@ -514,8 +514,8 @@
 		<English>Increased wonder production speed; extra unhappiness from state religion; extra happiness from Pagan Temples</English>
 	</TEXT>
 		<TEXT>
-		<Tag>TXT_KEY_CIVIC_MILITANCY</Tag>
-		<English>Militancy</English>
+		<Tag>TXT_KEY_CIVIC_ANIMISM</Tag>
+		<English>Animism</English>
 	</TEXT>
 	<TEXT>
 		<Tag>TXT_KEY_CIVIC_TRIBAL_WARFARE</Tag>

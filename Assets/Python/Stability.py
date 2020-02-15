@@ -454,6 +454,7 @@ class Stability:
 			['tribal_federation', 'empire', -15],
 			['tribal_federation', 'redistribution', -10],
 			['tribal_federation', 'isolationism', 5],
+			['tribal_federation', 'animism', 5],
 			['monarchy', 'redistribution', 10],
 			['oligarchy', 'slavery', 5],
 			['oligarchy', 'trade_economy', 10],
@@ -464,8 +465,7 @@ class Stability:
 			['oligarchy', 'redistribution', -15],
 			['absolutism', 'slavery', 5],
 			['absolutism', 'empire', 10],
-			['religious_law', 'militancy', 5],
-			['religious_law', 'theocracy', 5],
+			['religious_law', 'animism', -10],
 			['religious_law', 'persecution', 5],
 			['religious_law', 'deification', -20],
 			['temple_economy', 'theocracy', 5],
@@ -483,9 +483,9 @@ class Stability:
 			
 			religiousModifiers = \
 			[
+			['animism', .5],
 			['organized_religion', 2],
 			['theocracy', 3],
-			['militancy', 3],
 			['persecution', 4],
 			['religious_law', 2],
 			['temple_economy', 2]

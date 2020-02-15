@@ -2038,6 +2038,7 @@ class RiseAndFall:
 	def create900BCstartingUnits(self):
 		for i in range(iNumMajorPlayers):
 			if (gc.getPlayer(i).getStartingYear() <= utils.getScenarioStartYear() or i == utils.getHumanID()):
+				utils.makeUnit(con.un('warrior'), i, tCapitals[i], 1)
 				self.assign900BCTechs(i)
 
 	def create4400BCstartingUnits(self):
@@ -2046,6 +2047,10 @@ class RiseAndFall:
 			if gc.getPlayer(i).isHuman() or getTurnForYear(gc.getPlayer(i).getStartingYear()) == 0:
 				utils.makeUnit(con.un('settler'), i, tCapitals[i], 1)
 				utils.makeUnit(con.un('warrior'), i, tCapitals[i], 1)
+				if i == iEgypt:
+					utils.makeUnit(con.un('pesedjet_priest'), i, tCapitals[i], 1)
+				if i == iSumeria:
+					utils.makeUnit(con.un('anunnaki_priest'), i, tCapitals[i], 1)
 			if getTurnForYear(gc.getPlayer(i).getStartingYear()) == 0:
 				self.assignTechs(i)
 
@@ -2128,10 +2133,9 @@ class RiseAndFall:
 		if (iCiv == iPhoenicia):
 			techs = ('fishing', 'logging', 'boats', 'hunting', 'navigation', 'slash_and_burn', 'the_wheel', 'bread_making')
 		if (iCiv == iBabylonia):
-			techs = ('cuneiform','trade','slash_and_burn','fermentation','the_wheel','spokes','urban_culture','mining','hunting','arrows','logging','copper_working')
+			techs = ('cuneiform','trade','slash_and_burn','fermentation','the_wheel','spokes','urban_culture','mining','hunting','arrows','logging','copper_working','mysticism')
 		if (iCiv == iHittites):
-			techs = ('mining','bronze_working','the_wheel','hunting','slash_and_burn','copper_working','logging','iron_working',
-				'spokes','warrior_code','bread_making','urban_culture','fortification','agriculture','animal_husbandry','arrows','mysticism')
+			techs = ('mining','bronze_working','the_wheel','hunting','slash_and_burn','copper_working','logging','iron_working','spokes','warrior_code','bread_making','urban_culture','fortification','agriculture','animal_husbandry','arrows','mysticism')
 		if (iCiv == iMycenae):
 			techs = ('fermentation','mysticism','warrior_code','the_wheel','pottery','hunting','bread_making',
 				'urban_culture','mining','copper_working','spokes','mythology','logging','fishing','boats')

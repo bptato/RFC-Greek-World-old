@@ -7221,7 +7221,7 @@ bool CvPlayer::canDoCivics(CivicTypes eCivic) const
 	}
 	//Rhye - start UP
 	if (getID() == EGYPT)
-		if ((eCivic == 1) || (eCivic == 11))
+		if ((eCivic == 1) || (eCivic == 11) || (eCivic == 21)) //bluepotato: deification as well
 			return true;
 	//Rhye - end UP
 

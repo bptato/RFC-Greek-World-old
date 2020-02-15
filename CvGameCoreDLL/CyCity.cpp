@@ -2087,6 +2087,7 @@ int CyCity::getNumFreeBuilding(int /*BuildingTypes*/ iIndex)
 	return m_pCity ? m_pCity->getNumFreeBuilding((BuildingTypes) iIndex) : -1;
 }
 
+//bluepotato start
 int CyCity::getBelievers(int religion)
 {
 	return m_pCity ? m_pCity->getBelievers((ReligionTypes) religion) : -1;
@@ -2102,6 +2103,13 @@ void CyCity::setBelievers(int /*ReligionTypes*/ iIndex, int newValue, bool bAnno
 	if (m_pCity)
 		m_pCity->setBelievers((ReligionTypes) iIndex, newValue, bAnnounce, bArrows);
 }
+
+void CyCity::convert(int /*ReligionTypes*/ iIndex, bool bAnnounce, bool bArrows)
+{
+	if (m_pCity)
+		m_pCity->convert((ReligionTypes) iIndex, bAnnounce, bArrows);
+}
+//bluepotato end
 
 bool CyCity::isHasCorporation(int /*CorporationTypes*/ iIndex)
 {

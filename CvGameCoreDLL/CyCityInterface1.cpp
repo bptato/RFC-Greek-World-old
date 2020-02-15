@@ -437,7 +437,6 @@ void CyCityPythonInterface1(python::class_<CyCity>& x)
 		.def("setNumRealBuilding", &CyCity::setNumRealBuilding, "(BuildingID, iNum) - Sets number of buildings in this city of BuildingID type")
 		.def("getNumFreeBuilding", &CyCity::getNumFreeBuilding, "int (BuildingID) - # of free Building ID (ie: from a Wonder)")
 		.def("isHasReligion", &CyCity::isHasReligion, "bool (ReligionID) - does city have ReligionID?")
-		.def("setBelievers", &CyCity::setBelievers, "void (ReligionID, int newValue, bool bAnnounce, bool bArrows) - religion begins to spread")
 		.def("isHasCorporation", &CyCity::isHasCorporation, "bool (CorporationID) - does city have CorporationID?")
 		.def("setHasCorporation", &CyCity::setHasCorporation, "void (CorporationID, bool bNewValue, bool bAnnounce, bool bArrows) - corporation begins to spread")
 		.def("isActiveCorporation", &CyCity::isActiveCorporation, "bool (CorporationID) - does city have active CorporationID?")
@@ -473,7 +472,11 @@ void CyCityPythonInterface1(python::class_<CyCity>& x)
 		.def("setBuildingHealthChange", &CyCity::setBuildingHealthChange, "void (int /*BuildingClassTypes*/ eBuildingClass, int iChange)")
 
 		.def("getLiberationPlayer", &CyCity::getLiberationPlayer, "int ()")
-		.def("getBelievers", &CyCity::getBelievers, "int (int religion)")
 		.def("liberate", &CyCity::liberate, "void ()")
+		//bluepotato start
+		.def("getBelievers", &CyCity::getBelievers, "int (int religion)")
+		.def("convert", &CyCity::convert, "void (int religion, bool bAnnounce, bool bArrows)")
+		.def("setBelievers", &CyCity::setBelievers, "void (ReligionID, int newValue, bool bAnnounce, bool bArrows)")
+		//bluepotato end
 		;
 }
