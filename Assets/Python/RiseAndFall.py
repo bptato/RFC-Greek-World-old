@@ -2037,9 +2037,11 @@ class RiseAndFall:
 
 	def create900BCstartingUnits(self):
 		for i in range(iNumMajorPlayers):
-			if (gc.getPlayer(i).getStartingYear() <= utils.getScenarioStartYear() or i == utils.getHumanID()):
-				utils.makeUnit(con.un('warrior'), i, tCapitals[i], 1)
+			if (gc.getPlayer(i).getStartingYear() <= utils.getScenarioStartYear()):
 				self.assign900BCTechs(i)
+			elif gc.getPlayer(i).isHuman():
+				self.assign900BCTechs(i)
+				utils.makeUnit(con.un('warrior'), i, tCapitals[i], 1)
 
 	def create4400BCstartingUnits(self):
 		#RFGW

@@ -1,4 +1,44 @@
 CURRENT VERSION:
+Version 1.8
+Additions:
+New art/names for religions
+New art/names for great shrines temples and monasteries
+New art/names for missionaries
+Wonder movies for all shrines (except the Maabed, I couldn't find any for that)
+Mycenaean UHV
+Diplomusic for Assyria, Nubia, Mycenae
+New religion spread mechanism
+
+Changes:
+Doubled almost all unit's building cost
+Changed Hittite, Athenian, Spartan, Persian starting techs
+Changed Persia's starting date to 680BC
+Changed starting civics for Assyria, Egypt, Sparta, Athens
+Restored older Assyrian core, shrunk Babylon's core
+Reduced walls' city defense modifier to 25% and Lion Gate's modifier to 10%
+Roman legions can no longer build roads
+Revamped religious civics
+
+Technical changes:
+Removed unnecessary eras from XML
+Moved civ starting years to the WB save
+Moved UP txt keys to XML
+
+Fixes:
+Fixed order sounds (no more chinese speaking greeks)
+Coal, aluminum and uranium can no longer appear in mines
+Fixed civilopedia
+Fixed 900BC autoplay (I forgot to test it before the previous release)
+Other small bugfixes
+
+Known issues:
+The late-game and classical middle-east is very unbalanced
+Alexander doesn't do anything
+The mod attempts to spawn units with an extremely high id sometimes (probably doesn't affect anything but I will have to look into it)
+Not enough stuff to build
+Olympic parks can be built more than once
+
+PREVIOUS VERSIONS
 Version 1.7
 Additions:
 Babylonian UHV
@@ -43,7 +83,6 @@ Units are too cheap
 Not enough stuff to build
 Olympic parks can be built more than once
 
-PREVIOUS VERSIONS:
 Version 1.6
 Additions:
 Added Elam

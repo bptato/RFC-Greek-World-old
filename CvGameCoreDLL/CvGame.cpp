@@ -2171,7 +2171,8 @@ void CvGame::update()
 
 		if (iResult != 0)
 		{
-			if (getGameTurn() == 0)
+			if (getGameTurn() == 0
+					|| (!GET_PLAYER((PlayerTypes)SUMERIA).isPlayable() && getGameTurn() == 227 && iResult > 227)) //bluepotato: ugly hack to make autoplay in 900BC work
 				{
 					setAIAutoPlay(1);
 				}
