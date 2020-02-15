@@ -10425,9 +10425,7 @@ void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
 
 	for(i = 0; i<GC.getNumReligionInfos(); i++) {
 		if(m_believers[(ReligionTypes)i] > 0) {
-			for(j = 0; j<m_believers[(ReligionTypes)i]; j++) {
-				faithfulPopulation += 1;
-			}
+			faithfulPopulation += m_believers[i];
 		}
 	}
 
@@ -10438,12 +10436,8 @@ void CvCity::convert(ReligionTypes religion, bool announce, bool arrows) {
 	}
 
 	for(i = 0; i<GC.getNumReligionInfos(); i++) {
-		if(m_believers[(ReligionTypes)i] <= 0) {
-			m_pabHasReligion[(ReligionTypes)i] = false;
-		}
+		m_pabHasReligion[i] = (m_believers[i] > 0);
 	}
-
-	m_pabHasReligion[religion] = m_believers[religion] > 0;
 
 	for (int iVoteSource = 0; iVoteSource < GC.getNumVoteSourceInfos(); ++iVoteSource) {
 		processVoteSourceBonus((VoteSourceTypes)iVoteSource, true);

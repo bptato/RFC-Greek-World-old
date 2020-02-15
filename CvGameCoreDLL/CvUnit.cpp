@@ -5360,7 +5360,7 @@ bool CvUnit::canSpread(const CvPlot* pPlot, ReligionTypes eReligion, bool bTestV
 		return false;
 	}
 
-	if(pCity->getBelievers(eReligion) == pCity->getPopulation()) {
+	if(pCity->getBelievers(eReligion) >= pCity->getPopulation()) {
 		return false;
 	}
 
