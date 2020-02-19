@@ -31,6 +31,7 @@ i1400BC = con.i1400BC
 i1300BC = con.i1300BC
 i1200BC = con.i1200BC
 i1250BC = con.i1250BC
+i1100BC = con.i1100BC
 i1070BC = con.i1070BC
 i1000BC = con.i1000BC
 i900BC = con.i900BC
@@ -761,14 +762,14 @@ class Victory:
 
 		iGameTurn = gc.getGame().getGameTurn()
 		
-		if iPlayer == iMycenae and getGoal(iMycenae, 0) == -1:
+		if iPlayer == iMycenae and self.getGoal(iMycenae, 0) == -1:
 			if iBuilding == con.bn('mycenae_tholoi'):
 				setMycenaeTombsBuilt(getMycenaeTombsBuilt() + 1)
 				if getMycenaeTombsBuilt() >= 3:
-					setGoal(iMycenae, 0, 1)
+					self.setGoal(iMycenae, 0, 1)
 			elif iBuilding == con.bn('lion_gate'):
-				if getGoal(iMycenae, 1) == -1:
-					setGoal(iMycenae, 1, 1)
+				if self.getGoal(iMycenae, 1) == -1:
+					self.setGoal(iMycenae, 1, 1)
 			
 
 	def onProjectBuilt(self, iPlayer, iProject):
