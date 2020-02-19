@@ -764,8 +764,8 @@ class Victory:
 		
 		if iPlayer == iMycenae and self.getGoal(iMycenae, 0) == -1:
 			if iBuilding == con.bn('mycenae_tholoi'):
-				setMycenaeTombsBuilt(getMycenaeTombsBuilt() + 1)
-				if getMycenaeTombsBuilt() >= 3:
+				self.setMycenaeTombsBuilt(self.getMycenaeTombsBuilt() + 1)
+				if self.getMycenaeTombsBuilt() >= 3:
 					self.setGoal(iMycenae, 0, 1)
 			elif iBuilding == con.bn('lion_gate'):
 				if self.getGoal(iMycenae, 1) == -1:
