@@ -653,7 +653,7 @@ class Victory:
 			if self.getGoal(iMycenae, 1) == -1 and iGameTurn > i1100BC:
 				self.setGoal(iMycenae, 1, 0)
 			if iGameTurn == i1000BC:
-				result = self.checkOwnedArea(iBarbarian, tAnatoliaTL, tAnatoliaBR, 1)
+				result = self.checkOwnedArea(iBarbarian, tAnatoliaTL, tAnatoliaBR, 1) or self.checkOwnedArea(iIndependent, tAnatoliaTL, tAnatoliaBR, 1) or self.checkOwnedArea(iIndependent2, tAnatoliaTL, tAnatoliaBR, 1)
 				self.setGoal(iMycenae, 2, not result)
 
 	def onCityBuilt(self, city, iPlayer): #see onCityBuilt in CvRFCEventHandler
