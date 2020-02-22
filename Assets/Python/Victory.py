@@ -621,7 +621,7 @@ class Victory:
 					self.setGoal(iBabylonia, 0, 0)
 				else:
 					self.setGoal(iBabylonia, 0, 1)
-			elif iGameTurn < i600BC:
+			if iGameTurn < i600BC:
 				if self.getBabyloniaKilledCivs() >= 3:
 					self.setGoal(iBabylonia, 2, 1)
 			elif iGameTurn == i600BC:

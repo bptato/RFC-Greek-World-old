@@ -232,39 +232,16 @@ class CvRFCEventHandler:
 
 
 	def onCityAcquired(self, argsList):
-		return 0 #bluepotato TODO
-		#'City Acquired'
-		ownerID,playerType,city,bConquest,bTrade = argsList
-		#CvUtil.pyPrint('City Acquired Event: %s' %(city.getName()))
-		self.cnm.renameCities(city, playerType)
+		ownerID,attacker,city,bConquest,bTrade = argsList
 
 		#RFGW
-		iPlayer = playerType
-		feedUnits = con.getFeedUnits(iPlayer)
+		feedUnits = con.getFeedUnits(attacker)
 		if (feedUnits > 0):
-			self.rnf.spawnUnits(iPlayer, (city.getX()-5,city.getY()-5), (city.getX()+5,city.getY()+5), feedUnits, 1, utils.outerInvasion, 1)
+			self.rnf.spawnUnits(attacker, (city.getX()-5,city.getY()-5), (city.getX()+5,city.getY()+5), feedUnits, 1, utils.outerInvasion, 1)
 
-
-
-		if (playerType == con.iByzantium):
-			self.up.arabianUP(city)
-		elif (playerType == con.iBactria):
-			self.up.SiamUP(playerType, city, bConquest)
-		elif (playerType == con.iMacedonia):
-			self.up.turkishUP(city)
-##
-##		if (playerType < iNumMajorPlayers):
-##			 utils.spreadMajorCulture(playerType, city.getX(), city.getY())
-##
-		self.sta.onCityAcquired(ownerID,playerType,city,bConquest,bTrade)
-
-		self.pla.onCityAcquired(owner,playerType,city) #Plague
-##
-##		self.com.onCityAcquired(city) #Communications
-##
-		if gc.getPlayer(ownerID).isHuman():
-			self.vic.onCityAcquired(ownerID, playerType, city, bConquest) #Victory
-
+		if gc.getPlayer(ownerID).isHuman() or gc.getPlayer(attacker).isHuman():
+			self.vic.onCityAcquired(ownerID, attacker, city, bConquest) #Victory
+		return 0
 
 	def onCityAcquiredAndKept(self, argsList):
 		#'City Acquired'
@@ -272,36 +249,21 @@ class CvRFCEventHandler:
 		#CvUtil.pyPrint('City Acquired Event: %s' %(city.getName()))
 		self.cnm.renameCities(city, playerType)
 
-		#RFGW
-		iPlayer = playerType
-		feedUnits = con.getFeedUnits(iPlayer)
-		if (feedUnits > 0):
-			self.rnf.spawnUnits(iPlayer, (city.getX()-5,city.getY()-5), (city.getX()+5,city.getY()+5), feedUnits, 1, utils.outerInvasion, 1)
-
-
-
 		if (playerType == con.iByzantium):
 			self.up.arabianUP(city)
 		elif (playerType == con.iBactria):
 			self.up.SiamUP(playerType, city, bConquest)
 		elif (playerType == con.iMacedonia):
 			self.up.turkishUP(city)
-##
-##		if (playerType < iNumMajorPlayers):
-##			 utils.spreadMajorCulture(playerType, city.getX(), city.getY())
-##
+
 		self.sta.onCityAcquired(ownerID,playerType,city,bConquest,bTrade)
 
 		self.pla.onCityAcquired(ownerID,playerType,city) #Plague
-##
-##		self.com.onCityAcquired(city) #Communications
-##
-		if gc.getPlayer(ownerID).isHuman():
-			self.vic.onCityAcquired(ownerID, playerType, city, bConquest) #Victory
 
 		return 0
 
 	def onCityRazed(self, argsList):
+
 		#'City Razed'
 		city, iPlayer = argsList
 
@@ -309,14 +271,8 @@ class CvRFCEventHandler:
 
 		self.pla.onCityRazed(city,iPlayer) #Plague
 
-		feedUnits = con.getFeedUnits(iPlayer)
-		if (feedUnits > 0):
-			self.rnf.spawnUnits(iPlayer, (city.getX()-5,city.getY()-5), (city.getX()+5,city.getY()+5), feedUnits, 1, utils.outerInvasion, 1)
-
 		if gc.getPlayer(iPlayer).isHuman():
-			self.vic.onCityRazed(city, iPlayer, city.getOwner()) #Victory
-
-
+			self.vic.onCityRazed(city, iPlayer, city.getOwner()) #Victoryd
 
 	def onCityBuilt(self, argsList):
 		'City Built'
