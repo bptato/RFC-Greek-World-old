@@ -1971,7 +1971,7 @@ class RiseAndFall:
 			utils.makeInvaderUnit(con.un('hun'), iCiv, tPlot, 14)
 
 		#bluepotato: adopted from RFCCW
-		#immobilize all units exceept 1 settler to prevent wandering before the flip
+		#immobilize all units except 1 settler to prevent wandering before the flip
 		if iCiv != utils.getHumanID():
 			bSettler = False
 			plot = gc.getMap().plot(tPlot[0], tPlot[1])
@@ -1983,7 +1983,7 @@ class RiseAndFall:
 						unitType = unit.getUnitType()
 						if (unitType == con.un('settler') or unitType == con.un('harappan_city_builder')) and not bSettler:
 							bSettler = True
-						elif unit.getUnitAIType() != UnitAITypes.UNITAI_ATTACK_CITY: #invader units shouldn't be immobilized
+						else:
 							unit.setImmobileTimer(2)
 
 	def createStartingWorkers(self, iCiv, tPlot):
